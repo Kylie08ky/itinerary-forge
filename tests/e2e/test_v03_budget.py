@@ -86,9 +86,14 @@ def cny(n: float) -> str:
     return f"¥{round(n):,}"
 
 
-def open_plan(page: Page, pid: str) -> None:
+def open_plan(page: Page, pid: str, card_expected: bool = True) -> None:
     page.goto(f"{WEB}/plans/{pid}")
     page.locator(".day").first.wait_for()
+    # 预算卡在行程版本确定后会再取一次数据并重置表单；等它取完再填，
+    # 否则刚填的内容会被覆盖（长跑里偶发的失败就是这样来的）。
+    if card_expected:
+        page.get_by_test_id("budget-card").wait_for()
+    page.wait_for_load_state("networkidle")
 
 
 def card(page: Page):
@@ -443,7 +448,7 @@ def test_when_the_budget_cannot_be_loaded_the_card_is_just_absent_and_the_page_s
                                                    content_type="application/json"))
     else:
         page.route(BUDGET_URL, lambda r: r.abort())
-    open_plan(page, pid)
+    open_plan(page, pid, card_expected=False)
     page.wait_for_timeout(600)
     expect(card(page)).to_have_count(0)
     expect(page.get_by_role("alertdialog")).to_have_count(0)
