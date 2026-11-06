@@ -1,0 +1,1514 @@
+{
+ "city": "paris",
+ "places": {
+  "louvre": {
+   "image": {
+    "file": "louvre.jpg",
+    "title": "File:Louvre Museum Wikimedia Commons.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg",
+    "author": "Benh LIEU SONG (Flickr)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 269,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "卢浮宫博物馆 是位于法国巴黎的国立艺术博物馆，同时也是世界上最著名的博物馆之一。博物馆座落于塞纳河右岸的第一区，收藏了大量西方艺术经典作品，包括《蒙娜丽莎》、《米洛的维纳斯》以及《萨莫色雷斯的胜利女神》等。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%8D%A2%E6%B5%AE%E5%AE%AB%E5%8D%9A%E7%89%A9%E9%A6%86",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "orsay": {
+   "image": {
+    "file": "orsay.jpg",
+    "title": "File:Pont Royal and Musée d'Orsay, Paris 10 July 2020.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pont_Royal_and_Mus%C3%A9e_d%27Orsay,_Paris_10_July_2020.jpg",
+    "author": "Pierre Blaché from Paris, France",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 361,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "奥赛博物馆 是一座位于法国巴黎的近代国家艺术博物馆，于1986年12月9日正式开放。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E8%B5%9B%E5%8D%9A%E7%89%A9%E9%A6%86",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "orangerie": {
+   "image": {
+    "file": "orangerie.jpg",
+    "title": "File:Musée de l’Orangerie exterior.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_l%E2%80%99Orangerie_exterior.JPG",
+    "author": "Homonihilis",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "橘园美术馆，是一处展示印象派画家及后印象派画作的艺术馆。它位于法国巴黎协和广场，塞纳河傍。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E6%A9%98%E5%9C%92%E7%BE%8E%E8%A1%93%E9%A4%A8",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "rodin": {
+   "image": {
+    "file": "rodin.jpg",
+    "title": "File:Le musée Rodin.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Le_mus%C3%A9e_Rodin.jpg",
+    "author": "Dalbera",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "罗丹美术馆 是一座位于法国巴黎的美术馆，成立于1919年，主要展示法国雕塑家奥古斯特·罗丹的作品。该博物馆位于巴黎市中心的比隆府邸及周围地区，以及巴黎市郊上塞纳省默东，共有两个展示场地。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E4%B8%B9%E7%BE%8E%E8%A1%93%E9%A4%A8",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "picasso": {
+   "image": {
+    "file": "picasso.jpg",
+    "title": "File:Hôtel Salé.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Sal%C3%A9.JPG",
+    "author": "LPLT",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "毕加索美术馆 是位于法国首都巴黎第三区的一座美术馆。也称国立巴黎毕加索美术馆。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E7%95%A2%E5%8A%A0%E7%B4%A2%E5%8D%9A%E7%89%A9%E9%A4%A8_(%E5%B7%B4%E9%BB%8E)",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "pompidou": {
+   "image": {
+    "file": "pompidou.jpg",
+    "title": "File:The Centre Pompidou behind Buildings.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Centre_Pompidou_behind_Buildings.jpg",
+    "author": "DiscoA340",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "蓬皮杜中心 全名为蓬皮杜国家艺术和文化中心，俗称博堡（Beaubourg），是一栋座落于法国首都巴黎第四区的复合建筑，位于蒙特吉尔街、玛莱区及大堂附近，蓬皮杜中心也是一栋高科技建筑。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E9%BE%90%E7%95%A2%E5%BA%A6%E4%B8%AD%E5%BF%83",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "cluny": {
+   "image": {
+    "file": "cluny.jpg",
+    "title": "File:Paris 2012-aout-0006-2-Hotel-de-Cluny.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_2012-aout-0006-2-Hotel-de-Cluny.jpg",
+    "author": "Pline",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 437,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "国立中世纪博物馆，今对外通称克吕尼博物馆，是法国巴黎五区的一座国立艺术博物馆，以中世纪艺术收藏闻名。博物馆馆舍由两组不同时期的历史建筑构成：一处是公元二至三世纪的卢泰西亚罗马浴场遗构，其冷水浴室拱顶至今完好，为阿尔卑斯以北保存最完整的高卢-罗马建筑之一；另一处是克吕尼修院驻巴黎院长于十五世纪末兴建的府邸，属巴黎仅存的中世纪晚期私人宅第之一；博物馆即因这座府邸得名（修院本院在勃艮第）。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E7%AB%8B%E4%B8%AD%E4%B8%96%E7%B4%80%E5%8D%9A%E7%89%A9%E9%A4%A8",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "marmottan": {
+   "image": {
+    "file": "marmottan.jpg",
+    "title": "File:Paris 16e - Musée Marmottan Monet - Pendule dite La Brouille (François-Thimotée Matelin et Thonissen).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_16e_-_Mus%C3%A9e_Marmottan_Monet_-_Pendule_dite_La_Brouille_(Fran%C3%A7ois-Thimot%C3%A9e_Matelin_et_Thonissen).jpg",
+    "author": "Romainbehar",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 846,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "玛摩丹美术馆 位于法国巴黎十六区，馆藏逾3百件印象派和后印象派作品，还有丹尼尔·威尔顿斯坦收藏的泥金装饰手抄本、拿破仑时代的艺术品、家具以及意大利和佛兰芒的绘画。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E7%91%AA%E6%91%A9%E4%B8%B9%E7%BE%8E%E8%A1%93%E9%A4%A8",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "eiffel-tower": {
+   "image": {
+    "file": "eiffel-tower.jpg",
+    "title": "File:Tour Eiffel Wikimedia Commons (cropped).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons_(cropped).jpg",
+    "author": "Benh LIEU SONG",
+    "license": "Public domain",
+    "width": 640,
+    "height": 1066,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "埃菲尔铁塔 是位于法国巴黎第七区、塞纳河畔战神广场的铁制镂空塔，为巴黎城市地标之一，也是法国文化象征之一，并且是巴黎最高的人工构造物。正式地址为Rue Anatole-France 5号。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%89%BE%E8%8F%B2%E7%88%BE%E9%90%B5%E5%A1%94",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "trocadero": {
+   "image": {
+    "file": "trocadero.jpg",
+    "title": "File:Trocadéro as seen from the Eiffel Tower, 25 September 2010.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Trocad%C3%A9ro_as_seen_from_the_Eiffel_Tower,_25_September_2010.jpg",
+    "author": "Yortw from Auckland, New Zealand",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "特罗卡德罗 是法国巴黎的一个地区，也是夏乐宫的所在地，它位于巴黎十六区，与埃菲尔铁塔隔塞纳河相望。特罗卡德罗的名字来自于特罗卡德罗战役。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E7%89%B9%E7%BE%85%E5%8D%A1%E5%BE%B7%E7%BE%85",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "arc-de-triomphe": {
+   "image": {
+    "file": "arc-de-triomphe.jpg",
+    "title": "File:Arc de Triomphe - Août 2026.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg",
+    "author": "ZeusUpsistos",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "巴黎凯旋门，是一座位于法国巴黎十七区的戴高乐广场中央的凯旋门，亦为香榭丽舍大道的西端标志。该建筑由拿破仑于1806年下令兴建，以纪念1805年奥斯特利茨战役中法军击败俄奥联军的胜利。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E5%87%AF%E6%97%8B%E9%97%A8",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "sainte-chapelle": {
+   "image": {
+    "file": "sainte-chapelle.jpg",
+    "title": "File:Sainte Chapelle - Upper level 1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sainte_Chapelle_-_Upper_level_1.jpg",
+    "author": "Didier B (Sam67fr)",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "width": 480,
+    "height": 952,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "conciergerie": {
+   "image": {
+    "file": "conciergerie.jpg",
+    "title": "File:Paris Conciergerie 265.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Conciergerie_265.jpg",
+    "author": "xandru",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 320,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "巴黎古监狱 是巴黎西岱岛上昔日的王宫和监狱之一，位于巴黎市政厅以西，靠近巴黎圣母院。它是大型建筑群巴黎司法宫的一部分。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E5%8F%A4%E7%9B%91%E7%8B%B1",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "pantheon": {
+   "image": {
+    "file": "pantheon.jpg",
+    "title": "File:Pantheon of Paris 007.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pantheon_of_Paris_007.JPG",
+    "author": "Moonik",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "先贤祠 位于法国巴黎的拉丁区，最初是法王路易十五兴建的圣日内维耶大教堂，历经数次变迁以后现在成为法国最著名的文化名人安葬地。先贤祠是新古典主义建筑的早期典范，其立面仿照罗马万神殿（Pantheon），故又译为巴黎万神殿，拱顶为布拉曼特风格。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%85%88%E8%B4%A4%E7%A5%A0",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "luxembourg-garden": {
+   "image": {
+    "file": "luxembourg-garden.jpg",
+    "title": "File:LuxembourgMontparnasse.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:LuxembourgMontparnasse.JPG",
+    "author": "Kirua",
+    "license": "Public domain",
+    "width": 640,
+    "height": 428,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "卢森堡公园 是一座处于巴黎第六区，拉丁区中央的公园，于1612年玛丽·德·美第奇的统治下建成。卢森堡公园面积为224,500平方米，如今是巴黎学生、游客聚集之地。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%8D%A2%E6%A3%AE%E5%A0%A1%E5%85%AC%E5%9B%AD",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "tuileries-garden": {
+   "image": {
+    "file": "tuileries-garden.jpg",
+    "title": "File:Crowd in the Jardin des Tuileries, Paris July 2014.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Crowd_in_the_Jardin_des_Tuileries,_Paris_July_2014.jpg",
+    "author": "Guilhem Vellut from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "杜伊勒里花园 是法国巴黎一座对外开放的庭园，位于卢浮宫与协和广场之间。杜伊勒里花园是由王后凯瑟琳·德·美第奇于1564年时为了兴建杜伊勒里宫所设计的。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E6%9D%9C%E6%A8%82%E9%BA%97%E8%8A%B1%E5%9C%92",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "palais-royal": {
+   "image": {
+    "file": "palais-royal.jpg",
+    "title": "File:Paris 1er Palais Royal 531.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_1er_Palais_Royal_531.jpg",
+    "author": "GFreihalter",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 960,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "皇家宫殿 是位于法国首都巴黎第一区的宫殿建筑，与卢浮宫的北翼遥遥相对。它的著名前院与巴黎皇家宫殿广场之间由达尼埃尔·比朗设计的石柱所相隔。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E7%9A%87%E5%AE%B6%E5%AE%AE%E6%AE%BF",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "versailles": {
+   "image": {
+    "file": "versailles.jpg",
+    "title": "File:Vue aérienne du domaine de Versailles par ToucanWings - Creative Commons By Sa 3.0 - 081 (cropped).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_(cropped).jpg",
+    "author": "ToucanWings",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 391,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "pere-lachaise": {
+   "image": {
+    "file": "pere-lachaise.jpg",
+    "title": "File:Pere Lachaise Chemin Errazu.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pere_Lachaise_Chemin_Errazu.jpg",
+    "author": "Peter Poradisch",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "width": 640,
+    "height": 472,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "拉雪兹神父公墓 是法国巴黎市区内最大的墓地，位于巴黎第20区，面积超过43万平方米[1]。它是巴黎第一个园林公墓。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E9%9B%AA%E5%85%B9%E7%A5%9E%E7%88%B6%E5%85%AC%E5%A2%93",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "rue-montorgueil": {
+   "image": {
+    "file": "rue-montorgueil.jpg",
+    "title": "File:RueMontorgueil.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:RueMontorgueil.JPG",
+    "author": "Minato ku",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "蒙托格伊路 是巴黎第二区的时尚街道，两旁排列着著名的餐厅，古朴的咖啡馆，面包房，鱼店，奶酪店，酒店，花店，蒙托格伊路成为公认的巴黎人社交和日常购物的最佳场所之一。在蒙托格伊路最南端，有著名的圣厄斯塔什教堂、蓬皮杜中心和雷阿尔，其中有巴黎市中心最大的室内购物商场（主要在地下），向北是著名的林荫大道的地区。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%92%99%E6%89%98%E6%A0%BC%E4%BC%8A%E8%B7%AF",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "disneyland-paris": {
+   "image": {
+    "file": "disneyland-paris.jpg",
+    "title": "File:Disneyland Paris - Paddy Wagon - 20150803 09h07 (10763).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Disneyland_Paris_-_Paddy_Wagon_-_20150803_09h07_(10763).jpg",
+    "author": "Another one of my pictures: This photograph was taken by Medium69 (William Crochot) and released under the license stated below. You are free to use it for any ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "巴黎迪士尼乐园度假区，前称欧洲迪士尼度假区，是一座位于法国法兰西岛马恩河谷的一个巨型迪士尼度假区。它的主要游乐设施有两个，一个是巴黎迪士尼乐园、另一个是华特迪士尼影城。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%A8%82%E5%9C%92%E5%BA%A6%E5%81%87%E5%8D%80",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "jardin-dacclimatation": {
+   "image": {
+    "file": "jardin-dacclimatation.jpg",
+    "title": "File:Jardin d'acclimatation - Fondation Louis Vuitton.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jardin_d%27acclimatation_-_Fondation_Louis_Vuitton.jpg",
+    "author": "Moktarama",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "printemps": {
+   "image": {
+    "file": "printemps.jpg",
+    "title": "File:Facade printemps.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Facade_printemps.JPG",
+    "author": "Francis Peyrat",
+    "license": "Public domain",
+    "width": 640,
+    "height": 424,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "palais-de-tokyo": {
+   "image": {
+    "file": "palais-de-tokyo.jpg",
+    "title": "File:Palais de Tokyo @ Paris (31028565970).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Palais_de_Tokyo_@_Paris_(31028565970).jpg",
+    "author": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "东京宫 是位于法国首都巴黎第十六区的一座博物馆，位于塞纳河右岸。展品主要以现代艺术品为主。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%AE%AE",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "quai-branly": {
+   "image": {
+    "file": "quai-branly.jpg",
+    "title": "File:Musée du quai Branly - 20150801 16h07 (10629).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_du_quai_Branly_-_20150801_16h07_(10629).jpg",
+    "author": "Another one of my pictures: This photograph was taken by Medium69 (William Crochot) and released under the license stated below. You are free to use it for any ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 480,
+    "height": 720,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "国家凯布朗利博物馆 是一个位于法国巴黎布朗利河岸 的博物馆，展示超过 100 万件来自非洲、亚洲、大洋洲和美洲具有特色的艺术品和文物，部分精选物品也陈列在卢浮宫的长期展厅(pavillon des Sessions)展示。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E6%9C%97%E5%88%A9%E6%B2%B3%E5%B2%B8%E5%8D%9A%E7%89%A9%E9%A4%A8",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "invalides": {
+   "image": {
+    "file": "invalides.jpg",
+    "title": "File:Hôtel des Invalides from the Eiffel Tower, 23 July 2009.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_des_Invalides_from_the_Eiffel_Tower,_23_July_2009.jpg",
+    "author": "CaBLe27",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "荣誉军人院，简称荣军院，是位于法国巴黎第七区的建筑群，也是巴黎代表性的古迹之一。始建于1670年，由当时法王路易十四下令建造，是一家用来接待及治疗退伍军人及抗战后残疾军人的医院。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%8D%A3%E5%86%9B%E9%99%A2",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "guimet": {
+   "image": {
+    "file": "guimet.jpg",
+    "title": "File:Musee Guimet en 2013 1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Musee_Guimet_en_2013_1.jpg",
+    "author": "Lionel Allorge",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "吉美国立亚洲艺术博物馆，简称吉美博物馆，又译集美博物馆，是一座位于法国巴黎十六区的亚洲艺术博物馆，为亚洲地区之外最大的亚洲艺术收藏地址一。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%90%89%E7%BE%8E%E5%9B%BD%E7%AB%8B%E4%BA%9A%E6%B4%B2%E8%89%BA%E6%9C%AF%E5%8D%9A%E7%89%A9%E9%A6%86",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "arts-decoratifs": {
+   "image": {
+    "file": "arts-decoratifs.jpg",
+    "title": "File:Paris Musée des Arts Décoratifs688.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Mus%C3%A9e_des_Arts_D%C3%A9coratifs688.JPG",
+    "author": "Reinhardhauke",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 959,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "装饰艺术博物馆 是位于法国首都巴黎第一区卢浮宫西翼的一座博物馆。展品以装饰艺术和设计为主题。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%A3%9D%E9%A3%BE%E8%97%9D%E8%A1%93%E5%8D%9A%E7%89%A9%E9%A4%A8",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "ysl-museum": {
+   "image": {
+    "file": "ysl-museum.jpg",
+    "title": "File:Fondation Pierre Bergé – Yves Saint Laurent, 5 avenue Marceau, Paris 16e.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fondation_Pierre_Berg%C3%A9_%E2%80%93_Yves_Saint_Laurent,_5_avenue_Marceau,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "palais-galliera": {
+   "image": {
+    "file": "palais-galliera.jpg",
+    "title": "File:Musée Galliera, Paris 21 July 2017.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Galliera,_Paris_21_July_2017.jpg",
+    "author": "Joe deSousa",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 360,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "巴黎时尚博物馆 是法国首都巴黎的博物馆，位于巴黎十六区，以时尚和时尚史为展示主题。除了礼拜一和公众假日之外每日开放，免费入场。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E6%99%82%E5%B0%9A%E5%8D%9A%E7%89%A9%E9%A4%A8",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "avenue-montaigne": {
+   "image": {
+    "file": "avenue-montaigne.jpg",
+    "title": "File:Plaza Athénée 1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plaza_Ath%C3%A9n%C3%A9e_1.jpg",
+    "author": "Arthur Weidmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 525,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "蒙田大街 是法国巴黎第八区的一条街道。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%92%99%E7%94%B0%E5%A4%A7%E8%A1%97",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "faubourg-saint-honore": {
+   "image": {
+    "file": "faubourg-saint-honore.jpg",
+    "title": "File:Rue du Faubourg St Honore dsc00792.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rue_du_Faubourg_St_Honore_dsc00792.jpg",
+    "author": "David Monniaux",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "圣奥诺雷市郊路 是法国巴黎的一条街道。相比香榭丽舍大街较为狭窄，但仍被视为世界上最时尚的街道之一，更集中了众多高端艺术画廊和拍卖行。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E5%A5%A5%E8%AF%BA%E9%9B%B7%E5%B8%82%E9%83%8A%E8%B7%AF",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "place-vendome": {
+   "image": {
+    "file": "place-vendome.jpg",
+    "title": "File:Place Vendôme by night (150).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Place_Vend%C3%B4me_by_night_(150).jpg",
+    "author": "Павел Котов",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "旺多姆广场 位于法国巴黎第一区，杜伊勒里花园以北，马德莱娜教堂以东。是和平街的起点。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E6%97%BA%E5%A4%9A%E5%A7%86%E5%B9%BF%E5%9C%BA",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "la-samaritaine": {
+   "image": {
+    "file": "la-samaritaine.jpg",
+    "title": "File:La Samaritaine rue de la Monnaie 2.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La_Samaritaine_rue_de_la_Monnaie_2.jpg",
+    "author": "Arthur Weidmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "莎玛丽丹百货公司 是法国巴黎一个大型百货公司，位于第一区。最近的地铁站是新桥站。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%8E%8E%E7%8E%9B%E4%B8%BD%E4%B8%B9%E7%99%BE%E8%B4%A7%E5%85%AC%E5%8F%B8",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "puces-saint-ouen": {
+   "image": {
+    "file": "puces-saint-ouen.jpg",
+    "title": "File:Enseignes Puces Saint-Ouen.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Enseignes_Puces_Saint-Ouen.jpg",
+    "author": "Lektz",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 430,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "passage-des-panoramas": {
+   "image": {
+    "file": "passage-des-panoramas.jpg",
+    "title": "File:Passage des Panoramas.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Passage_des_Panoramas.JPG",
+    "author": "No machine-readable author provided. CaptainHaddock assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "width": 640,
+    "height": 881,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "全景廊街 是法国巴黎的一条带顶盖的拱廊街，位于巴黎第二区，北到蒙马特大道，南到圣马克街。这是巴黎主要的集邮市场。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%85%A8%E6%99%AF%E5%BB%8A%E8%A1%97",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "galerie-vivienne": {
+   "image": {
+    "file": "galerie-vivienne.jpg",
+    "title": "File:GalerieVivienne1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:GalerieVivienne1.jpg",
+    "author": "David Pendery",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 780,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "薇薇安拱廊街 是巴黎第二区的一条拱廊街，长176米（577英尺），宽3米（9.8英尺）。它建于1823年，1826年开业，1974年被列为法国历史古迹。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%96%87%E8%96%87%E5%AE%89%E6%8B%B1%E5%BB%8A%E8%A1%97",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "palais-garnier": {
+   "image": {
+    "file": "palais-garnier.jpg",
+    "title": "File:Paris Opera full frontal architecture, May 2009.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Opera_full_frontal_architecture,_May_2009.jpg",
+    "author": "Peter Rivera",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 430,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "加尼叶宫，又称加尼叶歌剧院，常称为巴黎歌剧院，是一座位于法国巴黎第九区歌剧院广场的歌剧院，在拿破仑三世皇帝的授意下于1861至1875年间建造，并由建筑师夏尔·加尼叶所设计。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E6%AD%8C%E5%8A%87%E9%99%A2",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "moulin-rouge": {
+   "image": {
+    "file": "moulin-rouge.jpg",
+    "title": "File:Moulin Rouge Paris.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Moulin_Rouge_Paris.jpg",
+    "author": "Dan Kamminga from Haarlem, Netherlands",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 657,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "红磨坊，位于法国巴黎十八区皮加勒红灯区，靠近蒙马特，是建于1889年的一个卡巴莱场地，与巴黎奥林匹亚音乐厅同属于约瑟夫·欧勒。皮加勒红灯区是一个具有18世纪风貌的街区，在克里希大道上，因屋顶上仿造的红风车而闻名于世。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E7%BA%A2%E7%A3%A8%E5%9D%8A",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "lido": {
+   "image": {
+    "file": "lido.jpg",
+    "title": "File:Lido and Massimo Dutti, Paris 23 August 2013.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lido_and_Massimo_Dutti,_Paris_23_August_2013.jpg",
+    "author": "flightlog",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 428,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "丽都夜总会 是一间歌舞秀夜总会，座落于法国巴黎的香榭丽舍大道，1946年开幕，由克列里科兄弟所经营。它以异国情调的节目而闻名，包括舞者，歌手和其他表演，历年来有不少知名艺人在此演出，例如法国女歌后爱迪·琵雅芙、摇滚巨星强尼·哈立戴和黑人天后约瑟芬·贝克等等。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E9%BA%97%E9%83%BD%E5%A4%9C%E7%B8%BD%E6%9C%83",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "caveau-huchette": {
+   "image": {
+    "file": "caveau-huchette.jpg",
+    "title": "File:Le Caveau de la Huchette.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Le_Caveau_de_la_Huchette.jpg",
+    "author": "Richardprins",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 362,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "philharmonie": {
+   "image": {
+    "file": "philharmonie.jpg",
+    "title": "File:Philharmonie de Paris.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Philharmonie_de_Paris.jpg",
+    "author": "Léna",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 360,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "巴黎爱乐厅 位于法国巴黎，是音乐城的一部分。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E6%84%9B%E6%A8%82%E5%BB%B3",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "grevin": {
+   "image": {
+    "file": "grevin.jpg",
+    "title": "File:Grevin musee facade.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Grevin_musee_facade.jpg",
+    "author": "Myrabella",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 1022,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "巴黎格雷万蜡像馆 是巴黎的一座蜡像博物馆，位于法国巴黎蒙马特大道10号，塞纳河右岸第九区的大道上。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E9%BB%8E%E6%A0%BC%E9%9B%B7%E4%B8%87%E8%9C%A1%E5%83%8F%E9%A6%86",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "pont-alexandre-iii": {
+   "image": {
+    "file": "pont-alexandre-iii.jpg",
+    "title": "File:Pont Alexandre III depuis pont de la Concorde Paris.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 314,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "亚历山大三世桥 是法国巴黎跨越塞纳河的一座拱桥，连接右岸的香榭丽舍大街地区和左岸的荣军院和艾菲尔铁塔地区，普遍认为是巴黎最华丽的桥梁。2024年巴黎奥运会的马拉松游泳、铁人三项比赛与公路自行车计时赛终点设置于此。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%E4%B8%89%E4%B8%96%E6%A1%A5",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "pont-des-arts": {
+   "image": {
+    "file": "pont-des-arts.jpg",
+    "title": "File:Paris Pont des Arts.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Pont_des_Arts.jpg",
+    "author": "Myrabella",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 256,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "艺术桥 是法国巴黎塞纳河上的一座人行桥，连接法兰西学会和卢浮宫中央广场（第一帝国时称为“艺术宫”）。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%89%BA%E6%9C%AF%E6%A1%A5",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "bir-hakeim": {
+   "image": {
+    "file": "bir-hakeim.jpg",
+    "title": "File:Bir-Hakeim bridge, Paris 24 June 2021.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bir-Hakeim_bridge,_Paris_24_June_2021.jpg",
+    "author": "Pierre Blaché from Paris, France",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 360,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "比尔哈基姆桥 是一条位于法国巴黎的钢制拱桥，连接巴黎十五区和巴黎十六区，横跨塞纳河以及河道中央的天鹅岛。桥梁长237米，宽24.7米，于1905年落成。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E5%B0%94%E5%93%88%E5%9F%BA%E5%A7%86%E6%A1%A5",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "concorde": {
+   "image": {
+    "file": "concorde.jpg",
+    "title": "File:Place de la Concorde from the Eiffel Tower, Paris April 2011.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Place_de_la_Concorde_from_the_Eiffel_Tower,_Paris_April_2011.jpg",
+    "author": "Cristian Bortes from Cluj-Napoca, Romania",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "协和广场，是法国巴黎市中心塞纳河右岸的一个大广场，面积约8.4万平方米，同时也是当前法国最大的广场及巴黎著名地标。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%8D%8F%E5%92%8C%E5%B9%BF%E5%9C%BA",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "tour-montparnasse": {
+   "image": {
+    "file": "tour-montparnasse.jpg",
+    "title": "File:Louvre + Jardin des Tuileries @ Observatory @ Tour Montparnasse @ Paris (23379601114).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Louvre_%2B_Jardin_des_Tuileries_@_Observatory_@_Tour_Montparnasse_@_Paris_(23379601114).jpg",
+    "author": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "蒙帕纳斯大楼是法国首都巴黎市中心唯一的摩天大楼，在1973年完工，高210米（689呎），有59层楼。完工时为法国、西欧第一高楼，2011年被231米高的Tour First超越。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%92%99%E5%B8%95%E7%B4%8D%E6%96%AF%E5%A4%A7%E6%A8%93",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "place-des-vosges": {
+   "image": {
+    "file": "place-des-vosges.png",
+    "title": "File:Place des Vosges vue aérienne.png",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Place_des_Vosges_vue_a%C3%A9rienne.png",
+    "author": "Des Racines et des Ailes",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "width": 480,
+    "height": 320,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "孚日广场 是法国巴黎最古老的广场，位于玛莱区，跨巴黎第三区和巴黎第四区。最初称为皇家广场，由亨利四世兴建于1605年到1612年，长宽为140 m x 140 m。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%AD%9A%E6%97%A5%E5%B9%BF%E5%9C%BA",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "cite-des-sciences": {
+   "image": {
+    "file": "cite-des-sciences.jpg",
+    "title": "File:Cité des Sciences et de l'Industrie, La Villette, Paris - France.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9_des_Sciences_et_de_l%27Industrie,_La_Villette,_Paris_-_France.jpg",
+    "author": "Anai171",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "法国科学工业城为欧洲最大的科学博物馆。博物馆于1986年启用，位于法国巴黎东北方十九区的维莱特公园内，占地55公顷。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%B7%A5%E4%B8%9A%E5%9F%8E",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "enfants-rouges": {
+   "image": {
+    "file": "enfants-rouges.jpg",
+    "title": "File:Marché des Enfants-Rouges, Paris May 2016.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:March%C3%A9_des_Enfants-Rouges,_Paris_May_2016.jpg",
+    "author": "besopha",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "红孩儿市场 是法国巴黎最古老的室内市场。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E7%B4%85%E5%AD%A9%E5%85%92%E5%B8%82%E5%A0%B4",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "rue-mouffetard": {
+   "image": {
+    "file": "rue-mouffetard.jpg",
+    "title": "File:Street market rue Mouffetard St Medard dsc00727.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Street_market_rue_Mouffetard_St_Medard_dsc00727.jpg",
+    "author": "David Monniaux",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "穆浮塔路 是巴黎第五区的一条街道。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E7%A9%86%E6%B5%AE%E5%A1%94%E8%B7%AF",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "cafe-de-flore": {
+   "image": {
+    "file": "cafe-de-flore.jpg",
+    "title": "File:Café de Flore, 172 boulevard Saint-Germain, Paris 6e.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_Flore,_172_boulevard_Saint-Germain,_Paris_6e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 408,
+    "checked_at": "2026-10-21"
+   },
+   "intro": {
+    "text": "花神咖啡馆 是法国巴黎的一座咖啡馆，位于巴黎第六区圣日耳曼大道和圣伯努瓦街 转角，创建于1887年。其名称源自于林荫大道旁的一尊雕像：芙萝拉，罗马神话中的春之母，花朵和花园的女神。",
+    "source_url": "https://zh.wikipedia.org/wiki/%E8%8A%B1%E7%A5%9E%E5%92%96%E5%95%A1%E9%A6%86",
+    "source_name": "中文维基百科",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans",
+    "checked_at": "2026-10-21"
+   }
+  },
+  "montmartre-sacre-coeur": {
+   "image": {
+    "file": "montmartre-sacre-coeur.jpg",
+    "title": "File:View from top of Sacré-Cœur in Paris.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:View_from_top_of_Sacr%C3%A9-C%C5%93ur_in_Paris.jpg",
+    "author": "Elena.laps",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 795,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "notre-dame": {
+   "image": {
+    "file": "notre-dame.jpg",
+    "title": "File:Cathédrale Notre-Dame (exterior).107 - Paris.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_(exterior).107_-_Paris.jpg",
+    "author": "Fernando Losada Rodríguez",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 853,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "canal-saint-martin": {
+   "image": {
+    "file": "canal-saint-martin.jpg",
+    "title": "File:A street bench on the bank of Canal Saint-Martin, Paris April 2010.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_street_bench_on_the_bank_of_Canal_Saint-Martin,_Paris_April_2010.jpg",
+    "author": "Pierre (Rennes) from RENNES, FRANCE",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 904,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "seine-cruise": {
+   "image": {
+    "file": "seine-cruise.jpg",
+    "title": "File:Paris Seine River Cruise Boat (9811842213).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Seine_River_Cruise_Boat_(9811842213).jpg",
+    "author": "Gary Todd from Xinzheng, China",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 469,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "lafayette-rooftop": {
+   "image": {
+    "file": "lafayette-rooftop.jpg",
+    "title": "File:Galeries Lafayette Paris Haussmann (33781100158).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Galeries_Lafayette_Paris_Haussmann_(33781100158).jpg",
+    "author": "Halley Oliveira from Guimarães, Portugal",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "rue-cler": {
+   "image": {
+    "file": "rue-cler.jpg",
+    "title": "File:Fruit shop, Rue Cler, Paris 18 August 2016.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_shop,_Rue_Cler,_Paris_18_August_2016.jpg",
+    "author": "besopha",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "galeries-lafayette-shopping": {
+   "image": {
+    "file": "galeries-lafayette-shopping.jpg",
+    "title": "File:Galeries Lafayette Paris Haussmann (33781100158).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Galeries_Lafayette_Paris_Haussmann_(33781100158).jpg",
+    "author": "Halley Oliveira from Guimarães, Portugal",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "carnavalet": {
+   "image": {
+    "file": "carnavalet.jpg",
+    "title": "File:Musée Carnavalet, Paris - panoramio 001.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Carnavalet,_Paris_-_panoramio_001.jpg",
+    "author": "Sorin Craciun",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "mam-paris": {
+   "image": {
+    "file": "mam-paris.jpg",
+    "title": "File:Paris 16e Palais de Tokyo Musée d’Art moderne de Paris 085.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_16e_Palais_de_Tokyo_Mus%C3%A9e_d%E2%80%99Art_moderne_de_Paris_085.jpg",
+    "author": "GFreihalter",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "fondation-louis-vuitton": {
+   "image": {
+    "file": "fondation-louis-vuitton.jpg",
+    "title": "File:XVALA at the Louis Vuitton Foundation in Paris, France.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:XVALA_at_the_Louis_Vuitton_Foundation_in_Paris,_France.jpg",
+    "author": "Meme Ranch",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "bourse-de-commerce": {
+   "image": {
+    "file": "bourse-de-commerce.jpg",
+    "title": "File:David Hammons à la Bourse de commerce (Paris) (51271344067).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:David_Hammons_%C3%A0_la_Bourse_de_commerce_(Paris)_(51271344067).jpg",
+    "author": "Jean-Pierre Dalbéra",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "st-germain-boutiques": {
+   "image": {
+    "file": "st-germain-boutiques.jpg",
+    "title": "File:Paris 6e - Église Saint-Germain-des-Prés - Chapelle de la Vierge.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_6e_-_%C3%89glise_Saint-Germain-des-Pr%C3%A9s_-_Chapelle_de_la_Vierge.jpg",
+    "author": "Romainbehar",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 853,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "le-bon-marche": {
+   "image": {
+    "file": "le-bon-marche.jpg",
+    "title": "File:Le Bon Marché, Paris 10 December 2016 02.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Le_Bon_March%C3%A9,_Paris_10_December_2016_02.jpg",
+    "author": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "champs-elysees": {
+   "image": {
+    "file": "champs-elysees.jpg",
+    "title": "File:Avenue des Champs-Elysées, Paris 12 December 2020.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Avenue_des_Champs-Elys%C3%A9es,_Paris_12_December_2020.jpg",
+    "author": "Pierre Blaché from Paris, France",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 640,
+    "height": 800,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "crazy-horse": {
+   "image": {
+    "file": "crazy-horse.jpg",
+    "title": "File:CRAZY HORSE PARIS - 5296949060.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:CRAZY_HORSE_PARIS_-_5296949060.jpg",
+    "author": "inazakira",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "jardin-des-plantes": {
+   "image": {
+    "file": "jardin-des-plantes.jpg",
+    "title": "File:Monument to Bernardin de Saint-Pierre, Jardin des plantes, Paris.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Monument_to_Bernardin_de_Saint-Pierre,_Jardin_des_plantes,_Paris.jpg",
+    "author": "Mafarkafut",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 480,
+    "height": 640,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "grande-galerie-evolution": {
+   "image": {
+    "file": "grande-galerie-evolution.jpg",
+    "title": "File:Paris 75005 Grande Galerie de l'Evolution 20110707.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_75005_Grande_Galerie_de_l%27Evolution_20110707.jpg",
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 406,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "aquarium-paris": {
+   "image": {
+    "file": "aquarium-paris.jpg",
+    "title": "File:Aquarium de Paris Jun 2024 exterior.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aquarium_de_Paris_Jun_2024_exterior.jpg",
+    "author": "DarkNight0917",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "angelina": {
+   "image": {
+    "file": "angelina.jpg",
+    "title": "File:Angelina cafe Paris 4369.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Angelina_cafe_Paris_4369.jpg",
+    "author": "Gryffindor",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "laduree-champs": {
+   "image": {
+    "file": "laduree-champs.jpg",
+    "title": "File:Ladurée, Champs-Élysées, Paris 8e 007.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ladur%C3%A9e,_Champs-%C3%89lys%C3%A9es,_Paris_8e_007.JPG",
+    "author": "Moonik",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 1211,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "marais-walk": {
+   "image": {
+    "file": "marais-walk.jpg",
+    "title": "File:Blue door, Le Marais, Paris 17 December 2016.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Blue_door,_Le_Marais,_Paris_17_December_2016.jpg",
+    "author": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 960,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "latin-quarter": {
+   "image": {
+    "file": "latin-quarter.jpg",
+    "title": "File:Street Scene in the Latin Quarter, Paris, France in July 2026.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Street_Scene_in_the_Latin_Quarter,_Paris,_France_in_July_2026.jpg",
+    "author": "Dev Jadiya",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 853,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "marais-boutiques": {
+   "image": {
+    "file": "marais-boutiques.jpg",
+    "title": "File:Blue door, Le Marais, Paris 17 December 2016.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Blue_door,_Le_Marais,_Paris_17_December_2016.jpg",
+    "author": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 640,
+    "height": 960,
+    "checked_at": "2026-10-21"
+   }
+  },
+  "musee-gustave-moreau": {
+   "image": {
+    "file": "musee-gustave-moreau.jpg",
+    "title": "File:Paris musée Gustave-Moreau, 19 mai 2013.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_mus%C3%A9e_Gustave-Moreau,_19_mai_2013.jpg",
+    "author": "Velvet",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 919,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "musee-jacquemart-andre": {
+   "image": {
+    "file": "musee-jacquemart-andre.jpg",
+    "title": "File:Musée Jacquemart André 2007 - Recoura.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Jacquemart_Andr%C3%A9_2007_-_Recoura.jpg",
+    "author": "Christophe Recoura",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "width": 640,
+    "height": 493,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "cafe-procope": {
+   "image": {
+    "file": "cafe-procope.jpg",
+    "title": "File:Le Procope 1, Paris 2010.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Le_Procope_1,_Paris_2010.jpg",
+    "author": "Jean-Marie Hullot from France",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "le-train-bleu": {
+   "image": {
+    "file": "le-train-bleu.jpg",
+    "title": "File:Train bleu 01.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Train_bleu_01.jpg",
+    "author": "Arnaud 25",
+    "license": "Public domain",
+    "license_url": null,
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "la-coupole": {
+   "image": {
+    "file": "la-coupole.jpg",
+    "title": "File:La Coupole - Paris.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:La_Coupole_-_Paris.JPG",
+    "author": "LPLT",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 480,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "cafe-des-deux-moulins": {
+   "image": {
+    "file": "cafe-des-deux-moulins.jpg",
+    "title": "File:Cafe des 2 Moulins, Paris 24 August 2019.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cafe_des_2_Moulins,_Paris_24_August_2019.jpg",
+    "author": "Mig Gilbert from Brighton",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "les-deux-magots": {
+   "image": {
+    "file": "les-deux-magots.jpg",
+    "title": "File:Les Deux Magots, 25 September 2019.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Les_Deux_Magots,_25_September_2019.jpg",
+    "author": "Cheng-en Cheng from Taichung City, Taiwan",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "width": 640,
+    "height": 427,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "cafe-de-la-paix": {
+   "image": {
+    "file": "cafe-de-la-paix.jpg",
+    "title": "File:Café de la Paix 1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_de_la_Paix_1.jpg",
+    "author": "Arthur Weidmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 360,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "bouillon-chartier": {
+   "image": {
+    "file": "bouillon-chartier.jpg",
+    "title": "File:Paris Chartier 1302.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_Chartier_1302.jpg",
+    "author": "Michel wal",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 960,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "brasserie-bofinger": {
+   "image": {
+    "file": "brasserie-bofinger.jpg",
+    "title": "File:Brasserie Bofinger.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brasserie_Bofinger.JPG",
+    "author": "Footballeuse33",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 640,
+    "height": 853,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "brasserie-lipp": {
+   "image": {
+    "file": "brasserie-lipp.jpg",
+    "title": "File:Brasserie Lipp, 151 boulevard Saint-Germain, Paris 6e.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brasserie_Lipp,_151_boulevard_Saint-Germain,_Paris_6e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 802,
+    "checked_at": "2026-11-02"
+   }
+  },
+  "fouquets": {
+   "image": {
+    "file": "fouquets.jpg",
+    "title": "File:Facade fouquet's.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Facade_fouquet%27s.jpg",
+    "author": "Sophiecharra1",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 640,
+    "height": 854,
+    "checked_at": "2026-11-02"
+   }
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+  "city": "baden-baden",
+  "themes": [
+    {
+      "id": "daytrip",
+      "name_zh": "一日游",
+      "tagline": "巴登-巴登一天走一遍最值得看的地方",
+      "description": "开放数据草稿：按维基数据的知名度排序挑出的景点，价格和开放时间出发前请到官网确认。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [],
+        "max_big_venues_per_day": 2,
+        "notes": "一日游：到站就开始，留够返程时间"
+      },
+      "members": [
+        {
+          "place_id": "baden-baden-weihnachtsmarkt",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "baden-baden-altes-schloss",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "baden-baden-faberge-museum",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "baden-baden-museum-frieder-burda",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "baden-baden-neues-schloss",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "baden-baden-staatliche-kunsthalle-baden-baden",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "baden-baden-die-russisch-orthodoxe-christi-verklarungskirche",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "baden-baden-stiftskirche",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "baden-baden-stourdza-kapelle",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "baden-baden-st-josef-baden-baden",
+          "role": "support",
+          "weight": 2
+        }
+      ],
+      "tips": [
+        "圣诞市场等当季活动只在举办期内排进行程",
+        "返程末班车请提前在 DB Navigator 等官方渠道确认"
+      ]
+    }
+  ]
+}

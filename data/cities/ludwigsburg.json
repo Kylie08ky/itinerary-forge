@@ -1,0 +1,43 @@
+{
+  "id": "ludwigsburg",
+  "name_zh": "路德维希堡",
+  "name_en": "Ludwigsburg",
+  "local_language": "de",
+  "aliases": [
+    "ludwigsburg",
+    "路德维希堡"
+  ],
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    48.8975,
+    9.1919
+  ],
+  "bbox": {
+    "lat": [
+      48.8575,
+      48.9375
+    ],
+    "lng": [
+      9.1319,
+      9.2519
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "ludwigsburg-schloss-ludwigsburg",
+    "ludwigsburg-favoriteschloss",
+    "ludwigsburg-seeschloss-monrepos"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "suedwest-de"
+}

@@ -1,0 +1,19 @@
+{
+  "city": "bologna",
+  "_note": "精校：对着官方页面核对过的事实（规格 10 / 12）。键是维基数据编号；每条必须带来源和核对日期。重新生成草稿不会丢。",
+  "places": {
+    "Q1476981": {
+      "closed_weekdays": [
+        6
+      ],
+      "official_url": "https://www.archiginnasio.it/palazzo-dell-archiginnasio",
+      "sources": [
+        {
+          "url": "https://www.archiginnasio.it/palazzo-dell-archiginnasio",
+          "checked_at": "2026-11-04",
+          "what": "官网：周日闭馆"
+        }
+      ]
+    }
+  }
+}

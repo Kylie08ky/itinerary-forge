@@ -1,0 +1,45 @@
+{
+  "id": "esslingen",
+  "name_zh": "内卡河畔埃斯林根",
+  "name_en": "Esslingen am Neckar",
+  "local_language": "de",
+  "aliases": [
+    "esslingen",
+    "esslingen am neckar",
+    "esslingen-am-neckar",
+    "内卡河畔埃斯林根"
+  ],
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    48.7406,
+    9.3108
+  ],
+  "bbox": {
+    "lat": [
+      48.7006,
+      48.7806
+    ],
+    "lng": [
+      9.2508,
+      9.3708
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "esslingen-stadtkirche-st-dionys",
+    "esslingen-neues-rathaus",
+    "esslingen-munster-st-paul"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "suedwest-de"
+}

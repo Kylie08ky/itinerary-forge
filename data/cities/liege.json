@@ -1,0 +1,44 @@
+{
+  "id": "liege",
+  "name_zh": "列日",
+  "name_en": "Liège",
+  "local_language": "fr",
+  "aliases": [
+    "liege",
+    "liège",
+    "列日"
+  ],
+  "country": "BE",
+  "currency": "EUR",
+  "timezone": "Europe/Brussels",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    50.6397,
+    5.5706
+  ],
+  "bbox": {
+    "lat": [
+      50.5997,
+      50.6797
+    ],
+    "lng": [
+      5.5106,
+      5.6306
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "liege-cathedrale-saint-paul-de-liege",
+    "liege-cathedrale-notre-dame-et-saint-lambert-de-liege",
+    "liege-eglise-saint-jacques-le-mineur-de-liege"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "nl-be-grenzland"
+}

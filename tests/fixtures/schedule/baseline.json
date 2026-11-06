@@ -1,0 +1,1407 @@
+{
+ "cases": {
+  "art-10d": {
+   "days": 10,
+   "days_under_2_places": 1,
+   "desc": "艺术 10 天",
+   "dinner_days": 8,
+   "distinct_places": 27,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 87,
+   "idle_total_min": 956,
+   "kind": "long",
+   "km_max_day": 5.74,
+   "km_total": 24.85,
+   "legs_over_3km": 1,
+   "lunch_days": 9,
+   "lunch_missing": 0,
+   "main_avg": 1.2,
+   "main_min": 0,
+   "main_per_day": [
+    2,
+    2,
+    0,
+    0,
+    1,
+    2,
+    2,
+    2,
+    1,
+    0
+   ],
+   "min_theme_points": 18,
+   "notes": [
+    "「艺术」主题的主要地点不够排满 10 天，已补充相邻的点：蒙马特高地与圣心大教堂、皇家宫殿花园、玛黑区漫步、卢森堡公园、艺术桥、装饰艺术博物馆、杜乐丽花园、迪奥的故事 Galerie Dior、圣罗兰博物馆。"
+   ],
+   "places": 27,
+   "places_per_day": [
+    3,
+    3,
+    3,
+    3,
+    1,
+    3,
+    3,
+    3,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 18
+   },
+   "theme_counts_primary": {
+    "art": 18
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "art"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 484,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "art-3d-intense": {
+   "days": 3,
+   "days_under_2_places": 0,
+   "desc": "艺术 3 天，紧凑",
+   "dinner_days": 2,
+   "distinct_places": 11,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 14,
+   "idle_total_min": 14,
+   "kind": "pace",
+   "km_max_day": 10.07,
+   "km_total": 14.22,
+   "legs_over_3km": 1,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 2.67,
+   "main_min": 2,
+   "main_per_day": [
+    3,
+    3,
+    2
+   ],
+   "min_theme_points": 10,
+   "notes": [
+    "「艺术」主题的主要地点不够排满 3 天，已补充相邻的点：杜乐丽花园。"
+   ],
+   "places": 11,
+   "places_per_day": [
+    4,
+    4,
+    3
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 10
+   },
+   "theme_counts_primary": {
+    "art": 10
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "art"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 177,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "art-3d-relaxed": {
+   "days": 3,
+   "days_under_2_places": 0,
+   "desc": "艺术 3 天，轻松",
+   "dinner_days": 2,
+   "distinct_places": 6,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 67,
+   "idle_total_min": 171,
+   "kind": "pace",
+   "km_max_day": 1.94,
+   "km_total": 4.06,
+   "legs_over_3km": 0,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 2.0,
+   "main_min": 2,
+   "main_per_day": [
+    2,
+    2,
+    2
+   ],
+   "min_theme_points": 6,
+   "notes": [],
+   "places": 6,
+   "places_per_day": [
+    2,
+    2,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 6
+   },
+   "theme_counts_primary": {
+    "art": 6
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "art"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 124,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "art-4d": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "艺术 4 天（均衡）",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 70,
+   "idle_total_min": 150,
+   "kind": "single",
+   "km_max_day": 2.94,
+   "km_total": 5.95,
+   "legs_over_3km": 0,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.75,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 9,
+   "notes": [],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 9
+   },
+   "theme_counts_primary": {
+    "art": 9
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "art"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 176,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "art-from-tuesday": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "艺术 4 天，从周二开始",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 68,
+   "idle_total_min": 173,
+   "kind": "closed-days",
+   "km_max_day": 2.24,
+   "km_total": 5.97,
+   "legs_over_3km": 0,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.75,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 9,
+   "notes": [],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 9
+   },
+   "theme_counts_primary": {
+    "art": 9
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "art"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 188,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "art-must-and-avoid": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "艺术 4 天，必去奥赛、不去卢浮宫",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 68,
+   "idle_total_min": 195,
+   "kind": "closed-days",
+   "km_max_day": 4.69,
+   "km_total": 8.05,
+   "legs_over_3km": 1,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.75,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 9,
+   "notes": [],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 9
+   },
+   "theme_counts_primary": {
+    "art": 9
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "art"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 186,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "entertainment-4d": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "文娱 4 天",
+   "dinner_days": 3,
+   "distinct_places": 10,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 1,
+   "idle_max_min": 74,
+   "idle_total_min": 198,
+   "kind": "single",
+   "km_max_day": 3.5,
+   "km_total": 8.1,
+   "legs_over_3km": 0,
+   "lunch_days": 4,
+   "lunch_missing": 0,
+   "main_avg": 1.0,
+   "main_min": 0,
+   "main_per_day": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "min_theme_points": 7,
+   "notes": [
+    "「文娱」主题的主要地点不够排满 4 天，已补充相邻的点：蒙马特高地与圣心大教堂、埃菲尔铁塔、香榭丽舍大街、圣礼拜堂、卢浮宫。"
+   ],
+   "places": 10,
+   "places_per_day": [
+    3,
+    3,
+    3,
+    1
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "entertainment": 7
+   },
+   "theme_counts_primary": {
+    "entertainment": 7
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "entertainment"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 164,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "family-4d": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "亲子 4 天",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 27,
+   "idle_total_min": 27,
+   "kind": "single",
+   "km_max_day": 12.46,
+   "km_total": 17.43,
+   "legs_over_3km": 2,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.75,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 8,
+   "notes": [],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "family": 8
+   },
+   "theme_counts_primary": {
+    "family": 8
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "family"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 224,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "fashion-4d": {
+   "days": 4,
+   "days_under_2_places": 0,
+   "desc": "时尚 4 天",
+   "dinner_days": 3,
+   "distinct_places": 11,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 104,
+   "idle_total_min": 393,
+   "kind": "single",
+   "km_max_day": 3.94,
+   "km_total": 9.18,
+   "legs_over_3km": 1,
+   "lunch_days": 4,
+   "lunch_missing": 0,
+   "main_avg": 2.0,
+   "main_min": 2,
+   "main_per_day": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "min_theme_points": 9,
+   "notes": [],
+   "places": 11,
+   "places_per_day": [
+    3,
+    3,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "fashion": 9
+   },
+   "theme_counts_primary": {
+    "fashion": 9
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "fashion"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 173,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "food-4d": {
+   "days": 4,
+   "days_under_2_places": 0,
+   "desc": "美食 4 天",
+   "dinner_days": 3,
+   "distinct_places": 11,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 90,
+   "idle_total_min": 498,
+   "kind": "single",
+   "km_max_day": 5.44,
+   "km_total": 13.6,
+   "legs_over_3km": 2,
+   "lunch_days": 4,
+   "lunch_missing": 0,
+   "main_avg": 2.0,
+   "main_min": 2,
+   "main_per_day": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "min_theme_points": 10,
+   "notes": [],
+   "places": 11,
+   "places_per_day": [
+    3,
+    3,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "food": 10
+   },
+   "theme_counts_primary": {
+    "food": 10
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "food"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 188,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "food-5d-relaxed": {
+   "days": 5,
+   "days_under_2_places": 0,
+   "desc": "美食 5 天，轻松（建议上限）",
+   "dinner_days": 4,
+   "distinct_places": 11,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 98,
+   "idle_total_min": 849,
+   "kind": "pace",
+   "km_max_day": 6.13,
+   "km_total": 12.39,
+   "legs_over_3km": 1,
+   "lunch_days": 5,
+   "lunch_missing": 0,
+   "main_avg": 1.6,
+   "main_min": 0,
+   "main_per_day": [
+    2,
+    2,
+    2,
+    2,
+    0
+   ],
+   "min_theme_points": 11,
+   "notes": [
+    "「美食」主题的主要地点不够排满 5 天，已补充相邻的点：圆顶餐厅、圣日耳曼买手店与概念店、两个风车咖啡馆。"
+   ],
+   "places": 11,
+   "places_per_day": [
+    2,
+    2,
+    2,
+    2,
+    3
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "food": 11
+   },
+   "theme_counts_primary": {
+    "food": 11
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "food"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 189,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "mix-3-themes-7d": {
+   "days": 7,
+   "days_under_2_places": 1,
+   "desc": "混选艺术 + 博物馆 + 美食，7 天",
+   "dinner_days": 5,
+   "distinct_places": 18,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 89,
+   "idle_total_min": 570,
+   "kind": "long",
+   "km_max_day": 10.07,
+   "km_total": 26.1,
+   "legs_over_3km": 3,
+   "lunch_days": 6,
+   "lunch_missing": 0,
+   "main_avg": 1.71,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 7,
+   "notes": [
+    "「艺术 + 博物馆 + 美食」主题的主要地点不够排满 7 天，已补充相邻的点：卡纳瓦莱博物馆。"
+   ],
+   "places": 18,
+   "places_per_day": [
+    3,
+    3,
+    3,
+    1,
+    3,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 9,
+    "food": 7,
+    "museums": 7
+   },
+   "theme_counts_primary": {
+    "art": 8,
+    "food": 6,
+    "museums": 2
+   },
+   "theme_weight_gap": 0.06,
+   "theme_weight_gap_primary": 0.21,
+   "themes": [
+    "art",
+    "museums",
+    "food"
+   ],
+   "themes_covered": 3,
+   "travel_total_min": 339,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "mix-5-3-1": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "混选艺术 5 / 美食 3 / 摄影 1，4 天",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 90,
+   "idle_total_min": 236,
+   "kind": "mix",
+   "km_max_day": 4.57,
+   "km_total": 7.76,
+   "legs_over_3km": 1,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.75,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 4,
+   "notes": [],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 5,
+    "food": 4,
+    "photography": 4
+   },
+   "theme_counts_primary": {
+    "art": 4,
+    "food": 3,
+    "photography": 2
+   },
+   "theme_weight_gap": 0.2,
+   "theme_weight_gap_primary": 0.11,
+   "themes": [
+    "art",
+    "food",
+    "photography"
+   ],
+   "themes_covered": 3,
+   "travel_total_min": 175,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "mix-art-food-shopping": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "混选艺术 + 美食 + 购物，权重相同，4 天",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 74,
+   "idle_total_min": 154,
+   "kind": "mix",
+   "km_max_day": 3.9,
+   "km_total": 7.78,
+   "legs_over_3km": 0,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.75,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 3,
+   "notes": [],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 4,
+    "food": 4,
+    "shopping": 3
+   },
+   "theme_counts_primary": {
+    "art": 4,
+    "food": 3,
+    "shopping": 2
+   },
+   "theme_weight_gap": 0.06,
+   "theme_weight_gap_primary": 0.11,
+   "themes": [
+    "art",
+    "food",
+    "shopping"
+   ],
+   "themes_covered": 3,
+   "travel_total_min": 169,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "museums-2d-intense": {
+   "days": 2,
+   "days_under_2_places": 0,
+   "desc": "博物馆 2 天，紧凑（最短）",
+   "dinner_days": 1,
+   "distinct_places": 7,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 0,
+   "idle_total_min": 0,
+   "kind": "pace",
+   "km_max_day": 1.55,
+   "km_total": 3.01,
+   "legs_over_3km": 0,
+   "lunch_days": 2,
+   "lunch_missing": 0,
+   "main_avg": 2.5,
+   "main_min": 2,
+   "main_per_day": [
+    3,
+    2
+   ],
+   "min_theme_points": 6,
+   "notes": [
+    "「博物馆」主题的主要地点不够排满 2 天，已补充相邻的点：杜乐丽花园。"
+   ],
+   "places": 7,
+   "places_per_day": [
+    4,
+    3
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "museums": 6
+   },
+   "theme_counts_primary": {
+    "museums": 6
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "museums"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 78,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "museums-4d": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "博物馆 4 天",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 72,
+   "idle_total_min": 162,
+   "kind": "single",
+   "km_max_day": 3.68,
+   "km_total": 7.2,
+   "legs_over_3km": 0,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.75,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 7,
+   "notes": [],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "museums": 7
+   },
+   "theme_counts_primary": {
+    "museums": 7
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "museums"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 167,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "museums-7d": {
+   "days": 7,
+   "days_under_2_places": 1,
+   "desc": "博物馆 7 天",
+   "dinner_days": 5,
+   "distinct_places": 18,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 75,
+   "idle_total_min": 648,
+   "kind": "long",
+   "km_max_day": 5.91,
+   "km_total": 17.97,
+   "legs_over_3km": 2,
+   "lunch_days": 6,
+   "lunch_missing": 0,
+   "main_avg": 1.86,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2
+   ],
+   "min_theme_points": 13,
+   "notes": [],
+   "places": 18,
+   "places_per_day": [
+    3,
+    3,
+    3,
+    1,
+    3,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "museums": 13
+   },
+   "theme_counts_primary": {
+    "museums": 13
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "museums"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 316,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "museums-from-monday": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "博物馆 4 天，从周一开始（周一 / 周二都有馆闭）",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 45,
+   "idle_total_min": 102,
+   "kind": "closed-days",
+   "km_max_day": 4.82,
+   "km_total": 8.35,
+   "legs_over_3km": 1,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.75,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 7,
+   "notes": [],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "museums": 7
+   },
+   "theme_counts_primary": {
+    "museums": 7
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "museums"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 180,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "photography-4d": {
+   "days": 4,
+   "days_under_2_places": 0,
+   "desc": "摄影 4 天（黄昏点按日落排）",
+   "dinner_days": 3,
+   "distinct_places": 11,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 90,
+   "idle_total_min": 543,
+   "kind": "single",
+   "km_max_day": 5.44,
+   "km_total": 12.3,
+   "legs_over_3km": 1,
+   "lunch_days": 4,
+   "lunch_missing": 0,
+   "main_avg": 2.25,
+   "main_min": 0,
+   "main_per_day": [
+    3,
+    3,
+    3,
+    0
+   ],
+   "min_theme_points": 11,
+   "notes": [
+    "「摄影」主题的主要地点不够排满 4 天，已补充相邻的点：克莱尔街市集、奥赛博物馆。"
+   ],
+   "places": 11,
+   "places_per_day": [
+    3,
+    3,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "photography": 11
+   },
+   "theme_counts_primary": {
+    "photography": 11
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "photography"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 179,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "shopping-4d": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "购物 4 天",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 40,
+   "idle_total_min": 131,
+   "kind": "single",
+   "km_max_day": 6.11,
+   "km_total": 12.73,
+   "legs_over_3km": 2,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.5,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    1
+   ],
+   "min_theme_points": 7,
+   "notes": [
+    "「购物」主题的主要地点不够排满 4 天，已补充相邻的点：老佛爷天台观景。"
+   ],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "shopping": 7
+   },
+   "theme_counts_primary": {
+    "shopping": 7
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "shopping"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 217,
+   "warning_codes": [],
+   "warnings": 0
+  }
+ },
+ "probes": {
+  "probe-4-themes": {
+   "days": 4,
+   "days_under_2_places": 1,
+   "desc": "探针：同时选 4 个主题（现在的校验最多 3 个）",
+   "dinner_days": 2,
+   "distinct_places": 9,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 40,
+   "idle_total_min": 120,
+   "km_max_day": 4.12,
+   "km_total": 7.49,
+   "legs_over_3km": 0,
+   "lunch_days": 3,
+   "lunch_missing": 0,
+   "main_avg": 1.75,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 3,
+   "notes": [],
+   "places": 9,
+   "places_per_day": [
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 4,
+    "food": 3,
+    "museums": 3,
+    "shopping": 4
+   },
+   "theme_counts_primary": {
+    "art": 4,
+    "food": 2,
+    "museums": 0,
+    "shopping": 3
+   },
+   "theme_weight_gap": 0.07,
+   "theme_weight_gap_primary": 0.28,
+   "themes": [
+    "art",
+    "food",
+    "shopping",
+    "museums"
+   ],
+   "themes_covered": 4,
+   "travel_total_min": 169,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "probe-8-themes": {
+   "days": 5,
+   "days_under_2_places": 1,
+   "desc": "探针：8 个主题全选（均衡），5 天",
+   "dinner_days": 3,
+   "distinct_places": 12,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 79,
+   "idle_total_min": 248,
+   "km_max_day": 4.67,
+   "km_total": 14.04,
+   "legs_over_3km": 2,
+   "lunch_days": 4,
+   "lunch_missing": 0,
+   "main_avg": 2.0,
+   "main_min": 1,
+   "main_per_day": [
+    3,
+    2,
+    1,
+    2,
+    2
+   ],
+   "min_theme_points": 1,
+   "notes": [],
+   "places": 12,
+   "places_per_day": [
+    3,
+    3,
+    1,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 3,
+    "entertainment": 3,
+    "family": 2,
+    "fashion": 2,
+    "food": 1,
+    "museums": 2,
+    "photography": 4,
+    "shopping": 2
+   },
+   "theme_counts_primary": {
+    "art": 2,
+    "entertainment": 1,
+    "family": 1,
+    "fashion": 2,
+    "food": 1,
+    "museums": 0,
+    "photography": 3,
+    "shopping": 1
+   },
+   "theme_weight_gap": 0.15,
+   "theme_weight_gap_primary": 0.26,
+   "themes": [
+    "art",
+    "fashion",
+    "shopping",
+    "museums",
+    "entertainment",
+    "family",
+    "photography",
+    "food"
+   ],
+   "themes_covered": 8,
+   "travel_total_min": 239,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "probe-8-themes-7d": {
+   "days": 7,
+   "days_under_2_places": 1,
+   "desc": "探针：8 个主题全选，7 天",
+   "dinner_days": 5,
+   "distinct_places": 18,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 90,
+   "idle_total_min": 641,
+   "km_max_day": 5.2,
+   "km_total": 20.15,
+   "legs_over_3km": 2,
+   "lunch_days": 6,
+   "lunch_missing": 0,
+   "main_avg": 2.14,
+   "main_min": 1,
+   "main_per_day": [
+    2,
+    2,
+    2,
+    1,
+    3,
+    3,
+    2
+   ],
+   "min_theme_points": 2,
+   "notes": [],
+   "places": 18,
+   "places_per_day": [
+    3,
+    3,
+    3,
+    1,
+    3,
+    3,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 4,
+    "entertainment": 4,
+    "family": 2,
+    "fashion": 4,
+    "food": 2,
+    "museums": 2,
+    "photography": 7,
+    "shopping": 4
+   },
+   "theme_counts_primary": {
+    "art": 2,
+    "entertainment": 1,
+    "family": 1,
+    "fashion": 3,
+    "food": 1,
+    "museums": 0,
+    "photography": 6,
+    "shopping": 3
+   },
+   "theme_weight_gap": 0.17,
+   "theme_weight_gap_primary": 0.33,
+   "themes": [
+    "art",
+    "fashion",
+    "shopping",
+    "museums",
+    "entertainment",
+    "family",
+    "photography",
+    "food"
+   ],
+   "themes_covered": 8,
+   "travel_total_min": 361,
+   "warning_codes": [],
+   "warnings": 0
+  },
+  "probe-art-14d": {
+   "days": 14,
+   "days_under_2_places": 1,
+   "desc": "探针：艺术 14 天",
+   "dinner_days": 12,
+   "distinct_places": 37,
+   "error_codes": [],
+   "errors": 0,
+   "fillers": 0,
+   "idle_max_min": 90,
+   "idle_total_min": 1495,
+   "km_max_day": 12.37,
+   "km_total": 50.93,
+   "legs_over_3km": 4,
+   "lunch_days": 13,
+   "lunch_missing": 0,
+   "main_avg": 0.86,
+   "main_min": 0,
+   "main_per_day": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "min_theme_points": 18,
+   "notes": [
+    "「艺术」主题的主要地点不够排满 14 天，已补充相邻的点：卢森堡公园、艺术桥、装饰艺术博物馆、迪奥的故事 Galerie Dior、圣罗兰博物馆、加列拉宫时尚博物馆、凯布朗利博物馆、杜乐丽花园、蒙马特高地与圣心大教堂、皇家宫殿花园、玛黑区漫步、科学与工业城、卡纳瓦莱博物馆、中世纪博物馆（克吕尼）、大演化馆、荣军院（拿破仑墓）、夏乐宫 / 特罗卡德罗广场、蒙田大道。"
+   ],
+   "places": 37,
+   "places_per_day": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    1,
+    3,
+    3,
+    3,
+    2,
+    3,
+    2,
+    2
+   ],
+   "repeat_places": 0,
+   "short_days": 0,
+   "status": "ok",
+   "theme_counts": {
+    "art": 18
+   },
+   "theme_counts_primary": {
+    "art": 18
+   },
+   "theme_weight_gap": 0.0,
+   "theme_weight_gap_primary": 0.0,
+   "themes": [
+    "art"
+   ],
+   "themes_covered": 1,
+   "travel_total_min": 708,
+   "warning_codes": [],
+   "warnings": 0
+  }
+ }
+}

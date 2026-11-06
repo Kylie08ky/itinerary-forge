@@ -1,0 +1,289 @@
+{
+  "id": "gastronomy-market-to-cafe",
+  "name_zh": "法式餐桌：从早市到咖啡馆",
+  "tagline": "按一天的吃饭节奏走：早市、老字号午餐、咖啡馆与下午茶",
+  "track": "food",
+  "thesis": "巴黎的吃饭是一套节奏：早上在街市买菜，中午坐进几十年甚至几百年的老馆子，下午在咖啡馆或茶室歇脚。每天这三类各去一家，几天下来把每一类都逛一遍。",
+  "base_theme": "food",
+  "layout": "pick-one",
+  "days": {
+    "min": 2,
+    "suggested": 3,
+    "max": 3
+  },
+  "chapters": [
+    {
+      "id": "morning-markets",
+      "title": "早市与街市",
+      "story": "巴黎人是边买菜边社交的：穆浮塔街是巴黎最老、最热闹的街区之一，南头的圣梅达尔广场有常设的露天市场，一周里大部分时间只让行人走，1724 年并入巴黎。蒙托格伊街两边是餐馆、咖啡馆、面包店、鱼店、奶酪店，莫奈 1878 年画过这条街；街上 51 号的 Stohrer 1730 年开业，是巴黎最老的面包店之一，朗姆巴巴就是在这里发明的。",
+      "sources": [
+        {
+          "title": "Rue Mouffetard（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Rue_Mouffetard"
+        },
+        {
+          "title": "Rue Montorgueil（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Rue_Montorgueil"
+        }
+      ],
+      "stops": [
+        {
+          "place_id": "rue-mouffetard",
+          "priority": "core",
+          "weight": 4,
+          "look_for": [
+            "南头圣梅达尔广场的常设露天市场",
+            "大部分时间只让行人走的老街"
+          ],
+          "why_here": "巴黎最老、最热闹的街区之一：街上有很多餐馆、小店、咖啡馆和固定的露天市场。",
+          "sources": [
+            {
+              "title": "Rue Mouffetard（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Rue_Mouffetard"
+            }
+          ]
+        },
+        {
+          "place_id": "rue-montorgueil",
+          "priority": "core",
+          "weight": 4,
+          "look_for": [
+            "面包店、鱼店、奶酪店和蔬果摊一条街",
+            "51 号 Stohrer：1730 年开业，朗姆巴巴的发源地"
+          ],
+          "why_here": "巴黎人边买菜边聊天的步行街；街上 51 号的 Stohrer 1730 年开业，朗姆巴巴在这里发明。",
+          "sources": [
+            {
+              "title": "Rue Montorgueil（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Rue_Montorgueil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-house-lunch",
+      "title": "老字号的午餐",
+      "story": "中午找一家有历史的馆子坐下：普罗可布 1686 年开业，18、19 世纪是巴黎艺术家和文人的聚会处，不过原来的咖啡馆 1872 年就关了，现在的餐厅 1957 年才开。里昂车站大厅里的蓝色列车是为 1900 年世博会建的，1972 年列为历史古迹，各个厅按法国的城市和地区装饰，共有 41 幅画。圆顶 1927 年 12 月 20 日开业，是蒙帕纳斯的装饰艺术风格大餐厅，巴黎画派的艺术家和作家常来。",
+      "sources": [
+        {
+          "title": "Café Procope（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_Procope"
+        },
+        {
+          "title": "Le Train Bleu（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Le_Train_Bleu_(restaurant)"
+        },
+        {
+          "title": "La Coupole（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/La_Coupole_(Paris)"
+        }
+      ],
+      "stops": [
+        {
+          "place_id": "cafe-procope",
+          "priority": "core",
+          "weight": 4,
+          "look_for": [
+            "1686 年开业的老咖啡馆旧址，18、19 世纪文人和艺术家聚会的地方",
+            "现在的餐厅 1957 年起营业"
+          ],
+          "why_here": "1686 年开业的老咖啡馆旧址，现在是餐厅：老字号午餐的第一站。",
+          "sources": [
+            {
+              "title": "Café Procope（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_Procope"
+            }
+          ]
+        },
+        {
+          "place_id": "le-train-bleu",
+          "priority": "optional",
+          "weight": 3,
+          "look_for": [
+            "车站大厅里的装饰餐厅，为 1900 年世博会建",
+            "各个厅按法国的城市和地区装饰，共 41 幅画"
+          ],
+          "why_here": "为 1900 年世博会建在里昂车站里，1972 年列为历史古迹：用餐的地方本身就是看点。",
+          "sources": [
+            {
+              "title": "Le Train Bleu（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Le_Train_Bleu_(restaurant)"
+            }
+          ]
+        },
+        {
+          "place_id": "la-coupole",
+          "priority": "core",
+          "weight": 3,
+          "look_for": [
+            "1927 年的装饰艺术风格大厅",
+            "巴黎画派艺术家和作家常来的蒙帕纳斯餐厅"
+          ],
+          "why_here": "1927 年 12 月 20 日开业的蒙帕纳斯大餐厅，装饰艺术风格，巴黎画派的艺术家和作家常来。",
+          "sources": [
+            {
+              "title": "La Coupole（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/La_Coupole_(Paris)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cafes-and-tea",
+      "title": "咖啡馆与下午茶",
+      "story": "下午找个地方坐下：天使之家 1903 年开业，是巴黎秋冬蒙布朗最有名的茶室，也以热巧克力「l'Africain」出名；Ladurée 1862 年创立，以马卡龙闻名于世；和平咖啡馆 1862 年 6 月 30 日随大饭店开业，在歌剧院对面。想去作家们坐过的咖啡馆，就去花神（19 世纪 80 年代出现，萨特、波伏娃常去，周恩来 20 世纪 20 年代在法国期间也是常客）、隔街的双叟（1884 年改成咖啡馆，1933 年起每年颁双叟文学奖），或蒙马特的两个风车咖啡馆（因 2001 年的电影《天使爱美丽》出名）。",
+      "sources": [
+        {
+          "title": "Mont Blanc (dessert)（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Mont_Blanc_(dessert)"
+        },
+        {
+          "title": "Angelina（法语维基百科）",
+          "url": "https://fr.wikipedia.org/wiki/Angelina_(salon_de_th%C3%A9)"
+        },
+        {
+          "title": "Ladurée（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Ladur%C3%A9e"
+        },
+        {
+          "title": "Café de la Paix（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_la_Paix"
+        },
+        {
+          "title": "Café de Flore（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Flore"
+        },
+        {
+          "title": "Les Deux Magots（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Les_Deux_Magots"
+        },
+        {
+          "title": "Café des 2 Moulins（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_des_2_Moulins"
+        }
+      ],
+      "stops": [
+        {
+          "place_id": "angelina",
+          "priority": "core",
+          "weight": 4,
+          "look_for": [
+            "蒙布朗：栗子泥做的甜点",
+            "热巧克力「l'Africain」"
+          ],
+          "why_here": "1903 年开业的茶室，以蒙布朗和热巧克力闻名。",
+          "sources": [
+            {
+              "title": "Mont Blanc (dessert)（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mont_Blanc_(dessert)"
+            },
+            {
+              "title": "Angelina（法语维基百科）",
+              "url": "https://fr.wikipedia.org/wiki/Angelina_(salon_de_th%C3%A9)"
+            }
+          ]
+        },
+        {
+          "place_id": "cafe-de-flore",
+          "priority": "core",
+          "weight": 4,
+          "look_for": [
+            "红色座椅、桃花心木和镜子的装饰艺术内饰",
+            "萨特、波伏娃常坐的地方"
+          ],
+          "why_here": "19 世纪 80 年代出现的老咖啡馆，萨特、波伏娃常来，周恩来 20 世纪 20 年代在法国期间也是常客。",
+          "sources": [
+            {
+              "title": "Café de Flore（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Flore"
+            }
+          ]
+        },
+        {
+          "place_id": "laduree-champs",
+          "priority": "core",
+          "weight": 3,
+          "look_for": [
+            "马卡龙",
+            "茶沙龙"
+          ],
+          "why_here": "1862 年创立，以马卡龙闻名于世。",
+          "sources": [
+            {
+              "title": "Ladurée（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Ladur%C3%A9e"
+            }
+          ]
+        },
+        {
+          "place_id": "les-deux-magots",
+          "priority": "core",
+          "weight": 3,
+          "look_for": [
+            "两尊中国官员雕像",
+            "每年颁发的双叟文学奖"
+          ],
+          "why_here": "和花神隔街相望，1884 年改成咖啡馆，1933 年起每年在这里颁双叟文学奖。",
+          "sources": [
+            {
+              "title": "Les Deux Magots（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Les_Deux_Magots"
+            }
+          ]
+        },
+        {
+          "place_id": "cafe-de-la-paix",
+          "priority": "optional",
+          "weight": 2,
+          "look_for": [
+            "拿破仑三世风格的装饰",
+            "歌剧院对面的老咖啡馆"
+          ],
+          "why_here": "1862 年 6 月 30 日随大饭店开业，在歌剧院对面。",
+          "sources": [
+            {
+              "title": "Café de la Paix（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_la_Paix"
+            }
+          ]
+        },
+        {
+          "place_id": "cafe-des-deux-moulins",
+          "priority": "optional",
+          "weight": 2,
+          "look_for": [
+            "电影里主角工作的咖啡馆",
+            "附近的红磨坊和磨坊园"
+          ],
+          "why_here": "2001 年电影《天使爱美丽》里主角工作的咖啡馆。",
+          "sources": [
+            {
+              "title": "Café des 2 Moulins（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_des_2_Moulins"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Le Fabuleux Destin d'Amélie Poulain",
+      "kind": "film",
+      "creator": "Jean-Pierre Jeunet",
+      "year": 2001,
+      "note": "两个风车咖啡馆是主角工作的地方，看完再去吧台前坐一坐。",
+      "source": {
+        "title": "Amélie（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Am%C3%A9lie"
+      }
+    }
+  ],
+  "notes": [
+    "蓝色列车、普罗可布、圆顶中午和晚上都忙，建议订位；蓝色列车在里昂车站，离市中心较远。",
+    "双叟咖啡馆的开放时间来自 OpenStreetMap，和平咖啡馆的开放时间没有核对，出发前以各家官网为准。",
+    "红孩子市场 2026 年 10 月 12 日被大火烧毁，没有排进路线。"
+  ]
+}

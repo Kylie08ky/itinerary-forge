@@ -1,0 +1,235 @@
+{
+  "id": "history-thought-medieval-to-existentialism",
+  "name_zh": "历史与思想：从中世纪到存在主义",
+  "tagline": "一条线索看巴黎的思想史：权力、自由、怎样思考",
+  "track": "history",
+  "thesis": "巴黎的历史不是一排古迹，而是一场持续的争论：谁拥有权力、什么是自由、人该怎样思考——从中世纪的教堂到大革命，再到咖啡馆里的哲学。",
+  "base_theme": "museums",
+  "days": {
+    "min": 2,
+    "suggested": 3,
+    "max": 5
+  },
+  "chapters": [
+    {
+      "id": "medieval-revolution",
+      "title": "中世纪到大革命",
+      "story": "西岱岛是巴黎最早的中心。圣礼拜堂是路易九世为存放圣物建的，1238 至 1248 年建成；巴黎圣母院 1163 年开工，2019 年大火后修复，2024 年 12 月重新开放；古监狱在大革命期间关押过玛丽·安托瓦内特。往东，克吕尼博物馆保存着中世纪的巴黎，卡纳瓦莱博物馆则讲这座城市怎样一路走到今天。",
+      "sources": [
+        {
+          "title": "Sainte-Chapelle（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Sainte-Chapelle"
+        },
+        {
+          "title": "Notre-Dame de Paris（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"
+        },
+        {
+          "title": "Conciergerie（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Conciergerie"
+        }
+      ],
+      "stops": [
+        {
+          "place_id": "notre-dame",
+          "priority": "core",
+          "weight": 3,
+          "why_here": "巴黎的起点：外观修复后重新开放，内部需要另外预约。",
+          "sources": [
+            {
+              "title": "Notre-Dame de Paris（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"
+            }
+          ]
+        },
+        {
+          "place_id": "sainte-chapelle",
+          "priority": "core",
+          "weight": 5,
+          "why_here": "国王为存放圣物建的礼拜堂：中世纪王权和信仰的结合。",
+          "sources": [
+            {
+              "title": "Sainte-Chapelle（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Sainte-Chapelle"
+            }
+          ]
+        },
+        {
+          "place_id": "conciergerie",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "从王宫变成监狱：大革命时期王权怎样被推翻。",
+          "sources": [
+            {
+              "title": "Conciergerie（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Conciergerie"
+            }
+          ]
+        },
+        {
+          "place_id": "cluny",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "保存中世纪巴黎的博物馆：《贵妇与独角兽》挂毯和更早的罗马浴场遗址。",
+          "sources": [
+            {
+              "title": "Musée de Cluny（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny"
+            }
+          ]
+        },
+        {
+          "place_id": "carnavalet",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "整座城市的历史博物馆：把前面看过的点放进一条时间线。",
+          "sources": [
+            {
+              "title": "Musée Carnavalet（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Carnavalet"
+            }
+          ]
+        },
+        {
+          "place_id": "palais-royal",
+          "priority": "optional",
+          "weight": 2,
+          "why_here": "大革命前夜，这里的咖啡馆和花园是辩论和集会的地方。"
+        }
+      ]
+    },
+    {
+      "id": "enlightenment-latin",
+      "title": "启蒙与拉丁区",
+      "story": "先贤祠原是献给圣女热纳维耶芙的教堂，大革命时期的 1791 年改成安葬「伟人」的墓地，伏尔泰、卢梭、雨果、居里夫人都长眠在这里。周围的拉丁区是巴黎的学院区，莎士比亚书店在这里；卢森堡公园是学生和读书人常去的地方，适合在两站之间坐一会儿。",
+      "sources": [
+        {
+          "title": "Panthéon, Paris（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Panth%C3%A9on,_Paris"
+        },
+        {
+          "title": "Shakespeare and Company（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)"
+        }
+      ],
+      "stops": [
+        {
+          "place_id": "pantheon",
+          "priority": "core",
+          "weight": 5,
+          "why_here": "国家用来纪念思想家和科学家的地方：谁配得上「伟人」，本身就是一个思想史问题。",
+          "sources": [
+            {
+              "title": "Panthéon, Paris（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Panth%C3%A9on,_Paris"
+            }
+          ]
+        },
+        {
+          "place_id": "latin-quarter",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "学院、书店和街市聚在一起的街区：思想流动起来的地方。",
+          "sources": [
+            {
+              "title": "Shakespeare and Company（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)"
+            }
+          ]
+        },
+        {
+          "place_id": "luxembourg-garden",
+          "priority": "optional",
+          "weight": 2,
+          "why_here": "两站之间坐一会儿：读书人最爱的公园。"
+        }
+      ]
+    },
+    {
+      "id": "cafes-existentialism",
+      "title": "咖啡馆与存在主义",
+      "story": "20 世纪的巴黎，思想家常常在咖啡馆里工作。花神咖啡馆 1880 年代出现在第三共和国时期（确切的开业日期没有记载），1940 至 1950 年代，萨特、波伏娃、加缪这些思想家常在这里碰头；拉雪兹神父公墓 1804 年启用，王尔德、普鲁斯特、肖邦都葬在这里，是走完这条线索最安静的一站。",
+      "sources": [
+        {
+          "title": "Café de Flore（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Flore"
+        },
+        {
+          "title": "Père Lachaise Cemetery（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery"
+        }
+      ],
+      "stops": [
+        {
+          "place_id": "cafe-de-flore",
+          "priority": "core",
+          "weight": 5,
+          "why_here": "萨特和波伏娃常去的咖啡馆：存在主义不是在书房里写出来的，是在这样的地方聊出来的。",
+          "sources": [
+            {
+              "title": "Café de Flore（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Flore"
+            }
+          ]
+        },
+        {
+          "place_id": "pere-lachaise",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "思想家和艺术家的墓地：把一路看到的名字放在一起。",
+          "sources": [
+            {
+              "title": "Père Lachaise Cemetery（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery"
+            }
+          ]
+        },
+        {
+          "place_id": "invalides",
+          "priority": "optional",
+          "weight": 2,
+          "why_here": "拿破仑墓：另一种「历史怎样被纪念」。"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Notre-Dame de Paris",
+      "kind": "book",
+      "creator": "Victor Hugo",
+      "year": 1831,
+      "note": "雨果写的中世纪巴黎，也是当年呼吁保护这座教堂的小说。",
+      "source": {
+        "title": "The Hunchback of Notre-Dame（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame"
+      }
+    },
+    {
+      "title": "At the Existentialist Café",
+      "kind": "book",
+      "creator": "Sarah Bakewell",
+      "year": 2016,
+      "note": "讲萨特、波伏娃、加缪这一代人和存在主义怎样诞生，读起来像一群朋友的故事。",
+      "source": {
+        "title": "Sarah Bakewell（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Sarah_Bakewell"
+      }
+    },
+    {
+      "title": "A Moveable Feast",
+      "kind": "book",
+      "creator": "Ernest Hemingway",
+      "year": 1964,
+      "note": "海明威回忆 1920 年代在巴黎的日子，咖啡馆、书店和拉丁区都在里面。",
+      "source": {
+        "title": "A Moveable Feast（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/A_Moveable_Feast"
+      }
+    }
+  ],
+  "notes": [
+    "巴黎圣母院外观已重新开放，内部需要另外预约；圣礼拜堂和古监狱安检队伍长，建议预约时段票。",
+    "地点库里个别点的开放时间还没有逐个核对，出发前请以各家官网为准。"
+  ]
+}

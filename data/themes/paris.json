@@ -1,0 +1,869 @@
+{
+  "city": "paris",
+  "themes": [
+    {
+      "id": "art",
+      "name_zh": "艺术",
+      "tagline": "从古典大师到当代装置",
+      "description": "以大馆为主线：卢浮宫、奥赛、橘园，再加上当代艺术空间；馆与馆之间用公园和咖啡缓冲。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [
+          "morning",
+          "afternoon"
+        ],
+        "max_big_venues_per_day": 2,
+        "notes": "大馆放上午；两个大馆之间插一个公园或咖啡；严格避开周一（奥赛、罗丹等）和周二（卢浮宫、橘园等）闭馆日。"
+      },
+      "members": [
+        {
+          "place_id": "louvre",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "orsay",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "orangerie",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "rodin",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "fondation-louis-vuitton",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "picasso",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "bourse-de-commerce",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "marmottan",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "palais-de-tokyo",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "mam-paris",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "guimet",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "tuileries-garden",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "palais-royal",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "luxembourg-garden",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "montmartre-sacre-coeur",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "marais-walk",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "pont-des-arts",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "versailles",
+          "role": "anchor",
+          "weight": 4
+        }
+      ],
+      "tips": [
+        "卢浮宫要官网订时段票，旺季不订进不去",
+        "橘园和奥赛隔着塞纳河，步行约 12 分钟，可同半天",
+        "博物馆通票适合 4 个馆以上的行程"
+      ]
+    },
+    {
+      "id": "fashion",
+      "name_zh": "时尚",
+      "tagline": "高定、买手店、设计师博物馆",
+      "description": "把时尚当成一条线：设计师博物馆（迪奥、圣罗兰、加列拉）+ 奢侈品街区 + 左岸和玛黑区的买手店。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [
+          "afternoon"
+        ],
+        "max_big_venues_per_day": 2,
+        "notes": "上午放博物馆或小街区，下午逛街；周日只排仍营业的区域（玛黑区）；Galerie Dior 和 YSL 博物馆需提前订票。"
+      },
+      "members": [
+        {
+          "place_id": "galerie-dior",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "ysl-museum",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "palais-galliera",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "arts-decoratifs",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "avenue-montaigne",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "marais-boutiques",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "chanel-cambon",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "place-vendome",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "faubourg-saint-honore",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "st-germain-boutiques",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "puces-saint-ouen",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "galeries-lafayette-shopping",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "le-bon-marche",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "cafe-de-flore",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "angelina",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "laduree-champs",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "passage-des-panoramas",
+          "role": "support",
+          "weight": 2
+        }
+      ],
+      "tips": [
+        "迪奥与蒙田大道同一条街，放同一天",
+        "圣图安跳蚤市场主要周六至周一营业",
+        "加列拉宫只在有展览时开放，出发前查官网"
+      ]
+    },
+    {
+      "id": "shopping",
+      "name_zh": "购物",
+      "tagline": "百货、奥特莱斯、药妆",
+      "description": "实用扫货路线：老佛爷 + 春天百货可连逛，左岸有乐蓬马歇，奥特莱斯要单独半天以上。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [
+          "afternoon"
+        ],
+        "max_big_venues_per_day": 2,
+        "notes": "奥特莱斯（山谷购物村）单独占半天以上，可与迪士尼同线；百货日留足体力和行李空间；退税需带护照，满额才可办。"
+      },
+      "members": [
+        {
+          "place_id": "galeries-lafayette-shopping",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "printemps",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "le-bon-marche",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "la-samaritaine",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "vallee-village",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "citypharma",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "champs-elysees",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "marais-boutiques",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "puces-saint-ouen",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "lafayette-rooftop",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "rue-montorgueil",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "galerie-vivienne",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "passage-des-panoramas",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "angelina",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "laduree-champs",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "paris-alsace-christmas-market",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "paris-notre-dame-christmas-market",
+          "role": "support",
+          "weight": 3
+        }
+      ],
+      "tips": [
+        "老佛爷与春天百货隔着一条街，同一个下午逛完",
+        "非欧盟游客在同一家店满额可办退税，护照随身带",
+        "周日多数百货营业，但小店不一定"
+      ]
+    },
+    {
+      "id": "museums",
+      "name_zh": "博物馆",
+      "tagline": "把巴黎的博物馆逛透",
+      "description": "纯博物馆路线，覆盖大馆与小而精的专题馆；适合配合博物馆通票。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [
+          "morning",
+          "afternoon"
+        ],
+        "max_big_venues_per_day": 2,
+        "notes": "每天最多 2 个大馆；注意周一 / 周二闭馆；通票不含预约，卢浮宫仍要单独订时段。"
+      },
+      "members": [
+        {
+          "place_id": "louvre",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "orsay",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "orangerie",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "rodin",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "picasso",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "cluny",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "carnavalet",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "quai-branly",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "guimet",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "invalides",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "arts-decoratifs",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "grande-galerie-evolution",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "marmottan",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "tuileries-garden",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "luxembourg-garden",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "conciergerie",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "pantheon",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "versailles",
+          "role": "anchor",
+          "weight": 4
+        }
+      ],
+      "tips": [
+        "通常参观到第 4–6 个馆开始比单买划算",
+        "周一奥赛、罗丹、毕加索等闭馆；周二卢浮宫、橘园闭馆",
+        "荣军院与罗丹博物馆相邻，可同半天"
+      ]
+    },
+    {
+      "id": "entertainment",
+      "name_zh": "文娱",
+      "tagline": "歌舞秀、歌剧、爵士与夜游",
+      "description": "以夜晚为主：歌剧院、红磨坊、爵士地窖和塞纳河夜游；白天留给轻量项目。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [
+          "evening"
+        ],
+        "max_big_venues_per_day": 1,
+        "notes": "演出放晚间，注意结束时间和回程；白天只排 1 个轻量点；多数演出需提前订票。"
+      },
+      "members": [
+        {
+          "place_id": "palais-garnier",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "moulin-rouge",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "seine-cruise",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "lido",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "crazy-horse",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "caveau-huchette",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "philharmonie",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "grevin",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "eiffel-tower",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "montmartre-sacre-coeur",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "champs-elysees",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "tour-montparnasse",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "bir-hakeim",
+          "role": "support",
+          "weight": 2
+        }
+      ],
+      "tips": [
+        "红磨坊、丽都等热门场次提前 1–2 周订",
+        "晚场结束较晚，提前查回酒店的地铁末班",
+        "歌剧院白天可参观，晚上看演出需另订"
+      ]
+    },
+    {
+      "id": "family",
+      "name_zh": "亲子",
+      "tagline": "迪士尼与适合孩子的巴黎",
+      "description": "迪士尼单独占一天；其余日子选公园、科学馆、水族馆这类孩子能放开跑的地方，节奏放慢。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [
+          "morning"
+        ],
+        "max_big_venues_per_day": 1,
+        "notes": "迪士尼和山谷购物村这类郊区点必须整天；每天中午留午休；两个景点之间不要超过 30 分钟通勤。"
+      },
+      "members": [
+        {
+          "place_id": "disneyland-paris",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "jardin-dacclimatation",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "cite-des-sciences",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "grande-galerie-evolution",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "aquarium-paris",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "jardin-des-plantes",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "grevin",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "luxembourg-garden",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "tuileries-garden",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "eiffel-tower",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "seine-cruise",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "paris-alsace-christmas-market",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "paris-notre-dame-christmas-market",
+          "role": "support",
+          "weight": 3
+        }
+      ],
+      "tips": [
+        "迪士尼提前官网购票，RER A 直达",
+        "科学与工业城偏北，要预留大半天",
+        "下雨天可以换水族馆或蜡像馆"
+      ]
+    },
+    {
+      "id": "photography",
+      "name_zh": "摄影",
+      "tagline": "黄昏光线与出片机位",
+      "description": "围绕光线排：上午去蒙马特、圣礼拜堂这类光线好的地方，傍晚按当天日落时间去桥、夏乐宫和皇家宫殿；正午留给室内和拱廊街。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [
+          "golden_hour",
+          "morning"
+        ],
+        "max_big_venues_per_day": 2,
+        "notes": "热门机位放黄昏（按当天日落定时间：冬天下午 4 点多，夏天晚上 7 点多）；上午去光线好、人少的地方；正午安排室内（圣礼拜堂、拱廊街）；回程用地铁，别走太久。"
+      },
+      "members": [
+        {
+          "place_id": "trocadero",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "montmartre-sacre-coeur",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "palais-royal",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "pont-alexandre-iii",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "bir-hakeim",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "pont-des-arts",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "eiffel-tower",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "sainte-chapelle",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "passage-des-panoramas",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "canal-saint-martin",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "galerie-vivienne",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "lafayette-rooftop",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "tour-montparnasse",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "seine-cruise",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "rue-cler",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "orsay",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "place-des-vosges",
+          "role": "support",
+          "weight": 2
+        }
+      ],
+      "tips": [
+        "圣礼拜堂晴天上午彩窗光线最好",
+        "夏乐宫日出时人少、光好",
+        "铁塔整点亮灯 5 分钟，可在蒙帕纳斯大厦或比尔哈凯姆桥等"
+      ]
+    },
+    {
+      "id": "food",
+      "name_zh": "美食",
+      "tagline": "市集、咖啡馆与甜点",
+      "description": "按用餐节奏排：上午去市集，午餐在市集或小馆，下午茶和甜点；法式午餐 12–14 点，晚餐 19:30 后。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [
+          "morning",
+          "afternoon"
+        ],
+        "max_big_venues_per_day": 2,
+        "notes": "市集上午最热闹；热门店当天早点订；不要把两个甜点店排得太近，留消化时间。"
+      },
+      "members": [
+        {
+          "place_id": "rue-montorgueil",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "enfants-rouges",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "pierre-herme-st-germain",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "rue-mouffetard",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "rue-cler",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "cafe-de-flore",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "angelina",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "laduree-champs",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "marais-walk",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "latin-quarter",
+          "role": "anchor",
+          "weight": 2
+        },
+        {
+          "place_id": "palais-royal",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "canal-saint-martin",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "st-germain-boutiques",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "cafe-procope",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "la-coupole",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "le-train-bleu",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "les-deux-magots",
+          "role": "support",
+          "weight": 3
+        },
+        {
+          "place_id": "cafe-de-la-paix",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "cafe-des-deux-moulins",
+          "role": "support",
+          "weight": 2
+        }
+      ],
+      "tips": [
+        "红孩子市场周一不开",
+        "花神、天使之家下午茶时段常排队",
+        "蒙托格伊市集街步行即可连着逛"
+      ]
+    }
+  ]
+}

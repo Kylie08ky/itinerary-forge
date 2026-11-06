@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>{{ dest }} · {{ days|length }} 天行程</title>
+<style>
+  @page { size: A4; margin: 15mm 14mm; }
+  * { box-sizing: border-box; }
+  body {
+    font: 13px/1.65 "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Hiragino Sans GB", system-ui, sans-serif;
+    color: #1e1c19; margin: 0;
+  }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .meta { color: #55514b; font-size: 12.5px; margin-bottom: 4px; }
+  .qa { font-size: 12px; color: #8a5a00; background: #f6e9cf; display: inline-block;
+        padding: 2px 8px; border-radius: 5px; margin-top: 6px; }
+  .qa.clean { color: #2f6b3f; background: #e0ede1; }
+  hr { border: 0; border-top: 1px solid #e3e0d9; margin: 14px 0; }
+
+  .cover { margin: 6px 0 14px; }
+  .stats { display: flex; gap: 10px; margin: 12px 0; }
+  .stat { flex: 1; background: #f0efeb; border-radius: 8px; padding: 8px 10px; }
+  .stat b { display: block; font-size: 20px; color: #b3541e; line-height: 1.2; }
+  .stat span { font-size: 11.5px; color: #55514b; }
+  .unresolved { background: #f5ddd8; color: #a12b1e; border-radius: 6px; padding: 6px 10px; font-size: 12.5px; margin: 8px 0; }
+  .routemap svg { width: 100%; height: auto; display: block; }
+  .legend { margin-top: 8px; font-size: 11.5px; line-height: 1.6; }
+  .legend .lg { display: block; margin-bottom: 3px; }
+  .legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; }
+  .legend .names { color: #6b665e; }
+  .page-break { break-before: page; }
+  .day { margin-bottom: 18px; break-inside: avoid; }
+  .day h2 { font-size: 15px; margin: 0 0 2px; }
+  .day .theme { color: #b3541e; font-size: 12.5px; margin-bottom: 8px; }
+  .day .chapter { font-weight: 700; font-size: 12.5px; color: #b3541e; margin-bottom: 2px; }
+  .day .guide { background: #f6f1ea; border-radius: 6px; padding: 8px 10px; margin-bottom: 8px; font-size: 12px; line-height: 1.7; color: #4a443c; }
+  .day .guide p { margin: 0 0 4px; }
+  .hl.look { color: #8a4b1a; }
+  .hl.story { color: #3f5a8a; }
+  .day .weather { font-size: 12px; color: #44566c; background: #eef2f7; border-radius: 6px; padding: 3px 9px; margin: -2px 0 8px; display: inline-block; }
+  .budget .sum td { border-top: 2px solid #c9c2b4; }
+  .day .day-note { font-size: 12.5px; background: #fbf4e2; border-left: 3px solid #c9a24a; border-radius: 4px; padding: 6px 10px; margin: 0 0 8px; white-space: pre-wrap; }
+  .day .weather.rainy { background: #dfe8f5; color: #1f3d66; font-weight: 600; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  {% if image %}
+  /* 长图：手机竖屏宽度、不分页 */
+  body { max-width: 760px; margin: 0 auto; padding: 28px 26px 40px; background: #fff; }
+  .day { break-inside: auto; }
+  {% endif %}
+  th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid #ece9e2; }
+  th { background: #f0efeb; font-weight: 600; white-space: nowrap; }
+  td.t { white-space: nowrap; font-weight: 600; color: #55514b; }
+  .tag { font-size: 10.5px; padding: 1px 6px; border-radius: 999px; background: #f0efeb; color: #6b665e; }
+  .tag.book { background: #f6e9cf; color: #8a5a00; font-weight: 700; }
+  .note { color: #6b665e; }
+  .item-note { font-size: 12px; background: #fbf4e2; border-left: 3px solid #c9a24a; border-radius: 4px; padding: 3px 8px; margin-top: 4px; white-space: pre-wrap; }
+  .hl { color: #55514b; font-size: 11px; margin-top: 3px; }
+  .thumb { float: left; width: 104px; height: 72px; object-fit: cover; border-radius: 6px; margin: 0 10px 6px 0; }
+  .hl.intro { color: #6b665e; }
+  .hl.res { color: #8a5a00; font-weight: 600; }
+  .hl.res.booked { color: #2f6b3f; }
+  a { color: #b3541e; }
+
+  section.panel { margin-top: 16px; break-inside: avoid; }
+  section.panel h2 { font-size: 15px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 5px; }
+  .foot { margin-top: 22px; color: #9a938a; font-size: 11px; }
+</style>
+</head>
+<body>
+  <h1>{{ dest }} · {{ days|length }} 天个性化行程</h1>
+  <div class="meta">{{ date_start }} → {{ date_end }}{% if profile %} · {{ profile }}{% endif %} · 版本 {{ version }}</div>
+  {% if qa %}<div class="qa {{ 'clean' if qa.clean else '' }}">质检：{{ qa.text }}</div>{% endif %}
+  <section class="cover">
+    <div class="stats">
+      <div class="stat"><b>{{ stats.days }}</b><span>天</span></div>
+      <div class="stat"><b>{{ stats.places }}</b><span>个地点</span></div>
+      <div class="stat"><b>{{ stats.distance_km }}</b><span>公里（按顺序的直线距离累计，实际步行 / 通勤更长）</span></div>
+      <div class="stat"><b>{% if stats.ticket_eur is none %}待补{% else %}€{{ "%.0f"|format(stats.ticket_eur) }}{% endif %}</b><span>门票合计（仅地点库里有票价的点，不含餐饮和交通）</span></div>
+    </div>
+    {% if unresolved %}<div class="unresolved">含 {{ unresolved }} 个未处理问题，出发前请先在行程页查看质检结果。</div>{% endif %}
+    {% if city_maps %}
+    {% for c in city_maps %}{% if c.map_svg %}
+    <h3 class="city-map-title" style="font-size:14px;margin:14px 0 6px">{{ c.title }}</h3>
+    <div class="routemap">{{ c.map_svg | safe }}</div>
+    <div class="legend">
+      {% for l in c.legend %}<span class="lg"><span class="sw" style="background:{{ l.color }}"></span><b>第 {{ l.n }} 天</b> · {{ l.km }} 公里 <span class="names">{{ l.names | join(" → ") }}</span></span>{% endfor %}
+    </div>
+    {% endif %}{% endfor %}
+    <div class="hl">路线图每座城市一张，线是按顺序连的直线、不是实际路线，圆点里的数字是当天在这座城市的第几站。</div>
+    {% elif map_svg %}
+    <div class="routemap">{{ map_svg | safe }}</div>
+    <div class="legend">
+      {% for l in legend %}<span class="lg"><span class="sw" style="background:{{ l.color }}"></span><b>第 {{ l.n }} 天</b> · {{ l.km }} 公里 <span class="names">{{ l.names | join(" → ") }}</span></span>{% endfor %}
+    </div>
+    <div class="hl">路线图里的线是按顺序连的直线、不是实际路线，圆点里的数字是当天的第几站。</div>
+    {% endif %}
+  </section>
+
+  {% for d in days %}
+  <div class="day{% if page_per_day %} page-break{% endif %}">
+    <h2>第 {{ loop.index }} 天 · {{ d.date }}（周{{ d.weekday }}）</h2>
+    {% if d.chapter %}<div class="chapter">{{ d.chapter }}</div>{% endif %}
+    <div class="theme">{{ d.theme }}</div>
+    {% if d.guide %}<div class="guide">{% for p in d.guide %}<p>{{ p }}</p>{% endfor %}</div>{% endif %}
+    {% if d.note %}<div class="day-note">备注：{{ d.note }}</div>{% endif %}
+    {% if d.weather %}<div class="weather{% if d.weather_rainy %} rainy{% endif %}">天气：{{ d.weather }}</div>{% endif %}
+    <table>
+      <thead><tr><th>时间</th><th>安排</th><th>时长</th><th>交通</th><th>备注</th></tr></thead>
+      <tbody>
+      {% for it in d['items'] %}
+        <tr>
+          <td class="t">{{ it.time }}</td>
+          <td>{% if it.photo and it.photo.src %}<img class="thumb" src="{{ it.photo.src }}" alt="{{ it.title }}">{% endif %}{{ it.title }}{% if it.title_local %} · {{ it.title_local }}{% endif %}
+            <span class="tag">{{ it.type_zh }}</span>
+            {% if it.booking_required %}<span class="tag book">需预约</span>{% endif %}
+            {% if it.url %}· <a href="{{ it.url }}">官网购票</a>{% endif %}{% if it.address %}<div class="hl">地址：{{ it.address }}</div>{% endif %}
+            {% if it.highlights %}<div class="hl">参观重点：{{ it.highlights | join("；") }}</div>{% endif %}
+            {% if it.why_here %}<div class="hl look">{{ it.why_here }}</div>{% endif %}{% if it.look_for %}<div class="hl look">这一站看什么：{{ it.look_for | join("；") }}</div>{% endif %}
+            {% for line in it.stories %}<div class="hl story">这里的故事：{{ line }}</div>{% endfor %}
+            {% if it.photo and it.photo.intro %}<div class="hl intro">{{ it.photo.intro }}</div>{% endif %}
+            {% if it.photo %}<div class="hl credit" style="font-size:9.5px;color:#9a938a;clear:both">{% if it.photo.credit %}{{ it.photo.credit }}{% endif %}{% if it.photo.credit and it.photo.intro_credit %}　{% endif %}{% if it.photo.intro_credit %}{{ it.photo.intro_credit }}{% endif %}</div>{% endif %}
+            {% if it.user_note %}<div class="item-note">备注：{{ it.user_note }}</div>{% endif %}
+          </td>
+          <td class="t">{{ it.duration }}</td>
+          <td>{{ it.transport or "—" }}</td>
+          <td class="note">{{ it.notes or "" }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endfor %}
+
+  {% if booking %}
+  <section class="panel">
+    <h2>购票清单</h2>
+    {% for title, rows in ticket_groups %}{% if rows %}
+    <h3>{{ title }}</h3>
+    <ul>
+    {% for b in rows %}
+      <li><b>{{ b.title }}</b> — {{ b.reason }}{% if b.deadline_hint %}（{{ b.deadline_hint }}）{% endif %}{% if b.url %} · <a href="{{ b.url }}">官网购票</a>{% endif %}{% if b.note %}<div class="hl">购票提示：{{ b.note }}</div>{% endif %}{% if b.res_text %}<div class="hl res{% if b.res_text.startswith('已订') %} booked{% endif %}">预订：{{ b.res_text }}</div>{% endif %}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}{% endfor %}
+  </section>
+  {% endif %}
+
+  {% if budget %}
+  <section class="panel budget">
+    <h2>费用估算</h2>
+    <div class="hl">出行人：{{ budget.party }}</div>
+    <table>
+      <thead><tr><th>项目</th><th>人均</th><th>总计（{{ budget.travelers }} 人）</th><th>来源</th></tr></thead>
+      <tbody>
+      {% for r in budget.rows %}<tr><td>{{ r.label }}</td><td>{{ r.person }}</td><td>{{ r.total }}</td><td>{{ r.note }}</td></tr>{% endfor %}
+      <tr class="sum"><td><b>合计</b></td><td><b>{{ budget.total_person }}</b></td><td><b>{{ budget.total_total }}</b></td><td></td></tr>
+      </tbody>
+    </table>
+    {% if budget.cap %}<div class="hl">{{ budget.cap }}</div>{% endif %}
+    {% if budget.rate %}<div class="hl">{{ budget.rate }}</div>{% endif %}
+    {% for d in budget.discounts %}<div class="hl">{{ d }}</div>{% endfor %}
+    {% for n in budget.notes %}<div class="hl">{{ n }}</div>{% endfor %}
+  </section>
+  {% endif %}
+
+  {% if route and route.reading %}
+  <section class="panel">
+    <h2>延伸阅读 / 观影（{{ route.name_zh }}）</h2>
+    <ul>{% for r in route.reading %}<li>{{ r.title }} · {{ r.creator }}，{{ r.year }}：{{ r.note }}</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+
+  {% if risks %}
+  <section class="panel">
+    <h2>风险提醒</h2>
+    <ul>{% for r in risks %}<li>{{ r }}</li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+
+  <div class="foot">由 AI Travel Planner Agent 生成 · 出发前请以各景点官网信息为准</div>
+</body>
+</html>

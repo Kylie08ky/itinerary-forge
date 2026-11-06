@@ -1,0 +1,13 @@
+路线：{{ route }}
+主线：{{ thesis }}
+
+{% for d in days -%}
+## {{ d.date }}（{{ d.label }}）
+{% for c in d.chapters -%}
+{% if c.story %}章节故事「{{ c.title }}」：{{ c.story }}{% else %}（接着前一天的「{{ c.title }}」）{% endif %}
+{% endfor -%}
+{% for s in d.stops -%}
+- {{ s.name }}｜看什么：{{ s.look_for | join("；") or "（无）" }}｜为什么在这条线上：{{ s.why_here or "（无）" }}
+{% endfor %}
+{% endfor -%}
+请按规则输出 JSON。

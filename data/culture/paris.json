@@ -1,0 +1,286 @@
+{
+  "city": "paris",
+  "works": [
+    {
+      "id": "midnight-in-paris",
+      "kind": "film",
+      "title": "Midnight in Paris",
+      "title_zh": "午夜巴黎",
+      "creator": "Woody Allen",
+      "year": 2011,
+      "summary": "一位美国编剧在巴黎的午夜走进 1920 年代，遇见海明威、毕加索这些人：想先感受艺术家眼中的巴黎，可以先看它。",
+      "sees": [
+        {
+          "place_id": "pont-alexandre-iii",
+          "note": "维基百科列出的拍摄地之一。"
+        },
+        {
+          "place_id": "versailles",
+          "note": "拍摄地之一：凡尔赛宫。"
+        },
+        {
+          "place_id": "montmartre-sacre-coeur",
+          "note": "拍摄地之一：蒙马特和圣心大教堂。"
+        },
+        {
+          "place_id": "pantheon",
+          "note": "拍摄地点包括先贤祠附近的街道。"
+        },
+        {
+          "place_id": "notre-dame",
+          "note": "拍摄地点包括圣母院附近的约翰二十三世广场。"
+        },
+        {
+          "place_id": "moulin-rouge",
+          "note": "剧情里主角被带回美好年代，在红磨坊遇见图卢兹-劳特雷克、高更和德加。"
+        }
+      ],
+      "source": {
+        "title": "Midnight in Paris（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Midnight_in_Paris",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q206124",
+      "popularity": 54
+    },
+    {
+      "id": "amelie",
+      "kind": "film",
+      "title": "Amélie",
+      "title_zh": "天使爱美丽",
+      "creator": "Jean-Pierre Jeunet",
+      "year": 2001,
+      "summary": "一部以蒙马特为背景的轻喜剧：害羞的女服务员爱米丽决定悄悄改变身边人的生活。",
+      "sees": [
+        {
+          "place_id": "montmartre-sacre-coeur",
+          "note": "整部电影设定在蒙马特，爱米丽工作的咖啡馆也在这一带。"
+        },
+        {
+          "place_id": "canal-saint-martin",
+          "note": "片中爱米丽在圣马丁运河边打水漂。"
+        }
+      ],
+      "source": {
+        "title": "Amélie（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Am%C3%A9lie",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q484048",
+      "popularity": 64
+    },
+    {
+      "id": "moulin-rouge",
+      "kind": "film",
+      "title": "Moulin Rouge!",
+      "title_zh": "红磨坊",
+      "creator": "Baz Luhrmann",
+      "year": 2001,
+      "summary": "巴兹·鲁赫曼拍的歌舞爱情片，围绕红磨坊的明星舞女展开，想先感受蒙马特夜生活的华丽，可以看它。",
+      "sees": [
+        {
+          "place_id": "moulin-rouge",
+          "note": "故事围绕红磨坊歌舞厅和它的明星舞女展开。"
+        },
+        {
+          "place_id": "montmartre-sacre-coeur",
+          "note": "影片设定在巴黎的蒙马特区。"
+        }
+      ],
+      "source": {
+        "title": "Moulin Rouge!（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Moulin_Rouge!",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q193573",
+      "popularity": 51
+    },
+    {
+      "id": "breathless",
+      "kind": "film",
+      "title": "À bout de souffle",
+      "title_zh": "精疲力尽",
+      "creator": "Jean-Luc Godard",
+      "year": 1960,
+      "summary": "法国新浪潮的代表作：片中用了真实的巴黎街景，不是搭出来的布景。",
+      "sees": [
+        {
+          "place_id": "champs-elysees",
+          "note": "女主角帕特里夏在香榭丽舍大街上卖《纽约先驱论坛报》。"
+        }
+      ],
+      "source": {
+        "title": "Breathless (1960 film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Breathless_(1960_film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q86427",
+      "popularity": 45
+    },
+    {
+      "id": "marie-antoinette",
+      "kind": "film",
+      "title": "Marie Antoinette",
+      "title_zh": "玛丽·安托瓦内特",
+      "creator": "Sofia Coppola",
+      "year": 2006,
+      "summary": "索菲亚·科波拉拍的玛丽·安托瓦内特传记片：想先看看凡尔赛宫里的宫廷生活是什么样，可以看它。",
+      "sees": [
+        {
+          "place_id": "versailles",
+          "note": "剧情里的婚礼和宫廷生活都发生在凡尔赛宫，剧组获得了进入宫内拍摄的许可。"
+        }
+      ],
+      "source": {
+        "title": "Marie Antoinette (2006 film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Marie_Antoinette_(2006_film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q829695",
+      "popularity": 37
+    },
+    {
+      "id": "eiffel",
+      "kind": "film",
+      "title": "Eiffel",
+      "creator": "Martin Bourboulon",
+      "year": 2021,
+      "summary": "讲铁塔设计者古斯塔夫·埃菲尔的故事：想知道这座铁塔当年是怎么被造出来的，可以先看它。",
+      "sees": [
+        {
+          "place_id": "eiffel-tower",
+          "note": "影片以 1889 年埃菲尔坐在刚建成的铁塔顶端办公室里开场。"
+        }
+      ],
+      "source": {
+        "title": "Eiffel (film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Eiffel_(film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q97164958",
+      "popularity": 22
+    },
+    {
+      "id": "a-moveable-feast",
+      "kind": "book",
+      "title": "A Moveable Feast",
+      "title_zh": "流动的飨宴",
+      "creator": "Ernest Hemingway",
+      "year": 1964,
+      "summary": "海明威回忆 1920 年代在巴黎做穷作家的日子，咖啡馆、书店和圣米歇尔广场都在里面。",
+      "sees": [
+        {
+          "place_id": "latin-quarter",
+          "note": "书里有一章专写莎士比亚书店和店主西尔维娅·比奇，另一章写圣米歇尔广场边的咖啡馆。"
+        }
+      ],
+      "source": {
+        "title": "A Moveable Feast（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/A_Moveable_Feast",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q2052363",
+      "popularity": 24
+    },
+    {
+      "id": "hunchback",
+      "kind": "book",
+      "title": "Notre-Dame de Paris",
+      "title_zh": "巴黎圣母院",
+      "creator": "Victor Hugo",
+      "year": 1831,
+      "summary": "雨果写的中世纪巴黎，原名就叫《巴黎圣母院》，故事围绕这座教堂展开。",
+      "sees": [
+        {
+          "place_id": "notre-dame",
+          "note": "整个故事的舞台，书名就是这座教堂。"
+        }
+      ],
+      "source": {
+        "title": "The Hunchback of Notre-Dame（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q191380",
+      "popularity": 64
+    },
+    {
+      "id": "phantom-of-the-opera",
+      "kind": "book",
+      "title": "Le Fantôme de l'Opéra",
+      "title_zh": "歌剧魅影",
+      "creator": "Gaston Leroux",
+      "year": 1910,
+      "summary": "加斯东·勒鲁写的哥特小说，就是后来音乐剧《歌剧魅影》的原著。",
+      "sees": [
+        {
+          "place_id": "palais-garnier",
+          "note": "故事的舞台就是真实存在的巴黎歌剧院——加尼叶宫。"
+        }
+      ],
+      "source": {
+        "title": "The Phantom of the Opera (novel)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(novel)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q272506",
+      "popularity": 44
+    },
+    {
+      "id": "down-and-out",
+      "kind": "book",
+      "title": "Down and Out in Paris and London",
+      "title_zh": "巴黎伦敦落魄记",
+      "creator": "George Orwell",
+      "year": 1933,
+      "summary": "奥威尔的第一本书，写他在巴黎和伦敦穷困潦倒的日子：看一个没有游客滤镜的、1928 年前后的巴黎。",
+      "sees": [
+        {
+          "place_id": "latin-quarter",
+          "note": "1928 年春天奥威尔搬到巴黎，住在拉丁区。"
+        },
+        {
+          "place_id": "concorde",
+          "note": "书里他在协和广场附近的「Hôtel X」当洗碗工。"
+        }
+      ],
+      "source": {
+        "title": "Down and Out in Paris and London（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Down_and_Out_in_Paris_and_London",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q1355487",
+      "popularity": 24
+    },
+    {
+      "id": "les-miserables",
+      "kind": "book",
+      "title": "Les Misérables",
+      "title_zh": "悲惨世界",
+      "creator": "Victor Hugo",
+      "year": 1862,
+      "summary": "雨果 1862 年出版的长篇小说，是 19 世纪巴黎社会的一幅全景。",
+      "sees": [
+        {
+          "place_id": "luxembourg-garden",
+          "note": "加弗洛什的两个小弟弟在卢森堡公园的喷泉边捡人家扔给鹅的面包。"
+        },
+        {
+          "place_id": "pere-lachaise",
+          "note": "冉阿让最后葬在拉雪兹神父公墓，墓碑是一块空白石板。"
+        },
+        {
+          "place_id": "conciergerie",
+          "note": "雨果写作前，1846 年亲自去古监狱考察过。"
+        }
+      ],
+      "source": {
+        "title": "Les Misérables（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q180736",
+      "popularity": 74
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "id": "persona-02-family-relaxed",
+    "label": "带娃家庭 · 巴黎轻松 3 天",
+    "note": "低强度、拒绝早起、需要缓冲。用来验证节奏密度规则和 restrictions 生效。故意不填 hotel_area，用来验证缺失字段追问。"
+  },
+  "destination": "Paris",
+  "start_date": "2026-10-10",
+  "end_date": "2026-10-12",
+  "arrival_time": "2026-10-10 14:00",
+  "departure_time": "2026-10-12 12:00",
+  "budget_level": "low",
+  "travel_style": "relaxed",
+  "interests": ["landmark", "park", "food"],
+  "restrictions": ["no early morning", "stroller friendly"],
+  "must_go": ["Eiffel Tower"],
+  "avoid": ["long museum queues"],
+  "language": "zh-CN"
+}

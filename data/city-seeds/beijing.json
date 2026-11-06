@@ -1,0 +1,34 @@
+{
+  "id": "beijing",
+  "name_zh": "北京",
+  "name_en": "Beijing",
+  "qid": "Q956",
+  "center": [39.9087, 116.3975],
+  "radius_km": 30,
+  "min_links": 10,
+  "top_n": 40,
+  "bbox": {"lat": [39.65, 40.15], "lng": [116.05, 116.75]},
+  "timezone": "Asia/Shanghai",
+  "aliases": ["beijing", "北京", "北京市", "peking"],
+  "suggested_days": {"min": 4, "max": 6, "quality_max": 8, "note": "开放数据草稿：点是按名气自动选的，价格、预约、部分闭馆日待核对；故宫、长城这类要提前订票的，出发前请到官网确认"},
+  "include": [
+    {"qid": "Q798826", "name": "八达岭长城", "category": "sight", "setting": "outdoor", "minutes": 240, "theme": "heritage"},
+    {"qid": "Q212610", "name": "慕田峪长城", "category": "sight", "setting": "outdoor", "minutes": 240, "theme": "heritage"},
+    {"qid": "Q41135", "name": "明十三陵", "category": "sight", "setting": "outdoor", "minutes": 180, "theme": "heritage"},
+    {"qid": "Q9529545", "name": "南锣鼓巷", "category": "sight", "setting": "outdoor", "minutes": 60, "theme": "district", "open_access": true},
+    {"qid": "Q10899082", "name": "前门大街", "category": "sight", "setting": "outdoor", "minutes": 60, "theme": "district", "open_access": true},
+    {"qid": "Q2791717", "name": "大栅栏", "category": "sight", "setting": "outdoor", "minutes": 60, "theme": "district", "open_access": true},
+    {"qid": "Q15909595", "name": "杨梅竹斜街", "category": "sight", "setting": "outdoor", "minutes": 45, "theme": "district", "open_access": true},
+    {"qid": "Q1009423", "name": "王府井", "category": "shopping", "setting": "outdoor", "minutes": 75, "theme": "district", "open_access": true},
+    {"qid": "Q1203470", "name": "798艺术区", "category": "sight", "setting": "mixed", "minutes": 120, "theme": "museum", "open_access": true},
+    {"qid": "Q133525", "name": "国家体育场（鸟巢）", "category": "sight", "setting": "outdoor", "minutes": 45, "theme": "heritage"},
+    {"qid": "Q244877", "name": "国家游泳中心（水立方）", "category": "sight", "setting": "outdoor", "minutes": 45, "theme": "heritage"},
+    {"qid": "Q860188", "name": "国家大剧院", "category": "entertainment", "setting": "indoor", "minutes": 90, "theme": "museum"},
+    {"qid": "Q718582", "name": "北京国子监", "category": "sight", "setting": "mixed", "minutes": 60, "theme": "heritage"},
+    {"qid": "Q341718", "name": "先农坛", "category": "sight", "setting": "mixed", "minutes": 60, "theme": "heritage"}
+  ],
+  "exclude": [
+    {"qid": "Q197889", "why": "中南海：中央机关所在地，不对游客开放"},
+    {"qid": "Q1504916", "why": "古脊椎动物与古人类研究所：科研机构，不是游客景点"}
+  ]
+}

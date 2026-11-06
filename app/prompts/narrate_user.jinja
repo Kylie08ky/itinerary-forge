@@ -1,0 +1,9 @@
+主题：{{ theme }}
+
+{% for d in days -%}
+## {{ d.date }}（当前标题：{{ d.theme }}）
+{% for p in d.places -%}
+- id={{ p.id }}｜{{ p.name }}｜已知看点：{{ p.highlights | join("、") or "（无）" }}
+{% endfor %}
+{% endfor -%}
+请按规则输出 JSON。

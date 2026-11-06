@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Project outputs
+**/samples/generated/
+**/data/plans/
+**/*.local.*
+
+# 现建的城市数据（自动产物，规格 10）
+data/generated/
+
+# 导出用的 OpenStreetMap 瓦片缓存
+data/tile-cache/
+
+# Public snapshot hygiene
+.env
+.env.*
+!.env.example
+.claude/
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+*.log
+
+.pytest_cache/
+.pytest-publication-*/
+.ruff_cache/
+web/dist/

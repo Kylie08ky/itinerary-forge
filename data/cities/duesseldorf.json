@@ -1,0 +1,45 @@
+{
+  "id": "duesseldorf",
+  "name_zh": "杜塞尔多夫",
+  "name_en": "Düsseldorf",
+  "local_language": "de",
+  "aliases": [
+    "duesseldorf",
+    "dusseldorf",
+    "düsseldorf",
+    "杜塞尔多夫"
+  ],
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    51.2256,
+    6.7767
+  ],
+  "bbox": {
+    "lat": [
+      51.1856,
+      51.2656
+    ],
+    "lng": [
+      6.7167,
+      6.8367
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "duesseldorf-rheinturm",
+    "duesseldorf-museum-kunstpalast",
+    "duesseldorf-kunsthalle-dusseldorf"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "nl-be-grenzland"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "koeln",
+  "name_zh": "科隆",
+  "name_en": "Köln",
+  "local_language": "de",
+  "aliases": [
+    "koeln",
+    "koln",
+    "köln",
+    "科隆"
+  ],
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    50.9422,
+    6.9578
+  ],
+  "bbox": {
+    "lat": [
+      50.9022,
+      50.9822
+    ],
+    "lng": [
+      6.8978,
+      7.0178
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "koeln-kolner-dom",
+    "koeln-hohenzollernbrucke",
+    "koeln-wallraf-richartz-museum-fondation-corboud"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "nl-be-grenzland"
+}

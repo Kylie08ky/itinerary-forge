@@ -1,0 +1,861 @@
+{
+ "itineraries": [
+  {
+   "duration": 5940,
+   "startTime": "2026-12-12T08:02:00Z",
+   "endTime": "2026-12-12T09:41:00Z",
+   "transfers": 1,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T08:02:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T08:05:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U6",
+     "displayName": "U6",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T08:05:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T08:06:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T08:06:00Z",
+      "arrival": "2026-12-12T08:06:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "arrival": "2026-12-12T08:10:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 9576",
+     "displayName": "ICE 9576",
+     "duration": 5400,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "departure": "2026-12-12T08:10:00Z"
+     },
+     "to": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "arrival": "2026-12-12T09:40:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "departure": "2026-12-12T09:40:00Z",
+      "arrival": "2026-12-12T09:40:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 48.585,
+      "lon": 7.734,
+      "arrival": "2026-12-12T09:41:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 6060,
+   "startTime": "2026-12-12T08:03:00Z",
+   "endTime": "2026-12-12T09:44:00Z",
+   "transfers": 1,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T08:03:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T08:06:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U7",
+     "displayName": "U7",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T08:06:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T08:07:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T08:07:00Z",
+      "arrival": "2026-12-12T08:07:00Z"
+     },
+     "to": {
+      "name": "Stuttgart Hbf",
+      "lat": 48.7846,
+      "lon": 9.1837,
+      "arrival": "2026-12-12T08:10:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 9576",
+     "displayName": "ICE 9576",
+     "duration": 5400,
+     "from": {
+      "name": "Stuttgart Hbf",
+      "lat": 48.7846,
+      "lon": 9.1837,
+      "departure": "2026-12-12T08:10:00Z"
+     },
+     "to": {
+      "name": "Strasbourg",
+      "lat": 48.58511000000001,
+      "lon": 7.733882,
+      "arrival": "2026-12-12T09:40:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Strasbourg",
+      "lat": 48.58511000000001,
+      "lon": 7.733882,
+      "departure": "2026-12-12T09:40:00Z",
+      "arrival": "2026-12-12T09:40:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 48.585,
+      "lon": 7.734,
+      "arrival": "2026-12-12T09:44:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 5880,
+   "startTime": "2026-12-12T08:03:00Z",
+   "endTime": "2026-12-12T09:41:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T08:03:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T08:06:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U7",
+     "displayName": "U7",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T08:06:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T08:07:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T08:07:00Z",
+      "arrival": "2026-12-12T08:07:00Z"
+     },
+     "to": {
+      "name": "Stuttgart Hbf",
+      "lat": 48.7846,
+      "lon": 9.1837,
+      "arrival": "2026-12-12T08:10:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 9576",
+     "displayName": "ICE 9576",
+     "duration": 2460,
+     "from": {
+      "name": "Stuttgart Hbf",
+      "lat": 48.7846,
+      "lon": 9.1837,
+      "departure": "2026-12-12T08:10:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hbf",
+      "lat": 48.993500000000004,
+      "lon": 8.4019,
+      "arrival": "2026-12-12T08:51:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Karlsruhe Hbf",
+      "lat": 48.993500000000004,
+      "lon": 8.4019,
+      "departure": "2026-12-12T08:51:00Z",
+      "arrival": "2026-12-12T08:51:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993320000000004,
+      "lon": 8.401394999999999,
+      "arrival": "2026-12-12T08:53:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 9576",
+     "displayName": "ICE 9576",
+     "duration": 2820,
+     "from": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993320000000004,
+      "lon": 8.401394999999999,
+      "departure": "2026-12-12T08:53:00Z"
+     },
+     "to": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "arrival": "2026-12-12T09:40:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "departure": "2026-12-12T09:40:00Z",
+      "arrival": "2026-12-12T09:40:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 48.585,
+      "lon": 7.734,
+      "arrival": "2026-12-12T09:41:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 6180,
+   "startTime": "2026-12-12T09:37:00Z",
+   "endTime": "2026-12-12T11:20:00Z",
+   "transfers": 0,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 900,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T09:37:00Z"
+     },
+     "to": {
+      "name": "Stuttgart Hbf",
+      "lat": 48.7846,
+      "lon": 9.1837,
+      "arrival": "2026-12-12T09:52:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 9584",
+     "displayName": "ICE 9584",
+     "duration": 5040,
+     "from": {
+      "name": "Stuttgart Hbf",
+      "lat": 48.7846,
+      "lon": 9.1837,
+      "departure": "2026-12-12T09:52:00Z"
+     },
+     "to": {
+      "name": "Strasbourg",
+      "lat": 48.58511000000001,
+      "lon": 7.733882,
+      "arrival": "2026-12-12T11:16:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Strasbourg",
+      "lat": 48.58511000000001,
+      "lon": 7.733882,
+      "departure": "2026-12-12T11:16:00Z",
+      "arrival": "2026-12-12T11:16:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 48.585,
+      "lon": 7.734,
+      "arrival": "2026-12-12T11:20:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 5640,
+   "startTime": "2026-12-12T09:43:00Z",
+   "endTime": "2026-12-12T11:17:00Z",
+   "transfers": 1,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T09:43:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T09:46:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U15",
+     "displayName": "U15",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T09:46:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T09:47:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T09:47:00Z",
+      "arrival": "2026-12-12T09:47:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785484,
+      "lon": 9.182579,
+      "arrival": "2026-12-12T09:51:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 9584",
+     "displayName": "ICE 9584",
+     "duration": 5040,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785484,
+      "lon": 9.182579,
+      "departure": "2026-12-12T09:52:00Z"
+     },
+     "to": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "arrival": "2026-12-12T11:16:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "departure": "2026-12-12T11:16:00Z",
+      "arrival": "2026-12-12T11:16:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 48.585,
+      "lon": 7.734,
+      "arrival": "2026-12-12T11:17:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 5700,
+   "startTime": "2026-12-12T09:45:00Z",
+   "endTime": "2026-12-12T11:20:00Z",
+   "transfers": 1,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T09:45:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T09:48:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U6",
+     "displayName": "U6",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T09:48:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T09:49:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T09:49:00Z",
+      "arrival": "2026-12-12T09:49:00Z"
+     },
+     "to": {
+      "name": "Stuttgart Hbf",
+      "lat": 48.7846,
+      "lon": 9.1837,
+      "arrival": "2026-12-12T09:52:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 9584",
+     "displayName": "ICE 9584",
+     "duration": 5040,
+     "from": {
+      "name": "Stuttgart Hbf",
+      "lat": 48.7846,
+      "lon": 9.1837,
+      "departure": "2026-12-12T09:52:00Z"
+     },
+     "to": {
+      "name": "Strasbourg",
+      "lat": 48.58511000000001,
+      "lon": 7.733882,
+      "arrival": "2026-12-12T11:16:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Strasbourg",
+      "lat": 48.58511000000001,
+      "lon": 7.733882,
+      "departure": "2026-12-12T11:16:00Z",
+      "arrival": "2026-12-12T11:16:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 48.585,
+      "lon": 7.734,
+      "arrival": "2026-12-12T11:20:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 6540,
+   "startTime": "2026-12-12T10:03:00Z",
+   "endTime": "2026-12-12T11:52:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T10:03:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T10:06:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U15",
+     "displayName": "U15",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T10:06:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T10:07:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T10:07:00Z",
+      "arrival": "2026-12-12T10:07:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785137000000006,
+      "lon": 9.183350999999998,
+      "arrival": "2026-12-12T10:11:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 568",
+     "displayName": "ICE 568",
+     "duration": 2400,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785137000000006,
+      "lon": 9.183350999999998,
+      "departure": "2026-12-12T10:12:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993473,
+      "lon": 8.401178999999999,
+      "arrival": "2026-12-12T10:52:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993473,
+      "lon": 8.401178999999999,
+      "departure": "2026-12-12T10:52:00Z",
+      "arrival": "2026-12-12T10:52:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.99373200000001,
+      "lon": 8.401070999999998,
+      "arrival": "2026-12-12T10:54:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 9590",
+     "displayName": "ICE 9590",
+     "duration": 2580,
+     "from": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.99373200000001,
+      "lon": 8.401070999999998,
+      "departure": "2026-12-12T11:08:00Z"
+     },
+     "to": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "arrival": "2026-12-12T11:51:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "departure": "2026-12-12T11:51:00Z",
+      "arrival": "2026-12-12T11:51:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 48.585,
+      "lon": 7.734,
+      "arrival": "2026-12-12T11:52:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 9840,
+   "startTime": "2026-12-12T10:51:00Z",
+   "endTime": "2026-12-12T13:35:00Z",
+   "transfers": 3,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T10:51:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T10:54:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U12",
+     "displayName": "U12",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T10:54:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T10:55:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T10:55:00Z",
+      "arrival": "2026-12-12T10:55:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785137000000006,
+      "lon": 9.183350999999998,
+      "arrival": "2026-12-12T10:59:00Z"
+     }
+    },
+    {
+     "mode": "LONG_DISTANCE",
+     "routeShortName": "IC 2164",
+     "displayName": "IC 2164",
+     "duration": 3240,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785137000000006,
+      "lon": 9.183350999999998,
+      "departure": "2026-12-12T10:59:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993140000000004,
+      "lon": 8.401503,
+      "arrival": "2026-12-12T11:53:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993140000000004,
+      "lon": 8.401503,
+      "departure": "2026-12-12T11:53:00Z",
+      "arrival": "2026-12-12T11:53:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.99385,
+      "lon": 8.401009,
+      "arrival": "2026-12-12T11:55:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE2 (4727)",
+     "displayName": "RE2 (4727)",
+     "duration": 2820,
+     "from": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.99385,
+      "lon": 8.401009,
+      "departure": "2026-12-12T12:09:00Z"
+     },
+     "to": {
+      "name": "Offenburg Bahnhof",
+      "lat": 48.476418,
+      "lon": 7.946569000000001,
+      "arrival": "2026-12-12T12:56:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Offenburg Bahnhof",
+      "lat": 48.476418,
+      "lon": 7.946569000000001,
+      "departure": "2026-12-12T12:56:00Z",
+      "arrival": "2026-12-12T12:56:00Z"
+     },
+     "to": {
+      "name": "Offenburg Bahnhof",
+      "lat": 48.47647,
+      "lon": 7.946290000000001,
+      "arrival": "2026-12-12T12:58:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RS4 (87436)",
+     "displayName": "RS4 (87436)",
+     "duration": 1740,
+     "from": {
+      "name": "Offenburg Bahnhof",
+      "lat": 48.47647,
+      "lon": 7.946290000000001,
+      "departure": "2026-12-12T13:05:00Z"
+     },
+     "to": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "arrival": "2026-12-12T13:34:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Strasbourg Bahnhof",
+      "lat": 48.58534,
+      "lon": 7.7340670000000005,
+      "departure": "2026-12-12T13:34:00Z",
+      "arrival": "2026-12-12T13:34:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 48.585,
+      "lon": 7.734,
+      "arrival": "2026-12-12T13:35:00Z"
+     }
+    }
+   ]
+  }
+ ]
+}

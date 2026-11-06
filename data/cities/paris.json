@@ -1,0 +1,20 @@
+{
+  "id": "paris",
+  "name_zh": "巴黎",
+  "name_en": "Paris", "local_language": "fr",
+  "aliases": ["paris", "巴黎"],
+  "country": "FR",
+  "currency": "EUR",
+  "timezone": "Europe/Paris",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [48.8566, 2.3522],
+  "bbox": {"lat": [48.80, 48.92], "lng": [2.22, 2.47]},
+  "geocode_viewbox": "1.9,49.2,2.9,48.5",
+  "coord_system": "wgs84",
+  "map_provider": "osm",
+  "residency_options": ["fr", "eu"],
+  "suggested_days": {"min": 4, "max": 6, "quality_max": 14, "fill_max": 22, "note": "主要景点按每天 2 个主要点排，4–6 天比较从容；超过 14 天主题里的点不够，后面几天会排别的主题的代表性景点；超过 22 天巴黎的点排不满，多出来的天留成自由日"},
+  "landmarks": ["eiffel-tower", "louvre", "notre-dame", "pont-alexandre-iii", "orsay", "montmartre-sacre-coeur", "versailles"],
+  "supported": true
+}

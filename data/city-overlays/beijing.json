@@ -1,0 +1,14 @@
+{
+  "city": "beijing",
+  "_note": "精校：你我对着官方页面核对过的事实（规格 10）。键是维基数据编号；每条必须带来源和核对日期。重新生成草稿不会丢。",
+  "places": {
+    "Q80290": {
+      "closed_weekdays": [0],
+      "booking": {"required": true, "lead_time_hint": "参观须提前订票，最早可于参观 7 天前 20:00 开始预订"},
+      "ticketing": "online_required",
+      "ticket_note": "故宫博物院官网写明：除法定节假日，全年周一闭馆；参观须提前订票（官方订票 ticket.dpm.org.cn，电话 400-950-1925）",
+      "official_url": "https://www.dpm.org.cn/",
+      "sources": [{"url": "https://www.dpm.org.cn/", "checked_at": "2026-10-29", "what": "周一闭馆、须提前订票、最早 7 天前 20:00 起订"}]
+    }
+  }
+}

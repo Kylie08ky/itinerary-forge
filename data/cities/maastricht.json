@@ -1,0 +1,43 @@
+{
+  "id": "maastricht",
+  "name_zh": "马斯特里赫特",
+  "name_en": "Maastricht",
+  "local_language": "nl",
+  "aliases": [
+    "maastricht",
+    "马斯特里赫特"
+  ],
+  "country": "NL",
+  "currency": "EUR",
+  "timezone": "Europe/Amsterdam",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    50.8667,
+    5.6833
+  ],
+  "bbox": {
+    "lat": [
+      50.8267,
+      50.9067
+    ],
+    "lng": [
+      5.6233,
+      5.7433
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "maastricht-dominicanenkerk",
+    "maastricht-vrijthof",
+    "maastricht-kasteel-borgharen"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "nl-be-grenzland"
+}

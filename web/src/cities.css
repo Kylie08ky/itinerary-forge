@@ -1,0 +1,43 @@
+/* =====================================================================
+ * 城市配色（规格 06-ui-design「城市配色」）：每个目的地一组颜色，来自这座城市本身的材质。
+ * 用法：<html data-city="paris">；新增城市 = 在这里加一块 :root[data-city="xxx"]（浅色 + 深色），不改组件。
+ * ===================================================================== */
+
+/* 巴黎 · 奥斯曼：石灰岩米白、锌皮屋顶蓝灰、黄铜（窗栏 / 路牌）；封面是锌皮屋顶的竖向接缝。 */
+:root[data-city="paris"] {
+  --bg: #f4efe6;
+  --surface: #fffcf6;
+  --surface-2: #ece5d7;
+  --ink: #1b2333;
+  --ink-soft: #4a5365;
+  --ink-faint: #7c8190;
+  --line: #e0d8c8;
+  --accent: #27405f;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2e8f0;
+  --warm: #8d6422;
+  --warm-soft: #f3e6c9;
+  --brass: #b88a38;
+  --cover-a: #131e33;
+  --cover-b: #34506f;
+  --cover-ink: #f6f1e6;
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-city="paris"] {
+    --bg: #0e131c;
+    --surface: #161d29;
+    --surface-2: #1e2736;
+    --ink: #ecebe5;
+    --ink-soft: #b5bac6;
+    --ink-faint: #838a9a;
+    --line: #263042;
+    --accent: #a6bfe0;
+    --accent-ink: #0e1624;
+    --accent-soft: #1f2c42;
+    --warm: #dcb872;
+    --warm-soft: #342b1a;
+    --brass: #dcb872;
+    --cover-a: #0c1424;
+    --cover-b: #2a4565;
+  }
+}

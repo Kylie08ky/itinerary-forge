@@ -1,0 +1,43 @@
+{
+  "id": "ulm",
+  "name_zh": "乌尔姆",
+  "name_en": "Ulm",
+  "local_language": "de",
+  "aliases": [
+    "ulm",
+    "乌尔姆"
+  ],
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    48.3986,
+    9.9911
+  ],
+  "bbox": {
+    "lat": [
+      48.3586,
+      48.4386
+    ],
+    "lng": [
+      9.9311,
+      10.0511
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "ulm-ulmer-munster",
+    "ulm-rathaus-ulm",
+    "ulm-museum-brot-und-kunst"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "suedwest-de"
+}

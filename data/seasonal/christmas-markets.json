@@ -1,0 +1,82 @@
+{
+  "_note": "圣诞市场当季活动（规格 08 3.4 / R0-e）。日期是 2026 年的举办期，只在期内排进行程。confirmed_by：official = 我亲自打开官方网站（市旅游局 / 市政府）看到写明；listing = 日期来自搜索结果摘要或活动聚合网站、没能亲自打开官方页面核对（出发前请到官网确认）。名字是官方的当地语言名；坐标由 scripts/add_seasonal_markets.py 在 OSM 里按 osm_query 搜出来，不手写。",
+  "markets": [
+    {
+      "city": "ludwigsburg",
+      "name_local": "Ludwigsburger Barock-Weihnachtsmarkt",
+      "osm_query": "Marktplatz, Ludwigsburg",
+      "start": "2026-11-24",
+      "end": "2026-12-22",
+      "source_url": "https://visit.ludwigsburg.de/site/Ludwigsburg-Tourismus/get/params_E1606611502/18041655/2026_AGB_Ludwigsburger%20Barock-Weihnachtsmarkt.pdf",
+      "confirmed_by": "listing",
+      "checked_at": "2026-10-25",
+      "hours": "往年每天 11:00–21:00（2026 年时间出发前请到 visit.ludwigsburg.de 确认）"
+    },
+    {
+      "city": "esslingen",
+      "name_local": "Esslinger Mittelalter- und Weihnachtsmarkt",
+      "osm_query": "Rathausplatz, Esslingen am Neckar",
+      "start": "2026-11-24",
+      "end": "2026-12-22",
+      "source_url": "https://www.festivalsindeutschland.de/festival/esslinger-mittelaltermarkt-weihnachtsmarkt",
+      "confirmed_by": "listing",
+      "checked_at": "2026-10-25",
+      "hours": "聚合网站写：周日至周四 11:00–20:30，周五周六 11:00–21:30；官方网站没能核对，出发前请到 esslingen.de 确认"
+    },
+    {
+      "city": "heidelberg",
+      "name_local": "Heidelberger Weihnachtsmarkt",
+      "osm_query": "Marktplatz, Heidelberg",
+      "start": "2026-11-23",
+      "end": "2026-12-22",
+      "source_url": "https://www.heidelberg-marketing.de/veranstaltungen/heidelberger-weihnachtsmarkt",
+      "confirmed_by": "official",
+      "checked_at": "2026-10-25",
+      "hours": "具体每天的开放时间请到海德堡市旅游局官网确认"
+    },
+    {
+      "city": "ulm",
+      "name_local": "Ulmer Weihnachtsmarkt",
+      "osm_query": "Münsterplatz, Ulm",
+      "start": "2026-11-23",
+      "end": "2026-12-22",
+      "source_url": "https://weihnachten.ulm.de/en/erleben/Highlights/ulmer-weihnachtsmarkt",
+      "confirmed_by": "listing",
+      "checked_at": "2026-10-25",
+      "hours": "聚合网站写：每天约 10:00–20:30（周五周六可能到 21:30），11 月 19 日起有预热；出发前请到 weihnachten.ulm.de 确认"
+    },
+    {
+      "city": "tuebingen",
+      "name_local": "Tübinger Weihnachtsmarkt",
+      "osm_query": "Marktplatz, Tübingen",
+      "start": "2026-12-11",
+      "end": "2026-12-13",
+      "source_url": "https://www.festivalsindeutschland.de/festival/tuebinger-weihnachtsmarkt",
+      "confirmed_by": "listing",
+      "checked_at": "2026-10-25",
+      "hours": "聚合网站写：只办第三个降临节周末（周五周六 10:00–21:00，周日 11:00–19:00）；官方网站没能核对，出发前请到 tuebingen.de 确认"
+    },
+    {
+      "city": "baden-baden",
+      "name_local": "Baden-Badener Christkindelsmarkt",
+      "osm_query": "Kurhaus, Baden-Baden",
+      "start": "2026-11-26",
+      "end": "2027-01-06",
+      "source_url": "https://www.baden-baden.com/en/events/baden-baden-christmas-market",
+      "confirmed_by": "listing",
+      "checked_at": "2026-10-25",
+      "hours": "每天约 11:00–21:00，12 月 24 日、31 日提前收市（官网写的假日时间还没定，出发前请到 baden-baden.com 确认）"
+    },
+    {
+      "city": "strasbourg",
+      "name_local": "Marché de Noël de Strasbourg (Christkindelsmärik)",
+      "osm_query": "Place Broglie, Strasbourg",
+      "start": "2026-11-27",
+      "end": "2026-12-24",
+      "source_url": "https://noel.strasbourg.eu",
+      "confirmed_by": "official",
+      "checked_at": "2026-10-25",
+      "hours": "市政府官网只写了整体日期（11 月 27 日至 12 月 24 日）；每天时间和各个分市场的日期出发前请到 noel.strasbourg.eu 确认"
+    }
+  ]
+}

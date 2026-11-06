@@ -1,0 +1,43 @@
+{
+  "id": "strasbourg",
+  "name_zh": "斯特拉斯堡",
+  "name_en": "Strasbourg",
+  "local_language": "fr",
+  "aliases": [
+    "strasbourg",
+    "斯特拉斯堡"
+  ],
+  "country": "FR",
+  "currency": "EUR",
+  "timezone": "Europe/Paris",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    48.5733,
+    7.7522
+  ],
+  "bbox": {
+    "lat": [
+      48.5333,
+      48.6133
+    ],
+    "lng": [
+      7.6922,
+      7.8122
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "strasbourg-cathedrale-notre-dame-de-strasbourg",
+    "strasbourg-musee-alsacien",
+    "strasbourg-musee-des-beaux-arts-de-strasbourg"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "suedwest-de"
+}

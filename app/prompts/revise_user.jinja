@@ -1,0 +1,20 @@
+## 当前行程（待修订）
+
+```json
+{{ current_json }}
+```
+
+## 用户/系统的修订要求
+
+{{ instructions }}
+
+## 约束回顾
+
+- 目的地 {{ r.destination }}，{{ dates[0] }} 到 {{ dates[-1] }}，共 {{ dates | length }} 天，days 的 date 必须仍是：{{ dates | join("、") }}
+- 节奏 {{ r.travel_style }}，预算 {{ r.budget_level }}
+{% if r.must_go %}- 必去（改完仍要覆盖）：{{ r.must_go | join("、") }}{% endif %}
+{% if r.avoid %}- 避免（改完仍不能出现）：{{ r.avoid | join("、") }}{% endif %}
+{% if r.arrival_time %}- 抵达 {{ r.arrival_time }}，抵达日在此之后再安排{% endif %}
+{% if r.departure_time %}- 离开 {{ r.departure_time }}，离开日在此之前收尾{% endif %}
+
+只输出修订后的完整行程 JSON。

@@ -1,0 +1,72 @@
+{
+  "city": "paris",
+  "_note": "show_source=true 的条目（涉及官方规定的，如入境签证）才在页面上显示「来源 ↗」；其余事实只留作依据。行李清单模板（规格 M10 S2）。带 fact 的条目是有事实依据的，必须有 source_url + checked_at（2026-10-14 核对）；其余是经验性建议，页面上标「建议」。when 里的条件全部满足才出现；不写 when = 一定出现。climate 取 cold（日均最高温 <10°C）/ cool（10–17）/ mild（17–24）/ warm（≥24）。",
+  "facts": {
+    "passport": {
+      "note": "申根区：护照要在计划离开申根区之后还有 3 个月以上有效期，且签发不满 10 年",
+      "source_url": "https://france-visas.gouv.fr/web/france-visas/your-arrival-in-france",
+      "checked_at": "2026-10-14"
+    },
+    "plug": {
+      "note": "法国电压 230V / 50Hz，插座是 C / E 型圆脚；国内常见的扁脚（A / I 型）插头插不进",
+      "source_url": "https://www.worldstandards.eu/?p=10664",
+      "checked_at": "2026-10-14"
+    },
+    "visa": {
+      "note": "是否需要签证、要办哪些材料，以法国官方签证网站（France-Visas）为准；这里不替官方下结论",
+      "source_url": "https://france-visas.gouv.fr/",
+      "checked_at": "2026-10-21"
+    }
+  },
+  "monthly_high_c": {"1": 7, "2": 8, "3": 12, "4": 16, "5": 19, "6": 23, "7": 25, "8": 25, "9": 21, "10": 16, "11": 10, "12": 7},
+  "monthly_high_basis": "按月份的常年平均最高气温估算（没有天气预报时用）；是估算，不是预报",
+  "items": [
+    {"key": "passport", "category": "证件", "text": "护照（有效期需在离开申根区后 3 个月以上，签发不满 10 年）", "fact": "passport", "when": {"any_traveler": "not_resident"}},
+    {"key": "residence-permit", "category": "证件", "text": "长居证件（居留卡 / 学生签证）和护照", "when": {"all_travelers": "resident"}},
+    {"key": "visa", "category": "证件", "text": "签证 / 入境材料（是否需要、要哪些，以法国签证官网 france-visas.gouv.fr 为准）", "fact": "visa", "show_source": true, "when": {"any_traveler": "not_resident"}},
+    {"key": "tickets", "category": "证件", "text": "机票 / 电子登机牌"},
+    {"key": "booking-confirmations", "category": "证件", "text": "住宿预订单、景点门票和预订确认（行程页「购票清单」里的都打开确认）"},
+    {"key": "insurance", "category": "证件", "text": "旅行保险保单"},
+    {"key": "cards", "category": "证件", "text": "银行卡（开通境外支付）和少量欧元现金"},
+    {"key": "discount-proof", "category": "证件", "text": "证明年龄 / 长居身份 / 学生身份的证件（享受青年、居民、学生优惠时现场会查，预算卡里已按这些优惠计价）", "when": {"discount_proof": true}},
+    {"key": "id-backup", "category": "证件", "text": "护照和签证的电子备份（手机里存一份）"},
+
+    {"key": "underwear", "category": "衣物", "text": "内衣裤和袜子 × {n}（行程 {days} 天，可以中途洗一次）", "qty": {"per_night": 1, "extra": 1, "min": 3, "cap": 7}},
+    {"key": "tops", "category": "衣物", "text": "上衣 × {n}", "qty": {"per_night": 1, "extra": 0, "min": 3, "cap": 6}},
+    {"key": "bottoms", "category": "衣物", "text": "裤子 / 裙子 × {n}", "qty": {"per_night": 0.5, "extra": 1, "min": 2, "cap": 4}},
+    {"key": "pajamas", "category": "衣物", "text": "睡衣"},
+    {"key": "walking-shoes", "category": "衣物", "text": "舒适的步行鞋（巴黎每天要走很多路，石板路多）"},
+    {"key": "heavy-coat", "category": "衣物", "text": "保暖外套（羽绒 / 厚大衣）", "when": {"climate": ["cold"]}},
+    {"key": "sweater", "category": "衣物", "text": "毛衣 / 针织衫 × 2", "when": {"climate": ["cold", "cool"]}},
+    {"key": "scarf-gloves", "category": "衣物", "text": "围巾、手套、帽子", "when": {"climate": ["cold"]}},
+    {"key": "light-jacket", "category": "衣物", "text": "薄外套 / 风衣", "when": {"climate": ["cool", "mild"]}},
+    {"key": "sun-gear", "category": "衣物", "text": "遮阳帽、太阳镜", "when": {"climate": ["mild", "warm"]}},
+    {"key": "rain-gear", "category": "衣物", "text": "折叠伞或轻便雨衣（巴黎全年都可能下雨）"},
+    {"key": "smart-outfit", "category": "衣物", "text": "一套体面一点的衣服（看歌剧、演出或去高级餐厅）", "when": {"places_category": ["entertainment"]}},
+
+    {"key": "phone-charger", "category": "电子", "text": "手机、充电线和充电头"},
+    {"key": "power-bank", "category": "电子", "text": "充电宝（按航空公司规定只能放随身行李，不要托运）"},
+    {"key": "plug-adapter", "category": "电子", "text": "转换插头（C / E 型圆脚）；电器看铭牌是否支持 230V（多数手机、电脑充电器是 100–240V）", "fact": "plug", "when": {"any_traveler": "not_resident"}},
+    {"key": "earphones", "category": "电子", "text": "耳机"},
+    {"key": "camera", "category": "电子", "text": "相机、备用电池和存储卡", "when": {"theme": ["photography"]}},
+    {"key": "offline", "category": "电子", "text": "下载离线地图和本行程的 PDF（地铁里信号不稳）"},
+
+    {"key": "common-meds", "category": "药品", "text": "常用药：感冒药、肠胃药、止痛药、创可贴"},
+    {"key": "prescription", "category": "药品", "text": "个人处方药，连同处方或英文说明一起带"},
+
+    {"key": "toiletries", "category": "洗护", "text": "牙刷牙膏、洗面奶、护肤品（部分酒店不提供一次性牙刷）"},
+    {"key": "sunscreen", "category": "洗护", "text": "防晒霜", "when": {"climate": ["mild", "warm"]}},
+    {"key": "glasses", "category": "洗护", "text": "眼镜 / 隐形眼镜和护理液"},
+    {"key": "hygiene", "category": "洗护", "text": "卫生用品、湿纸巾"},
+
+    {"key": "shopping-bag", "category": "其他", "text": "折叠购物袋（商店的袋子常要另收费）"},
+    {"key": "anti-theft", "category": "其他", "text": "防盗的小包，贵重物品放内袋（热门景点和地铁里扒手多）"},
+    {"key": "water-bottle", "category": "其他", "text": "随身水杯"},
+
+    {"key": "kids-meds", "category": "儿童", "text": "儿童退烧药和常用药", "when": {"children_under": 12}},
+    {"key": "kids-snacks", "category": "儿童", "text": "孩子的零食和水杯", "when": {"children_under": 12}},
+    {"key": "kids-toys", "category": "儿童", "text": "玩具 / 绘本（路上和排队时用）", "when": {"children_under": 12}},
+    {"key": "kids-contact", "category": "儿童", "text": "写着家长联系方式的卡片或手环（防走失）", "when": {"children_under": 12}},
+    {"key": "baby-supplies", "category": "儿童", "text": "尿不湿、湿巾、奶瓶 / 辅食（婴幼儿用品）", "when": {"children_under": 4}}
+  ]
+}

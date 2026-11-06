@@ -1,0 +1,43 @@
+{
+  "id": "baden-baden",
+  "name_zh": "巴登-巴登",
+  "name_en": "Baden-Baden",
+  "local_language": "de",
+  "aliases": [
+    "baden-baden",
+    "巴登-巴登"
+  ],
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    48.7619,
+    8.2408
+  ],
+  "bbox": {
+    "lat": [
+      48.7219,
+      48.8019
+    ],
+    "lng": [
+      8.1808,
+      8.3008
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "baden-baden-altes-schloss",
+    "baden-baden-faberge-museum",
+    "baden-baden-museum-frieder-burda"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "suedwest-de"
+}

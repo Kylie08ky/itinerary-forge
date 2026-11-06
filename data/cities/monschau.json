@@ -1,0 +1,43 @@
+{
+  "id": "monschau",
+  "name_zh": "蒙绍",
+  "name_en": "Monschau",
+  "local_language": "de",
+  "aliases": [
+    "monschau",
+    "蒙绍"
+  ],
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    50.55,
+    6.25
+  ],
+  "bbox": {
+    "lat": [
+      50.51,
+      50.59
+    ],
+    "lng": [
+      6.19,
+      6.31
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "monschau-burg-monschau",
+    "monschau-minoritenkloster-aukloster-monschau",
+    "monschau-st-maria-geburt"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "nl-be-grenzland"
+}

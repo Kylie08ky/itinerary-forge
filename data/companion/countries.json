@@ -1,0 +1,336 @@
+{
+  "_note": "热门目的地国家的随行清单数据（规格 10 / M10）。插头 / 电压 / 频率来自维基百科「Mains electricity by country」；签证只给官方页面链接（能打开才收），不写签证政策。scripts/build_countries.py 生成。",
+  "checked_at": "2026-10-31",
+  "plug_source_url": "https://en.wikipedia.org/wiki/Mains_electricity_by_country",
+  "china": {
+    "plug_types": [
+      "A",
+      "I"
+    ],
+    "voltage_v": 220,
+    "frequency_hz": "50"
+  },
+  "countries": {
+    "JP": {
+      "name_zh": "日本",
+      "plug_types": [
+        "A",
+        "B"
+      ],
+      "voltage_v": 100,
+      "frequency_hz": "50 / 60",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+      "visa_name": "日本外务省",
+      "visa_url_status": "bot_protected"
+    },
+    "KR": {
+      "name_zh": "韩国",
+      "plug_types": [
+        "C",
+        "F"
+      ],
+      "voltage_v": 220,
+      "frequency_hz": "60",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://www.visa.go.kr/",
+      "visa_name": "韩国签证门户网站（HiKorea）",
+      "visa_url_status": "ok"
+    },
+    "SG": {
+      "name_zh": "新加坡",
+      "plug_types": [
+        "C",
+        "G",
+        "M"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/visa-guidelines",
+      "visa_name": "新加坡移民与关卡局",
+      "visa_url_status": "ok"
+    },
+    "MY": {
+      "name_zh": "马来西亚",
+      "plug_types": [
+        "C",
+        "G",
+        "M"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://www.imi.gov.my/",
+      "visa_name": "马来西亚移民局",
+      "visa_url_status": "ok"
+    },
+    "TH": {
+      "name_zh": "泰国",
+      "plug_types": [
+        "A",
+        "B",
+        "C",
+        "O"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://thaievisa.go.th/",
+      "visa_name": "泰国电子签证官网",
+      "visa_url_status": "ok"
+    },
+    "VN": {
+      "name_zh": "越南",
+      "plug_types": [
+        "A",
+        "B",
+        "C",
+        "F"
+      ],
+      "voltage_v": 220,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": false
+    },
+    "ID": {
+      "name_zh": "印度尼西亚",
+      "plug_types": [
+        "C",
+        "F"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://evisa.imigrasi.go.id/",
+      "visa_name": "印尼移民局电子签证",
+      "visa_url_status": "ok"
+    },
+    "US": {
+      "name_zh": "美国",
+      "plug_types": [
+        "A",
+        "B"
+      ],
+      "voltage_v": 120,
+      "frequency_hz": "60",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://travel.state.gov/content/travel/en/us-visas.html",
+      "visa_name": "美国国务院",
+      "visa_url_status": "bot_protected"
+    },
+    "GB": {
+      "name_zh": "英国",
+      "plug_types": [
+        "G",
+        "D",
+        "M"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": true,
+      "visa_url": "https://www.gov.uk/check-uk-visa",
+      "visa_name": "英国政府网站",
+      "visa_url_status": "ok"
+    },
+    "DE": {
+      "name_zh": "德国",
+      "plug_types": [
+        "C",
+        "F"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true,
+      "visa_url": "https://digital.diplo.de/visa",
+      "visa_name": "德国外交部签证门户",
+      "visa_url_status": "ok"
+    },
+    "IT": {
+      "name_zh": "意大利",
+      "plug_types": [
+        "C",
+        "F",
+        "L"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true,
+      "visa_url": "https://vistoperitalia.esteri.it/",
+      "visa_name": "意大利外交部签证网站",
+      "visa_url_status": "ok"
+    },
+    "ES": {
+      "name_zh": "西班牙",
+      "plug_types": [
+        "C",
+        "F"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true
+    },
+    "CH": {
+      "name_zh": "瑞士",
+      "plug_types": [
+        "C",
+        "J"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true,
+      "visa_url": "https://www.sem.admin.ch/sem/en/home/themen/einreise.html",
+      "visa_name": "瑞士联邦移民局",
+      "visa_url_status": "ok"
+    },
+    "AT": {
+      "name_zh": "奥地利",
+      "plug_types": [
+        "C",
+        "F"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true,
+      "visa_url": "https://www.bmeia.gv.at/en/travel-stay/",
+      "visa_name": "奥地利外交部（出行与居留）",
+      "visa_url_status": "ok"
+    },
+    "NL": {
+      "name_zh": "荷兰",
+      "plug_types": [
+        "C",
+        "F"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true,
+      "visa_url": "https://www.netherlandsworldwide.nl/visa-the-netherlands",
+      "visa_name": "荷兰政府签证网站",
+      "visa_url_status": "ok"
+    },
+    "GR": {
+      "name_zh": "希腊",
+      "plug_types": [
+        "C",
+        "F"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true,
+      "visa_url": "https://www.mfa.gr/en/visas/",
+      "visa_name": "希腊外交部",
+      "visa_url_status": "bot_protected"
+    },
+    "PT": {
+      "name_zh": "葡萄牙",
+      "plug_types": [
+        "C",
+        "E",
+        "F"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true,
+      "visa_url": "https://vistos.mne.gov.pt/en/",
+      "visa_name": "葡萄牙外交部签证网站",
+      "visa_url_status": "ok"
+    },
+    "CZ": {
+      "name_zh": "捷克",
+      "plug_types": [
+        "C",
+        "E"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true,
+      "visa_url": "https://mzv.gov.cz/jnp/en/information_for_aliens/index.html",
+      "visa_name": "捷克外交部",
+      "visa_url_status": "ok"
+    },
+    "FR": {
+      "name_zh": "法国",
+      "plug_types": [
+        "C",
+        "E"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": true,
+      "europe": true,
+      "visa_url": "https://france-visas.gouv.fr/",
+      "visa_name": "法国签证官网（France-Visas）",
+      "visa_url_status": "bot_protected"
+    },
+    "AU": {
+      "name_zh": "澳大利亚",
+      "plug_types": [
+        "I"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-finder",
+      "visa_name": "澳大利亚内政部",
+      "visa_url_status": "ok"
+    },
+    "TR": {
+      "name_zh": "土耳其",
+      "plug_types": [
+        "C",
+        "F"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://www.evisa.gov.tr/en/",
+      "visa_name": "土耳其电子签证官网",
+      "visa_url_status": "ok"
+    },
+    "AE": {
+      "name_zh": "阿联酋",
+      "plug_types": [
+        "G"
+      ],
+      "voltage_v": 230,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": false,
+      "visa_url": "https://icp.gov.ae/en/",
+      "visa_name": "阿联酋联邦身份、公民、海关与港口安全局",
+      "visa_url_status": "ok"
+    },
+    "HK": {
+      "name_zh": "中国香港",
+      "plug_types": [
+        "G",
+        "D",
+        "M"
+      ],
+      "voltage_v": 220,
+      "frequency_hz": "50",
+      "schengen": false,
+      "europe": false
+    }
+  }
+}

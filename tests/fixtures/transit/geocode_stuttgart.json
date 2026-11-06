@@ -1,0 +1,326 @@
+[
+ {
+  "type": "ADDRESS",
+  "name": "Königstraße 28",
+  "lat": 48.7788075,
+  "lon": 9.1778844,
+  "street": "Königstraße",
+  "houseNumber": "28",
+  "country": "DE",
+  "zip": "70173",
+  "areas": [
+   {
+    "name": "Deutschland",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Baden-Württemberg",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Regierungsbezirk Stuttgart",
+    "adminLevel": 5.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Stuttgart",
+    "adminLevel": 6.0,
+    "matched": true,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Stuttgart-Mitte",
+    "adminLevel": 9.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Neue Vorstadt",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ },
+ {
+  "type": "ADDRESS",
+  "name": "Königstraße 28",
+  "lat": 48.7794247,
+  "lon": 9.178854,
+  "street": "Königstraße",
+  "houseNumber": "28",
+  "country": "DE",
+  "zip": "70173",
+  "areas": [
+   {
+    "name": "Deutschland",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Baden-Württemberg",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Regierungsbezirk Stuttgart",
+    "adminLevel": 5.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Stuttgart",
+    "adminLevel": 6.0,
+    "matched": true,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Stuttgart-Mitte",
+    "adminLevel": 9.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Neue Vorstadt",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ },
+ {
+  "type": "ADDRESS",
+  "name": "Königstraße 28",
+  "lat": 48.778898,
+  "lon": 9.1781928,
+  "street": "Königstraße",
+  "houseNumber": "28",
+  "country": "DE",
+  "zip": "70173",
+  "areas": [
+   {
+    "name": "Deutschland",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Baden-Württemberg",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Regierungsbezirk Stuttgart",
+    "adminLevel": 5.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Stuttgart",
+    "adminLevel": 6.0,
+    "matched": true,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Stuttgart-Mitte",
+    "adminLevel": 9.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Neue Vorstadt",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ },
+ {
+  "type": "ADDRESS",
+  "name": "Königstraße 28",
+  "lat": 48.7790668,
+  "lon": 9.17852,
+  "street": "Königstraße",
+  "houseNumber": "28",
+  "country": "DE",
+  "zip": "70173",
+  "areas": [
+   {
+    "name": "Deutschland",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Baden-Württemberg",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Regierungsbezirk Stuttgart",
+    "adminLevel": 5.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Stuttgart",
+    "adminLevel": 6.0,
+    "matched": true,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Stuttgart-Mitte",
+    "adminLevel": 9.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Neue Vorstadt",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ },
+ {
+  "type": "ADDRESS",
+  "name": "Königstraße 28",
+  "lat": 48.7789131,
+  "lon": 9.1785717,
+  "street": "Königstraße",
+  "houseNumber": "28",
+  "country": "DE",
+  "zip": "70173",
+  "areas": [
+   {
+    "name": "Deutschland",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Baden-Württemberg",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Regierungsbezirk Stuttgart",
+    "adminLevel": 5.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Stuttgart",
+    "adminLevel": 6.0,
+    "matched": true,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Stuttgart-Mitte",
+    "adminLevel": 9.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Neue Vorstadt",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ },
+ {
+  "type": "ADDRESS",
+  "name": "Königstraße 28",
+  "lat": 48.7789811,
+  "lon": 9.1784243,
+  "street": "Königstraße",
+  "houseNumber": "28",
+  "country": "DE",
+  "zip": "70173",
+  "areas": [
+   {
+    "name": "Deutschland",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Baden-Württemberg",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Regierungsbezirk Stuttgart",
+    "adminLevel": 5.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Stuttgart",
+    "adminLevel": 6.0,
+    "matched": true,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Stuttgart-Mitte",
+    "adminLevel": 9.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Neue Vorstadt",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ }
+]

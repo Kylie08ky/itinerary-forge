@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "id": "persona-01-museum-foodie",
+    "label": "博物馆美食党 · 巴黎经典 4 天",
+    "note": "最初产品文档里的标准案例。中等预算、均衡节奏，用来验证基础链路和 must_go 命中。"
+  },
+  "destination": "Paris",
+  "start_date": "2026-10-03",
+  "end_date": "2026-10-06",
+  "arrival_time": "2026-10-03 10:30",
+  "departure_time": "2026-10-06 18:00",
+  "hotel_area": "9th arrondissement",
+  "budget_level": "medium",
+  "travel_style": "balanced",
+  "interests": ["museum", "food", "photography"],
+  "restrictions": [],
+  "must_go": ["Louvre", "Seine river cruise"],
+  "avoid": ["shopping"],
+  "language": "zh-CN"
+}

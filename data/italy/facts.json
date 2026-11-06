@@ -1,0 +1,819 @@
+{
+  "_note": "意大利各城市的官网事实提纲（规格 12）：每条 = 要写进精校的字段 + 官网原文摘录。scripts/apply_italy_facts.py 会去网页上逐字找摘录，找不到的不写。摘录是官网原文（意大利语 / 英语），不翻译、不改写。",
+  "cities": [
+    {
+      "id": "rome",
+      "entries": [
+        {
+          "qid": "Q182955",
+          "name": "梵蒂冈博物馆",
+          "official_url": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+          "facts": [
+            {
+              "what": "官网：周日闭馆（每月最后一个周日除外）",
+              "set": {
+                "closed_weekdays": [
+                  6
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+                  "text": "Sunday (except the last Sunday of each month"
+                }
+              ]
+            },
+            {
+              "what": "官网闭馆日列表：12 月 8、25、26 日，1 月 1、6 日",
+              "set": {
+                "closed_dates": [
+                  "12-08",
+                  "12-25",
+                  "12-26",
+                  "01-01",
+                  "01-06"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+                  "text": "8, 25 and 26 December"
+                },
+                {
+                  "url": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+                  "text": "1 and 6 January"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q333906",
+          "name": "卡比托利欧博物馆",
+          "official_url": "https://www.museicapitolini.org/en/informazioni_pratiche/orari_e_indirizzi",
+          "facts": [
+            {
+              "what": "官网：每天开放；12 月 25 日、5 月 1 日闭馆",
+              "set": {
+                "closed_weekdays": [],
+                "closed_dates": [
+                  "05-01",
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museicapitolini.org/en/informazioni_pratiche/orari_e_indirizzi",
+                  "text": "Everyday 9.30-19.30"
+                },
+                {
+                  "url": "https://www.museicapitolini.org/en/informazioni_pratiche/orari_e_indirizzi",
+                  "text": "Closed 1 May and 25 December"
+                }
+              ]
+            },
+            {
+              "what": "官网：12 月 24 日、31 日 9:30–14:00",
+              "set": {
+                "date_notes": {
+                  "12-24": "官网写明 12 月 24 日只开 9:30–14:00",
+                  "12-31": "官网写明 12 月 31 日只开 9:30–14:00"
+                }
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museicapitolini.org/en/informazioni_pratiche/orari_e_indirizzi",
+                  "text": "24 and 31 December 9.30-14.00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q185382",
+          "name": "特莱维喷泉",
+          "official_url": "https://www.turismoroma.it/en/places/trevi-fountain",
+          "facts": [
+            {
+              "what": "官网：2026 年 2 月 2 日起进入喷泉水池区域要买 2 欧元的票",
+              "set": {
+                "ticket_note": "罗马旅游官网写明：自 2026 年 2 月 2 日起，进入特莱维喷泉的水池区域（最靠近雕塑的部分）要买 2 欧元的票，每天 9:00–22:00；在外围看喷泉不用票。"
+              },
+              "quotes": [
+                {
+                  "url": "https://www.turismoroma.it/en/places/trevi-fountain",
+                  "text": "must pay a ticket costing two euros"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "florence",
+      "entries": [
+        {
+          "qid": "Q51252",
+          "name": "乌菲兹美术馆",
+          "official_url": "https://www.uffizi.it/gli-uffizi",
+          "facts": [
+            {
+              "what": "官网：每周一、1 月 1 日、12 月 25 日闭馆",
+              "set": {
+                "closed_weekdays": [
+                  0
+                ],
+                "closed_dates": [
+                  "01-01",
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.uffizi.it/gli-uffizi",
+                  "text": "Ogni lunedì, 1 gennaio, 25 dicembre"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q29286",
+          "name": "彼提宫",
+          "official_url": "https://www.uffizi.it/palazzo-pitti",
+          "facts": [
+            {
+              "what": "官网：每周一、1 月 1 日、12 月 25 日闭馆",
+              "set": {
+                "closed_weekdays": [
+                  0
+                ],
+                "closed_dates": [
+                  "01-01",
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.uffizi.it/palazzo-pitti",
+                  "text": "Ogni lunedì, 1 gennaio, 25 dicembre"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q888825",
+          "name": "波波里花园",
+          "official_url": "https://www.uffizi.it/giardino-boboli",
+          "facts": [
+            {
+              "what": "官网：12 月 25 日闭园；每月第一个和最后一个周一闭园",
+              "set": {
+                "closed_dates": [
+                  "12-25"
+                ],
+                "ticket_note": "乌菲兹官网写明：每月第一个和最后一个周一、12 月 25 日闭园。"
+              },
+              "quotes": [
+                {
+                  "url": "https://www.uffizi.it/giardino-boboli",
+                  "text": "Primo e ultimo lunedì del mese, 25 dicembre"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q51177",
+          "name": "圣十字圣殿",
+          "official_url": "https://www.santacroceopera.it/organizza-la-visita/",
+          "facts": [
+            {
+              "what": "官网：12 月 25 日（节日闭馆）；12 月 26 日、1 月 1 日免费开放",
+              "set": {
+                "closed_dates": [
+                  "12-25"
+                ],
+                "date_notes": {
+                  "12-26": "官网写明 12 月 26 日免费开放，14:00–17:30"
+                }
+              },
+              "quotes": [
+                {
+                  "url": "https://www.santacroceopera.it/organizza-la-visita/",
+                  "text": "Natale (25 dicembre)"
+                },
+                {
+                  "url": "https://www.santacroceopera.it/organizza-la-visita/",
+                  "text": "santo Stefano (26 dicembre)"
+                }
+              ]
+            },
+            {
+              "what": "官网：建议在线订票",
+              "set": {
+                "ticketing": "online_or_walkin",
+                "ticket_note": "官网写明：建议通过在线售票服务预订参观。"
+              },
+              "quotes": [
+                {
+                  "url": "https://www.santacroceopera.it/organizza-la-visita/",
+                  "text": "Ti consigliamo di prenotare la tua visita tramite il servizio di biglietteria online"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q51175",
+          "name": "新圣母大殿",
+          "official_url": "https://www.smn.it/en/visit",
+          "facts": [
+            {
+              "what": "官网：宗教节日（含 12 月 25 日）归入「周日和宗教节日」一栏的时间表",
+              "set": {
+                "date_notes": {
+                  "12-25": "官网把宗教节日（含 12 月 25 日）归入「周日和宗教节日」一栏，开放时间比平时短，请看官网"
+                }
+              },
+              "quotes": [
+                {
+                  "url": "https://www.smn.it/en/visit",
+                  "text": "Sunday and religious holidays"
+                },
+                {
+                  "url": "https://www.smn.it/en/visit",
+                  "text": "Religious holidays: 1 January, 6 January, 15 August, 1 November, 8 December, 25 December, Holy Easter."
+                }
+              ]
+            },
+            {
+              "what": "官网：可当天在大殿售票处买票，无需预订",
+              "set": {
+                "ticket_note": "官网写明：可在参观当天于大殿售票处买票，无需预订。"
+              },
+              "quotes": [
+                {
+                  "url": "https://www.smn.it/en/visit",
+                  "text": "Tickets can be purchased without booking, at the basilica ticket office on the day of the visit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q271928",
+          "name": "旧宫",
+          "official_url": "https://musefirenze.it/musei/museo-di-palazzo-vecchio/",
+          "facts": [
+            {
+              "what": "官网：建议在线订票",
+              "set": {
+                "ticketing": "online_or_walkin",
+                "ticket_note": "官网写明：建议在官方售票网站在线预订。"
+              },
+              "quotes": [
+                {
+                  "url": "https://musefirenze.it/musei/museo-di-palazzo-vecchio/",
+                  "text": "Si consiglia la prenotazione on line sul sito ufficiale della biglietteria bigliettimusei.comune.fi.it"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milan",
+      "entries": [
+        {
+          "qid": "Q244952",
+          "name": "圣母感恩堂（最后的晚餐）",
+          "official_url": "https://cenacolovinciano.org/info/",
+          "facts": [
+            {
+              "what": "官网：每周一、1 月 1 日、12 月 25 日闭馆",
+              "set": {
+                "closed_weekdays": [
+                  0
+                ],
+                "closed_dates": [
+                  "01-01",
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://cenacolovinciano.org/info/",
+                  "text": "Chiuso tutti i lunedì e nei giorni 1° gennaio e 25 dicembre"
+                }
+              ]
+            },
+            {
+              "what": "官网：必须提前预约，所有人都一样",
+              "set": {
+                "ticketing": "online_required",
+                "booking": {
+                  "required": true,
+                  "lead_time_hint": "官网写明必须提前预约，所有人都一样；请在官网订时段"
+                },
+                "ticket_note": "官网写明：参观《最后的晚餐》必须提前预约，所有人都一样。"
+              },
+              "quotes": [
+                {
+                  "url": "https://cenacolovinciano.org/info/",
+                  "text": "La prenotazione anticipata per l’ingresso al Museo del Cenacolo Vinciano è obbligatoria sempre, per tutti"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q150066",
+          "name": "布雷拉画廊",
+          "official_url": "https://pinacotecabrera.org/visita/orari/",
+          "facts": [
+            {
+              "what": "官网：每周一、5 月 1 日、12 月 25 日、1 月 1 日闭馆",
+              "set": {
+                "closed_weekdays": [
+                  0
+                ],
+                "closed_dates": [
+                  "01-01",
+                  "05-01",
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://pinacotecabrera.org/visita/orari/",
+                  "text": "Chiuso: tutti i Lunedì – 1° Maggio, 25 Dicembre, 1° Gennaio"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q51099",
+          "name": "斯卡拉大剧院博物馆",
+          "official_url": "https://www.museoscala.org/it/visita/museo-e-teatro/orari-e-biglietti.html",
+          "facts": [
+            {
+              "what": "官网：12 月 7、25、26 日，1 月 1 日、5 月 1 日、8 月 15 日闭馆",
+              "set": {
+                "closed_dates": [
+                  "01-01",
+                  "05-01",
+                  "08-15",
+                  "12-07",
+                  "12-25",
+                  "12-26"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museoscala.org/it/visita/museo-e-teatro/orari-e-biglietti.html",
+                  "text": "Giorni di Chiusura: 7, 25, 26 dicembre; 1 gennaio; Pasqua; 1 maggio; 15 agosto."
+                }
+              ]
+            },
+            {
+              "what": "官网：12 月 24 日、31 日开放 9:30–15:00（最后入场 14:30）",
+              "set": {
+                "date_notes": {
+                  "12-24": "官网写明 12 月 24 日只开 9:30–15:00（最后入场 14:30）",
+                  "12-31": "官网写明 12 月 31 日只开 9:30–15:00（最后入场 14:30）"
+                }
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museoscala.org/it/visita/museo-e-teatro/orari-e-biglietti.html",
+                  "text": "Eccezioni: 24 e 31 dicembre aperti con orario dalle 09.30 alle 15.00 (ultimo ingresso alle 14.30)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q815611",
+          "name": "安布罗西亚纳图书馆与画廊",
+          "official_url": "https://www.ambrosiana.it/ambrosiana-info/info-e-biglietti/",
+          "facts": [
+            {
+              "what": "官网：每周三闭馆",
+              "set": {
+                "closed_weekdays": [
+                  2
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.ambrosiana.it/ambrosiana-info/info-e-biglietti/",
+                  "text": "Mercoledì chiuso"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "naples",
+      "entries": [
+        {
+          "qid": "Q43332",
+          "name": "庞贝古城",
+          "official_url": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/",
+          "facts": [
+            {
+              "what": "官网：12 月 25 日、1 月 1 日闭园",
+              "set": {
+                "closed_dates": [
+                  "01-01",
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/",
+                  "text": "Giorni di chiusura: 25 Dicembre, 1 Gennaio"
+                }
+              ]
+            },
+            {
+              "what": "官网：建议提前购票",
+              "set": {
+                "ticketing": "online_or_walkin",
+                "ticket_note": "官网写明：建议提前购票，进园更快。"
+              },
+              "quotes": [
+                {
+                  "url": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/",
+                  "text": "Si consiglia l'acquisto dei biglietti in prevendita per rendere più rapido l'accesso al Parco Archeologico."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q637248",
+          "name": "那不勒斯国立考古博物馆",
+          "official_url": "https://www.museoarcheologiconapoli.it/orari-e-biglietti/",
+          "facts": [
+            {
+              "what": "官网：每周二闭馆；12 月 25 日、1 月 1 日闭馆",
+              "set": {
+                "closed_weekdays": [
+                  1
+                ],
+                "closed_dates": [
+                  "01-01",
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museoarcheologiconapoli.it/orari-e-biglietti/",
+                  "text": "giorno di chiusura settimanale: martedì"
+                },
+                {
+                  "url": "https://www.museoarcheologiconapoli.it/orari-e-biglietti/",
+                  "text": "il Museo è sempre aperto nei giorni festivi fatta eccezione per il 1° gennaio e il 25 dicembre"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q897839",
+          "name": "圣塞维诺小堂",
+          "official_url": "https://www.museosansevero.it/organizza-la-tua-visita/orari-e-tariffe",
+          "facts": [
+            {
+              "what": "官网：每周二闭馆",
+              "set": {
+                "closed_weekdays": [
+                  1
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museosansevero.it/organizza-la-tua-visita/orari-e-tariffe",
+                  "text": "Chiuso martedì"
+                }
+              ]
+            },
+            {
+              "what": "官网 2026 年节日时间表：12 月 25 日闭馆；24 日 9:00–14:00；26 日 9:00–20:30",
+              "set": {
+                "closed_dates": [
+                  "12-25"
+                ],
+                "date_notes": {
+                  "12-24": "官网 2026 年节日时间表：12 月 24 日只开 9:00–14:00",
+                  "12-26": "官网 2026 年节日时间表：12 月 26 日开 9:00–20:30"
+                }
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museosansevero.it/organizza-la-tua-visita/orari-e-tariffe",
+                  "text": "Venerdì 25 dicembre Chiuso"
+                },
+                {
+                  "url": "https://www.museosansevero.it/organizza-la-tua-visita/orari-e-tariffe",
+                  "text": "Giovedì 24 dicembre 9:00 - 14:00"
+                }
+              ]
+            },
+            {
+              "what": "官网：必须预约",
+              "set": {
+                "ticketing": "online_required",
+                "booking": {
+                  "required": true,
+                  "lead_time_hint": "官网写明参观必须预约，请提前在官网订时段"
+                },
+                "ticket_note": "官网写明：参观圣塞维诺小堂必须预约。"
+              },
+              "quotes": [
+                {
+                  "url": "https://www.museosansevero.it/organizza-la-tua-visita/orari-e-tariffe",
+                  "text": "Per visitare il Museo Cappella Sansevero la prenotazione è obbligatoria."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "venice",
+      "entries": [
+        {
+          "qid": "Q1049033",
+          "name": "佩姬·古根汉美术馆",
+          "official_url": "https://www.guggenheim-venice.it/en/visit/",
+          "facts": [
+            {
+              "what": "官网：周二和 12 月 25 日闭馆",
+              "set": {
+                "closed_weekdays": [
+                  1
+                ],
+                "closed_dates": [
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.guggenheim-venice.it/en/visit/",
+                  "text": "Closed on Tuesdays and December 25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q1052171",
+          "name": "雷佐尼科宫",
+          "official_url": "https://carezzonico.visitmuve.it/en/visitor-information/",
+          "facts": [
+            {
+              "what": "官网：冬季（11 月 1 日–3 月 31 日）周二闭馆",
+              "set": {
+                "closed_weekdays": [
+                  1
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://carezzonico.visitmuve.it/en/visitor-information/",
+                  "text": "winter season 1 November - 31 March 10:00 - 17:00 last admission: 16:00 close: Tuesday"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q756807",
+          "name": "佩萨罗宫",
+          "official_url": "https://capesaro.visitmuve.it/en/visitor-information/",
+          "facts": [
+            {
+              "what": "官网：冬季（11 月 1 日–3 月 31 日）周一闭馆",
+              "set": {
+                "closed_weekdays": [
+                  0
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://capesaro.visitmuve.it/en/visitor-information/",
+                  "text": "winter season 1 November - 31 March 10:00 - 17:00 last admission: 16:00 close: Monday"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turin",
+      "entries": [
+        {
+          "qid": "Q19826",
+          "name": "夫人宫",
+          "official_url": "https://www.palazzomadamatorino.it/en/visit/orari/",
+          "facts": [
+            {
+              "what": "官网：周二闭馆",
+              "set": {
+                "closed_weekdays": [
+                  1
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.palazzomadamatorino.it/en/visit/orari/",
+                  "text": "closed on Tuesday"
+                }
+              ]
+            },
+            {
+              "what": "官网节日表：12 月 25 日闭馆",
+              "set": {
+                "closed_dates": [
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.palazzomadamatorino.it/en/visit/orari/",
+                  "text": "25 December - Christmas - CLOSED"
+                }
+              ]
+            },
+            {
+              "what": "官网节日表：12 月 24 日和 31 日只开到 14:00",
+              "set": {
+                "date_notes": {
+                  "12-24": "官网写明 12 月 24 日只开到 14:00",
+                  "12-31": "官网写明 12 月 31 日只开到 14:00"
+                }
+              },
+              "quotes": [
+                {
+                  "url": "https://www.palazzomadamatorino.it/en/visit/orari/",
+                  "text": "24 December - Christmas Eve (open until 14:00)"
+                },
+                {
+                  "url": "https://www.palazzomadamatorino.it/en/visit/orari/",
+                  "text": "31 December - New Year's Eve (open until 14:00)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q2245152",
+          "name": "萨包达美术馆",
+          "official_url": "https://museireali.cultura.gov.it/organizza-la-tua-visita/",
+          "facts": [
+            {
+              "what": "官网：王室博物馆群周三闭馆",
+              "set": {
+                "closed_weekdays": [
+                  2
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://museireali.cultura.gov.it/organizza-la-tua-visita/",
+                  "text": "chiuso il mercoledì"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q19824",
+          "name": "都灵王宫",
+          "official_url": "https://museireali.cultura.gov.it/organizza-la-tua-visita/",
+          "facts": [
+            {
+              "what": "官网：王室博物馆群周三闭馆",
+              "set": {
+                "closed_weekdays": [
+                  2
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://museireali.cultura.gov.it/organizza-la-tua-visita/",
+                  "text": "chiuso il mercoledì"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q19838",
+          "name": "维纳利亚宫",
+          "official_url": "https://lavenaria.it/en/visit-la-reggia-di-venaria/opening-hours/",
+          "facts": [
+            {
+              "what": "官网：周一闭馆（公共假日除外）",
+              "set": {
+                "closed_weekdays": [
+                  0
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://lavenaria.it/en/visit-la-reggia-di-venaria/opening-hours/",
+                  "text": "Monday: closed (except public holidays)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verona",
+      "entries": [
+        {
+          "qid": "Q2518724",
+          "name": "老城堡博物馆",
+          "official_url": "https://museodicastelvecchio.comune.verona.it",
+          "facts": [
+            {
+              "what": "官网：周一闭馆",
+              "set": {
+                "closed_weekdays": [
+                  0
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://museodicastelvecchio.comune.verona.it",
+                  "text": "Chiuso il lunedì"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "qid": "Q1819804",
+          "name": "朗贝尔蒂塔",
+          "official_url": "https://www.torredeilamberti.it/",
+          "facts": [
+            {
+              "what": "官网：全年每天开放，12 月 25 日除外",
+              "set": {
+                "closed_dates": [
+                  "12-25"
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.torredeilamberti.it/",
+                  "text": "visitabile tutti i giorni dell'anno (escluso 25 dicembre)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bologna",
+      "entries": [
+        {
+          "qid": "Q1476981",
+          "name": "阿奇吉纳西欧宫",
+          "official_url": "https://www.archiginnasio.it/palazzo-dell-archiginnasio",
+          "facts": [
+            {
+              "what": "官网：周日闭馆",
+              "set": {
+                "closed_weekdays": [
+                  6
+                ]
+              },
+              "quotes": [
+                {
+                  "url": "https://www.archiginnasio.it/palazzo-dell-archiginnasio",
+                  "text": "chiuso la domenica"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

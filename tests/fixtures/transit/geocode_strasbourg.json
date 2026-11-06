@@ -1,0 +1,346 @@
+[
+ {
+  "type": "ADDRESS",
+  "name": "Rue du Faubourg National",
+  "lat": 48.5824117,
+  "lon": 7.7357275,
+  "country": "FR",
+  "zip": "67000;67100;67200",
+  "areas": [
+   {
+    "name": "France",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "France métropolitaine",
+    "adminLevel": 3.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Grand Est",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Collectivité européenne d'Alsace",
+    "adminLevel": 5.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Bas-Rhin",
+    "adminLevel": 6.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Strasbourg",
+    "adminLevel": 7.0,
+    "matched": true,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Strasbourg",
+    "adminLevel": 8.0,
+    "matched": false,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Tribunal-Gare-Porte de Schirmeck",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ },
+ {
+  "type": "STOP",
+  "name": "Faubourg National Gare Centrale",
+  "lat": 48.582386,
+  "lon": 7.7368060000000005,
+  "country": "FR",
+  "zip": "67000",
+  "areas": [
+   {
+    "name": "France",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "France métropolitaine",
+    "adminLevel": 3.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Grand Est",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Collectivité européenne d'Alsace",
+    "adminLevel": 5.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Bas-Rhin",
+    "adminLevel": 6.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Strasbourg",
+    "adminLevel": 7.0,
+    "matched": true,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Strasbourg",
+    "adminLevel": 8.0,
+    "matched": false,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Tribunal-Gare-Porte de Schirmeck",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ },
+ {
+  "type": "ADDRESS",
+  "name": "Rue du Faubourg",
+  "lat": 46.7501841,
+  "lon": -71.3412789,
+  "country": "CA",
+  "areas": [
+   {
+    "name": "Canada",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Québec",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Capitale-Nationale",
+    "adminLevel": 5.0,
+    "matched": true,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Agglomération de Québec",
+    "adminLevel": 6.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Québec",
+    "adminLevel": 8.0,
+    "matched": false,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Sainte-Foy–Sillery–Cap-Rouge",
+    "adminLevel": 9.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Cap-Rouge",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ },
+ {
+  "type": "ADDRESS",
+  "name": "Rue du Faubourg",
+  "lat": 47.0786886,
+  "lon": -70.8885449,
+  "country": "CA",
+  "areas": [
+   {
+    "name": "Canada",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Québec",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Capitale-Nationale",
+    "adminLevel": 5.0,
+    "matched": true,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "La Côte-de-Beaupré",
+    "adminLevel": 6.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Saint-Ferréol-les-Neiges",
+    "adminLevel": 8.0,
+    "matched": false,
+    "unique": true,
+    "default": true
+   }
+  ]
+ },
+ {
+  "type": "PLACE",
+  "name": "Entraide du Faubourg",
+  "lat": 46.8088103,
+  "lon": -71.2226073,
+  "country": "CA",
+  "areas": [
+   {
+    "name": "Canada",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Québec",
+    "adminLevel": 4.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Capitale-Nationale",
+    "adminLevel": 5.0,
+    "matched": true,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Agglomération de Québec",
+    "adminLevel": 6.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Québec",
+    "adminLevel": 8.0,
+    "matched": false,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "La Cité-Limoilou",
+    "adminLevel": 9.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Saint-Jean-Baptiste",
+    "adminLevel": 10.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   }
+  ]
+ },
+ {
+  "type": "STOP",
+  "name": "STRASBOURG",
+  "lat": -22.278059,
+  "lon": 166.44865,
+  "country": "FR",
+  "zip": "98800",
+  "areas": [
+   {
+    "name": "France",
+    "adminLevel": 2.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Nouvelle-Calédonie",
+    "adminLevel": 3.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Province Sud",
+    "adminLevel": 6.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Nouméa",
+    "adminLevel": 8.0,
+    "matched": false,
+    "unique": true,
+    "default": true
+   },
+   {
+    "name": "Secteur Sud",
+    "adminLevel": 9.0,
+    "matched": false,
+    "unique": false,
+    "default": false
+   },
+   {
+    "name": "Faubourg-Blanchot",
+    "adminLevel": 10.0,
+    "matched": true,
+    "unique": false,
+    "default": false
+   }
+  ]
+ }
+]

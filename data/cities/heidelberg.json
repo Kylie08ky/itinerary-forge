@@ -1,0 +1,43 @@
+{
+  "id": "heidelberg",
+  "name_zh": "海德堡",
+  "name_en": "Heidelberg",
+  "local_language": "de",
+  "aliases": [
+    "heidelberg",
+    "海德堡"
+  ],
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    49.4094,
+    8.6947
+  ],
+  "bbox": {
+    "lat": [
+      49.3694,
+      49.4494
+    ],
+    "lng": [
+      8.6347,
+      8.7547
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "heidelberg-heidelberger-schloss",
+    "heidelberg-heiliggeistkirche",
+    "heidelberg-alte-brucke"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "suedwest-de"
+}

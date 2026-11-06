@@ -1,0 +1,113 @@
+{
+  "city": "florence",
+  "_note": "精校：对着官方页面核对过的事实（规格 10 / 12）。键是维基数据编号；每条必须带来源和核对日期。重新生成草稿不会丢。",
+  "places": {
+    "Q51252": {
+      "closed_weekdays": [
+        0
+      ],
+      "closed_dates": [
+        "01-01",
+        "12-25"
+      ],
+      "hours_verified": true,
+      "official_url": "https://www.uffizi.it/gli-uffizi",
+      "sources": [
+        {
+          "url": "https://www.uffizi.it/gli-uffizi",
+          "checked_at": "2026-11-04",
+          "what": "官网：每周一、1 月 1 日、12 月 25 日闭馆"
+        }
+      ]
+    },
+    "Q29286": {
+      "closed_weekdays": [
+        0
+      ],
+      "closed_dates": [
+        "01-01",
+        "12-25"
+      ],
+      "hours_verified": true,
+      "official_url": "https://www.uffizi.it/palazzo-pitti",
+      "sources": [
+        {
+          "url": "https://www.uffizi.it/palazzo-pitti",
+          "checked_at": "2026-11-04",
+          "what": "官网：每周一、1 月 1 日、12 月 25 日闭馆"
+        }
+      ]
+    },
+    "Q888825": {
+      "closed_dates": [
+        "12-25"
+      ],
+      "ticket_note": "乌菲兹官网写明：每月第一个和最后一个周一、12 月 25 日闭园。",
+      "hours_verified": true,
+      "official_url": "https://www.uffizi.it/giardino-boboli",
+      "sources": [
+        {
+          "url": "https://www.uffizi.it/giardino-boboli",
+          "checked_at": "2026-11-04",
+          "what": "官网：12 月 25 日闭园；每月第一个和最后一个周一闭园"
+        }
+      ]
+    },
+    "Q51177": {
+      "closed_dates": [
+        "12-25"
+      ],
+      "date_notes": {
+        "12-26": "官网写明 12 月 26 日免费开放，14:00–17:30"
+      },
+      "ticketing": "online_or_walkin",
+      "ticket_note": "官网写明：建议通过在线售票服务预订参观。",
+      "hours_verified": true,
+      "official_url": "https://www.santacroceopera.it/organizza-la-visita/",
+      "sources": [
+        {
+          "url": "https://www.santacroceopera.it/organizza-la-visita/",
+          "checked_at": "2026-11-04",
+          "what": "官网：12 月 25 日（节日闭馆）；12 月 26 日、1 月 1 日免费开放"
+        },
+        {
+          "url": "https://www.santacroceopera.it/organizza-la-visita/",
+          "checked_at": "2026-11-04",
+          "what": "官网：建议在线订票"
+        }
+      ]
+    },
+    "Q51175": {
+      "date_notes": {
+        "12-25": "官网把宗教节日（含 12 月 25 日）归入「周日和宗教节日」一栏，开放时间比平时短，请看官网"
+      },
+      "ticket_note": "官网写明：可在参观当天于大殿售票处买票，无需预订。",
+      "hours_verified": true,
+      "official_url": "https://www.smn.it/en/visit",
+      "sources": [
+        {
+          "url": "https://www.smn.it/en/visit",
+          "checked_at": "2026-11-04",
+          "what": "官网：宗教节日（含 12 月 25 日）归入「周日和宗教节日」一栏的时间表"
+        },
+        {
+          "url": "https://www.smn.it/en/visit",
+          "checked_at": "2026-11-04",
+          "what": "官网：可当天在大殿售票处买票，无需预订"
+        }
+      ]
+    },
+    "Q271928": {
+      "ticketing": "online_or_walkin",
+      "ticket_note": "官网写明：建议在官方售票网站在线预订。",
+      "official_url": "https://musefirenze.it/musei/museo-di-palazzo-vecchio/",
+      "sources": [
+        {
+          "url": "https://musefirenze.it/musei/museo-di-palazzo-vecchio/",
+          "checked_at": "2026-11-04",
+          "what": "官网：建议在线订票"
+        }
+      ]
+    }
+  }
+}

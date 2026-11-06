@@ -1,0 +1,295 @@
+{
+  "_note": "城际时间表（规格 08 3.4）。由 scripts/fetch_city_pairs.py 用开放时刻表查得，来源和日期见每条。",
+  "origins": {
+    "stuttgart": {
+      "name_local": "Stuttgart",
+      "name_zh": "斯图加特",
+      "country": "DE",
+      "station": {
+        "name": "Stuttgart Hbf",
+        "name_zh": "斯图加特中央火车站",
+        "lat": 48.784748,
+        "lng": 9.183216999999999
+      }
+    },
+    "aachen": {
+      "name_local": "Aachen",
+      "name_zh": "亚琛",
+      "country": "DE",
+      "station": {
+        "name": "AACHEN Hauptbahnhof",
+        "name_zh": "亚琛中央火车站",
+        "lat": 50.76776,
+        "lng": 6.0913900000000005
+      }
+    }
+  },
+  "pairs": [
+    {
+      "origin": "aachen",
+      "destination": "liege",
+      "mode": "train",
+      "minutes": 26,
+      "transfers": 0,
+      "station": {
+        "name": "Liège-Guillemins",
+        "name_zh": "列日火车站",
+        "lat": 50.624550000000006,
+        "lng": 5.566698000000001
+      },
+      "last_return": "22:06",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "aachen",
+      "destination": "koeln",
+      "mode": "train",
+      "minutes": 41,
+      "transfers": 0,
+      "station": {
+        "name": "Köln Hbf",
+        "name_zh": "科隆中央火车站",
+        "lat": 50.943079999999995,
+        "lng": 6.95897
+      },
+      "last_return": "22:13",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "aachen",
+      "destination": "valkenburg",
+      "mode": "train",
+      "minutes": 46,
+      "transfers": 0,
+      "station": {
+        "name": "Valkenburg",
+        "name_zh": "法肯堡火车站",
+        "lat": 50.869278,
+        "lng": 5.832888
+      },
+      "last_return": "23:02",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "aachen",
+      "destination": "maastricht",
+      "mode": "train",
+      "minutes": 51,
+      "transfers": 1,
+      "station": {
+        "name": "Maastricht",
+        "name_zh": "马斯特里赫特火车站",
+        "lat": 50.850178,
+        "lng": 5.70525
+      },
+      "last_return": "22:50",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "aachen",
+      "destination": "monschau",
+      "mode": "train",
+      "minutes": 82,
+      "transfers": 1,
+      "station": {
+        "name": "Monschau, AZJ",
+        "name_zh": "蒙绍火车站",
+        "lat": 50.561634,
+        "lng": 6.234012
+      },
+      "last_return": "21:37",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "aachen",
+      "destination": "bruxelles",
+      "mode": "train",
+      "minutes": 78,
+      "transfers": 0,
+      "station": {
+        "name": "Bruxelles Midi",
+        "name_zh": "布鲁塞尔火车站",
+        "lat": 50.835710000000006,
+        "lng": 4.33653
+      },
+      "last_return": "20:55",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "aachen",
+      "destination": "duesseldorf",
+      "mode": "train",
+      "minutes": 72,
+      "transfers": 1,
+      "station": {
+        "name": "Düsseldorf Hauptbahnhof",
+        "name_zh": "杜塞爾多夫中央火车站",
+        "lat": 51.219597,
+        "lng": 6.7948656
+      },
+      "last_return": "22:19",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "stuttgart",
+      "destination": "ludwigsburg",
+      "mode": "train",
+      "minutes": 14,
+      "transfers": 0,
+      "station": {
+        "name": "Ludwigsburg",
+        "name_zh": "路德维希堡火车站",
+        "lat": 48.891859999999994,
+        "lng": 9.18542
+      },
+      "last_return": "23:39",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "stuttgart",
+      "destination": "esslingen",
+      "mode": "train",
+      "minutes": 12,
+      "transfers": 0,
+      "station": {
+        "name": "Esslingen (N)",
+        "name_zh": "内卡河畔埃斯林根火车站",
+        "lat": 48.73854000000001,
+        "lng": 9.300582000000002
+      },
+      "last_return": "23:39",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "stuttgart",
+      "destination": "heidelberg",
+      "mode": "train",
+      "minutes": 42,
+      "transfers": 0,
+      "station": {
+        "name": "Heidelberg Hauptbahnhof",
+        "name_zh": "海德堡中央火车站",
+        "lat": 49.40357,
+        "lng": 8.675442000000002
+      },
+      "last_return": "22:13",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "stuttgart",
+      "destination": "ulm",
+      "mode": "train",
+      "minutes": 46,
+      "transfers": 0,
+      "station": {
+        "name": "Ulm Hauptbahnhof",
+        "name_zh": "乌尔姆中央火车站",
+        "lat": 48.399345000000004,
+        "lng": 9.982933000000001
+      },
+      "last_return": "23:01",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "stuttgart",
+      "destination": "tuebingen",
+      "mode": "train",
+      "minutes": 57,
+      "transfers": 0,
+      "station": {
+        "name": "Tübingen Hauptbahnhof",
+        "name_zh": "蒂宾根中央火车站",
+        "lat": 48.51602,
+        "lng": 9.054219999999999
+      },
+      "last_return": "22:30",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "stuttgart",
+      "destination": "baden-baden",
+      "mode": "train",
+      "minutes": 81,
+      "transfers": 1,
+      "station": {
+        "name": "Baden-Baden Bahnhof",
+        "name_zh": "巴登-巴登火车站",
+        "lat": 48.79032500000001,
+        "lng": 8.190831
+      },
+      "last_return": "21:27",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    },
+    {
+      "origin": "stuttgart",
+      "destination": "strasbourg",
+      "mode": "train",
+      "minutes": 87,
+      "transfers": 0,
+      "station": {
+        "name": "Strasbourg",
+        "name_zh": "斯特拉斯堡火车站",
+        "lat": 48.58534,
+        "lng": 7.7340670000000005
+      },
+      "last_return": "20:21",
+      "source": "Transitous（开放时刻表：德国 DELFI、荷兰 NS、比利时 SNCB 等）",
+      "source_url": "https://transitous.org",
+      "checked_at": "2026-10-25",
+      "sample_date": "2026-12-12",
+      "note": "样例日期当天时刻表上的最快用时；订票和出发前请用 DB Navigator 等官方渠道确认"
+    }
+  ]
+}

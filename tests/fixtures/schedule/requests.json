@@ -1,0 +1,42 @@
+{
+  "_doc": "Q1 排程评测基线的请求集（规格 07 二点五）。base = 所有请求共有的字段；每份请求只写不一样的。theme = 生成时选的主题（混选时是权重最大的）。bypass_validation = 绕过请求校验（探针：看排程器本身撑不撑得住校验现在拒绝的情况）。",
+  "base": {
+    "destination": "Paris",
+    "budget_level": "medium",
+    "travel_style": "balanced",
+    "arrival_time": "10:30",
+    "departure_time": "18:00"
+  },
+  "cases": [
+    {"id": "art-4d", "kind": "single", "desc": "艺术 4 天（均衡）", "theme": "art", "start": "2026-11-04", "days": 4, "request": {"interests": ["art"]}},
+    {"id": "fashion-4d", "kind": "single", "desc": "时尚 4 天", "theme": "fashion", "start": "2026-11-04", "days": 4, "request": {"interests": ["fashion"]}},
+    {"id": "shopping-4d", "kind": "single", "desc": "购物 4 天", "theme": "shopping", "start": "2026-11-04", "days": 4, "request": {"interests": ["shopping"]}},
+    {"id": "museums-4d", "kind": "single", "desc": "博物馆 4 天", "theme": "museums", "start": "2026-11-04", "days": 4, "request": {"interests": ["museums"]}},
+    {"id": "entertainment-4d", "kind": "single", "desc": "文娱 4 天", "theme": "entertainment", "start": "2026-11-04", "days": 4, "request": {"interests": ["entertainment"]}},
+    {"id": "family-4d", "kind": "single", "desc": "亲子 4 天", "theme": "family", "start": "2026-11-04", "days": 4, "request": {"interests": ["family"]}},
+    {"id": "photography-4d", "kind": "single", "desc": "摄影 4 天（黄昏点按日落排）", "theme": "photography", "start": "2026-11-04", "days": 4, "request": {"interests": ["photography"]}},
+    {"id": "food-4d", "kind": "single", "desc": "美食 4 天", "theme": "food", "start": "2026-11-04", "days": 4, "request": {"interests": ["food"]}},
+
+    {"id": "art-3d-relaxed", "kind": "pace", "desc": "艺术 3 天，轻松", "theme": "art", "start": "2026-11-04", "days": 3, "request": {"interests": ["art"], "travel_style": "relaxed"}},
+    {"id": "art-3d-intense", "kind": "pace", "desc": "艺术 3 天，紧凑", "theme": "art", "start": "2026-11-04", "days": 3, "request": {"interests": ["art"], "travel_style": "intense"}},
+    {"id": "museums-2d-intense", "kind": "pace", "desc": "博物馆 2 天，紧凑（最短）", "theme": "museums", "start": "2026-11-04", "days": 2, "request": {"interests": ["museums"], "travel_style": "intense"}},
+    {"id": "food-5d-relaxed", "kind": "pace", "desc": "美食 5 天，轻松（建议上限）", "theme": "food", "start": "2026-11-04", "days": 5, "request": {"interests": ["food"], "travel_style": "relaxed"}},
+
+    {"id": "museums-from-monday", "kind": "closed-days", "desc": "博物馆 4 天，从周一开始（周一 / 周二都有馆闭）", "theme": "museums", "start": "2026-11-09", "days": 4, "request": {"interests": ["museums"]}},
+    {"id": "art-from-tuesday", "kind": "closed-days", "desc": "艺术 4 天，从周二开始", "theme": "art", "start": "2026-11-10", "days": 4, "request": {"interests": ["art"]}},
+    {"id": "art-must-and-avoid", "kind": "closed-days", "desc": "艺术 4 天，必去奥赛、不去卢浮宫", "theme": "art", "start": "2026-11-04", "days": 4, "request": {"interests": ["art"], "must_go": ["奥赛博物馆"], "avoid": ["卢浮宫"]}},
+
+    {"id": "mix-art-food-shopping", "kind": "mix", "desc": "混选艺术 + 美食 + 购物，权重相同，4 天", "theme": "art", "start": "2026-11-04", "days": 4, "request": {"interests": ["art", "food", "shopping"], "themes": [{"id": "art", "weight": 3}, {"id": "food", "weight": 3}, {"id": "shopping", "weight": 3}]}},
+    {"id": "mix-5-3-1", "kind": "mix", "desc": "混选艺术 5 / 美食 3 / 摄影 1，4 天", "theme": "art", "start": "2026-11-04", "days": 4, "request": {"interests": ["art", "food", "photography"], "themes": [{"id": "art", "weight": 5}, {"id": "food", "weight": 3}, {"id": "photography", "weight": 1}]}},
+    {"id": "mix-3-themes-7d", "kind": "long", "desc": "混选艺术 + 博物馆 + 美食，7 天", "theme": "art", "start": "2026-11-04", "days": 7, "request": {"interests": ["art", "museums", "food"], "themes": [{"id": "art", "weight": 3}, {"id": "museums", "weight": 3}, {"id": "food", "weight": 3}]}},
+
+    {"id": "museums-7d", "kind": "long", "desc": "博物馆 7 天", "theme": "museums", "start": "2026-11-04", "days": 7, "request": {"interests": ["museums"]}},
+    {"id": "art-10d", "kind": "long", "desc": "艺术 10 天", "theme": "art", "start": "2026-11-04", "days": 10, "request": {"interests": ["art"]}}
+  ],
+  "probes": [
+    {"id": "probe-4-themes", "desc": "探针：同时选 4 个主题（现在的校验最多 3 个）", "theme": "art", "start": "2026-11-04", "days": 4, "bypass_validation": true, "request": {"interests": ["art"]}, "themes": [{"id": "art", "weight": 3}, {"id": "food", "weight": 3}, {"id": "shopping", "weight": 3}, {"id": "museums", "weight": 3}]},
+    {"id": "probe-8-themes", "desc": "探针：8 个主题全选（均衡），5 天", "theme": "art", "start": "2026-11-04", "days": 5, "bypass_validation": true, "request": {"interests": ["art"]}, "themes": [{"id": "art", "weight": 3}, {"id": "fashion", "weight": 3}, {"id": "shopping", "weight": 3}, {"id": "museums", "weight": 3}, {"id": "entertainment", "weight": 3}, {"id": "family", "weight": 3}, {"id": "photography", "weight": 3}, {"id": "food", "weight": 3}]},
+    {"id": "probe-8-themes-7d", "desc": "探针：8 个主题全选，7 天", "theme": "art", "start": "2026-11-04", "days": 7, "bypass_validation": true, "request": {"interests": ["art"]}, "themes": [{"id": "art", "weight": 3}, {"id": "fashion", "weight": 3}, {"id": "shopping", "weight": 3}, {"id": "museums", "weight": 3}, {"id": "entertainment", "weight": 3}, {"id": "family", "weight": 3}, {"id": "photography", "weight": 3}, {"id": "food", "weight": 3}]},
+    {"id": "probe-art-14d", "desc": "探针：艺术 14 天", "theme": "art", "start": "2026-11-04", "days": 14, "request": {"interests": ["art"]}}
+  ]
+}

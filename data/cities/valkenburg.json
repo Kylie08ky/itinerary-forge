@@ -1,0 +1,45 @@
+{
+  "id": "valkenburg",
+  "name_zh": "法肯堡",
+  "name_en": "Valkenburg aan de Geul",
+  "local_language": "nl",
+  "aliases": [
+    "valkenburg",
+    "valkenburg aan de geul",
+    "valkenburg-aan-de-geul",
+    "法肯堡"
+  ],
+  "country": "NL",
+  "currency": "EUR",
+  "timezone": "Europe/Amsterdam",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    50.8644,
+    5.8306
+  ],
+  "bbox": {
+    "lat": [
+      50.8244,
+      50.9044
+    ],
+    "lng": [
+      5.7706,
+      5.8906
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "valkenburg-kasteel-valkenburg",
+    "valkenburg-kasteel-schaloen",
+    "valkenburg-wilhelminatoren"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "nl-be-grenzland"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "pisa",
+  "_note": "意大利实测（规格 12）：补比萨斜塔、主教座堂、洗礼堂、墓园（奇迹广场的四件套），排除凑数的小教堂。",
+  "metro": false,
+  "include": [
+    {
+      "qid": "Q39054",
+      "name": "比萨斜塔",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 60,
+      "theme": "heritage"
+    },
+    {
+      "qid": "Q1754247",
+      "name": "比萨主教座堂",
+      "category": "sight",
+      "setting": "indoor",
+      "minutes": 40,
+      "theme": "heritage"
+    },
+    {
+      "qid": "Q1278477",
+      "name": "比萨洗礼堂",
+      "category": "sight",
+      "setting": "indoor",
+      "minutes": 30,
+      "theme": "heritage"
+    },
+    {
+      "qid": "Q1031614",
+      "name": "比萨墓园",
+      "category": "sight",
+      "setting": "indoor",
+      "minutes": 40,
+      "theme": "heritage"
+    }
+  ],
+  "exclude": [
+    {
+      "qid": "Q585547",
+      "why": "圣基斯定堂是普通小教堂，行程里只会凑数"
+    },
+    {
+      "qid": "Q3505107",
+      "why": "圣柴诺堂是普通小教堂，行程里只会凑数"
+    },
+    {
+      "qid": "Q1423910",
+      "why": "阿诺河畔圣保禄堂是普通小教堂，行程里只会凑数"
+    },
+    {
+      "qid": "Q3505115",
+      "why": "圣加大肋纳堂是普通小教堂，行程里只会凑数"
+    },
+    {
+      "qid": "Q427946",
+      "why": "圣罗索雷公园在市区外，是大片自然保护区，不是游客半天能顺路去的景点"
+    }
+  ],
+  "names": {
+    "Q750245": "奇迹广场（比萨主教座堂广场）",
+    "Q1081881": "圣马特奥国立博物馆",
+    "Q427946": "圣罗索雷公园",
+    "Q2265910": "骑士宫（高等师范学院）"
+  }
+}

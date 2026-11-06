@@ -1,0 +1,277 @@
+{
+  "city": "paris",
+  "works": [
+    {
+      "id": "inception-2010",
+      "kind": "film",
+      "title": "Inception",
+      "creator": "Christopher Nolan",
+      "year": 2010,
+      "sees": [
+        {
+          "place_id": "bir-hakeim",
+          "note": "拍摄地点之一。"
+        },
+        {
+          "place_id": "palais-galliera",
+          "note": "拍摄地点之一。"
+        }
+      ],
+      "source": {
+        "title": "Inception（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Inception",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q25188",
+      "popularity": 84,
+      "title_zh": "盗梦空间"
+    },
+    {
+      "id": "the-hunchback-of-notre-dame-1996",
+      "kind": "film",
+      "title": "The Hunchback of Notre Dame",
+      "creator": "Gary Trousdale",
+      "year": 1996,
+      "sees": [
+        {
+          "place_id": "notre-dame",
+          "note": "故事发生的地点之一。"
+        }
+      ],
+      "source": {
+        "title": "The Hunchback of Notre Dame (1996 film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre_Dame_(1996_film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q213787",
+      "popularity": 69,
+      "title_zh": "钟楼怪人"
+    },
+    {
+      "id": "the-da-vinci-code-2006",
+      "kind": "film",
+      "title": "The Da Vinci Code",
+      "creator": "Ron Howard",
+      "year": 2006,
+      "sees": [
+        {
+          "place_id": "louvre",
+          "note": "拍摄地点之一。"
+        }
+      ],
+      "source": {
+        "title": "The Da Vinci Code (film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/The_Da_Vinci_Code_(film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q160560",
+      "popularity": 66,
+      "title_zh": "达芬奇密码"
+    },
+    {
+      "id": "midnight-in-paris-2011",
+      "kind": "film",
+      "title": "Midnight in Paris",
+      "creator": "Woody Allen",
+      "year": 2011,
+      "sees": [
+        {
+          "place_id": "versailles",
+          "note": "拍摄地点之一。"
+        }
+      ],
+      "source": {
+        "title": "Midnight in Paris（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Midnight_in_Paris",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q206124",
+      "popularity": 54,
+      "title_zh": "午夜巴黎"
+    },
+    {
+      "id": "mission-impossible-fallout-2018",
+      "kind": "film",
+      "title": "Mission: Impossible – Fallout",
+      "creator": "Christopher McQuarrie",
+      "year": 2018,
+      "sees": [
+        {
+          "place_id": "palais-royal",
+          "note": "拍摄地点之一。"
+        }
+      ],
+      "source": {
+        "title": "Mission: Impossible – Fallout（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Mission:_Impossible_–_Fallout",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q29261993",
+      "popularity": 51
+    },
+    {
+      "id": "moulin-rouge-2001",
+      "kind": "film",
+      "title": "Moulin Rouge!",
+      "creator": "Baz Luhrmann",
+      "year": 2001,
+      "sees": [
+        {
+          "place_id": "moulin-rouge",
+          "note": "故事发生的地点之一。"
+        }
+      ],
+      "source": {
+        "title": "Moulin Rouge!（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Moulin_Rouge!",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q193573",
+      "popularity": 51,
+      "title_zh": "情陷红磨坊"
+    },
+    {
+      "id": "breathless-1960",
+      "kind": "film",
+      "title": "Breathless",
+      "creator": "Jean-Luc Godard",
+      "year": 1960,
+      "sees": [
+        {
+          "place_id": "champs-elysees",
+          "note": "拍摄地点和故事发生地之一。"
+        }
+      ],
+      "source": {
+        "title": "Breathless (1960 film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Breathless_(1960_film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q86427",
+      "popularity": 45,
+      "title_zh": "精疲力尽"
+    },
+    {
+      "id": "men-in-black-international-2019",
+      "kind": "film",
+      "title": "Men in Black: International",
+      "creator": "F. Gary Gray",
+      "year": 2019,
+      "sees": [
+        {
+          "place_id": "eiffel-tower",
+          "note": "故事发生的地点之一。"
+        }
+      ],
+      "source": {
+        "title": "Men in Black: International（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Men_in_Black:_International",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q55439830",
+      "popularity": 40
+    },
+    {
+      "id": "the-day-of-the-jackal-1973",
+      "kind": "film",
+      "title": "The Day of the Jackal",
+      "creator": "Fred Zinnemann",
+      "year": 1973,
+      "sees": [
+        {
+          "place_id": "champs-elysees",
+          "note": "拍摄地点之一。"
+        }
+      ],
+      "source": {
+        "title": "The Day of the Jackal (film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/The_Day_of_the_Jackal_(film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q901140",
+      "popularity": 40
+    },
+    {
+      "id": "the-happening-2008",
+      "kind": "film",
+      "title": "The Happening",
+      "creator": "M. Night Shyamalan",
+      "year": 2008,
+      "sees": [
+        {
+          "place_id": "tuileries-garden",
+          "note": "拍摄地点之一。"
+        }
+      ],
+      "source": {
+        "title": "The Happening (2008 film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/The_Happening_(2008_film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q681092",
+      "popularity": 37,
+      "title_zh": "灭顶之灾"
+    },
+    {
+      "id": "marie-antoinette-2006",
+      "kind": "film",
+      "title": "Marie Antoinette",
+      "creator": "Sofia Coppola",
+      "year": 2006,
+      "sees": [
+        {
+          "place_id": "versailles",
+          "note": "拍摄地点之一。"
+        }
+      ],
+      "source": {
+        "title": "Marie Antoinette (2006 film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Marie_Antoinette_(2006_film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q829695",
+      "popularity": 37,
+      "title_zh": "绝代艳后"
+    },
+    {
+      "id": "tous-les-matins-du-monde-1991",
+      "kind": "film",
+      "title": "Tous les Matins du Monde",
+      "creator": "Alain Corneau",
+      "year": 1991,
+      "sees": [
+        {
+          "place_id": "versailles",
+          "note": "故事发生的地点之一。"
+        }
+      ],
+      "source": {
+        "title": "Tous les Matins du Monde（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Tous_les_Matins_du_Monde",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q1219541",
+      "popularity": 24
+    },
+    {
+      "id": "jeanne-du-barry-2023",
+      "kind": "film",
+      "title": "Jeanne du Barry",
+      "creator": "Maïwenn",
+      "year": 2023,
+      "sees": [
+        {
+          "place_id": "versailles",
+          "note": "拍摄地点和故事发生地之一。"
+        }
+      ],
+      "source": {
+        "title": "Jeanne du Barry (film)（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Jeanne_du_Barry_(film)",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q111209845",
+      "popularity": 24
+    }
+  ]
+}

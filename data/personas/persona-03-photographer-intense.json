@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "id": "persona-03-photographer-intense",
+    "label": "独行摄影师 · 巴黎高强度 5 天",
+    "note": "高预算、高强度、单人。用来验证单日时长上限、avoid 排除、晚到日/早走日降密度。"
+  },
+  "destination": "Paris",
+  "start_date": "2026-11-05",
+  "end_date": "2026-11-09",
+  "arrival_time": "2026-11-05 21:40",
+  "departure_time": "2026-11-09 07:30",
+  "hotel_area": "Le Marais (4th arrondissement)",
+  "budget_level": "high",
+  "travel_style": "intense",
+  "interests": ["photography", "architecture", "cafe", "street"],
+  "restrictions": ["prefer blue hour and sunrise spots"],
+  "must_go": ["Trocadero", "Montmartre", "Sainte-Chapelle"],
+  "avoid": ["shopping", "guided group tours"],
+  "language": "zh-CN"
+}

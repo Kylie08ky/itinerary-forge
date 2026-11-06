@@ -1,0 +1,36 @@
+# 本地一把梭：docker compose up --build
+# 浏览器打开 http://localhost:5173
+#
+# 模型：想要更好的说明文字，宿主机上要有 Ollama 在跑（ollama serve）并已 pull qwen2.5:7b-instruct；
+# 没有也能用——模型连不上时，行程照常生成，说明文字改用模板，页面会提示。
+# 地图：用免费的 OpenStreetMap，不需要任何 Key。
+
+services:
+  api:
+    build: .
+    ports:
+      - "8137:8137"
+    environment:
+      LLM_BACKEND: ollama
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+      OLLAMA_MODEL: qwen2.5:7b-instruct
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - plan-store:/app/data/plans
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./web
+      args:
+        VITE_API_BASE: http://localhost:8137
+    ports:
+      - "5173:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  plan-store:

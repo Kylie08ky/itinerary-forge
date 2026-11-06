@@ -1,0 +1,65 @@
+{
+ "_library": {
+  "attractions": "75ee92bb65e418ca",
+  "place_details": "47d49f1d0a3945e1",
+  "places": "c1afedaf1adef5ba",
+  "theme_details": "7f3fdb7f17b334e5",
+  "themes": "542e2552dd96932e"
+ },
+ "art-4d": {
+  "budget": "fed9d15d77d408fa",
+  "budget_settings": "3165689edf378ebe",
+  "create_response": "7220804e2a7b3881",
+  "detail": "1ff7c295284c24bf",
+  "html": "b1f5fb4ea931625d",
+  "ics": "f458b38fa74e4b5a",
+  "kml": "b47951ed74f0f2a3",
+  "md": "b6769198e04f9eaa",
+  "packing": "186aa77b6774c760",
+  "reservations": "ae770a5267833cea",
+  "route": "3c85479d751bb092",
+  "todos": "78a5bf6a5fef6236"
+ },
+ "intense-2d": {
+  "budget": "c91a4b5d2ab5b4b4",
+  "budget_settings": "3165689edf378ebe",
+  "create_response": "99d88a098eb1fd7a",
+  "detail": "1985976f82f08498",
+  "html": "14aa3519f1c849ad",
+  "ics": "f354165efa0f7a10",
+  "kml": "967f7b61d456ae55",
+  "md": "21f04bdf0a2e6f47",
+  "packing": "186aa77b6774c760",
+  "reservations": "375f809bc642f6c9",
+  "route": "64fbb7343c838ae1",
+  "todos": "24dbbae3087813f3"
+ },
+ "mixed-family-cap": {
+  "budget": "4b34446b182134be",
+  "budget_settings": "79ad7bd0e8c4d430",
+  "create_response": "68faa51ca01d3fa2",
+  "detail": "a2b6554d00efa959",
+  "html": "c5c1ae0060d7434b",
+  "ics": "c8018913a90fc453",
+  "kml": "462625d67cc6b2cd",
+  "md": "4f3a94c840cfbde8",
+  "packing": "186aa77b6774c760",
+  "reservations": "97e613b8cfa686e6",
+  "route": "8b534018b7f73f68",
+  "todos": "c9e37b1e86061264"
+ },
+ "museums-stays-must-avoid": {
+  "budget": "0ff599a7ac39c589",
+  "budget_settings": "3165689edf378ebe",
+  "create_response": "02b1903bf41fb3db",
+  "detail": "526df8ea339f27b2",
+  "html": "74a2db9f2d7a71f4",
+  "ics": "c82528141cdc0924",
+  "kml": "3dd7fa96abf97d78",
+  "md": "612ba156f61442c5",
+  "packing": "186aa77b6774c760",
+  "reservations": "e109cf752dbed514",
+  "route": "90c1bade6a89c245",
+  "todos": "13527ade48d7002b"
+ }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "naples",
+  "_note": "意大利实测（规格 12）：补充名单和排除名单；其余仍是自动建的。",
+  "include": [
+    {
+      "qid": "Q43332",
+      "name": "庞贝古城",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 240,
+      "theme": "heritage"
+    },
+    {
+      "qid": "Q718973",
+      "name": "斯帕卡那不勒斯街",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 60,
+      "theme": "district",
+      "open_access": true
+    },
+    {
+      "qid": "Q1007726",
+      "name": "翁贝托一世拱廊",
+      "category": "sight",
+      "setting": "indoor",
+      "minutes": 30,
+      "theme": "district",
+      "open_access": true
+    },
+    {
+      "qid": "Q628491",
+      "name": "圣卡洛剧院",
+      "category": "sight",
+      "setting": "indoor",
+      "minutes": 45,
+      "theme": "heritage"
+    }
+  ],
+  "exclude": [
+    {
+      "qid": "Q1041792",
+      "why": "波蒂奇宫在波蒂奇，不在那不勒斯市区"
+    },
+    {
+      "qid": "Q222410",
+      "why": "神奇水池在巴科利，离那不勒斯 20 多公里，而且没有中文名"
+    },
+    {
+      "qid": "Q220221",
+      "why": "安东·多恩动物研究所不是游客景点"
+    },
+    {
+      "qid": "Q4115652",
+      "why": "卡波迪蒙特王宫与卡波迪蒙特美术馆重复（参观就是美术馆）"
+    }
+  ],
+  "metro": true
+}

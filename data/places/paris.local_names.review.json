@@ -1,0 +1,95 @@
+{
+  "checked_at": "2026-10-28",
+  "items": [
+    {
+      "id": "montmartre-sacre-coeur",
+      "name_local": "Montmartre - Sacré-Cœur",
+      "status": "draft",
+      "note": "只有 OSM 一个来源，没法交叉核对（OSM 没带维基数据编号）"
+    },
+    {
+      "id": "seine-cruise",
+      "name_local": null,
+      "status": "missing",
+      "note": "没找到：OSM 在 500 米内没有叫「Seine river cruise」的有名字的地点，维基数据里也没有坐标和中文名都对得上的条目"
+    },
+    {
+      "id": "rue-cler",
+      "name_local": "Rue Cler",
+      "status": "draft",
+      "note": "只有 OSM 一个来源，没法交叉核对（OSM 没带维基数据编号）"
+    },
+    {
+      "id": "jardin-dacclimatation",
+      "name_local": "Jardin d'Acclimatation",
+      "status": "draft",
+      "note": "只有 OSM 一个来源，没法交叉核对（OSM 没带维基数据编号）"
+    },
+    {
+      "id": "printemps",
+      "name_local": "Printemps",
+      "status": "draft",
+      "note": "只有 OSM 一个来源，没法交叉核对（OSM 没带维基数据编号）"
+    },
+    {
+      "id": "galerie-dior",
+      "name_local": null,
+      "status": "missing",
+      "note": "没找到：OSM 在 500 米内没有叫「Galerie Dior」的有名字的地点，维基数据里也没有坐标和中文名都对得上的条目"
+    },
+    {
+      "id": "chanel-cambon",
+      "name_local": "Chanel",
+      "status": "draft",
+      "note": "只有 OSM 一个来源，没法交叉核对（OSM 没带维基数据编号）"
+    },
+    {
+      "id": "st-germain-boutiques",
+      "name_local": null,
+      "status": "missing",
+      "note": "没找到：OSM 在 500 米内没有叫「Saint-Germain-des-Prés concept stores」的有名字的地点，维基数据里也没有坐标和中文名都对得上的条目"
+    },
+    {
+      "id": "vallee-village",
+      "name_local": "La Vallée Village",
+      "status": "draft",
+      "note": "只有 OSM 一个来源，没法交叉核对（OSM 没带维基数据编号）"
+    },
+    {
+      "id": "citypharma",
+      "name_local": "CityPharma",
+      "status": "draft",
+      "note": "只有 OSM 一个来源，没法交叉核对（OSM 没带维基数据编号）"
+    },
+    {
+      "id": "lido",
+      "name_local": "Cabaret Le Lido",
+      "status": "draft",
+      "note": "OSM「Cabaret Le Lido」≠ 维基数据「Lido」，暂取 OSM 的"
+    },
+    {
+      "id": "enfants-rouges",
+      "name_local": null,
+      "status": "missing",
+      "note": "已排除：OSM 在这个坐标上只有市场里的一家咖啡馆（Le Café du Marché des Enfants Rouges），不是市场本身"
+    },
+    {
+      "id": "pierre-herme-st-germain",
+      "name_local": "Pierre Hermé",
+      "status": "draft",
+      "note": "只有 OSM 一个来源，没法交叉核对（OSM 没带维基数据编号）"
+    },
+    {
+      "id": "marais-walk",
+      "name_local": null,
+      "status": "missing",
+      "note": "没找到：OSM 在 500 米内没有叫「Le Marais」的有名字的地点，维基数据里也没有坐标和中文名都对得上的条目"
+    },
+    {
+      "id": "cafe-de-l-homme",
+      "name_local": "Café de l'Homme",
+      "status": "draft",
+      "note": "只有 OSM 一个来源，没法交叉核对（OSM 没带维基数据编号）"
+    }
+  ]
+}

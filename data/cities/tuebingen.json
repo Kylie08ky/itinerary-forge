@@ -1,0 +1,45 @@
+{
+  "id": "tuebingen",
+  "name_zh": "蒂宾根",
+  "name_en": "Tübingen",
+  "local_language": "de",
+  "aliases": [
+    "tubingen",
+    "tuebingen",
+    "tübingen",
+    "蒂宾根"
+  ],
+  "country": "DE",
+  "currency": "EUR",
+  "timezone": "Europe/Berlin",
+  "utc_offset": 1,
+  "dst": "eu",
+  "center": [
+    48.52,
+    9.0556
+  ],
+  "bbox": {
+    "lat": [
+      48.48,
+      48.56
+    ],
+    "lng": [
+      8.9956,
+      9.1156
+    ]
+  },
+  "suggested_days": {
+    "min": 1,
+    "max": 1,
+    "quality_max": 1,
+    "note": "一日游目的地：当天往返，建议 1 天"
+  },
+  "landmarks": [
+    "tuebingen-stiftskirche-st-georg",
+    "tuebingen-holderlinturm",
+    "tuebingen-schloss-hohentubingen"
+  ],
+  "supported": true,
+  "tier": "light",
+  "region": "suedwest-de"
+}

@@ -1,0 +1,2074 @@
+[
+ {
+  "id": "louvre",
+  "name": "卢浮宫",
+  "url": {
+   "url": "https://www.louvre.fr/en/visit",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.louvre.fr/en/visit",
+   "title": "Visit - Everything you need to know before visiting the museum"
+  },
+  "geo": {
+   "query": "Louvre, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée du Louvre, Port du Louvre, Saint-Germain-l'Auxerrois, Paris 1er Arrondissement, Pari",
+     "lat": 48.8611473,
+     "lng": 2.3380277,
+     "dist_m": 68,
+     "opening_hours": "Mo,Th,Sa-Su 09:00-18:00; Tu off; We,Fr 09:00-21:00; Jan 01,May 01,Dec 25 off",
+     "website": "https://www.louvre.fr",
+     "closed_days_parsed": [
+      1
+     ]
+    },
+    {
+     "name": "Palais du Louvre, Pont Royal, Saint-Germain-l'Auxerrois, Paris 1er Arrondissement, Paris, ",
+     "lat": 48.8614725,
+     "lng": 2.3368747,
+     "dist_m": 111,
+     "opening_hours": null,
+     "website": "https://www.louvre.fr/"
+    }
+   ]
+  }
+ },
+ {
+  "id": "orsay",
+  "name": "奥赛博物馆",
+  "url": {
+   "url": "https://www.musee-orsay.fr/en",
+   "ok": false,
+   "status": 403,
+   "final_url": "https://www.musee-orsay.fr/en",
+   "title": "Attention Required! | Cloudflare"
+  },
+  "geo": {
+   "query": "Musée d'Orsay, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée d'Orsay, 1, Rue de la Légion d'Honneur, Quartier Saint-Thomas-d'Aquin, Paris 7e Arro",
+     "lat": 48.8599179,
+     "lng": 2.3265849,
+     "dist_m": 9,
+     "opening_hours": "Tu-Su 09:30-18:00; Th 09:30-21:45",
+     "website": "https://www.musee-orsay.fr/",
+     "closed_days_parsed": [
+      0
+     ]
+    },
+    {
+     "name": "Musée d'Orsay, 62, Rue de Lille, Quartier Saint-Thomas-d'Aquin, Paris 7e Arrondissement, P",
+     "lat": 48.8605888,
+     "lng": 2.3259096,
+     "dist_m": 83,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "orangerie",
+  "name": "橘园美术馆",
+  "url": {
+   "url": "https://www.musee-orangerie.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.musee-orangerie.fr/en",
+   "title": "Musée de l&#039;Orangerie"
+  },
+  "geo": {
+   "query": "Musée de l'Orangerie, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée de l'Orangerie, Quai des Tuileries, Saint-Germain-l'Auxerrois, Paris 1er Arrondissem",
+     "lat": 48.8637655,
+     "lng": 2.3226602,
+     "dist_m": 5,
+     "opening_hours": "Mo-Su 09:00-18:00; Tu off",
+     "website": "https://www.musee-orangerie.fr/",
+     "closed_days_parsed": [
+      1
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "rodin",
+  "name": "罗丹博物馆",
+  "url": {
+   "url": "https://www.musee-rodin.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.musee-rodin.fr/en",
+   "title": "Home | Musée Rodin"
+  },
+  "geo": {
+   "query": "Musée Rodin, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée Rodin, 77, Rue de Varenne, Quartier des Invalides, Paris 7e Arrondissement, Paris, Î",
+     "lat": 48.8547473,
+     "lng": 2.315867,
+     "dist_m": 93,
+     "opening_hours": "Tu-Su 10:00-18:30",
+     "website": "https://www.musee-rodin.fr/",
+     "closed_days_parsed": [
+      0
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "picasso",
+  "name": "毕加索博物馆",
+  "url": {
+   "url": "https://www.museepicassoparis.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.museepicassoparis.fr/en/",
+   "title": "National Museum Picasso-Paris | Musée Picasso Paris"
+  },
+  "geo": {
+   "query": "Musée Picasso, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée national Picasso-Paris, 5, Rue de Thorigny, Quartier des Archives, Paris 3e Arrondis",
+     "lat": 48.8598698,
+     "lng": 2.3621152,
+     "dist_m": 32,
+     "opening_hours": "Tu-Fr 10:30-18:00; Sa,Su 09:30-18:00",
+     "website": "https://www.museepicassoparis.fr/",
+     "closed_days_parsed": [
+      0
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "pompidou",
+  "name": "蓬皮杜中心",
+  "url": {
+   "url": "https://www.centrepompidou.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.centrepompidou.fr/en",
+   "title": "Home - Centre Pompidou"
+  },
+  "geo": {
+   "query": "Centre Pompidou, Paris, France",
+   "candidates": [
+    {
+     "name": "Centre Georges Pompidou, 19, Rue Beaubourg, Quartier Saint-Merri, Paris 4e Arrondissement,",
+     "lat": 48.8604964,
+     "lng": 2.3524221,
+     "dist_m": 28,
+     "opening_hours": "closed",
+     "website": "https://www.centrepompidou.fr",
+     "closed_days_parsed": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "cluny",
+  "name": "中世纪博物馆（克吕尼）",
+  "url": {
+   "url": "https://www.musee-moyenage.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.musee-moyenage.fr/en",
+   "title": ""
+  },
+  "geo": {
+   "query": "Musée de Cluny, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée de Cluny, 6, Place Paul Painlevé, Quartier de la Sorbonne, Paris 5e Arrondissement, ",
+     "lat": 48.8506495,
+     "lng": 2.3435643,
+     "dist_m": 72,
+     "opening_hours": "Jan 1 off; May 1 off; Dec 25 off; Tu-Su 09:30-18:15",
+     "website": "https://www.musee-moyenage.fr/",
+     "closed_days_parsed": [
+      0
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "marmottan",
+  "name": "马摩丹莫奈博物馆",
+  "url": {
+   "url": "https://www.marmottan.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.marmottan.fr/en/",
+   "title": "Marmottan – Monet Museum &#8212; Musée Marmottan Monet"
+  },
+  "geo": {
+   "query": "Musée Marmottan Monet, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée Marmottan Monet, 2, Rue Louis Boilly, Quartier de la Muette, Paris 16e Arrondissemen",
+     "lat": 48.8594112,
+     "lng": 2.2672558,
+     "dist_m": 3,
+     "opening_hours": "Tu-We 10:00-18:00; Th 10:00-21:00; Fr-Su 10:00-18:00",
+     "website": "https://www.marmottan.fr/",
+     "closed_days_parsed": [
+      0
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "eiffel-tower",
+  "name": "埃菲尔铁塔",
+  "url": {
+   "url": "https://www.toureiffel.paris/en",
+   "ok": false,
+   "status": 403,
+   "final_url": "https://www.toureiffel.paris/en",
+   "title": "Attention Required! | Cloudflare"
+  },
+  "geo": {
+   "query": "Eiffel Tower, Paris, France",
+   "candidates": [
+    {
+     "name": "Tour Eiffel, 5, Avenue Anatole France, Quartier du Gros-Caillou, Paris 7e Arrondissement, ",
+     "lat": 48.8582599,
+     "lng": 2.2945006,
+     "dist_m": 16,
+     "opening_hours": "09:30-23:45; Jun 21-Sep 02: 09:00-00:45; Jul 14,Jul 15 off",
+     "website": "https://www.toureiffel.paris/",
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "trocadero",
+  "name": "夏乐宫 / 特罗卡德罗广场",
+  "geo": {
+   "query": "Trocadéro, Paris, France",
+   "candidates": [
+    {
+     "name": "Trocadéro, Place du Trocadéro et du 11 Novembre 1918, Chaillot, Paris 16e Arrondissement, ",
+     "lat": 48.863045,
+     "lng": 2.2871938,
+     "dist_m": 54,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Trocadéro, Avenue Kléber, Chaillot, Paris 16e Arrondissement, Paris, Île-de-France, France",
+     "lat": 48.8637724,
+     "lng": 2.2876551,
+     "dist_m": 131,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Trocadéro, Place du Trocadéro et du 11 Novembre 1918, Chaillot, Paris 16e Arrondissement, ",
+     "lat": 48.8633596,
+     "lng": 2.2874702,
+     "dist_m": 84,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "arc-de-triomphe",
+  "name": "凯旋门",
+  "url": {
+   "url": "https://www.paris-arc-de-triomphe.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.paris-arc-de-triomphe.fr/en",
+   "title": "Welcome to the Arc de triomphe"
+  },
+  "geo": {
+   "query": "Arc de Triomphe, Paris, France",
+   "candidates": [
+    {
+     "name": "Arc de Triomphe, Tunnel de l'Étoile, Quartier du Faubourg-du-Roule, Paris 8e Arrondissemen",
+     "lat": 48.8737791,
+     "lng": 2.2950372,
+     "dist_m": 4,
+     "opening_hours": "Apr 02-Jan 31: Mo-Su 10:00-22:30; Apr 01,Sep 30: Mo-Su 10:00-23:00; Oct 01,Dec 31: Mo-Su 10:00-22:30; Jan 01,May 01,May 08,Jul 14,Nov 11,Dec 25: off",
+     "website": "https://www.paris-arc-de-triomphe.fr/",
+     "closed_days_parsed": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "montmartre-sacre-coeur",
+  "name": "蒙马特高地与圣心大教堂",
+  "geo": {
+   "query": "Montmartre & Sacré-Cœur, Paris, France",
+   "candidates": [
+    {
+     "name": "Montmartre - Sacré-Cœur, Boulevard Marguerite de Rochechouart, Quartier de Rochechouart, P",
+     "lat": 48.8827758,
+     "lng": 2.3442687,
+     "dist_m": 445,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "sainte-chapelle",
+  "name": "圣礼拜堂",
+  "url": {
+   "url": "https://www.sainte-chapelle.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.sainte-chapelle.fr/en",
+   "title": "Sainte-Chapelle"
+  },
+  "geo": {
+   "query": "Sainte-Chapelle, Paris, France",
+   "candidates": [
+    {
+     "name": "Sainte-Chapelle, 8, Boulevard du Palais, Saint-Germain-l'Auxerrois, Paris 1er Arrondisseme",
+     "lat": 48.8553933,
+     "lng": 2.3449941,
+     "dist_m": 1,
+     "opening_hours": "Jan-Mar 09:00-17:00; Apr-Sep 09:00-19:00; Oct-Dec 09:00-17:00",
+     "website": "http://sainte-chapelle.monuments-nationaux.fr/",
+     "closed_days_parsed": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "conciergerie",
+  "name": "古监狱",
+  "url": {
+   "url": "https://www.paris-conciergerie.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.paris-conciergerie.fr/en",
+   "title": "Welcome to the Conciergerie"
+  },
+  "geo": {
+   "query": "Conciergerie, Paris, France",
+   "candidates": [
+    {
+     "name": "Conciergerie, 2, Boulevard du Palais, Saint-Germain-l'Auxerrois, Paris 1er Arrondissement,",
+     "lat": 48.8559492,
+     "lng": 2.3460263,
+     "dist_m": 61,
+     "opening_hours": "Mo-Su 09:30-18:00",
+     "website": "https://www.paris-conciergerie.fr",
+     "closed_days_parsed": []
+    },
+    {
+     "name": "Palais de Justice de Paris, Accès Parking Pont Neuf, Saint-Germain-l'Auxerrois, Paris 1er ",
+     "lat": 48.8556574,
+     "lng": 2.3450512,
+     "dist_m": 40,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "notre-dame",
+  "name": "巴黎圣母院（外观）",
+  "url": {
+   "url": "https://www.notredamedeparis.fr/en/",
+   "ok": false,
+   "status": 403,
+   "final_url": "https://www.notredamedeparis.fr/en/",
+   "title": "Just a moment..."
+  },
+  "geo": {
+   "query": "Notre-Dame (exterior), Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "pantheon",
+  "name": "先贤祠",
+  "url": {
+   "url": "https://www.paris-pantheon.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.paris-pantheon.fr/en",
+   "title": "Welcome to the Panthéon"
+  },
+  "geo": {
+   "query": "Panthéon, Paris, France",
+   "candidates": [
+    {
+     "name": "Panthéon, Place du Panthéon, Quartier de la Sorbonne, Paris 5e Arrondissement, Paris, Île-",
+     "lat": 48.8461947,
+     "lng": 2.3460507,
+     "dist_m": 26,
+     "opening_hours": "Mo-Su 10:00-18:00; Apr 1-Sep 30: Mo-Su 10:00-18:30; Jan 1,May 1,Dec 25: off",
+     "website": "https://www.paris-pantheon.fr/",
+     "closed_days_parsed": []
+    },
+    {
+     "name": "Paris 5e Arrondissement, Paris, Île-de-France, France métropolitaine, 75005, France",
+     "lat": 48.8459728,
+     "lng": 2.3443504,
+     "dist_m": 152,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "luxembourg-garden",
+  "name": "卢森堡公园",
+  "geo": {
+   "query": "Jardin du Luxembourg, Paris, France",
+   "candidates": [
+    {
+     "name": "Jardin du Luxembourg, Place Edmond Rostand, Quartier de l'Odéon, Paris 6e Arrondissement, ",
+     "lat": 48.8467228,
+     "lng": 2.3364148,
+     "dist_m": 82,
+     "opening_hours": "open \"check website https://www.senat.fr/visite/jardin/horaires.html\"; (sunset-00:30)-(sunrise-00:15) closed; Mar01-Sep30 (sunset-00:30)-07:30 closed",
+     "website": "https://www.senat.fr/visite/jardin/",
+     "closed_days_parsed": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "tuileries-garden",
+  "name": "杜乐丽花园",
+  "geo": {
+   "query": "Jardin des Tuileries, Paris, France",
+   "candidates": [
+    {
+     "name": "Jardin des Tuileries, 113, Paris, Île-de-France, France métropolitaine, 75001, France",
+     "lat": 48.8635662,
+     "lng": 2.3269552,
+     "dist_m": 41,
+     "opening_hours": "Mo-Su 07:30-21:00",
+     "website": "https://www.parisinfo.com/musee-monument-paris/71304/Jardin-des-Tuileries",
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "palais-royal",
+  "name": "皇家宫殿花园",
+  "geo": {
+   "query": "Palais Royal, Paris, France",
+   "candidates": [
+    {
+     "name": "Palais Royal, Galerie des Proues, Quartier du Palais Royal, Paris 1er Arrondissement, Pari",
+     "lat": 48.8635847,
+     "lng": 2.3362042,
+     "dist_m": 103,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Quartier du Palais Royal, Paris 1er Arrondissement, Paris, Île-de-France, France métropoli",
+     "lat": 48.8646034,
+     "lng": 2.3360491,
+     "dist_m": 152,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "marais-walk",
+  "name": "玛黑区漫步",
+  "geo": {
+   "query": "Le Marais walk, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "latin-quarter",
+  "name": "拉丁区与莎士比亚书店",
+  "geo": {
+   "query": "Latin Quarter walk, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "canal-saint-martin",
+  "name": "圣马丁运河",
+  "geo": {
+   "query": "Canal Saint-Martin, Paris, France",
+   "candidates": [
+    {
+     "name": "Canal Saint-Martin, Paris, Île-de-France, France métropolitaine, France",
+     "lat": 48.8689561,
+     "lng": 2.3671691,
+     "dist_m": 252,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "seine-cruise",
+  "name": "塞纳河游船",
+  "url": {
+   "url": "https://www.bateauxparisiens.com/english.html",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.bateauxparisiens.com/english.html",
+   "title": ""
+  },
+  "geo": {
+   "query": "Seine river cruise, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "versailles",
+  "name": "凡尔赛宫",
+  "url": {
+   "url": "https://www.chateauversailles.fr/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.chateauversailles.fr/",
+   "title": "Château de Versailles | Site officiel"
+  },
+  "geo": {
+   "query": "Château de Versailles, France",
+   "candidates": [
+    {
+     "name": "Château de Versailles, Petite Cour du Roi, Notre-Dame, Versailles, Yvelines, Île-de-France",
+     "lat": 48.8044252,
+     "lng": 2.1202853,
+     "dist_m": 53,
+     "opening_hours": "Apr-Oct: Tu-Su 09:00-18:30, Nov-Mar: Tu-Su 09:00-17:30",
+     "website": "https://www.chateauversailles.fr/decouvrir/domaine/chateau",
+     "closed_days_parsed": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "pere-lachaise",
+  "name": "拉雪兹神父公墓",
+  "geo": {
+   "query": "Père Lachaise, Paris, France",
+   "candidates": [
+    {
+     "name": "Cimetière du Père-Lachaise, 8, Boulevard de Ménilmontant, Quartier du Père-Lachaise, Paris",
+     "lat": 48.8611296,
+     "lng": 2.3940087,
+     "dist_m": 100,
+     "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:30-17:30; Su 09:00-17:30",
+     "website": "https://www.paris.fr/equipements/cimetiere-du-pere-lachaise-4080",
+     "closed_days_parsed": []
+    },
+    {
+     "name": "Père Lachaise, Boulevard de Ménilmontant, Quartier Saint-Ambroise, Paris 11e Arrondissemen",
+     "lat": 48.8629238,
+     "lng": 2.3874128,
+     "dist_m": 445,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "lafayette-rooftop",
+  "name": "老佛爷天台观景",
+  "geo": {
+   "query": "Galeries Lafayette rooftop, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "rue-montorgueil",
+  "name": "蒙托格伊市集街",
+  "geo": {
+   "query": "Rue Montorgueil, Paris, France",
+   "candidates": [
+    {
+     "name": "Rue Montorgueil, Quartier Les Halles, Paris 1er Arrondissement, Paris, Île-de-France, Fran",
+     "lat": 48.8638613,
+     "lng": 2.3464827,
+     "dist_m": 187,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Rue Montorgueil, Quartier du Mail, Paris 2e Arrondissement, Paris, Île-de-France, France m",
+     "lat": 48.8653034,
+     "lng": 2.3469346,
+     "dist_m": 43,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Rue Montorgueil, Bonne-Nouvelle, Paris 2e Arrondissement, Paris, Île-de-France, France mét",
+     "lat": 48.8645945,
+     "lng": 2.3467323,
+     "dist_m": 106,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "rue-cler",
+  "name": "克莱尔街市集",
+  "geo": {
+   "query": "Rue Cler, Paris, France",
+   "candidates": [
+    {
+     "name": "Rue Cler, Quartier du Gros-Caillou, Paris 7e Arrondissement, Paris, Île-de-France, France ",
+     "lat": 48.8565839,
+     "lng": 2.3065089,
+     "dist_m": 61,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Rue Cler, Quartier du Gros-Caillou, Paris 7e Arrondissement, Paris, Île-de-France, France ",
+     "lat": 48.8584607,
+     "lng": 2.3055384,
+     "dist_m": 196,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Rue Cler, Avenue de la Motte-Picquet, Quartier du Gros-Caillou, Paris 7e Arrondissement, P",
+     "lat": 48.8556204,
+     "lng": 2.3073399,
+     "dist_m": 170,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "disneyland-paris",
+  "name": "迪士尼乐园巴黎",
+  "url": {
+   "url": "https://www.disneylandparis.com/en-int/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.disneylandparis.com/en-int",
+   "title": "Disneyland Paris - tickets, deals, family holidays | Disneyland Paris"
+  },
+  "geo": {
+   "query": "Disneyland Paris, France",
+   "candidates": [
+    {
+     "name": "Disneyland Paris, Boulevard du Parc, La Maizière, Coupvray, Torcy, Seine-et-Marne, Île-de-",
+     "lat": 48.8701103,
+     "lng": 2.774056,
+     "dist_m": 276,
+     "opening_hours": "Mo-Su 09:00-22:00",
+     "website": "http://www.disneylandparis.com",
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "jardin-dacclimatation",
+  "name": "驯化园",
+  "url": {
+   "url": "https://www.jardindacclimatation.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.jardindacclimatation.fr/fr",
+   "title": "Découvrir l&#x27;univers du Jardin d&#x27;Acclimatation de Paris - accueil"
+  },
+  "geo": {
+   "query": "Jardin d'Acclimatation, Paris, France",
+   "candidates": [
+    {
+     "name": "Jardin d'Acclimatation, Route de la Porte Saint-James, Quartier de la Porte-Dauphine, Pari",
+     "lat": 48.8780985,
+     "lng": 2.2648884,
+     "dist_m": 277,
+     "opening_hours": "Apr-Sep: 10:00-19:00; Oct-Mar: 10:00-18:00",
+     "website": "https://www.jardindacclimatation.fr/",
+     "closed_days_parsed": null
+    },
+    {
+     "name": "Jardin d'Acclimatation, Allée de Longchamp, Quartier de la Porte-Dauphine, Paris 16e Arron",
+     "lat": 48.8750333,
+     "lng": 2.2715872,
+     "dist_m": 359,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Jardin d'Acclimatation, Avenue du Mahatma Gandhi, Quartier de la Porte-Dauphine, Paris 16e",
+     "lat": 48.87717,
+     "lng": 2.2688928,
+     "dist_m": 52,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "galeries-lafayette-shopping",
+  "name": "老佛爷百货购物",
+  "url": {
+   "url": "https://haussmann.galerieslafayette.com/en/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://haussmann.galerieslafayette.com/en/",
+   "title": "Parisian Department Store - Galeries Lafayette Paris Haussmann"
+  },
+  "geo": {
+   "query": "Galeries Lafayette shopping, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "printemps",
+  "name": "春天百货",
+  "url": {
+   "url": "https://www.printemps.com/int/en",
+   "ok": false,
+   "status": 403,
+   "final_url": "https://www.printemps.com/int/en",
+   "title": "Printemps.com - Mode homme, femme et beauté de luxe"
+  },
+  "geo": {
+   "query": "Printemps Haussmann, Paris, France",
+   "candidates": [
+    {
+     "name": "Accès Parking Haussmann - Printemps, Quartier de la Chaussée-d'Antin, Paris 9e Arrondissem",
+     "lat": 48.8741542,
+     "lng": 2.3272806,
+     "dist_m": 230,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "marais-boutiques",
+  "name": "玛黑区买手店路线",
+  "geo": {
+   "query": "Le Marais boutique walk, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "carnavalet",
+  "name": "卡纳瓦莱博物馆",
+  "url": {
+   "url": "https://www.carnavalet.paris.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.carnavalet.paris.fr/en",
+   "title": "Homepage | Musée Carnavalet - Histoire de Paris"
+  },
+  "geo": {
+   "query": "Musée Carnavalet, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée Carnavalet, Rue Madame de Sévigné, Quartier des Archives, Paris 3e Arrondissement, P",
+     "lat": 48.8573232,
+     "lng": 2.3624734,
+     "dist_m": 15,
+     "opening_hours": "Tu-Su 10:00-18:00 \"Final admission 17:15\"",
+     "website": "https://carnavalet.paris.fr",
+     "closed_days_parsed": [
+      0
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "mam-paris",
+  "name": "巴黎市立现代艺术博物馆",
+  "url": {
+   "url": "https://www.mam.paris.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.mam.paris.fr/en",
+   "title": "City of Paris Museum of Modern Art |"
+  },
+  "geo": {
+   "query": "Musée d'Art Moderne de Paris, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée d'Art Moderne de Paris, 11, Avenue du Président Wilson, Chaillot, Paris 16e Arrondis",
+     "lat": 48.8643133,
+     "lng": 2.2978602,
+     "dist_m": 60,
+     "opening_hours": "Tu-Su 10:00-18:00",
+     "website": "https://www.mam.paris.fr/",
+     "closed_days_parsed": [
+      0
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "palais-de-tokyo",
+  "name": "东京宫",
+  "url": {
+   "url": "https://palaisdetokyo.com/en/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://palaisdetokyo.com/en/",
+   "title": "Palais de Tokyo - Palais de Tokyo"
+  },
+  "geo": {
+   "query": "Palais de Tokyo, Paris, France",
+   "candidates": [
+    {
+     "name": "Palais de Tokyo, Rue de la Manutention, Chaillot, Paris 16e Arrondissement, Paris, Île-de-",
+     "lat": 48.8639905,
+     "lng": 2.2965215,
+     "dist_m": 25,
+     "opening_hours": "Mo-Su 12:00-24:00; Tu off; Jan 01 off; May 01 off; Dec 25 off; Dec 24 12:00- 18:00; Dec 31 12:00- 18:00",
+     "website": "https://www.palaisdetokyo.com/",
+     "closed_days_parsed": [
+      1
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "quai-branly",
+  "name": "凯布朗利博物馆",
+  "url": {
+   "url": "https://www.quaibranly.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.quaibranly.fr/en",
+   "title": "Home - musée du quai Branly - Jacques Chirac"
+  },
+  "geo": {
+   "query": "Musée du quai Branly, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée du quai Branly, 37, Quai Branly, Quartier du Gros-Caillou, Paris 7e Arrondissement, ",
+     "lat": 48.8609943,
+     "lng": 2.2979696,
+     "dist_m": 16,
+     "opening_hours": "Tu-We, Fr-Su 10:30-19:00; Th 10:30-22:00",
+     "website": "https://www.quaibranly.fr/",
+     "closed_days_parsed": [
+      0
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "invalides",
+  "name": "荣军院（拿破仑墓）",
+  "url": {
+   "url": "https://www.musee-armee.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.musee-armee.fr/en/home.html",
+   "title": "Home"
+  },
+  "geo": {
+   "query": "Les Invalides, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée de l'Armée, 129, Rue de Grenelle, Quartier des Invalides, Paris 7e Arrondissement, P",
+     "lat": 48.8570374,
+     "lng": 2.3118779,
+     "dist_m": 198,
+     "opening_hours": "Nov-Mar: Mo-Su 10:00-17:00; Apr-Oct: Mo-Su 10:00-18:00; Apr-Sep: Tu 21:00+; Jan 1 off; May 1 off; Dec 25 off",
+     "website": "http://www.musee-armee.fr/",
+     "closed_days_parsed": null
+    },
+    {
+     "name": "Cathédrale Saint-Louis des Invalides, Cour de Nismes, Quartier des Invalides, Paris 7e Arr",
+     "lat": 48.8556354,
+     "lng": 2.3126175,
+     "dist_m": 38,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "fondation-louis-vuitton",
+  "name": "路易威登基金会美术馆",
+  "url": {
+   "url": "https://www.fondationlouisvuitton.fr/en",
+   "ok": false,
+   "status": 403,
+   "final_url": "https://www.fondationlouisvuitton.fr/en",
+   "title": "Access Denied"
+  },
+  "geo": {
+   "query": "Fondation Louis Vuitton, Paris, France",
+   "candidates": [
+    {
+     "name": "Fondation Louis Vuitton, 8, Avenue du Mahatma Gandhi, Quartier de la Porte-Dauphine, Paris",
+     "lat": 48.87665,
+     "lng": 2.2633381,
+     "dist_m": 13,
+     "opening_hours": "Mo-Th 12:00-19:00; Tu off; Fr 12:00-21:00; Sa,Su 11:00-20:00",
+     "website": "https://www.fondationlouisvuitton.fr/",
+     "closed_days_parsed": [
+      1
+     ]
+    },
+    {
+     "name": "Fondation Louis Vuitton, Route de la Porte Saint-James, Quartier de la Porte-Dauphine, Par",
+     "lat": 48.8766668,
+     "lng": 2.2631854,
+     "dist_m": 23,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Fondation Louis Vuitton, Route Sablonneuse, Quartier de la Porte-Dauphine, Paris 16e Arron",
+     "lat": 48.8761457,
+     "lng": 2.2635999,
+     "dist_m": 62,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "bourse-de-commerce",
+  "name": "皮诺艺术收藏馆（商品交易所）",
+  "url": {
+   "url": "https://www.boursedecommerce.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.pinaultcollection.com/fr/boursedecommerce",
+   "title": "Bourse de Commerce | Pinault Collection"
+  },
+  "geo": {
+   "query": "Bourse de Commerce – Pinault Collection, Paris, France",
+   "candidates": [
+    {
+     "name": "Bourse de Commerce, 2, Rue de Viarmes, Quartier Les Halles, Paris 1er Arrondissement, Pari",
+     "lat": 48.8628174,
+     "lng": 2.3428364,
+     "dist_m": 5,
+     "opening_hours": "11:00-19:00; Tu off; Fr 11:00-21:00; May 01 off",
+     "website": "https://www.boursedecommerce.fr",
+     "closed_days_parsed": [
+      1
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "guimet",
+  "name": "吉美亚洲艺术博物馆",
+  "url": {
+   "url": "https://www.guimet.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.guimet.fr/en",
+   "title": "Musée national des arts asiatiques-Guimet (Home) | Musée Guimet"
+  },
+  "geo": {
+   "query": "Musée Guimet, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée Guimet, 6, Place d'Iéna, Chaillot, Paris 16e Arrondissement, Paris, Île-de-France, F",
+     "lat": 48.865379,
+     "lng": 2.2935933,
+     "dist_m": 32,
+     "opening_hours": "Mo-Su 10:00-18:00; Tu off; Dec 25 off; Jan 01 off; May 01 off; Dec 24 10:00-16:45; Dec 31 10:00-16:45; easter -1 day 10:00-16:45; easter +49 days 10:00-16:45",
+     "website": "https://www.guimet.fr/",
+     "closed_days_parsed": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "arts-decoratifs",
+  "name": "装饰艺术博物馆",
+  "url": {
+   "url": "https://madparis.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://madparis.fr/en",
+   "title": "Les Arts Décoratifs - Site officiel"
+  },
+  "geo": {
+   "query": "Musée des Arts Décoratifs, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée des Arts Décoratifs, 107, Rue de Rivoli, Saint-Germain-l'Auxerrois, Paris 1er Arrond",
+     "lat": 48.8631692,
+     "lng": 2.3329513,
+     "dist_m": 79,
+     "opening_hours": null,
+     "website": "https://madparis.fr/musee-des-arts-decoratifs"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ysl-museum",
+  "name": "圣罗兰博物馆",
+  "url": {
+   "url": "https://museeyslparis.com/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://museeyslparis.com/en/",
+   "title": "Musée Yves Saint Laurent Paris"
+  },
+  "geo": {
+   "query": "Musée Yves Saint Laurent Paris, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée Yves Saint Laurent, Rue Léonce Reynaud, Chaillot, Paris 16e Arrondissement, Paris, Î",
+     "lat": 48.8655906,
+     "lng": 2.2993156,
+     "dist_m": 207,
+     "opening_hours": null,
+     "website": "https://museeyslparis.com"
+    }
+   ]
+  }
+ },
+ {
+  "id": "palais-galliera",
+  "name": "加列拉宫时尚博物馆",
+  "url": {
+   "url": "https://www.palaisgalliera.paris.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.palaisgalliera.paris.fr/en",
+   "title": "Home | Galliera"
+  },
+  "geo": {
+   "query": "Palais Galliera, Paris, France",
+   "candidates": [
+    {
+     "name": "Palais Galliera, 10, Avenue Pierre-Iᵉʳ-de-Serbie, Chaillot, Paris 16e Arrondissement, Pari",
+     "lat": 48.8657028,
+     "lng": 2.2965064,
+     "dist_m": 94,
+     "opening_hours": "Tu-Th, Sa-Su 10:00-18:00; Fr 10:00-21:00",
+     "website": "http://palaisgalliera.paris.fr",
+     "closed_days_parsed": [
+      0
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "galerie-dior",
+  "name": "迪奥的故事 Galerie Dior",
+  "url": {
+   "url": "https://www.galeriedior.com/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.galeriedior.com/en",
+   "title": "La Galerie Dior"
+  },
+  "geo": {
+   "query": "La Galerie Dior, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "chanel-cambon",
+  "name": "香奈儿康朋街 31 号",
+  "geo": {
+   "query": "Chanel – 31 rue Cambon, Paris, France",
+   "candidates": [
+    {
+     "name": "Chanel, 29-31, Rue Cambon, Quartier Vendôme, Paris 1er Arrondissement, Paris, Île-de-Franc",
+     "lat": 48.8681607,
+     "lng": 2.3266858,
+     "dist_m": 112,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "avenue-montaigne",
+  "name": "蒙田大道",
+  "geo": {
+   "query": "Avenue Montaigne, Paris, France",
+   "candidates": [
+    {
+     "name": "Avenue Montaigne, Quartier des Champs-Élysées, Paris 8e Arrondissement, Paris, Île-de-Fran",
+     "lat": 48.8659839,
+     "lng": 2.3043287,
+     "dist_m": 76,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "faubourg-saint-honore",
+  "name": "圣奥诺雷市郊路",
+  "geo": {
+   "query": "Rue du Faubourg Saint-Honoré, Paris, France",
+   "candidates": [
+    {
+     "name": "Rue du Faubourg Saint-Honoré, Quartier du Faubourg-du-Roule, Paris 8e Arrondissement, Pari",
+     "lat": 48.8771443,
+     "lng": 2.3003295,
+     "dist_m": 1455,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Rue du Faubourg Saint-Honoré, Quartier de la Madeleine, Paris 8e Arrondissement, Paris, Îl",
+     "lat": 48.8691449,
+     "lng": 2.3204234,
+     "dist_m": 268,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "place-vendome",
+  "name": "旺多姆广场",
+  "geo": {
+   "query": "Place Vendôme, Paris, France",
+   "candidates": [
+    {
+     "name": "Place Vendôme, Quartier Vendôme, Paris 1er Arrondissement, Paris, Île-de-France, France mé",
+     "lat": 48.8674634,
+     "lng": 2.3294281,
+     "dist_m": 13,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "st-germain-boutiques",
+  "name": "圣日耳曼买手店与概念店",
+  "geo": {
+   "query": "Saint-Germain-des-Prés concept stores, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "le-bon-marche",
+  "name": "乐蓬马歇百货",
+  "geo": {
+   "query": "Le Bon Marché Rive Gauche, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "la-samaritaine",
+  "name": "莎玛丽丹百货",
+  "url": {
+   "url": "https://www.samaritaine.com/en",
+   "ok": false,
+   "status": 403,
+   "final_url": "https://www.samaritaine.com/en",
+   "title": "Access Denied"
+  },
+  "geo": {
+   "query": "La Samaritaine, Paris, France",
+   "candidates": [
+    {
+     "name": "La Samaritaine, 9, Rue de la Monnaie, Saint-Germain-l'Auxerrois, Paris 1er Arrondissement,",
+     "lat": 48.8592063,
+     "lng": 2.3423534,
+     "dist_m": 62,
+     "opening_hours": "Mo-Su 10:00-20:00",
+     "website": "https://www.dfs.com/",
+     "closed_days_parsed": []
+    },
+    {
+     "name": "La Samaritaine, 9, Rue de la Monnaie, Saint-Germain-l'Auxerrois, Paris 1er Arrondissement,",
+     "lat": 48.8593356,
+     "lng": 2.3423976,
+     "dist_m": 74,
+     "opening_hours": "Mo-Su 10:00-20:00",
+     "website": "https://www.dfs.com/fr/samaritaine",
+     "closed_days_parsed": []
+    },
+    {
+     "name": "La Samaritaine, Rue de Rivoli, Quartier Les Halles, Paris 1er Arrondissement, Paris, Île-d",
+     "lat": 48.8600027,
+     "lng": 2.3428582,
+     "dist_m": 145,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "vallee-village",
+  "name": "巴黎山谷购物村（奥特莱斯）",
+  "url": {
+   "url": "https://www.lavalleevillage.com/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.thebicestercollection.com/la-vallee-village/en",
+   "title": "Designer Outlet Boutique Shopping near Paris | La Vallée Village"
+  },
+  "geo": {
+   "query": "La Vallée Village, France",
+   "candidates": [
+    {
+     "name": "La Vallée Village, 3, Serris, Torcy, Seine-et-Marne, Île-de-France, France métropolitaine,",
+     "lat": 48.8533785,
+     "lng": 2.7834527,
+     "dist_m": 4,
+     "opening_hours": "Mo-Su 10:00-19:00",
+     "website": "https://www.lavalleevillage.com/",
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "puces-saint-ouen",
+  "name": "圣图安跳蚤市场",
+  "geo": {
+   "query": "Marché aux Puces de Saint-Ouen, Paris, France",
+   "candidates": [
+    {
+     "name": "Marché aux Puces de Saint-Ouen, Avenue de la Porte de Clignancourt, Quartier des Grandes-C",
+     "lat": 48.9029523,
+     "lng": 2.3388582,
+     "dist_m": 432,
+     "opening_hours": "Fr 08:00-12:00, Sa-Su 10:00-18:00,Mo 11:00-17:00",
+     "website": "https://www.pucesdeparissaintouen.com",
+     "closed_days_parsed": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "name": "Marché aux Puces de Saint-Ouen, Avenue de la Porte de Clignancourt, Quartier des Grandes-C",
+     "lat": 48.9030272,
+     "lng": 2.3391975,
+     "dist_m": 411,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "citypharma",
+  "name": "Citypharma 药妆店",
+  "geo": {
+   "query": "Citypharma, Paris, France",
+   "candidates": [
+    {
+     "name": "CityPharma, 26, Rue du Four, Quartier de Saint-Germain-des-Prés, Paris 6e Arrondissement, ",
+     "lat": 48.8527413,
+     "lng": 2.3333559,
+     "dist_m": 85,
+     "opening_hours": "Mo-Fr 08:30-21:00; Sa 09:00-21:00; Su off",
+     "website": "https://pharmacie-citypharma.fr/",
+     "closed_days_parsed": [
+      6
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "champs-elysees",
+  "name": "香榭丽舍大街",
+  "geo": {
+   "query": "Avenue des Champs-Élysées, Paris, France",
+   "candidates": [
+    {
+     "name": "Avenue des Champs-Élysées, Quartier des Champs-Élysées, Paris 8e Arrondissement, Paris, Îl",
+     "lat": 48.8683306,
+     "lng": 2.312152,
+     "dist_m": 364,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Avenue des Champs-Élysées, Quartier du Faubourg-du-Roule, Paris 8e Arrondissement, Paris, ",
+     "lat": 48.8696863,
+     "lng": 2.3079166,
+     "dist_m": 20,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "passage-des-panoramas",
+  "name": "全景廊街",
+  "geo": {
+   "query": "Passage des Panoramas, Paris, France",
+   "candidates": [
+    {
+     "name": "Passage des Panoramas, Vivienne, Paris 2e Arrondissement, Paris, Île-de-France, France mét",
+     "lat": 48.8709543,
+     "lng": 2.3416586,
+     "dist_m": 51,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Passage des Panoramas, Vivienne, Paris 2e Arrondissement, Paris, Île-de-France, France mét",
+     "lat": 48.871,
+     "lng": 2.3416312,
+     "dist_m": 46,
+     "opening_hours": "Mo-Su 06:00-00:00",
+     "website": null,
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "galerie-vivienne",
+  "name": "维维安拱廊街",
+  "geo": {
+   "query": "Galerie Vivienne, Paris, France",
+   "candidates": [
+    {
+     "name": "Galerie Vivienne, Vivienne, Paris 2e Arrondissement, Paris, Île-de-France, France métropol",
+     "lat": 48.8667277,
+     "lng": 2.339757,
+     "dist_m": 24,
+     "opening_hours": "Mo-Sa 08:30-20:30",
+     "website": "https://www.galerie-vivienne.com",
+     "closed_days_parsed": [
+      6
+     ]
+    },
+    {
+     "name": "Galerie Vivienne, Vivienne, Paris 2e Arrondissement, Paris, Île-de-France, France métropol",
+     "lat": 48.866535,
+     "lng": 2.3401054,
+     "dist_m": 45,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "palais-garnier",
+  "name": "巴黎歌剧院（加尼叶宫）",
+  "url": {
+   "url": "https://www.operadeparis.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.operadeparis.fr/en",
+   "title": "Opéra national de Paris"
+  },
+  "geo": {
+   "query": "Palais Garnier, Paris, France",
+   "candidates": [
+    {
+     "name": "L'Opéra Restaurant, Place Jacques Rouché, Quartier de la Chaussée-d'Antin, Paris 9e Arrond",
+     "lat": 48.8720949,
+     "lng": 2.3323339,
+     "dist_m": 55,
+     "opening_hours": "Mo-Su 08:00-23:59",
+     "website": "www.opera-restaurant.fr",
+     "closed_days_parsed": []
+    },
+    {
+     "name": "Palais Garnier, Place de l'Opéra, Quartier de la Chaussée-d'Antin, Paris 9e Arrondissement",
+     "lat": 48.8714332,
+     "lng": 2.3319654,
+     "dist_m": 68,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "moulin-rouge",
+  "name": "红磨坊",
+  "url": {
+   "url": "https://www.moulinrouge.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.moulinrouge.fr/en/homepage/",
+   "title": "Moulin Rouge (Official Website) - Booking at +33 (0)1 53 09 82 82"
+  },
+  "geo": {
+   "query": "Moulin Rouge, Paris, France",
+   "candidates": [
+    {
+     "name": "Moulin Rouge, 82, Boulevard de Clichy, Quartier des Grandes-Carrières, Paris 18e Arrondiss",
+     "lat": 48.8841094,
+     "lng": 2.3323564,
+     "dist_m": 4,
+     "opening_hours": null,
+     "website": "https://www.moulinrouge.fr/"
+    }
+   ]
+  }
+ },
+ {
+  "id": "lido",
+  "name": "丽都歌舞秀",
+  "geo": {
+   "query": "Lido de Paris, Paris, France",
+   "candidates": [
+    {
+     "name": "Lido, Rue d'Ouessant, Quartier de Grenelle, Paris 15e Arrondissement, Paris, Île-de-France",
+     "lat": 48.8502271,
+     "lng": 2.2965365,
+     "dist_m": 2473,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Le Lido, Avenue des Champs-Élysées, Quartier du Faubourg-du-Roule, Paris 8e Arrondissement",
+     "lat": 48.8724266,
+     "lng": 2.3008705,
+     "dist_m": 19,
+     "opening_hours": null,
+     "website": "https://www.lido.fr"
+    },
+    {
+     "name": "Arcade des Champs-Élysées, Quartier du Faubourg-du-Roule, Paris 8e Arrondissement, Paris, ",
+     "lat": 48.871694,
+     "lng": 2.3046052,
+     "dist_m": 293,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "crazy-horse",
+  "name": "疯马秀",
+  "url": {
+   "url": "https://www.lecrazyhorseparis.com/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.lecrazyhorseparis.com/en/",
+   "title": "Cabaret Tickets | Crazy Horse Paris | official website"
+  },
+  "geo": {
+   "query": "Crazy Horse Paris, Paris, France",
+   "candidates": [
+    {
+     "name": "Le Crazy horse de Paris, Rue de la Trémoille, Quartier des Champs-Élysées, Paris 8e Arrond",
+     "lat": 48.8659605,
+     "lng": 2.3017221,
+     "dist_m": 77,
+     "opening_hours": null,
+     "website": "https://reservation.lecrazy.com/"
+    }
+   ]
+  }
+ },
+ {
+  "id": "caveau-huchette",
+  "name": "于谢特地窖爵士俱乐部",
+  "url": {
+   "url": "https://www.caveaudelahuchette.fr/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.caveaudelahuchette.fr/",
+   "title": "CAVEAU DE LA HUCHETTE"
+  },
+  "geo": {
+   "query": "Le Caveau de la Huchette, Paris, France",
+   "candidates": []
+  }
+ },
+ {
+  "id": "philharmonie",
+  "name": "巴黎爱乐音乐城",
+  "url": {
+   "url": "https://philharmoniedeparis.fr/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://philharmoniedeparis.fr/en",
+   "title": "Homepage | Philharmonie de Paris"
+  },
+  "geo": {
+   "query": "Philharmonie de Paris, Paris, France",
+   "candidates": [
+    {
+     "name": "Philharmonie de Paris, Voie CZ/19, Quartier du Pont-de-Flandre, Paris 19e Arrondissement, ",
+     "lat": 48.8919212,
+     "lng": 2.3941386,
+     "dist_m": 28,
+     "opening_hours": null,
+     "website": "https://philharmoniedeparis.fr/"
+    }
+   ]
+  }
+ },
+ {
+  "id": "grevin",
+  "name": "格雷万蜡像馆",
+  "url": {
+   "url": "https://www.grevin-paris.com/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.grevin-paris.com/en",
+   "title": "Welcome to Grévin Paris | Grévin Museum"
+  },
+  "geo": {
+   "query": "Musée Grévin, Paris, France",
+   "candidates": [
+    {
+     "name": "Musée Grévin, 10, Boulevard Montmartre, Quartier du Faubourg-Montmartre, Paris 9e Arrondis",
+     "lat": 48.8718365,
+     "lng": 2.3420974,
+     "dist_m": 23,
+     "opening_hours": "Mo-Fr 09:30-18:30; Sa,Su 09:30-19:00",
+     "website": "https://www.grevin.com/",
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "pont-alexandre-iii",
+  "name": "亚历山大三世桥",
+  "geo": {
+   "query": "Pont Alexandre III, Paris, France",
+   "candidates": [
+    {
+     "name": "Pont Alexandre III, Promenade des Berges de la Seine — Port des Invalides, Quartier des In",
+     "lat": 48.8634697,
+     "lng": 2.3135181,
+     "dist_m": 26,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Pont Alexandre III, Quartier des Invalides, Paris 7e Arrondissement, Paris, Île-de-France,",
+     "lat": 48.8636423,
+     "lng": 2.3135438,
+     "dist_m": 7,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Pont Alexandre III, Quartier des Champs-Élysées, Paris 8e Arrondissement, Paris, Île-de-Fr",
+     "lat": 48.8644927,
+     "lng": 2.3136456,
+     "dist_m": 89,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "pont-des-arts",
+  "name": "艺术桥",
+  "geo": {
+   "query": "Pont des Arts, Paris, France",
+   "candidates": [
+    {
+     "name": "Pont des Arts, Promenade Marceline Loridan-Ivens, Quartier de la Monnaie, Paris 6e Arrondi",
+     "lat": 48.8584075,
+     "lng": 2.3375477,
+     "dist_m": 12,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Pont des Arts, Quartier de la Monnaie, Paris 6e Arrondissement, Paris, Île-de-France, Fran",
+     "lat": 48.8584578,
+     "lng": 2.3375745,
+     "dist_m": 18,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Pont des Arts, Quartier de la Monnaie, Paris 6e Arrondissement, Paris, Île-de-France, Fran",
+     "lat": 48.857783,
+     "lng": 2.3372323,
+     "dist_m": 61,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "bir-hakeim",
+  "name": "比尔哈凯姆桥",
+  "geo": {
+   "query": "Pont de Bir-Hakeim, Paris, France",
+   "candidates": [
+    {
+     "name": "Pont de Bir-Hakeim, Port de Suffren, Quartier de Grenelle, Paris 15e Arrondissement, Paris",
+     "lat": 48.8557254,
+     "lng": 2.2875477,
+     "dist_m": 29,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Pont de Bir Hakeim, Quartier de Grenelle, Paris 15e Arrondissement, Paris, Île-de-France, ",
+     "lat": 48.8555982,
+     "lng": 2.2878016,
+     "dist_m": 7,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Pont de Bir Hakeim, Quartier de la Muette, Paris 16e Arrondissement, Paris, Île-de-France,",
+     "lat": 48.8560618,
+     "lng": 2.2871017,
+     "dist_m": 78,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "concorde",
+  "name": "协和广场",
+  "geo": {
+   "query": "Place de la Concorde, Paris, France",
+   "candidates": [
+    {
+     "name": "Place de la Concorde, Rue Boissy d'Anglas, Quartier de la Madeleine, Paris 8e Arrondisseme",
+     "lat": 48.8655715,
+     "lng": 2.3212248,
+     "dist_m": 4,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "tour-montparnasse",
+  "name": "蒙帕纳斯大厦观景台",
+  "url": {
+   "url": "https://www.tourmontparnasse56.com/en/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.tourmontparnasse56.com/",
+   "title": "Montparnasse Tower Panoramic Observation Deck"
+  },
+  "geo": {
+   "query": "Tour Montparnasse, Paris, France",
+   "candidates": [
+    {
+     "name": "Tour Montparnasse, Rue du Départ, Quartier Necker, Paris 15e Arrondissement, Paris, Île-de",
+     "lat": 48.8421098,
+     "lng": 2.3219721,
+     "dist_m": 22,
+     "opening_hours": "Mo-Su 09:30-23:30",
+     "website": null,
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "place-des-vosges",
+  "name": "孚日广场",
+  "geo": {
+   "query": "Place des Vosges, Paris, France",
+   "candidates": [
+    {
+     "name": "Place des Vosges, Quartier de l'Arsenal, Paris 4e Arrondissement, Paris, Île-de-France, Fr",
+     "lat": 48.8556308,
+     "lng": 2.3655346,
+     "dist_m": 20,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Place des Vosges, Quartier de l'Arsenal, Paris 4e Arrondissement, Paris, Île-de-France, Fr",
+     "lat": 48.8550655,
+     "lng": 2.3653311,
+     "dist_m": 69,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Place des Vosges, Quartier de l'Arsenal, Paris 4e Arrondissement, Paris, Île-de-France, Fr",
+     "lat": 48.8561783,
+     "lng": 2.3657649,
+     "dist_m": 64,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "jardin-des-plantes",
+  "name": "巴黎植物园",
+  "url": {
+   "url": "https://www.jardindesplantes.net/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.jardindesplantesdeparis.fr/fr",
+   "title": "Jardin des Plantes : galeries, jardins, zoo"
+  },
+  "geo": {
+   "query": "Jardin des Plantes, Paris, France",
+   "candidates": [
+    {
+     "name": "Jardin des Plantes, Paris, Île-de-France, France métropolitaine, France",
+     "lat": 48.844036,
+     "lng": 2.3597321,
+     "dist_m": 25,
+     "opening_hours": "Mar 01-Mar 30 08:00-18:30; Mar 31-Sep 30 07:30-20:00; Oct 01-Oct 26 08:00-18:30; Oct 27-Feb 28 08:00-17:30",
+     "website": "https://www.jardindesplantesdeparis.fr/fr",
+     "closed_days_parsed": null
+    },
+    {
+     "name": "Quartier du Jardin des Plantes, Paris 5e Arrondissement, Paris, Île-de-France, France métr",
+     "lat": 48.8422427,
+     "lng": 2.3566409,
+     "dist_m": 281,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "grande-galerie-evolution",
+  "name": "大演化馆",
+  "url": {
+   "url": "https://www.mnhn.fr/en",
+   "ok": false,
+   "status": 403,
+   "final_url": "https://www.mnhn.fr/en",
+   "title": "Just a moment..."
+  },
+  "geo": {
+   "query": "Grande Galerie de l'Évolution, Paris, France",
+   "candidates": [
+    {
+     "name": "Grande Galerie de l'Évolution, Esplanade Milne Edwards, Quartier du Jardin des Plantes, Pa",
+     "lat": 48.8421055,
+     "lng": 2.3562438,
+     "dist_m": 122,
+     "opening_hours": "Mo 10:00-18:00; We-Su 10:00-18:00; May 01 off",
+     "website": "https://www.jardindesplantesdeparis.fr/fr/grande-galerie-de-l-evolution",
+     "closed_days_parsed": [
+      1
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "cite-des-sciences",
+  "name": "科学与工业城",
+  "url": {
+   "url": "https://www.cite-sciences.fr/en/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.cite-sciences.fr/en/home",
+   "title": "Home | Cité des sciences et de l&#039;industrie"
+  },
+  "geo": {
+   "query": "Cité des Sciences et de l'Industrie, Paris, France",
+   "candidates": [
+    {
+     "name": "Cité des Sciences et de l'Industrie, Galerie de la Villette, Quartier du Pont-de-Flandre, ",
+     "lat": 48.8956779,
+     "lng": 2.3879665,
+     "dist_m": 10,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Cité des Sciences et de l'Industrie, 30, Avenue Corentin Cariou, Quartier du Pont-de-Fland",
+     "lat": 48.8957518,
+     "lng": 2.3879761,
+     "dist_m": 18,
+     "opening_hours": "Tu-Sa 10:00-18:00; Su 10:00-19:00",
+     "website": "https://www.cite-sciences.fr/",
+     "closed_days_parsed": [
+      0
+     ]
+    },
+    {
+     "name": "Cité des Sciences et de l'Industrie, Avenue Corentin Cariou, Quartier du Pont-de-Flandre, ",
+     "lat": 48.8965106,
+     "lng": 2.3846202,
+     "dist_m": 260,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "aquarium-paris",
+  "name": "巴黎水族馆",
+  "url": {
+   "url": "https://www.aquariumdeparis.com/en",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://aquariumdeparis.com/encart-billetterie/",
+   "title": "encart billetterie - L&#039;Aquarium de Paris"
+  },
+  "geo": {
+   "query": "Aquarium de Paris, Paris, France",
+   "candidates": [
+    {
+     "name": "Aquarium de Paris - Cinéaqua, 5, Avenue Albert de Mun, Chaillot, Paris 16e Arrondissement,",
+     "lat": 48.8622176,
+     "lng": 2.2909672,
+     "dist_m": 126,
+     "opening_hours": "Mo-Su 10:00-19:00; Jul 14 off",
+     "website": "http://www.cineaqua.com/",
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "enfants-rouges",
+  "name": "红孩子市场",
+  "geo": {
+   "query": "Marché des Enfants Rouges, Paris, France",
+   "candidates": [
+    {
+     "name": "Marché couvert des Enfants Rouges, Rue Charlot, Quartier des Enfants-Rouges, Paris 3e Arro",
+     "lat": 48.8627951,
+     "lng": 2.361973,
+     "dist_m": 17,
+     "opening_hours": "Tu-Sa 08:30-20:30; Th 08:30-21:30; Su 08:30-17:00",
+     "website": "https://www.paris.fr/lieux/marche-couvert-des-enfants-rouges-5461",
+     "closed_days_parsed": [
+      0
+     ]
+    },
+    {
+     "name": "Les Enfants du Marché, 39, Rue de Bretagne, Quartier des Enfants-Rouges, Paris 3e Arrondis",
+     "lat": 48.862792,
+     "lng": 2.361978,
+     "dist_m": 16,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Marché noir, Rue Commines, Quartier des Enfants-Rouges, Paris 3e Arrondissement, Paris, Îl",
+     "lat": 48.8622546,
+     "lng": 2.3666035,
+     "dist_m": 328,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "rue-mouffetard",
+  "name": "穆浮塔街",
+  "geo": {
+   "query": "Rue Mouffetard, Paris, France",
+   "candidates": [
+    {
+     "name": "Rue Mouffetard, Quartier du Val-de-Grâce, Paris 5e Arrondissement, Paris, Île-de-France, F",
+     "lat": 48.8423013,
+     "lng": 2.3497717,
+     "dist_m": 101,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Rue Mouffetard, Quartier du Jardin des Plantes, Paris 5e Arrondissement, Paris, Île-de-Fra",
+     "lat": 48.8395779,
+     "lng": 2.3498423,
+     "dist_m": 403,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Rue Mouffetard, Quartier de la Sorbonne, Paris 5e Arrondissement, Paris, Île-de-France, Fr",
+     "lat": 48.8447554,
+     "lng": 2.3492135,
+     "dist_m": 182,
+     "opening_hours": null,
+     "website": null
+    }
+   ]
+  }
+ },
+ {
+  "id": "cafe-de-flore",
+  "name": "花神咖啡馆",
+  "url": {
+   "url": "https://cafedeflore.fr/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://cafedeflore.fr/",
+   "title": "Café de Flore"
+  },
+  "geo": {
+   "query": "Café de Flore, Paris, France",
+   "candidates": [
+    {
+     "name": "Café de Flore, Rue Saint-Benoît, Quartier de Saint-Germain-des-Prés, Paris 6e Arrondisseme",
+     "lat": 48.8541444,
+     "lng": 2.3326307,
+     "dist_m": 7,
+     "opening_hours": "Mo-Su 07:30-01:30",
+     "website": "https://cafedeflore.fr/",
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "angelina",
+  "name": "天使之家（Angelina）",
+  "url": {
+   "url": "https://www.angelina-paris.fr/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.angelina-paris.fr/",
+   "title": "Accueil"
+  },
+  "geo": {
+   "query": "Angelina Paris, Paris, France",
+   "candidates": [
+    {
+     "name": "Angelina, 226, Rue de Rivoli, Quartier Vendôme, Paris 1er Arrondissement, Paris, Île-de-Fr",
+     "lat": 48.8650778,
+     "lng": 2.3284104,
+     "dist_m": 14,
+     "opening_hours": "Mo-Th 07:30-19:00; Fr 07:30-19:30; Sa-Su, PH 08:00-19:30",
+     "website": "https://www.angelina-paris.fr",
+     "closed_days_parsed": []
+    },
+    {
+     "name": "Angelina, Avenue du Président Wilson, Quartier des Champs-Élysées, Paris 8e Arrondissement",
+     "lat": 48.8650906,
+     "lng": 2.3007462,
+     "dist_m": 2037,
+     "opening_hours": null,
+     "website": null
+    },
+    {
+     "name": "Mademoiselle Angelina, Rue de Vaugirard, Quartier de l'Odéon, Paris 6e Arrondissement, Par",
+     "lat": 48.8488755,
+     "lng": 2.3341823,
+     "dist_m": 1850,
+     "opening_hours": "Mo-Su 10:30-19:00",
+     "website": "https://www.angelina-paris.fr/",
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "laduree-champs",
+  "name": "Ladurée 香榭丽舍店",
+  "url": {
+   "url": "https://www.laduree.com/en_int",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://laduree.com/en",
+   "title": "Ladurée Paris - Iconic Macarons, French Pastries &amp; Gift Box"
+  },
+  "geo": {
+   "query": "Ladurée Champs-Élysées, Paris, France",
+   "candidates": [
+    {
+     "name": "Ladurée, Rue Lincoln, Quartier des Champs-Élysées, Paris 8e Arrondissement, Paris, Île-de-",
+     "lat": 48.8708201,
+     "lng": 2.303167,
+     "dist_m": 280,
+     "opening_hours": "Mo-Su 08:00-22:00",
+     "website": null,
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ },
+ {
+  "id": "pierre-herme-st-germain",
+  "name": "Pierre Hermé 圣日耳曼店",
+  "url": {
+   "url": "https://www.pierreherme.com/",
+   "ok": true,
+   "status": 200,
+   "final_url": "https://www.pierreherme.com/",
+   "title": "Maison Pierre Hermé Paris : Macarons, chocolats et créations d&#039;exception"
+  },
+  "geo": {
+   "query": "Pierre Hermé Saint-Germain, Paris, France",
+   "candidates": [
+    {
+     "name": "Café Pierre Hermé, Boulevard Saint-Germain, Quartier de la Monnaie, Paris 6e Arrondissemen",
+     "lat": 48.8524337,
+     "lng": 2.3396253,
+     "dist_m": 520,
+     "opening_hours": "Mo-Su 09:00-20:00",
+     "website": "https://www.pierreherme.com/",
+     "closed_days_parsed": []
+    },
+    {
+     "name": "Le Café-Restaurant Pierre Hermé, Allée de Beaupassage - Antoine Alléno, Quartier Saint-Tho",
+     "lat": 48.854082,
+     "lng": 2.3250266,
+     "dist_m": 636,
+     "opening_hours": "Mo-Su 10:00-20:00",
+     "website": "https://www.pierreherme.com/",
+     "closed_days_parsed": []
+    }
+   ]
+  }
+ }
+]

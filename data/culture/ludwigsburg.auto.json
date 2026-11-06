@@ -1,0 +1,26 @@
+{
+  "city": "ludwigsburg",
+  "works": [
+    {
+      "id": "barry-lyndon-1975",
+      "kind": "film",
+      "title": "Barry Lyndon",
+      "creator": "Stanley Kubrick",
+      "year": 1975,
+      "sees": [
+        {
+          "place_id": "ludwigsburg-schloss-ludwigsburg",
+          "note": "拍摄地点之一。"
+        }
+      ],
+      "source": {
+        "title": "Barry Lyndon（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Barry_Lyndon",
+        "checked_at": "2026-10-27"
+      },
+      "wikidata": "Q471716",
+      "popularity": 54,
+      "title_zh": "巴里·林登"
+    }
+  ]
+}

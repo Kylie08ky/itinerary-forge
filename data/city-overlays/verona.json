@@ -1,0 +1,33 @@
+{
+  "city": "verona",
+  "_note": "精校：对着官方页面核对过的事实（规格 10 / 12）。键是维基数据编号；每条必须带来源和核对日期。重新生成草稿不会丢。",
+  "places": {
+    "Q2518724": {
+      "closed_weekdays": [
+        0
+      ],
+      "official_url": "https://museodicastelvecchio.comune.verona.it",
+      "sources": [
+        {
+          "url": "https://museodicastelvecchio.comune.verona.it",
+          "checked_at": "2026-11-04",
+          "what": "官网：周一闭馆"
+        }
+      ]
+    },
+    "Q1819804": {
+      "closed_dates": [
+        "12-25"
+      ],
+      "hours_verified": true,
+      "official_url": "https://www.torredeilamberti.it/",
+      "sources": [
+        {
+          "url": "https://www.torredeilamberti.it/",
+          "checked_at": "2026-11-04",
+          "what": "官网：全年每天开放，12 月 25 日除外"
+        }
+      ]
+    }
+  }
+}

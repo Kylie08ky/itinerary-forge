@@ -1,0 +1,20 @@
+{
+  "id": "siena",
+  "_note": "意大利实测（规格 12）：补曼吉亚塔楼。",
+  "metro": false,
+  "include": [
+    {
+      "qid": "Q2472396",
+      "name": "曼吉亚塔楼",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 45,
+      "theme": "heritage"
+    }
+  ],
+  "exclude": [],
+  "names": {
+    "Q2095405": "锡耶纳国立美术馆",
+    "Q1066935": "锡耶纳洗礼堂"
+  }
+}

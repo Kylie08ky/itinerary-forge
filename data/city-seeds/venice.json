@@ -1,0 +1,77 @@
+{
+  "id": "venice",
+  "_note": "意大利实测（规格 12）：排除不该当景点的；补上离岛（穆拉诺、布拉诺、托尔切洛）、圣洛克大会堂、犹太区、凤凰歌剧院；其余仍是自动建的。",
+  "metro": false,
+  "exclude": [
+    {
+      "qid": "Q957551",
+      "why": "佛斯卡利大学是大学，不是游客景点"
+    },
+    {
+      "qid": "Q1134699",
+      "why": "解放桥是连接本岛的公路桥，不是景点"
+    },
+    {
+      "qid": "Q52501",
+      "why": "宪法桥是现代人行桥，行程里只会凑数"
+    }
+  ],
+  "include": [
+    {
+      "qid": "Q1270723",
+      "name": "圣洛克大会堂",
+      "category": "museum",
+      "setting": "indoor",
+      "minutes": 75,
+      "theme": "museum"
+    },
+    {
+      "qid": "Q649030",
+      "name": "威尼斯犹太区",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 60,
+      "theme": "district",
+      "open_access": true
+    },
+    {
+      "qid": "Q223942",
+      "name": "威尼斯凤凰歌剧院",
+      "category": "sight",
+      "setting": "indoor",
+      "minutes": 45,
+      "theme": "heritage"
+    },
+    {
+      "qid": "Q52437",
+      "name": "穆拉诺岛",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 150,
+      "theme": "district",
+      "open_access": true
+    },
+    {
+      "qid": "Q52439",
+      "name": "布拉诺岛",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 120,
+      "theme": "district",
+      "open_access": true
+    },
+    {
+      "qid": "Q52441",
+      "name": "托尔切洛岛",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 90,
+      "theme": "heritage",
+      "open_access": true
+    }
+  ],
+  "names": {
+    "Q172988": "圣马可大教堂",
+    "Q217527": "圣马可广场"
+  }
+}

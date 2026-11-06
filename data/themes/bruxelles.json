@@ -1,0 +1,77 @@
+{
+  "city": "bruxelles",
+  "themes": [
+    {
+      "id": "daytrip",
+      "name_zh": "一日游",
+      "tagline": "布鲁塞尔一天走一遍最值得看的地方",
+      "description": "开放数据草稿：按维基数据的知名度排序挑出的景点，价格和开放时间出发前请到官网确认。",
+      "recipe": {
+        "anchors_per_day": {
+          "relaxed": 2,
+          "balanced": 2,
+          "intense": 3
+        },
+        "best_time_bias": [],
+        "max_big_venues_per_day": 2,
+        "notes": "一日游：到站就开始，留够返程时间"
+      },
+      "members": [
+        {
+          "place_id": "bruxelles-grand-place",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "bruxelles-cathedrale-saints-michel-et-gudule",
+          "role": "anchor",
+          "weight": 5
+        },
+        {
+          "place_id": "bruxelles-musees-royaux-des-beaux-arts-de-belgique",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "bruxelles-palais-royal-de-bruxelles",
+          "role": "anchor",
+          "weight": 4
+        },
+        {
+          "place_id": "bruxelles-hotel-de-ville-de-bruxelles",
+          "role": "anchor",
+          "weight": 3
+        },
+        {
+          "place_id": "bruxelles-centre-belge-de-la-bande-dessinee",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "bruxelles-musee-des-instruments-de-musique",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "bruxelles-eglise-notre-dame-des-victoires-au-sablon",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "bruxelles-mont-des-arts",
+          "role": "support",
+          "weight": 2
+        },
+        {
+          "place_id": "bruxelles-musee-magritte-museum",
+          "role": "support",
+          "weight": 2
+        }
+      ],
+      "tips": [
+        "圣诞市场等当季活动只在举办期内排进行程",
+        "返程末班车请提前在 DB Navigator 等官方渠道确认"
+      ]
+    }
+  ]
+}

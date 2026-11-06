@@ -1,0 +1,89 @@
+{
+  "id": "rome",
+  "_note": "意大利实测（规格 12）：补充名单和排除名单；其余仍是自动建的。",
+  "include": [
+    {
+      "qid": "Q463400",
+      "name": "纳沃纳广场",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 45,
+      "theme": "district",
+      "open_access": true
+    },
+    {
+      "qid": "Q848072",
+      "name": "西班牙台阶",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 30,
+      "theme": "district",
+      "open_access": true
+    },
+    {
+      "qid": "Q841506",
+      "name": "博尔盖塞美术馆",
+      "category": "museum",
+      "setting": "indoor",
+      "minutes": 120,
+      "theme": "museum"
+    },
+    {
+      "qid": "Q333906",
+      "name": "卡比托利欧博物馆",
+      "category": "museum",
+      "setting": "indoor",
+      "minutes": 120,
+      "theme": "museum"
+    },
+    {
+      "qid": "Q914255",
+      "name": "特拉斯提弗列",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 90,
+      "theme": "district",
+      "open_access": true
+    },
+    {
+      "qid": "Q678313",
+      "name": "博尔盖塞别墅公园",
+      "category": "park",
+      "setting": "outdoor",
+      "minutes": 90,
+      "theme": "nature",
+      "open_access": true
+    },
+    {
+      "qid": "Q502098",
+      "name": "卡拉卡拉浴场",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 90,
+      "theme": "heritage"
+    }
+  ],
+  "exclude": [
+    {
+      "qid": "Q145093",
+      "why": "使徒宫是梵蒂冈的办公建筑，参观走梵蒂冈博物馆"
+    },
+    {
+      "qid": "Q272777",
+      "why": "哈德良别墅在蒂沃利，离罗马约 30 公里，是一日游，不放进市区"
+    },
+    {
+      "qid": "Q746063",
+      "why": "伊斯特别墅在蒂沃利，同上"
+    },
+    {
+      "qid": "Q15124814",
+      "why": "西班牙广场和西班牙台阶是同一处，只留台阶"
+    }
+  ],
+  "metro": true,
+  "names": {
+    "Q841506": "博尔盖塞美术馆",
+    "Q506234": "祖国祭坛（维托里亚诺）"
+  }
+}

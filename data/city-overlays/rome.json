@@ -1,0 +1,68 @@
+{
+  "city": "rome",
+  "_note": "精校：对着官方页面核对过的事实（规格 10 / 12）。键是维基数据编号；每条必须带来源和核对日期。重新生成草稿不会丢。",
+  "places": {
+    "Q182955": {
+      "closed_weekdays": [
+        6
+      ],
+      "closed_dates": [
+        "01-01",
+        "01-06",
+        "12-08",
+        "12-25",
+        "12-26"
+      ],
+      "hours_verified": true,
+      "official_url": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+      "sources": [
+        {
+          "url": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+          "checked_at": "2026-11-04",
+          "what": "官网：周日闭馆（每月最后一个周日除外）"
+        },
+        {
+          "url": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+          "checked_at": "2026-11-04",
+          "what": "官网闭馆日列表：12 月 8、25、26 日，1 月 1、6 日"
+        }
+      ]
+    },
+    "Q333906": {
+      "closed_weekdays": [],
+      "closed_dates": [
+        "05-01",
+        "12-25"
+      ],
+      "date_notes": {
+        "12-24": "官网写明 12 月 24 日只开 9:30–14:00",
+        "12-31": "官网写明 12 月 31 日只开 9:30–14:00"
+      },
+      "hours_verified": true,
+      "official_url": "https://www.museicapitolini.org/en/informazioni_pratiche/orari_e_indirizzi",
+      "sources": [
+        {
+          "url": "https://www.museicapitolini.org/en/informazioni_pratiche/orari_e_indirizzi",
+          "checked_at": "2026-11-04",
+          "what": "官网：每天开放；12 月 25 日、5 月 1 日闭馆"
+        },
+        {
+          "url": "https://www.museicapitolini.org/en/informazioni_pratiche/orari_e_indirizzi",
+          "checked_at": "2026-11-04",
+          "what": "官网：12 月 24 日、31 日 9:30–14:00"
+        }
+      ]
+    },
+    "Q185382": {
+      "ticket_note": "罗马旅游官网写明：自 2026 年 2 月 2 日起，进入特莱维喷泉的水池区域（最靠近雕塑的部分）要买 2 欧元的票，每天 9:00–22:00；在外围看喷泉不用票。",
+      "official_url": "https://www.turismoroma.it/en/places/trevi-fountain",
+      "sources": [
+        {
+          "url": "https://www.turismoroma.it/en/places/trevi-fountain",
+          "checked_at": "2026-11-04",
+          "what": "官网：2026 年 2 月 2 日起进入喷泉水池区域要买 2 欧元的票"
+        }
+      ]
+    }
+  }
+}

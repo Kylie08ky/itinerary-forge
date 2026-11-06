@@ -1,0 +1,1723 @@
+{
+  "city": "paris",
+  "routes": [
+    {
+      "id": "art-royal-to-contemporary",
+      "name_zh": "艺术：从王室收藏到当代",
+      "tagline": "一条线索看巴黎的艺术：谁在收藏、谁在反叛、谁在重新定义",
+      "track": "other",
+      "thesis": "艺术在巴黎先是国王和藏家的私人收藏，后来走进公共博物馆，又被印象派、现代派和今天的当代艺术一次次打破、重写。",
+      "base_theme": "art",
+      "days": {
+        "min": 2,
+        "suggested": 3,
+        "max": 5
+      },
+      "chapters": [
+        {
+          "id": "collections",
+          "title": "王室收藏与私人藏家",
+          "story": "卢浮宫原是王宫：弗朗索瓦一世 1546 年把它当作国王的主要居所，路易十四 1682 年把宫廷迁到凡尔赛之后，它主要用来陈列王室收藏；1793 年 8 月 10 日，它作为共和国的艺术博物馆向公众开放。同一座城市里还有另一种收藏：银行家爱德华·安德烈和画家妻子内莉·雅克马尔在 19 世纪把自己的收藏装进私人宅邸（1875 年落成，1913 年成为博物馆）。一个是国家的收藏，一个是藏家的趣味——先看清这两种眼光，后面的反叛才有参照。",
+          "sources": [
+            {
+              "title": "Louvre（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Louvre",
+              "checked_at": "2026-10-25"
+            },
+            {
+              "title": "Musée Jacquemart-André（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Jacquemart-Andr%C3%A9",
+              "checked_at": "2026-10-25"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "louvre",
+              "priority": "core",
+              "weight": 5,
+              "look_for": [
+                "《蒙娜丽莎》（达芬奇，德农馆）",
+                "《萨莫色雷斯的胜利女神》",
+                "《拿破仑加冕礼》（大卫）"
+              ],
+              "why_here": "路线的起点：王室收藏变成公共博物馆的原点，也是后面所有「反叛」的参照物。",
+              "sources": [
+                {
+                  "title": "Louvre（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Louvre",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            },
+            {
+              "place_id": "tuileries-garden",
+              "priority": "optional",
+              "weight": 2,
+              "look_for": [
+                "沿花园轴线远眺协和广场与凯旋门"
+              ],
+              "why_here": "从卢浮宫去下一站的路上，原先属于王宫的花园。",
+              "sources": []
+            },
+            {
+              "place_id": "musee-jacquemart-andre",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "乌切罗《圣乔治屠龙》",
+                "意大利文艺复兴雕塑与佛罗伦萨、威尼斯展厅",
+                "18 世纪法国绘画（弗拉戈纳尔、夏尔丹等）"
+              ],
+              "why_here": "私人收藏的对照：不是国家，而是一对藏家夫妇用自己的眼光攒出来的博物馆。",
+              "sources": [
+                {
+                  "title": "Musée Jacquemart-André（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Jacquemart-Andr%C3%A9",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "impressionism",
+          "title": "印象派与象征主义的转折",
+          "story": "19 世纪下半叶，学院和沙龙之外长出了新的看法。印象派要把光和瞬间画下来：「印象派」这个名字就来自莫奈 1872 年的《日出·印象》；奥赛博物馆收藏 1848 至 1914 年间的法国艺术，号称拥有世界上最大的印象派和后印象派收藏；莫奈晚年的《睡莲》被他亲自参与设计的橘园椭圆展厅包裹起来（1927 年开放）。同一时期，象征主义画家居斯塔夫·莫罗走了另一条路：他把自己的家变成工作室和博物馆（1903 年开放），并在美术学院教出了马蒂斯、鲁奥这一代人。",
+          "sources": [
+            {
+              "title": "Musée Marmottan Monet（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Marmottan_Monet",
+              "checked_at": "2026-10-25"
+            },
+            {
+              "title": "Musée d'Orsay（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay",
+              "checked_at": "2026-10-25"
+            },
+            {
+              "title": "Musée de l'Orangerie（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l%27Orangerie",
+              "checked_at": "2026-10-25"
+            },
+            {
+              "title": "Gustave Moreau（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Gustave_Moreau",
+              "checked_at": "2026-10-25"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "marmottan",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "莫奈《日出·印象》（1872，「印象派」一词的由来）",
+                "莫奈晚年吉维尼花园题材作品",
+                "贝特·莫里索的作品（这里有公共收藏里最多的莫里索）"
+              ],
+              "why_here": "印象派这个名字的出处：这条线上最该先看的一幅画在这里。",
+              "sources": [
+                {
+                  "title": "Musée Marmottan Monet（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Marmottan_Monet",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            },
+            {
+              "place_id": "orangerie",
+              "priority": "core",
+              "weight": 5,
+              "look_for": [
+                "莫奈《睡莲》两间椭圆展厅（自然光，画家亲自参与设计）"
+              ],
+              "why_here": "莫奈晚年把睡莲画成环绕观众的空间：从「看一幅画」变成「站进一幅画」。",
+              "sources": [
+                {
+                  "title": "Musée de l'Orangerie（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_l%27Orangerie",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            },
+            {
+              "place_id": "orsay",
+              "priority": "core",
+              "weight": 5,
+              "look_for": [
+                "雷诺阿《煎饼磨坊的舞会》",
+                "梵高《罗纳河上的星夜》",
+                "莫奈、塞尚、德加的作品",
+                "五层大钟窗口（这座博物馆的前身是火车站）"
+              ],
+              "why_here": "印象派和后印象派的全景：前面看到的几个点，在这里连成一张完整的地图。",
+              "sources": [
+                {
+                  "title": "Musée d'Orsay（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            },
+            {
+              "place_id": "musee-gustave-moreau",
+              "priority": "core",
+              "weight": 3,
+              "look_for": [
+                "画家本人的故居兼工作室：一层起居室、二三层大画室",
+                "《朱庇特与塞墨勒》《幻影》等象征主义作品"
+              ],
+              "why_here": "同一时期的另一条路：不画光，画梦；他在美术学院教过马蒂斯、鲁奥、马尔凯。",
+              "sources": [
+                {
+                  "title": "Musée Gustave Moreau（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Gustave_Moreau",
+                  "checked_at": "2026-10-25"
+                },
+                {
+                  "title": "Gustave Moreau（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Gustave_Moreau",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "modern-contemporary",
+          "title": "从现代到当代",
+          "story": "20 世纪的艺术家把雕塑、绘画一次次推向前面。罗丹 1908 年起租下毕朗府的几间工作室，1911 年起占用整座宅邸，宅邸 1919 年成为他的博物馆；毕加索 1973 年去世后，继承人按 1968 年的法律用艺术品抵遗产税，这些作品进了马雷区的盐府（1656–1659 年建），今天有 5000 多件；而今天的当代艺术，住进了 1763–67 年建的圆形粮食交易所（2021 年起是皮诺收藏馆）和 1937 年为世博会建的东京宫（2002 年起是当代艺术中心）。蓬皮杜中心正在整修闭馆，这条路线没有排它。",
+          "sources": [
+            {
+              "title": "Musée Rodin（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Rodin",
+              "checked_at": "2026-10-25"
+            },
+            {
+              "title": "Musée Picasso（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Picasso",
+              "checked_at": "2026-10-25"
+            },
+            {
+              "title": "Bourse de Commerce（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Bourse_de_Commerce_(Paris)",
+              "checked_at": "2026-10-25"
+            },
+            {
+              "title": "Palais de Tokyo（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Palais_de_Tokyo",
+              "checked_at": "2026-10-25"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "rodin",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "花园里的《思想者》《地狱之门》",
+                "《吻》"
+              ],
+              "why_here": "现代雕塑的起点：他住过、工作过的宅邸本身就是展品，花园里是他最有名的青铜作品。",
+              "sources": [
+                {
+                  "title": "Musée Rodin（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Rodin",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            },
+            {
+              "place_id": "picasso",
+              "priority": "core",
+              "weight": 5,
+              "look_for": [
+                "蓝色 / 玫瑰时期代表作",
+                "立体主义时期作品",
+                "毕加索私人收藏的其他艺术家作品"
+              ],
+              "why_here": "一个艺术家的一生：5000 多件作品靠「抵遗产税」进了国家，是理解他每个阶段的最佳地点。",
+              "sources": [
+                {
+                  "title": "Musée Picasso（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Picasso",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            },
+            {
+              "place_id": "bourse-de-commerce",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "安藤忠雄设计的混凝土圆筒中庭",
+                "穹顶下一圈壁画：画的是五大洲的贸易史"
+              ],
+              "why_here": "旧粮食交易所变成当代艺术馆：建筑本身讲了一个「旧空间装新艺术」的故事。",
+              "sources": [
+                {
+                  "title": "Bourse de Commerce（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Bourse_de_Commerce_(Paris)",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            },
+            {
+              "place_id": "palais-de-tokyo",
+              "priority": "optional",
+              "weight": 3,
+              "look_for": [
+                "当代艺术与装置展（展览常换）"
+              ],
+              "why_here": "为 1937 年世博会建的宫殿，今天是法国最大的当代艺术临展空间。",
+              "sources": [
+                {
+                  "title": "Palais de Tokyo（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Palais_de_Tokyo",
+                  "checked_at": "2026-10-25"
+                }
+              ]
+            },
+            {
+              "place_id": "fondation-louis-vuitton",
+              "priority": "optional",
+              "weight": 2,
+              "look_for": [
+                "弗兰克·盖里设计的玻璃帆船建筑",
+                "屋顶露台"
+              ],
+              "why_here": "私人基金会做的当代艺术馆：建筑本身就是展品。",
+              "sources": []
+            }
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "title": "L'Œuvre",
+          "kind": "book",
+          "creator": "Émile Zola",
+          "year": 1886,
+          "note": "一部写 19 世纪巴黎画家的小说，主人公的原型之一是塞尚，写的是印象派兴起的那段年月。",
+          "source": {
+            "title": "L'Œuvre（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/L%27%C5%92uvre_(novel)",
+            "checked_at": "2026-10-25"
+          }
+        },
+        {
+          "title": "The Judgment of Paris",
+          "kind": "book",
+          "creator": "Ross King",
+          "year": 2006,
+          "note": "写 1863 年落选沙龙到 1874 年首届印象派画展之间的十年，主角是马奈和梅索尼耶这对对手。",
+          "source": {
+            "title": "Kirkus Reviews",
+            "url": "https://kirkusreviews.com/book-reviews/ross-king/the-judgment-of-paris",
+            "checked_at": "2026-10-25"
+          }
+        },
+        {
+          "title": "The History of Impressionism",
+          "kind": "book",
+          "creator": "John Rewald",
+          "year": 1946,
+          "note": "印象派研究的经典：按时间讲这群画家怎么走到一起、又怎么分开。",
+          "source": {
+            "title": "John Rewald（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/John_Rewald",
+            "checked_at": "2026-10-25"
+          }
+        },
+        {
+          "title": "Midnight in Paris（午夜巴黎）",
+          "kind": "film",
+          "creator": "Woody Allen",
+          "year": 2011,
+          "note": "一个编剧每到午夜就回到 1920 年代的巴黎，遇见他崇拜的作家和艺术家——适合出发前轻松地先看一遍。",
+          "source": {
+            "title": "Midnight in Paris（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/Midnight_in_Paris",
+            "checked_at": "2026-10-25"
+          }
+        }
+      ],
+      "notes": [
+        "蓬皮杜中心整修闭馆（地点库已标长期闭馆），没有排进路线。",
+        "尼西姆·德·卡蒙多博物馆官网写明自 2024-08-04 起整修闭馆，预计 2030 年重开，没有收进路线。",
+        "雅克马尔-安德烈博物馆的官网对自动请求返回 403，开放时间和价格来自巴黎旅游局页面和聚合站点，出发前请以官网为准。"
+      ]
+    },
+    {
+      "id": "fashion-couture-to-street",
+      "name_zh": "时尚：从高级定制到街头",
+      "tagline": "一条线索看巴黎的时尚：谁发明了高级定制、谁改写了它、它怎样走向大众",
+      "track": "other",
+      "thesis": "巴黎的时尚先是一门手艺和一门生意：高级定制在这里诞生，被一代代设计师改写，最后又从百货公司、拱廊街和街区小店走向大众。",
+      "base_theme": "fashion",
+      "days": {
+        "min": 2,
+        "suggested": 3,
+        "max": 5
+      },
+      "chapters": [
+        {
+          "id": "couture",
+          "title": "高级定制的诞生",
+          "story": "高级定制的故事常从查尔斯·弗雷德里克·沃斯讲起：这位英国人 1858 年在巴黎和平街开了自己的时装店，被许多人称为高级定制之父；和平街的一头就是旺多姆广场。香奈儿 1910 年在康朋街开了第一家帽子店，1918 年买下康朋街 31 号的房子，在那里设立自己的时装屋，把简洁、方便活动的衣服带进上流社会。想看这些衣服真正的样子，要去巴黎市立时装博物馆加列拉宫，和卢浮宫北翼的装饰艺术博物馆（时尚与纺织品常设馆）。",
+          "sources": [
+            {
+              "title": "Charles Frederick Worth（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Charles_Frederick_Worth",
+              "checked_at": "2026-10-26"
+            },
+            {
+              "title": "Coco Chanel（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Coco_Chanel",
+              "checked_at": "2026-10-26"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "place-vendome",
+              "priority": "core",
+              "weight": 3,
+              "why_here": "沃斯开店的和平街就从这座广场的一头出去：高级定制最早的一块地盘。",
+              "sources": [
+                {
+                  "title": "Charles Frederick Worth（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Charles_Frederick_Worth",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "高级珠宝品牌集中",
+                "广场中央的圆柱纪念碑"
+              ]
+            },
+            {
+              "place_id": "chanel-cambon",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "香奈儿把简洁实穿的衣服带进上流社会的起点：品牌创始店所在的街。",
+              "sources": [
+                {
+                  "title": "Coco Chanel（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Coco_Chanel",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "品牌创始店所在地",
+                "镜面楼梯（外部可遇，内部以店方规定为准）"
+              ]
+            },
+            {
+              "place_id": "palais-galliera",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "市立时装博物馆：展览会换，开展期间才开门，出发前一定查官网。",
+              "sources": [
+                {
+                  "title": "Palais Galliera（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Palais_Galliera",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "巴黎市立时装与服饰博物馆",
+                "主题展常换，开展期间才开门"
+              ]
+            },
+            {
+              "place_id": "arts-decoratifs",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "在卢浮宫北翼：时尚与纺织品的常设展，把衣服放回设计史里看。",
+              "sources": [
+                {
+                  "title": "Musée des Arts Décoratifs（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_des_Arts_D%C3%A9coratifs",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "时尚与纺织品常设馆",
+                "设计与家具",
+                "珠宝收藏"
+              ]
+            },
+            {
+              "place_id": "faubourg-saint-honore",
+              "priority": "optional",
+              "weight": 2,
+              "why_here": "巴黎最老牌的奢侈品街之一，顺路看一眼。"
+            }
+          ]
+        },
+        {
+          "id": "houses",
+          "title": "设计师与时装屋",
+          "story": "二战之后，克里斯汀·迪奥的时装屋 1946 年在蒙田大道 30 号开业，他的「新风貌」让巴黎重新成为世界时装的中心；今天的迪奥展馆就在这家旗舰店里。下一代的代表是伊夫·圣罗兰，他当年的工作室如今是圣罗兰博物馆（2017 年开放）：体量不大，但每一处都是他工作时的样子。",
+          "sources": [
+            {
+              "title": "Christian Dior（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Christian_Dior",
+              "checked_at": "2026-10-26"
+            },
+            {
+              "title": "Musée Yves Saint Laurent Paris（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Yves_Saint_Laurent_Paris",
+              "checked_at": "2026-10-26"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "galerie-dior",
+              "priority": "core",
+              "weight": 5,
+              "why_here": "战后重建巴黎时装地位的那个品牌，故事直接讲在它的旗舰店里。",
+              "sources": [
+                {
+                  "title": "Christian Dior（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Christian_Dior",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "品牌历史与高定礼服",
+                "蒙田大道 30 号旗舰店内"
+              ]
+            },
+            {
+              "place_id": "avenue-montaigne",
+              "priority": "core",
+              "weight": 3,
+              "why_here": "顶级品牌旗舰店集中的街，和迪奥展馆同一条街。",
+              "sources": [
+                {
+                  "title": "Christian Dior（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Christian_Dior",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "顶级品牌旗舰店集中的街",
+                "迪奥、香奈儿、路易威登"
+              ]
+            },
+            {
+              "place_id": "ysl-museum",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "设计师自己的工作室：和迪奥的「品牌故事」相比，这里是「一个人怎么工作」。",
+              "sources": [
+                {
+                  "title": "Musée Yves Saint Laurent Paris（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Yves_Saint_Laurent_Paris",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "设计师当年的工作室原貌",
+                "经典 Le Smoking 与蒙德里安裙"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stores-street",
+          "title": "从百货公司到街头",
+          "story": "时尚走向大众，靠的是商店。乐蓬马歇是最早的现代百货公司之一，1838 年创办，1852 年布西科接手后几乎整个改造；老佛爷 1893 年从一家小店起步，玻璃钢结构的穹顶和新艺术风格的楼梯 1912 年完工。更早的商业空间是 19 世纪的玻璃顶拱廊街，全景廊街 1799 年就建成了。今天的玛黑区和圣日耳曼的小店，则是独立设计师和买手的地盘。",
+          "sources": [
+            {
+              "title": "Le Bon Marché（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Le_Bon_March%C3%A9",
+              "checked_at": "2026-10-26"
+            },
+            {
+              "title": "Galeries Lafayette（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Galeries_Lafayette",
+              "checked_at": "2026-10-26"
+            },
+            {
+              "title": "Passage des Panoramas（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Passage_des_Panoramas",
+              "checked_at": "2026-10-26"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "le-bon-marche",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "最早的现代百货公司之一：把「逛」变成一种消遣的地方。",
+              "sources": [
+                {
+                  "title": "Le Bon Marché（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Le_Bon_March%C3%A9",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "世界最早的百货公司",
+                "对面的 La Grande Épicerie 精品食品店"
+              ]
+            },
+            {
+              "place_id": "galeries-lafayette-shopping",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "另一种百货：新艺术风格的穹顶大厅，今天仍是巴黎最热闹的购物中心。",
+              "sources": [
+                {
+                  "title": "Galeries Lafayette（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Galeries_Lafayette",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "新艺术风格穹顶大厅本身值得看",
+                "顶楼免费天台观景",
+                "美妆区常有免税专柜"
+              ]
+            },
+            {
+              "place_id": "passage-des-panoramas",
+              "priority": "core",
+              "weight": 3,
+              "why_here": "百货公司之前的购物空间：玻璃顶下的拱廊街。",
+              "sources": [
+                {
+                  "title": "Passage des Panoramas（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Passage_des_Panoramas",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "19 世纪玻璃顶拱廊街",
+                "复古邮票店与小餐馆"
+              ]
+            },
+            {
+              "place_id": "marais-boutiques",
+              "priority": "core",
+              "weight": 3,
+              "why_here": "独立设计师和买手店集中的街区：时尚的「小」的一面。",
+              "sources": [
+                {
+                  "title": "Le Marais（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Le_Marais",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "独立设计师品牌集合店",
+                "复古古着店（Free'P'Star 等）",
+                "小众香氛与文具选品店"
+              ]
+            },
+            {
+              "place_id": "st-germain-boutiques",
+              "priority": "optional",
+              "weight": 2,
+              "why_here": "左岸的另一片小店区，比玛黑区安静。"
+            },
+            {
+              "place_id": "puces-saint-ouen",
+              "priority": "optional",
+              "weight": 2,
+              "why_here": "古董和复古古着：看旧衣服怎样再流行。周末才开，出发前查官网。"
+            }
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "title": "The Ladies' Paradise (Au Bonheur des Dames)",
+          "kind": "book",
+          "creator": "Émile Zola",
+          "year": 1883,
+          "note": "写一家巨大的巴黎百货公司怎样吞掉周围的小店，是理解「百货公司改变了什么」最好的小说。",
+          "source": {
+            "title": "The Ladies' Paradise（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/The_Ladies%27_Paradise",
+            "checked_at": "2026-10-26"
+          }
+        },
+        {
+          "title": "Funny Face",
+          "kind": "film",
+          "creator": "Stanley Donen",
+          "year": 1957,
+          "note": "奥黛丽·赫本演一个被带到巴黎做时装模特的书店店员：1950 年代巴黎时装界的轻喜剧。",
+          "source": {
+            "title": "Funny Face（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/Funny_Face",
+            "checked_at": "2026-10-26"
+          }
+        },
+        {
+          "title": "Coco avant Chanel",
+          "kind": "film",
+          "creator": "Anne Fontaine",
+          "year": 2009,
+          "note": "讲香奈儿成名之前的生活，适合出发前先看一遍。",
+          "source": {
+            "title": "Coco Before Chanel（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/Coco_Before_Chanel",
+            "checked_at": "2026-10-26"
+          }
+        }
+      ],
+      "notes": [
+        "加列拉宫只在有展览时开放，圣图安跳蚤市场只在周末开：两者都是可能那天没开的站，排程会避开闭馆日。",
+        "地点库里时尚主题多数点的开放时间还没有逐个核对，出发前请以各家官网为准。"
+      ]
+    },
+    {
+      "id": "history-thought-medieval-to-existentialism",
+      "name_zh": "历史与思想：从中世纪到存在主义",
+      "tagline": "一条线索看巴黎的思想史：权力、自由、怎样思考",
+      "track": "history",
+      "thesis": "巴黎的历史不是一排古迹，而是一场持续的争论：谁拥有权力、什么是自由、人该怎样思考——从中世纪的教堂到大革命，再到咖啡馆里的哲学。",
+      "base_theme": "museums",
+      "days": {
+        "min": 2,
+        "suggested": 3,
+        "max": 5
+      },
+      "chapters": [
+        {
+          "id": "medieval-revolution",
+          "title": "中世纪到大革命",
+          "story": "西岱岛是巴黎最早的中心。圣礼拜堂是路易九世为存放圣物建的，1238 至 1248 年建成；巴黎圣母院 1163 年开工，2019 年大火后修复，2024 年 12 月重新开放；古监狱在大革命期间关押过玛丽·安托瓦内特。往东，克吕尼博物馆保存着中世纪的巴黎，卡纳瓦莱博物馆则讲这座城市怎样一路走到今天。",
+          "sources": [
+            {
+              "title": "Sainte-Chapelle（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+              "checked_at": "2026-10-26"
+            },
+            {
+              "title": "Notre-Dame de Paris（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+              "checked_at": "2026-10-26"
+            },
+            {
+              "title": "Conciergerie（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Conciergerie",
+              "checked_at": "2026-10-26"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "notre-dame",
+              "priority": "core",
+              "weight": 3,
+              "why_here": "巴黎的起点：外观修复后重新开放，内部需要另外预约。",
+              "sources": [
+                {
+                  "title": "Notre-Dame de Paris（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "修复后的尖塔与飞扶壁",
+                "西立面三扇玫瑰花窗（外观可见局部）"
+              ]
+            },
+            {
+              "place_id": "sainte-chapelle",
+              "priority": "core",
+              "weight": 5,
+              "why_here": "国王为存放圣物建的礼拜堂：中世纪王权和信仰的结合。",
+              "sources": [
+                {
+                  "title": "Sainte-Chapelle（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "上层礼拜堂 15 扇彩色玻璃花窗（讲述圣经故事）",
+                "晴天上午阳光穿透花窗最佳"
+              ]
+            },
+            {
+              "place_id": "conciergerie",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "从王宫变成监狱：大革命时期王权怎样被推翻。",
+              "sources": [
+                {
+                  "title": "Conciergerie（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Conciergerie",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "玛丽·安托万内特被囚禁的牢房",
+                "哥特式大厅"
+              ]
+            },
+            {
+              "place_id": "cluny",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "保存中世纪巴黎的博物馆：《贵妇与独角兽》挂毯和更早的罗马浴场遗址。",
+              "sources": [
+                {
+                  "title": "Musée de Cluny（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_de_Cluny",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "《贵妇与独角兽》六幅挂毯",
+                "中世纪罗马浴场遗址"
+              ]
+            },
+            {
+              "place_id": "carnavalet",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "整座城市的历史博物馆：把前面看过的点放进一条时间线。",
+              "sources": [
+                {
+                  "title": "Musée Carnavalet（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Carnavalet",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "巴黎城市史",
+                "文艺复兴风格的宅邸与花园"
+              ]
+            },
+            {
+              "place_id": "palais-royal",
+              "priority": "optional",
+              "weight": 2,
+              "why_here": "大革命前夜，这里的咖啡馆和花园是辩论和集会的地方。"
+            }
+          ]
+        },
+        {
+          "id": "enlightenment-latin",
+          "title": "启蒙与拉丁区",
+          "story": "先贤祠原是献给圣女热纳维耶芙的教堂，大革命时期的 1791 年改成安葬「伟人」的墓地，伏尔泰、卢梭、雨果、居里夫人都长眠在这里。周围的拉丁区是巴黎的学院区，莎士比亚书店在这里；卢森堡公园是学生和读书人常去的地方，适合在两站之间坐一会儿。",
+          "sources": [
+            {
+              "title": "Panthéon, Paris（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Panth%C3%A9on,_Paris",
+              "checked_at": "2026-10-26"
+            },
+            {
+              "title": "Shakespeare and Company（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)",
+              "checked_at": "2026-10-26"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "pantheon",
+              "priority": "core",
+              "weight": 5,
+              "why_here": "国家用来纪念思想家和科学家的地方：谁配得上「伟人」，本身就是一个思想史问题。",
+              "sources": [
+                {
+                  "title": "Panthéon, Paris（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Panth%C3%A9on,_Paris",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "居里夫人、雨果、伏尔泰长眠于此",
+                "登顶看拉丁区全景"
+              ]
+            },
+            {
+              "place_id": "latin-quarter",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "学院、书店和街市聚在一起的街区：思想流动起来的地方。",
+              "sources": [
+                {
+                  "title": "Shakespeare and Company（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "莎士比亚书店（海明威、乔伊斯常去的英文书店）",
+                "穆浮塔街市集"
+              ]
+            },
+            {
+              "place_id": "luxembourg-garden",
+              "priority": "optional",
+              "weight": 2,
+              "why_here": "两站之间坐一会儿：读书人最爱的公园。"
+            }
+          ]
+        },
+        {
+          "id": "cafes-existentialism",
+          "title": "咖啡馆与存在主义",
+          "story": "20 世纪的巴黎，思想家常常在咖啡馆里工作。花神咖啡馆 1880 年代出现在第三共和国时期（确切的开业日期没有记载），1940 至 1950 年代，萨特、波伏娃、加缪这些思想家常在这里碰头；拉雪兹神父公墓 1804 年启用，王尔德、普鲁斯特、肖邦都葬在这里，是走完这条线索最安静的一站。",
+          "sources": [
+            {
+              "title": "Café de Flore（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Flore",
+              "checked_at": "2026-10-26"
+            },
+            {
+              "title": "Père Lachaise Cemetery（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery",
+              "checked_at": "2026-10-26"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "cafe-de-flore",
+              "priority": "core",
+              "weight": 5,
+              "why_here": "萨特和波伏娃常去的咖啡馆：存在主义不是在书房里写出来的，是在这样的地方聊出来的。",
+              "sources": [
+                {
+                  "title": "Café de Flore（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Flore",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "萨特与波伏娃常去的文艺咖啡馆",
+                "热巧克力与羊角面包"
+              ]
+            },
+            {
+              "place_id": "pere-lachaise",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "思想家和艺术家的墓地：把一路看到的名字放在一起。",
+              "sources": [
+                {
+                  "title": "Père Lachaise Cemetery（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery",
+                  "checked_at": "2026-10-26"
+                }
+              ],
+              "look_for": [
+                "肖邦、王尔德、吉姆·莫里森墓",
+                "维克多·诺瓦墓（传说触摸带来好运）"
+              ]
+            },
+            {
+              "place_id": "invalides",
+              "priority": "optional",
+              "weight": 2,
+              "why_here": "拿破仑墓：另一种「历史怎样被纪念」。"
+            }
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "title": "Notre-Dame de Paris",
+          "kind": "book",
+          "creator": "Victor Hugo",
+          "year": 1831,
+          "note": "雨果写的中世纪巴黎，也是当年呼吁保护这座教堂的小说。",
+          "source": {
+            "title": "The Hunchback of Notre-Dame（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+            "checked_at": "2026-10-26"
+          }
+        },
+        {
+          "title": "At the Existentialist Café",
+          "kind": "book",
+          "creator": "Sarah Bakewell",
+          "year": 2016,
+          "note": "讲萨特、波伏娃、加缪这一代人和存在主义怎样诞生，读起来像一群朋友的故事。",
+          "source": {
+            "title": "Sarah Bakewell（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/Sarah_Bakewell",
+            "checked_at": "2026-10-26"
+          }
+        },
+        {
+          "title": "A Moveable Feast",
+          "kind": "book",
+          "creator": "Ernest Hemingway",
+          "year": 1964,
+          "note": "海明威回忆 1920 年代在巴黎的日子，咖啡馆、书店和拉丁区都在里面。",
+          "source": {
+            "title": "A Moveable Feast（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/A_Moveable_Feast",
+            "checked_at": "2026-10-26"
+          }
+        }
+      ],
+      "notes": [
+        "巴黎圣母院外观已重新开放，内部需要另外预约；圣礼拜堂和古监狱安检队伍长，建议预约时段票。",
+        "地点库里个别点的开放时间还没有逐个核对，出发前请以各家官网为准。"
+      ]
+    },
+    {
+      "id": "heritage-royal-to-iron",
+      "name_zh": "古建筑与名胜：从王权到铁与玻璃",
+      "tagline": "一条线索看巴黎的建筑：谁在造、为谁造、用什么造",
+      "track": "history",
+      "thesis": "巴黎的名胜不是随便堆起来的：中世纪的国王用教堂证明自己，路易十四和拿破仑用宫殿和纪念碑证明自己，到了 19 世纪，铁和玻璃又给城市造出了新的公共空间。",
+      "base_theme": "museums",
+      "days": {
+        "min": 3,
+        "suggested": 4,
+        "max": 5
+      },
+      "chapters": [
+        {
+          "id": "faith-and-crown",
+          "title": "王权与信仰",
+          "story": "西岱岛上的两座教堂，是中世纪王权和信仰结合的样子：圣礼拜堂是路易九世为存放圣物建的，1238 至 1248 年建成；巴黎圣母院 1163 年开工，2019 年大火后修复，2024 年 12 月重新开放。再往东，孚日广场是亨利四世 1605 至 1612 年建的，是巴黎最古老的规划广场，它是欧洲最早的王室城市规划之一。",
+          "sources": [
+            {
+              "title": "Sainte-Chapelle（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Notre-Dame de Paris（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Place des Vosges（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Place_des_Vosges",
+              "checked_at": "2026-10-27"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "sainte-chapelle",
+              "priority": "core",
+              "weight": 5,
+              "why_here": "国王为存放圣物建的礼拜堂：中世纪王权和信仰的结合。",
+              "sources": [
+                {
+                  "title": "Sainte-Chapelle（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Sainte-Chapelle",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "上层礼拜堂 15 扇彩色玻璃花窗（讲述圣经故事）",
+                "晴天上午阳光穿透花窗最佳"
+              ]
+            },
+            {
+              "place_id": "notre-dame",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "哥特式大教堂的代表：外观修复后重新开放，内部需要另外预约。",
+              "sources": [
+                {
+                  "title": "Notre-Dame de Paris（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "修复后的尖塔与飞扶壁",
+                "西立面三扇玫瑰花窗（外观可见局部）"
+              ]
+            },
+            {
+              "place_id": "place-des-vosges",
+              "priority": "core",
+              "weight": 3,
+              "why_here": "亨利四世建的巴黎最古老的规划广场，是欧洲最早的王室城市规划之一。",
+              "sources": [
+                {
+                  "title": "Place des Vosges（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Place_des_Vosges",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "巴黎最古老的规划广场",
+                "红砖拱廊与雨果故居"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sun-king-and-empire",
+          "title": "宫殿与帝国",
+          "story": "路易十四把王权做成了建筑：凡尔赛宫从 1682 年起成为国王和宫廷的常住地，一直到 1789 年；荣军院是他 1670 年下令建的老兵之家，拿破仑的墓 1861 年才在这里完成。协和广场的方尖碑 1836 年立起，路易十六 1793 年在这里被处决；凯旋门是拿破仑 1806 年下令建的，1836 年才完工。从协和广场沿着香榭丽舍大街走到凯旋门，正好是一条直线。",
+          "sources": [
+            {
+              "title": "Palace of Versailles（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Les Invalides（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Les_Invalides",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Place de la Concorde（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Place_de_la_Concorde",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Arc de Triomphe（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Champs-Élysées（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Champs-%C3%89lys%C3%A9es",
+              "checked_at": "2026-10-27"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "versailles",
+              "priority": "core",
+              "weight": 5,
+              "why_here": "路易十四为彰显王权建的宫殿：国王和宫廷从 1682 年起常住在这里。",
+              "sources": [
+                {
+                  "title": "Palace of Versailles（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "镜厅（Galerie des Glaces）",
+                "王后寝宫",
+                "大特里亚农宫与花园"
+              ]
+            },
+            {
+              "place_id": "invalides",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "路易十四建给老兵的住所和医院，后来成了拿破仑的墓地。",
+              "sources": [
+                {
+                  "title": "Les Invalides（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Les_Invalides",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "拿破仑墓",
+                "军事博物馆",
+                "金色穹顶"
+              ]
+            },
+            {
+              "place_id": "concorde",
+              "priority": "core",
+              "weight": 3,
+              "why_here": "革命的现场：路易十六 1793 年在这里被处决，广场中央是 1836 年立起的埃及方尖碑。",
+              "sources": [
+                {
+                  "title": "Place de la Concorde（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Place_de_la_Concorde",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "方尖碑与喷泉",
+                "连接杜乐丽花园与香榭丽舍的节点"
+              ]
+            },
+            {
+              "place_id": "champs-elysees",
+              "priority": "optional",
+              "weight": 2,
+              "why_here": "连起协和广场和凯旋门的大道，把前后两站串成一条直线。",
+              "sources": [
+                {
+                  "title": "Champs-Élysées（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Champs-%C3%89lys%C3%A9es",
+                  "checked_at": "2026-10-27"
+                }
+              ]
+            },
+            {
+              "place_id": "arc-de-triomphe",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "拿破仑 1806 年下令建、1836 年才完工的纪念碑：纪念为法国作战的人。",
+              "sources": [
+                {
+                  "title": "Arc de Triomphe（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Arc_de_Triomphe",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "登顶看香榭丽舍大街与拉德芳斯新区轴线对齐",
+                "无名战士墓与长明火"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "iron-and-glass",
+          "title": "铁与玻璃的时代",
+          "story": "19 世纪的巴黎用新材料造新的公共空间：全景廊街 1799 年建、1800 年开放，是巴黎最古老的有玻璃顶的拱廊街，1817 年装上了煤气灯；维维安拱廊街 1823 年建成；加尼叶宫是拿破仑三世下令建的，1861 至 1875 年建成；亚历山大三世桥为 1900 年的世博会建，1896 至 1900 年建成；埃菲尔铁塔 1887 至 1889 年建成，是 1889 年世博会的核心。",
+          "sources": [
+            {
+              "title": "Passage des Panoramas（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Passage_des_Panoramas",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Galerie Vivienne（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Galerie_Vivienne",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Palais Garnier（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Palais_Garnier",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Pont Alexandre III（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Pont_Alexandre_III",
+              "checked_at": "2026-10-27"
+            },
+            {
+              "title": "Eiffel Tower（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+              "checked_at": "2026-10-27"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "passage-des-panoramas",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "巴黎最古老的有玻璃顶的拱廊街：1817 年就装上了煤气灯。",
+              "sources": [
+                {
+                  "title": "Passage des Panoramas（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Passage_des_Panoramas",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "19 世纪玻璃顶拱廊街",
+                "复古邮票店与小餐馆"
+              ]
+            },
+            {
+              "place_id": "galerie-vivienne",
+              "priority": "core",
+              "weight": 3,
+              "after": "passage-des-panoramas",
+              "why_here": "修复过的拱廊街：新古典的庞贝风格装饰，有马赛克、绘画和雕塑。",
+              "sources": [
+                {
+                  "title": "Galerie Vivienne（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Galerie_Vivienne",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "马赛克地面与玻璃穹顶",
+                "茶室与旧书店"
+              ]
+            },
+            {
+              "place_id": "palais-garnier",
+              "priority": "core",
+              "weight": 4,
+              "why_here": "拿破仑三世下令建的歌剧院，1861 至 1875 年建成，以极度奢华的装饰出名。",
+              "sources": [
+                {
+                  "title": "Palais Garnier（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Palais_Garnier",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "大楼梯与镀金大厅",
+                "夏加尔绘制的穹顶",
+                "晚间芭蕾或歌剧演出"
+              ]
+            },
+            {
+              "place_id": "pont-alexandre-iii",
+              "priority": "optional",
+              "weight": 2,
+              "why_here": "为 1900 年世博会建的桥，有新艺术风格的路灯和雕塑。",
+              "sources": [
+                {
+                  "title": "Pont Alexandre III（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Pont_Alexandre_III",
+                  "checked_at": "2026-10-27"
+                }
+              ]
+            },
+            {
+              "place_id": "eiffel-tower",
+              "priority": "core",
+              "weight": 5,
+              "why_here": "1889 年世博会的核心：用锻铁建成的铁塔。",
+              "sources": [
+                {
+                  "title": "Eiffel Tower（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+                  "checked_at": "2026-10-27"
+                }
+              ],
+              "look_for": [
+                "二层的玻璃地板",
+                "顶层看整个巴黎全景",
+                "整点夜间灯光秀（持续 5 分钟）"
+              ]
+            }
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "title": "Notre-Dame de Paris",
+          "kind": "book",
+          "creator": "Victor Hugo",
+          "year": 1831,
+          "note": "雨果写的中世纪巴黎，也是当年呼吁保护这座教堂的小说。",
+          "source": {
+            "title": "The Hunchback of Notre-Dame（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame",
+            "checked_at": "2026-10-27"
+          }
+        },
+        {
+          "title": "Le Fantôme de l'Opéra",
+          "kind": "book",
+          "creator": "Gaston Leroux",
+          "year": 1910,
+          "note": "故事的舞台就是加尼叶宫，读完再进去会看到不一样的楼梯和大厅。",
+          "source": {
+            "title": "The Phantom of the Opera (novel)（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(novel)",
+            "checked_at": "2026-10-27"
+          }
+        },
+        {
+          "title": "Marie Antoinette",
+          "kind": "film",
+          "creator": "Sofia Coppola",
+          "year": 2006,
+          "note": "剧组获准在凡尔赛宫内拍摄，去之前看一遍，宫里的房间就有了人。",
+          "source": {
+            "title": "Marie Antoinette (2006 film)（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/Marie_Antoinette_(2006_film)",
+            "checked_at": "2026-10-27"
+          }
+        }
+      ],
+      "notes": [
+        "凡尔赛宫周一闭馆，要留半天以上；巴黎圣母院外观已重新开放，内部需要另外预约。",
+        "地点库里个别点的开放时间还没有逐个核对，出发前请以各家官网为准。"
+      ]
+    },
+    {
+      "id": "gastronomy-market-to-cafe",
+      "name_zh": "法式餐桌：从早市到咖啡馆",
+      "tagline": "按一天的吃饭节奏走：早市、老字号午餐、咖啡馆与下午茶",
+      "track": "food",
+      "thesis": "巴黎的吃饭是一套节奏：早上在街市买菜，中午坐进几十年甚至几百年的老馆子，下午在咖啡馆或茶室歇脚。每天这三类各去一家，几天下来把每一类都逛一遍。",
+      "base_theme": "food",
+      "layout": "pick-one",
+      "days": {
+        "min": 2,
+        "suggested": 3,
+        "max": 3
+      },
+      "chapters": [
+        {
+          "id": "morning-markets",
+          "title": "早市与街市",
+          "story": "巴黎人是边买菜边社交的：穆浮塔街是巴黎最老、最热闹的街区之一，南头的圣梅达尔广场有常设的露天市场，一周里大部分时间只让行人走，1724 年并入巴黎。蒙托格伊街两边是餐馆、咖啡馆、面包店、鱼店、奶酪店，莫奈 1878 年画过这条街；街上 51 号的 Stohrer 1730 年开业，是巴黎最老的面包店之一，朗姆巴巴就是在这里发明的。",
+          "sources": [
+            {
+              "title": "Rue Mouffetard（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Rue_Mouffetard",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "Rue Montorgueil（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Rue_Montorgueil",
+              "checked_at": "2026-10-28"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "rue-mouffetard",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "南头圣梅达尔广场的常设露天市场",
+                "大部分时间只让行人走的老街"
+              ],
+              "why_here": "巴黎最老、最热闹的街区之一：街上有很多餐馆、小店、咖啡馆和固定的露天市场。",
+              "sources": [
+                {
+                  "title": "Rue Mouffetard（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Rue_Mouffetard",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            },
+            {
+              "place_id": "rue-montorgueil",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "面包店、鱼店、奶酪店和蔬果摊一条街",
+                "51 号 Stohrer：1730 年开业，朗姆巴巴的发源地"
+              ],
+              "why_here": "巴黎人边买菜边聊天的步行街；街上 51 号的 Stohrer 1730 年开业，朗姆巴巴在这里发明。",
+              "sources": [
+                {
+                  "title": "Rue Montorgueil（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Rue_Montorgueil",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "old-house-lunch",
+          "title": "老字号的午餐",
+          "story": "中午找一家有历史的馆子坐下：普罗可布 1686 年开业，18、19 世纪是巴黎艺术家和文人的聚会处，不过原来的咖啡馆 1872 年就关了，现在的餐厅 1957 年才开。里昂车站大厅里的蓝色列车是为 1900 年世博会建的，1972 年列为历史古迹，各个厅按法国的城市和地区装饰，共有 41 幅画。圆顶 1927 年 12 月 20 日开业，是蒙帕纳斯的装饰艺术风格大餐厅，巴黎画派的艺术家和作家常来。",
+          "sources": [
+            {
+              "title": "Café Procope（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_Procope",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "Le Train Bleu（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Le_Train_Bleu_(restaurant)",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "La Coupole（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/La_Coupole_(Paris)",
+              "checked_at": "2026-10-28"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "cafe-procope",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "1686 年开业的老咖啡馆旧址，18、19 世纪文人和艺术家聚会的地方",
+                "现在的餐厅 1957 年起营业"
+              ],
+              "why_here": "1686 年开业的老咖啡馆旧址，现在是餐厅：老字号午餐的第一站。",
+              "sources": [
+                {
+                  "title": "Café Procope（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_Procope",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            },
+            {
+              "place_id": "le-train-bleu",
+              "priority": "optional",
+              "weight": 3,
+              "look_for": [
+                "车站大厅里的装饰餐厅，为 1900 年世博会建",
+                "各个厅按法国的城市和地区装饰，共 41 幅画"
+              ],
+              "why_here": "为 1900 年世博会建在里昂车站里，1972 年列为历史古迹：用餐的地方本身就是看点。",
+              "sources": [
+                {
+                  "title": "Le Train Bleu（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Le_Train_Bleu_(restaurant)",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            },
+            {
+              "place_id": "la-coupole",
+              "priority": "core",
+              "weight": 3,
+              "look_for": [
+                "1927 年的装饰艺术风格大厅",
+                "巴黎画派艺术家和作家常来的蒙帕纳斯餐厅"
+              ],
+              "why_here": "1927 年 12 月 20 日开业的蒙帕纳斯大餐厅，装饰艺术风格，巴黎画派的艺术家和作家常来。",
+              "sources": [
+                {
+                  "title": "La Coupole（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/La_Coupole_(Paris)",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cafes-and-tea",
+          "title": "咖啡馆与下午茶",
+          "story": "下午找个地方坐下：天使之家 1903 年开业，是巴黎秋冬蒙布朗最有名的茶室，也以热巧克力「l'Africain」出名；Ladurée 1862 年创立，以马卡龙闻名于世；和平咖啡馆 1862 年 6 月 30 日随大饭店开业，在歌剧院对面。想去作家们坐过的咖啡馆，就去花神（19 世纪 80 年代出现，萨特、波伏娃常去，周恩来 20 世纪 20 年代在法国期间也是常客）、隔街的双叟（1884 年改成咖啡馆，1933 年起每年颁双叟文学奖），或蒙马特的两个风车咖啡馆（因 2001 年的电影《天使爱美丽》出名）。",
+          "sources": [
+            {
+              "title": "Mont Blanc (dessert)（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mont_Blanc_(dessert)",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "Angelina（法语维基百科）",
+              "url": "https://fr.wikipedia.org/wiki/Angelina_(salon_de_th%C3%A9)",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "Ladurée（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Ladur%C3%A9e",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "Café de la Paix（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_la_Paix",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "Café de Flore（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Flore",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "Les Deux Magots（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Les_Deux_Magots",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "Café des 2 Moulins（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_des_2_Moulins",
+              "checked_at": "2026-10-28"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "angelina",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "蒙布朗：栗子泥做的甜点",
+                "热巧克力「l'Africain」"
+              ],
+              "why_here": "1903 年开业的茶室，以蒙布朗和热巧克力闻名。",
+              "sources": [
+                {
+                  "title": "Mont Blanc (dessert)（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Mont_Blanc_(dessert)",
+                  "checked_at": "2026-10-28"
+                },
+                {
+                  "title": "Angelina（法语维基百科）",
+                  "url": "https://fr.wikipedia.org/wiki/Angelina_(salon_de_th%C3%A9)",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            },
+            {
+              "place_id": "cafe-de-flore",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "红色座椅、桃花心木和镜子的装饰艺术内饰",
+                "萨特、波伏娃常坐的地方"
+              ],
+              "why_here": "19 世纪 80 年代出现的老咖啡馆，萨特、波伏娃常来，周恩来 20 世纪 20 年代在法国期间也是常客。",
+              "sources": [
+                {
+                  "title": "Café de Flore（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_Flore",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            },
+            {
+              "place_id": "laduree-champs",
+              "priority": "core",
+              "weight": 3,
+              "look_for": [
+                "马卡龙",
+                "茶沙龙"
+              ],
+              "why_here": "1862 年创立，以马卡龙闻名于世。",
+              "sources": [
+                {
+                  "title": "Ladurée（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Ladur%C3%A9e",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            },
+            {
+              "place_id": "les-deux-magots",
+              "priority": "core",
+              "weight": 3,
+              "look_for": [
+                "两尊中国官员雕像",
+                "每年颁发的双叟文学奖"
+              ],
+              "why_here": "和花神隔街相望，1884 年改成咖啡馆，1933 年起每年在这里颁双叟文学奖。",
+              "sources": [
+                {
+                  "title": "Les Deux Magots（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Les_Deux_Magots",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            },
+            {
+              "place_id": "cafe-de-la-paix",
+              "priority": "optional",
+              "weight": 2,
+              "look_for": [
+                "拿破仑三世风格的装饰",
+                "歌剧院对面的老咖啡馆"
+              ],
+              "why_here": "1862 年 6 月 30 日随大饭店开业，在歌剧院对面。",
+              "sources": [
+                {
+                  "title": "Café de la Paix（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_de_la_Paix",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            },
+            {
+              "place_id": "cafe-des-deux-moulins",
+              "priority": "optional",
+              "weight": 2,
+              "look_for": [
+                "电影里主角工作的咖啡馆",
+                "附近的红磨坊和磨坊园"
+              ],
+              "why_here": "2001 年电影《天使爱美丽》里主角工作的咖啡馆。",
+              "sources": [
+                {
+                  "title": "Café des 2 Moulins（维基百科）",
+                  "url": "https://en.wikipedia.org/wiki/Caf%C3%A9_des_2_Moulins",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reading": [
+        {
+          "title": "Le Fabuleux Destin d'Amélie Poulain",
+          "kind": "film",
+          "creator": "Jean-Pierre Jeunet",
+          "year": 2001,
+          "note": "两个风车咖啡馆是主角工作的地方，看完再去吧台前坐一坐。",
+          "source": {
+            "title": "Amélie（维基百科）",
+            "url": "https://en.wikipedia.org/wiki/Am%C3%A9lie",
+            "checked_at": "2026-10-28"
+          }
+        }
+      ],
+      "notes": [
+        "蓝色列车、普罗可布、圆顶中午和晚上都忙，建议订位；蓝色列车在里昂车站，离市中心较远。",
+        "双叟咖啡馆的开放时间来自 OpenStreetMap，和平咖啡馆的开放时间没有核对，出发前以各家官网为准。",
+        "红孩子市场 2026 年 10 月 12 日被大火烧毁，没有排进路线。"
+      ]
+    },
+    {
+      "id": "christmas-markets-notre-dame-to-alsace",
+      "name_zh": "巴黎的圣诞集市",
+      "tagline": "两个冬季市场：圣母院旁的法国手工木屋，和东站前的阿尔萨斯市场",
+      "track": "folk",
+      "thesis": "圣诞市场是巴黎冬天最有民俗味道的一件事：一个在圣母院旁卖法国手工，一个在东站前卖阿尔萨斯的吃喝，都只在举办期里才有。",
+      "base_theme": "shopping",
+      "days": {
+        "min": 1,
+        "suggested": 1,
+        "max": 1
+      },
+      "chapters": [
+        {
+          "id": "winter-markets",
+          "title": "冬季圣诞集市",
+          "story": "冬天的巴黎有两个值得专门去的圣诞市场：圣母院旁的市场 2026 年 11 月 26 日到 12 月 27 日在勒内-维维亚尼广场，约 40 个法国手工木屋，免费入场，晚上有灯光和乐队；东站前的阿尔萨斯市场 12 月 2 日到 18 日，是第 44 届，约 15 家阿尔萨斯生产者在这里卖葡萄酒、奶酪、咕咕洛夫蛋糕和姜饼小人。",
+          "sources": [
+            {
+              "title": "Notre-Dame de Paris Christmas Market 2026（Sortiraparis）",
+              "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/walks/articles/58110-notre-dame-de-paris-christmas-market-2022-is-coming",
+              "checked_at": "2026-10-28"
+            },
+            {
+              "title": "Alsace Christmas Market 2026 at Gare de l'Est（Sortiraparis）",
+              "url": "https://www.sortiraparis.com/en/news/christmas-and-holidays/articles/57104-the-2026-alsatian-christmas-market-at-gare-de-l-est-is-a-plunge-into-the-terroir-right-in-paris",
+              "checked_at": "2026-10-28"
+            }
+          ],
+          "stops": [
+            {
+              "place_id": "paris-notre-dame-christmas-market",
+              "priority": "core",
+              "weight": 4,
+              "look_for": [
+                "约 40 个法国手工木屋",
+                "晚上的灯光和乐队表演"
+              ],
+              "why_here": "圣母院旁、塞纳河边的市场：法国手工和地方美食，晚上有灯光和音乐，免费入场。",
+              "sources": [
+                {
+                  "title": "Notre-Dame de Paris Christmas Market 2026（Sortiraparis）",
+                  "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/walks/articles/58110-notre-dame-de-paris-christmas-market-2022-is-coming",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            },
+            {
+              "place_id": "paris-alsace-christmas-market",
+              "priority": "core",
+              "weight": 3,
+              "look_for": [
+                "咕咕洛夫蛋糕和姜饼小人",
+                "阿尔萨斯的葡萄酒、奶酪和火腿肠"
+              ],
+              "why_here": "第 44 届，是阿尔萨斯以外最老的阿尔萨斯圣诞市场，约 15 家生产者和手艺人。",
+              "sources": [
+                {
+                  "title": "Alsace Christmas Market 2026 at Gare de l'Est（Sortiraparis）",
+                  "url": "https://www.sortiraparis.com/en/news/christmas-and-holidays/articles/57104-the-2026-alsatian-christmas-market-at-gare-de-l-est-is-a-plunge-into-the-terroir-right-in-paris",
+                  "checked_at": "2026-10-28"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reading": [],
+      "notes": [
+        "两个市场的日期来自多个聚合网站（彼此一致），没能在官方网站核对，出发前请确认；每年的举办期不同，这些是 2026 年的。",
+        "行程日期不在两个市场的举办期内时，这条路线排不进去，用「购物」主题补充。"
+      ]
+    }
+  ]
+}

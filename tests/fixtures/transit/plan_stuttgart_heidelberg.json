@@ -1,0 +1,896 @@
+{
+ "itineraries": [
+  {
+   "duration": 3480,
+   "startTime": "2026-12-12T08:26:00Z",
+   "endTime": "2026-12-12T09:24:00Z",
+   "transfers": 1,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T08:26:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T08:29:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U12",
+     "displayName": "U12",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T08:29:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T08:30:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T08:30:00Z",
+      "arrival": "2026-12-12T08:30:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78543500000001,
+      "lon": 9.182669,
+      "arrival": "2026-12-12T08:34:00Z"
+     }
+    },
+    {
+     "mode": "LONG_DISTANCE",
+     "routeShortName": "IC 2047",
+     "displayName": "IC 2047",
+     "duration": 2760,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78543500000001,
+      "lon": 9.182669,
+      "departure": "2026-12-12T08:36:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403819999999996,
+      "lon": 8.674716,
+      "arrival": "2026-12-12T09:22:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403819999999996,
+      "lon": 8.674716,
+      "departure": "2026-12-12T09:22:00Z",
+      "arrival": "2026-12-12T09:22:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T09:24:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 3000,
+   "startTime": "2026-12-12T08:56:00Z",
+   "endTime": "2026-12-12T09:46:00Z",
+   "transfers": 1,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T08:56:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T08:59:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U12",
+     "displayName": "U12",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T08:59:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T09:00:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T09:00:00Z",
+      "arrival": "2026-12-12T09:00:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78528,
+      "lon": 9.183027999999998,
+      "arrival": "2026-12-12T09:04:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 2090",
+     "displayName": "ICE 2090",
+     "duration": 2340,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78528,
+      "lon": 9.183027999999998,
+      "departure": "2026-12-12T09:05:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403842999999995,
+      "lon": 8.675138,
+      "arrival": "2026-12-12T09:44:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403842999999995,
+      "lon": 8.675138,
+      "departure": "2026-12-12T09:44:00Z",
+      "arrival": "2026-12-12T09:44:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T09:46:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 4020,
+   "startTime": "2026-12-12T09:17:00Z",
+   "endTime": "2026-12-12T10:24:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T09:17:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T09:20:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U5",
+     "displayName": "U5",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T09:20:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T09:21:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T09:21:00Z",
+      "arrival": "2026-12-12T09:21:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "arrival": "2026-12-12T09:25:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 1010",
+     "displayName": "ICE 1010",
+     "duration": 2280,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "departure": "2026-12-12T09:26:00Z"
+     },
+     "to": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.479134,
+      "lon": 8.4699,
+      "arrival": "2026-12-12T10:04:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.479134,
+      "lon": 8.4699,
+      "departure": "2026-12-12T10:04:00Z",
+      "arrival": "2026-12-12T10:04:00Z"
+     },
+     "to": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.4788,
+      "lon": 8.469505000000002,
+      "arrival": "2026-12-12T10:06:00Z"
+     }
+    },
+    {
+     "mode": "METRO",
+     "routeShortName": "S2",
+     "displayName": "S2",
+     "duration": 960,
+     "from": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.4788,
+      "lon": 8.469505000000002,
+      "departure": "2026-12-12T10:07:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403625,
+      "lon": 8.674904999999999,
+      "arrival": "2026-12-12T10:23:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403625,
+      "lon": 8.674904999999999,
+      "departure": "2026-12-12T10:23:00Z",
+      "arrival": "2026-12-12T10:23:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T10:24:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 3840,
+   "startTime": "2026-12-12T09:41:00Z",
+   "endTime": "2026-12-12T10:45:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T09:41:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T09:44:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U12",
+     "displayName": "U12",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T09:44:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T09:45:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T09:45:00Z",
+      "arrival": "2026-12-12T09:45:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "arrival": "2026-12-12T09:49:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 690",
+     "displayName": "ICE 690",
+     "duration": 2220,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "departure": "2026-12-12T09:49:00Z"
+     },
+     "to": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.47923,
+      "lon": 8.470026,
+      "arrival": "2026-12-12T10:26:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.47923,
+      "lon": 8.470026,
+      "departure": "2026-12-12T10:26:00Z",
+      "arrival": "2026-12-12T10:26:00Z"
+     },
+     "to": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.47866,
+      "lon": 8.469415000000001,
+      "arrival": "2026-12-12T10:28:00Z"
+     }
+    },
+    {
+     "mode": "METRO",
+     "routeShortName": "S3",
+     "displayName": "S3",
+     "duration": 840,
+     "from": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.47866,
+      "lon": 8.469415000000001,
+      "departure": "2026-12-12T10:30:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403625,
+      "lon": 8.674904999999999,
+      "arrival": "2026-12-12T10:44:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403625,
+      "lon": 8.674904999999999,
+      "departure": "2026-12-12T10:44:00Z",
+      "arrival": "2026-12-12T10:44:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T10:45:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 4260,
+   "startTime": "2026-12-12T10:03:00Z",
+   "endTime": "2026-12-12T11:14:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T10:03:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T10:06:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U15",
+     "displayName": "U15",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T10:06:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T10:07:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T10:07:00Z",
+      "arrival": "2026-12-12T10:07:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785137000000006,
+      "lon": 9.183350999999998,
+      "arrival": "2026-12-12T10:11:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 568",
+     "displayName": "ICE 568",
+     "duration": 1500,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785137000000006,
+      "lon": 9.183350999999998,
+      "departure": "2026-12-12T10:12:00Z"
+     },
+     "to": {
+      "name": "Bruchsal",
+      "lat": 49.12509500000001,
+      "lon": 8.590067999999999,
+      "arrival": "2026-12-12T10:37:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 300,
+     "from": {
+      "name": "Bruchsal",
+      "lat": 49.12509500000001,
+      "lon": 8.590067999999999,
+      "departure": "2026-12-12T10:37:00Z",
+      "arrival": "2026-12-12T10:37:00Z"
+     },
+     "to": {
+      "name": "Bruchsal",
+      "lat": 49.124622,
+      "lon": 8.589649000000001,
+      "arrival": "2026-12-12T10:42:00Z"
+     }
+    },
+    {
+     "mode": "METRO",
+     "routeShortName": "S3",
+     "displayName": "S3",
+     "duration": 1800,
+     "from": {
+      "name": "Bruchsal",
+      "lat": 49.124622,
+      "lon": 8.589649000000001,
+      "departure": "2026-12-12T10:42:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.40392,
+      "lon": 8.674850999999999,
+      "arrival": "2026-12-12T11:12:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.40392,
+      "lon": 8.674850999999999,
+      "departure": "2026-12-12T11:12:00Z",
+      "arrival": "2026-12-12T11:12:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T11:14:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 3540,
+   "startTime": "2026-12-12T10:25:00Z",
+   "endTime": "2026-12-12T11:24:00Z",
+   "transfers": 1,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T10:25:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T10:28:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U6",
+     "displayName": "U6",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T10:28:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T10:29:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T10:29:00Z",
+      "arrival": "2026-12-12T10:29:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "arrival": "2026-12-12T10:33:00Z"
+     }
+    },
+    {
+     "mode": "LONG_DISTANCE",
+     "routeShortName": "IC 2045",
+     "displayName": "IC 2045",
+     "duration": 2760,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "departure": "2026-12-12T10:36:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403819999999996,
+      "lon": 8.674716,
+      "arrival": "2026-12-12T11:22:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403819999999996,
+      "lon": 8.674716,
+      "departure": "2026-12-12T11:22:00Z",
+      "arrival": "2026-12-12T11:22:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T11:24:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 3840,
+   "startTime": "2026-12-12T10:41:00Z",
+   "endTime": "2026-12-12T11:45:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T10:41:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T10:44:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U12",
+     "displayName": "U12",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T10:44:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T10:45:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T10:45:00Z",
+      "arrival": "2026-12-12T10:45:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "arrival": "2026-12-12T10:49:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 610",
+     "displayName": "ICE 610",
+     "duration": 2220,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785233000000005,
+      "lon": 9.183117999999999,
+      "departure": "2026-12-12T10:49:00Z"
+     },
+     "to": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.479134,
+      "lon": 8.4699,
+      "arrival": "2026-12-12T11:26:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.479134,
+      "lon": 8.4699,
+      "departure": "2026-12-12T11:26:00Z",
+      "arrival": "2026-12-12T11:26:00Z"
+     },
+     "to": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.47866,
+      "lon": 8.469415000000001,
+      "arrival": "2026-12-12T11:28:00Z"
+     }
+    },
+    {
+     "mode": "METRO",
+     "routeShortName": "S3",
+     "displayName": "S3",
+     "duration": 840,
+     "from": {
+      "name": "Mannheim, Hauptbahnhof",
+      "lat": 49.47866,
+      "lon": 8.469415000000001,
+      "departure": "2026-12-12T11:30:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403625,
+      "lon": 8.674904999999999,
+      "arrival": "2026-12-12T11:44:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403625,
+      "lon": 8.674904999999999,
+      "departure": "2026-12-12T11:44:00Z",
+      "arrival": "2026-12-12T11:44:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T11:45:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 2940,
+   "startTime": "2026-12-12T10:57:00Z",
+   "endTime": "2026-12-12T11:46:00Z",
+   "transfers": 1,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T10:57:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T11:00:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U5",
+     "displayName": "U5",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T11:00:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T11:01:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T11:01:00Z",
+      "arrival": "2026-12-12T11:01:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78528,
+      "lon": 9.183027999999998,
+      "arrival": "2026-12-12T11:05:00Z"
+     }
+    },
+    {
+     "mode": "HIGHSPEED_RAIL",
+     "routeShortName": "ICE 1094",
+     "displayName": "ICE 1094",
+     "duration": 2340,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78528,
+      "lon": 9.183027999999998,
+      "departure": "2026-12-12T11:05:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403842999999995,
+      "lon": 8.675138,
+      "arrival": "2026-12-12T11:44:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403842999999995,
+      "lon": 8.675138,
+      "departure": "2026-12-12T11:44:00Z",
+      "arrival": "2026-12-12T11:44:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T11:46:00Z"
+     }
+    }
+   ]
+  }
+ ]
+}

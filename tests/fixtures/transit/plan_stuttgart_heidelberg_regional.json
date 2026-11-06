@@ -1,0 +1,1106 @@
+{
+ "itineraries": [
+  {
+   "duration": 7200,
+   "startTime": "2026-12-12T08:11:00Z",
+   "endTime": "2026-12-12T10:11:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T08:11:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T08:14:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U12",
+     "displayName": "U12",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T08:14:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T08:15:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T08:15:00Z",
+      "arrival": "2026-12-12T08:15:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785557000000004,
+      "lon": 9.182444000000002,
+      "arrival": "2026-12-12T08:19:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "MEX12 (19222)",
+     "displayName": "MEX12 (19222)",
+     "duration": 2520,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785557000000004,
+      "lon": 9.182444000000002,
+      "departure": "2026-12-12T08:19:00Z"
+     },
+     "to": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143063,
+      "lon": 9.207516,
+      "arrival": "2026-12-12T09:01:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143063,
+      "lon": 9.207516,
+      "departure": "2026-12-12T09:01:00Z",
+      "arrival": "2026-12-12T09:01:00Z"
+     },
+     "to": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143150000000006,
+      "lon": 9.207462,
+      "arrival": "2026-12-12T09:03:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE10b (19264)",
+     "displayName": "RE10b (19264)",
+     "duration": 3780,
+     "from": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143150000000006,
+      "lon": 9.207462,
+      "departure": "2026-12-12T09:06:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403954,
+      "lon": 8.675264,
+      "arrival": "2026-12-12T10:09:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403954,
+      "lon": 8.675264,
+      "departure": "2026-12-12T10:09:00Z",
+      "arrival": "2026-12-12T10:09:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T10:11:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 8880,
+   "startTime": "2026-12-12T08:24:00Z",
+   "endTime": "2026-12-12T10:52:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T08:24:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T08:27:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U6",
+     "displayName": "U6",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T08:27:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T08:28:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T08:28:00Z",
+      "arrival": "2026-12-12T08:28:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78537000000001,
+      "lon": 9.182803,
+      "arrival": "2026-12-12T08:32:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE1 (19008)",
+     "displayName": "RE1 (19008)",
+     "duration": 3180,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78537000000001,
+      "lon": 9.182803,
+      "departure": "2026-12-12T08:32:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.992813000000005,
+      "lon": 8.4017,
+      "arrival": "2026-12-12T09:25:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.992813000000005,
+      "lon": 8.4017,
+      "departure": "2026-12-12T09:25:00Z",
+      "arrival": "2026-12-12T09:25:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993473,
+      "lon": 8.401178999999999,
+      "arrival": "2026-12-12T09:27:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE73 (15974)",
+     "displayName": "RE73 (15974)",
+     "duration": 2280,
+     "from": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993473,
+      "lon": 8.401178999999999,
+      "departure": "2026-12-12T10:13:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403510000000004,
+      "lon": 8.674814999999999,
+      "arrival": "2026-12-12T10:51:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403510000000004,
+      "lon": 8.674814999999999,
+      "departure": "2026-12-12T10:51:00Z",
+      "arrival": "2026-12-12T10:51:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T10:52:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 8340,
+   "startTime": "2026-12-12T08:24:00Z",
+   "endTime": "2026-12-12T10:43:00Z",
+   "transfers": 3,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T08:24:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T08:27:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U6",
+     "displayName": "U6",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T08:27:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T08:28:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T08:28:00Z",
+      "arrival": "2026-12-12T08:28:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78537000000001,
+      "lon": 9.182803,
+      "arrival": "2026-12-12T08:32:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE1 (19008)",
+     "displayName": "RE1 (19008)",
+     "duration": 3180,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78537000000001,
+      "lon": 9.182803,
+      "departure": "2026-12-12T08:32:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.992813000000005,
+      "lon": 8.4017,
+      "arrival": "2026-12-12T09:25:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.992813000000005,
+      "lon": 8.4017,
+      "departure": "2026-12-12T09:25:00Z",
+      "arrival": "2026-12-12T09:25:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993320000000004,
+      "lon": 8.401394999999999,
+      "arrival": "2026-12-12T09:27:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "S31",
+     "displayName": "S31",
+     "duration": 1260,
+     "from": {
+      "name": "Karlsruhe Hauptbahnhof",
+      "lat": 48.993320000000004,
+      "lon": 8.401394999999999,
+      "departure": "2026-12-12T09:28:00Z"
+     },
+     "to": {
+      "name": "Bruchsal Bahnhof/ZOB",
+      "lat": 49.12504200000001,
+      "lon": 8.590356,
+      "arrival": "2026-12-12T09:49:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 300,
+     "from": {
+      "name": "Bruchsal Bahnhof/ZOB",
+      "lat": 49.12504200000001,
+      "lon": 8.590356,
+      "departure": "2026-12-12T09:49:00Z",
+      "arrival": "2026-12-12T09:49:00Z"
+     },
+     "to": {
+      "name": "Bruchsal",
+      "lat": 49.124622,
+      "lon": 8.589649000000001,
+      "arrival": "2026-12-12T09:54:00Z"
+     }
+    },
+    {
+     "mode": "METRO",
+     "routeShortName": "S3",
+     "displayName": "S3",
+     "duration": 1860,
+     "from": {
+      "name": "Bruchsal",
+      "lat": 49.124622,
+      "lon": 8.589649000000001,
+      "departure": "2026-12-12T10:10:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403819999999996,
+      "lon": 8.674716,
+      "arrival": "2026-12-12T10:41:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403819999999996,
+      "lon": 8.674716,
+      "departure": "2026-12-12T10:41:00Z",
+      "arrival": "2026-12-12T10:41:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T10:43:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 8100,
+   "startTime": "2026-12-12T08:37:00Z",
+   "endTime": "2026-12-12T10:52:00Z",
+   "transfers": 3,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T08:37:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T08:40:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U7",
+     "displayName": "U7",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T08:40:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T08:41:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T08:41:00Z",
+      "arrival": "2026-12-12T08:41:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78537000000001,
+      "lon": 9.182803,
+      "arrival": "2026-12-12T08:45:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "MEX17 (19508)",
+     "displayName": "MEX17 (19508)",
+     "duration": 2520,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78537000000001,
+      "lon": 9.182803,
+      "departure": "2026-12-12T08:46:00Z"
+     },
+     "to": {
+      "name": "Mühlacker Bahnhof",
+      "lat": 48.95308699999999,
+      "lon": 8.846060999999999,
+      "arrival": "2026-12-12T09:28:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Mühlacker Bahnhof",
+      "lat": 48.95308699999999,
+      "lon": 8.846060999999999,
+      "departure": "2026-12-12T09:28:00Z",
+      "arrival": "2026-12-12T09:28:00Z"
+     },
+     "to": {
+      "name": "Mühlacker Bahnhof",
+      "lat": 48.953175,
+      "lon": 8.846025,
+      "arrival": "2026-12-12T09:30:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RB71 (19608)",
+     "displayName": "RB71 (19608)",
+     "duration": 2820,
+     "from": {
+      "name": "Mühlacker Bahnhof",
+      "lat": 48.953175,
+      "lon": 8.846025,
+      "departure": "2026-12-12T09:35:00Z"
+     },
+     "to": {
+      "name": "Bruchsal",
+      "lat": 49.123566000000004,
+      "lon": 8.589601,
+      "arrival": "2026-12-12T10:22:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 300,
+     "from": {
+      "name": "Bruchsal",
+      "lat": 49.123566000000004,
+      "lon": 8.589601,
+      "departure": "2026-12-12T10:22:00Z",
+      "arrival": "2026-12-12T10:22:00Z"
+     },
+     "to": {
+      "name": "Bruchsal",
+      "lat": 49.124622,
+      "lon": 8.589649000000001,
+      "arrival": "2026-12-12T10:27:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE73 (15974)",
+     "displayName": "RE73 (15974)",
+     "duration": 1320,
+     "from": {
+      "name": "Bruchsal",
+      "lat": 49.124622,
+      "lon": 8.589649000000001,
+      "departure": "2026-12-12T10:29:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403510000000004,
+      "lon": 8.674814999999999,
+      "arrival": "2026-12-12T10:51:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 60,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403510000000004,
+      "lon": 8.674814999999999,
+      "departure": "2026-12-12T10:51:00Z",
+      "arrival": "2026-12-12T10:51:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T10:52:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 7200,
+   "startTime": "2026-12-12T09:11:00Z",
+   "endTime": "2026-12-12T11:11:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T09:11:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T09:14:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U12",
+     "displayName": "U12",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T09:14:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T09:15:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T09:15:00Z",
+      "arrival": "2026-12-12T09:15:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785137000000006,
+      "lon": 9.183350999999998,
+      "arrival": "2026-12-12T09:19:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "MEX12 (19224)",
+     "displayName": "MEX12 (19224)",
+     "duration": 2520,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785137000000006,
+      "lon": 9.183350999999998,
+      "departure": "2026-12-12T09:19:00Z"
+     },
+     "to": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143063,
+      "lon": 9.207516,
+      "arrival": "2026-12-12T10:01:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143063,
+      "lon": 9.207516,
+      "departure": "2026-12-12T10:01:00Z",
+      "arrival": "2026-12-12T10:01:00Z"
+     },
+     "to": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143150000000006,
+      "lon": 9.207462,
+      "arrival": "2026-12-12T10:03:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE10a (19266)",
+     "displayName": "RE10a (19266)",
+     "duration": 3780,
+     "from": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143150000000006,
+      "lon": 9.207462,
+      "departure": "2026-12-12T10:06:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403954,
+      "lon": 8.675264,
+      "arrival": "2026-12-12T11:09:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403954,
+      "lon": 8.675264,
+      "departure": "2026-12-12T11:09:00Z",
+      "arrival": "2026-12-12T11:09:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T11:11:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 5400,
+   "startTime": "2026-12-12T09:51:00Z",
+   "endTime": "2026-12-12T11:21:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T09:51:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T09:54:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U12",
+     "displayName": "U12",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T09:54:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T09:55:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T09:55:00Z",
+      "arrival": "2026-12-12T09:55:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785180000000004,
+      "lon": 9.183270999999998,
+      "arrival": "2026-12-12T09:59:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE1 (19674)",
+     "displayName": "RE1 (19674)",
+     "duration": 1380,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785180000000004,
+      "lon": 9.183270999999998,
+      "departure": "2026-12-12T09:59:00Z"
+     },
+     "to": {
+      "name": "Mühlacker Bahnhof",
+      "lat": 48.95308699999999,
+      "lon": 8.846060999999999,
+      "arrival": "2026-12-12T10:22:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Mühlacker Bahnhof",
+      "lat": 48.95308699999999,
+      "lon": 8.846060999999999,
+      "departure": "2026-12-12T10:22:00Z",
+      "arrival": "2026-12-12T10:22:00Z"
+     },
+     "to": {
+      "name": "Mühlacker Bahnhof",
+      "lat": 48.953175,
+      "lon": 8.846025,
+      "arrival": "2026-12-12T10:24:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE71 (19644)",
+     "displayName": "RE71 (19644)",
+     "duration": 3180,
+     "from": {
+      "name": "Mühlacker Bahnhof",
+      "lat": 48.953175,
+      "lon": 8.846025,
+      "departure": "2026-12-12T10:26:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.40392,
+      "lon": 8.674850999999999,
+      "arrival": "2026-12-12T11:19:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.40392,
+      "lon": 8.674850999999999,
+      "departure": "2026-12-12T11:19:00Z",
+      "arrival": "2026-12-12T11:19:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T11:21:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 7200,
+   "startTime": "2026-12-12T10:11:00Z",
+   "endTime": "2026-12-12T12:11:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T10:11:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T10:14:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U12",
+     "displayName": "U12",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T10:14:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T10:15:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T10:15:00Z",
+      "arrival": "2026-12-12T10:15:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785557000000004,
+      "lon": 9.182444000000002,
+      "arrival": "2026-12-12T10:19:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "MEX12 (19226)",
+     "displayName": "MEX12 (19226)",
+     "duration": 2520,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.785557000000004,
+      "lon": 9.182444000000002,
+      "departure": "2026-12-12T10:19:00Z"
+     },
+     "to": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143063,
+      "lon": 9.207516,
+      "arrival": "2026-12-12T11:01:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143063,
+      "lon": 9.207516,
+      "departure": "2026-12-12T11:01:00Z",
+      "arrival": "2026-12-12T11:01:00Z"
+     },
+     "to": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143150000000006,
+      "lon": 9.207462,
+      "arrival": "2026-12-12T11:03:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE10b (19268)",
+     "displayName": "RE10b (19268)",
+     "duration": 3780,
+     "from": {
+      "name": "Heilbronn Hauptbahnhof",
+      "lat": 49.143150000000006,
+      "lon": 9.207462,
+      "departure": "2026-12-12T11:06:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403954,
+      "lon": 8.675264,
+      "arrival": "2026-12-12T12:09:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.403954,
+      "lon": 8.675264,
+      "departure": "2026-12-12T12:09:00Z",
+      "arrival": "2026-12-12T12:09:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T12:11:00Z"
+     }
+    }
+   ]
+  },
+  {
+   "duration": 6660,
+   "startTime": "2026-12-12T10:23:00Z",
+   "endTime": "2026-12-12T12:14:00Z",
+   "transfers": 2,
+   "legs": [
+    {
+     "mode": "WALK",
+     "duration": 180,
+     "from": {
+      "name": "START",
+      "lat": 48.7788075,
+      "lon": 9.1778844,
+      "departure": "2026-12-12T10:23:00Z"
+     },
+     "to": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "arrival": "2026-12-12T10:26:00Z"
+     }
+    },
+    {
+     "mode": "SUBWAY",
+     "routeShortName": "U15",
+     "displayName": "U15",
+     "duration": 60,
+     "from": {
+      "name": "Schlossplatz",
+      "lat": 48.77897600000001,
+      "lon": 9.179030000000001,
+      "departure": "2026-12-12T10:26:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "arrival": "2026-12-12T10:27:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 240,
+     "from": {
+      "name": "Hauptbahnhof (A.-Klett-Platz)",
+      "lat": 48.78311000000001,
+      "lon": 9.181069999999998,
+      "departure": "2026-12-12T10:27:00Z",
+      "arrival": "2026-12-12T10:27:00Z"
+     },
+     "to": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78533000000001,
+      "lon": 9.182893,
+      "arrival": "2026-12-12T10:31:00Z"
+     }
+    },
+    {
+     "mode": "REGIONAL_RAIL",
+     "routeShortName": "RE1 (19012)",
+     "displayName": "RE1 (19012)",
+     "duration": 2880,
+     "from": {
+      "name": "Hauptbahnhof",
+      "lat": 48.78533000000001,
+      "lon": 9.182893,
+      "departure": "2026-12-12T10:32:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe-Durlach",
+      "lat": 49.00188399999999,
+      "lon": 8.462103,
+      "arrival": "2026-12-12T11:20:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Karlsruhe-Durlach",
+      "lat": 49.00188399999999,
+      "lon": 8.462103,
+      "departure": "2026-12-12T11:20:00Z",
+      "arrival": "2026-12-12T11:20:00Z"
+     },
+     "to": {
+      "name": "Karlsruhe-Durlach",
+      "lat": 49.00222,
+      "lon": 8.462615000000001,
+      "arrival": "2026-12-12T11:22:00Z"
+     }
+    },
+    {
+     "mode": "METRO",
+     "routeShortName": "S3",
+     "displayName": "S3",
+     "duration": 2820,
+     "from": {
+      "name": "Karlsruhe-Durlach",
+      "lat": 49.00222,
+      "lon": 8.462615000000001,
+      "departure": "2026-12-12T11:25:00Z"
+     },
+     "to": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.40392,
+      "lon": 8.674850999999999,
+      "arrival": "2026-12-12T12:12:00Z"
+     }
+    },
+    {
+     "mode": "WALK",
+     "duration": 120,
+     "from": {
+      "name": "Heidelberg, Hauptbahnhof",
+      "lat": 49.40392,
+      "lon": 8.674850999999999,
+      "departure": "2026-12-12T12:12:00Z",
+      "arrival": "2026-12-12T12:12:00Z"
+     },
+     "to": {
+      "name": "END",
+      "lat": 49.4035,
+      "lon": 8.6753,
+      "arrival": "2026-12-12T12:14:00Z"
+     }
+    }
+   ]
+  }
+ ]
+}

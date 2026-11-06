@@ -1,0 +1,17 @@
+{
+  "name": "AI 旅行规划",
+  "short_name": "旅行规划",
+  "description": "面向中国游客的旅行计划：选主题、自动排程、可编辑、可分享，出国没网也能看。",
+  "lang": "zh-CN",
+  "start_url": "/plans",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f5f2",
+  "theme_color": "#b3541e",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

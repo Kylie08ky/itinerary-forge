@@ -1,0 +1,49 @@
+{
+  "city": "venice",
+  "_note": "精校：对着官方页面核对过的事实（规格 10 / 12）。键是维基数据编号；每条必须带来源和核对日期。重新生成草稿不会丢。",
+  "places": {
+    "Q1049033": {
+      "closed_weekdays": [
+        1
+      ],
+      "closed_dates": [
+        "12-25"
+      ],
+      "hours_verified": true,
+      "official_url": "https://www.guggenheim-venice.it/en/visit/",
+      "sources": [
+        {
+          "url": "https://www.guggenheim-venice.it/en/visit/",
+          "checked_at": "2026-11-04",
+          "what": "官网：周二和 12 月 25 日闭馆"
+        }
+      ]
+    },
+    "Q1052171": {
+      "closed_weekdays": [
+        1
+      ],
+      "official_url": "https://carezzonico.visitmuve.it/en/visitor-information/",
+      "sources": [
+        {
+          "url": "https://carezzonico.visitmuve.it/en/visitor-information/",
+          "checked_at": "2026-11-04",
+          "what": "官网：冬季（11 月 1 日–3 月 31 日）周二闭馆"
+        }
+      ]
+    },
+    "Q756807": {
+      "closed_weekdays": [
+        0
+      ],
+      "official_url": "https://capesaro.visitmuve.it/en/visitor-information/",
+      "sources": [
+        {
+          "url": "https://capesaro.visitmuve.it/en/visitor-information/",
+          "checked_at": "2026-11-04",
+          "what": "官网：冬季（11 月 1 日–3 月 31 日）周一闭馆"
+        }
+      ]
+    }
+  }
+}

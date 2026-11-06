@@ -1,0 +1,83 @@
+{
+  "city": "naples",
+  "_note": "精校：对着官方页面核对过的事实（规格 10 / 12）。键是维基数据编号；每条必须带来源和核对日期。重新生成草稿不会丢。",
+  "places": {
+    "Q43332": {
+      "closed_dates": [
+        "01-01",
+        "12-25"
+      ],
+      "ticketing": "online_or_walkin",
+      "ticket_note": "官网写明：建议提前购票，进园更快。",
+      "hours_verified": true,
+      "official_url": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/",
+      "sources": [
+        {
+          "url": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/",
+          "checked_at": "2026-11-04",
+          "what": "官网：12 月 25 日、1 月 1 日闭园"
+        },
+        {
+          "url": "https://pompeiisites.org/info-per-la-visita/orari-e-tariffe/",
+          "checked_at": "2026-11-04",
+          "what": "官网：建议提前购票"
+        }
+      ]
+    },
+    "Q637248": {
+      "closed_weekdays": [
+        1
+      ],
+      "closed_dates": [
+        "01-01",
+        "12-25"
+      ],
+      "hours_verified": true,
+      "official_url": "https://www.museoarcheologiconapoli.it/orari-e-biglietti/",
+      "sources": [
+        {
+          "url": "https://www.museoarcheologiconapoli.it/orari-e-biglietti/",
+          "checked_at": "2026-11-04",
+          "what": "官网：每周二闭馆；12 月 25 日、1 月 1 日闭馆"
+        }
+      ]
+    },
+    "Q897839": {
+      "closed_weekdays": [
+        1
+      ],
+      "closed_dates": [
+        "12-25"
+      ],
+      "date_notes": {
+        "12-24": "官网 2026 年节日时间表：12 月 24 日只开 9:00–14:00",
+        "12-26": "官网 2026 年节日时间表：12 月 26 日开 9:00–20:30"
+      },
+      "ticketing": "online_required",
+      "booking": {
+        "required": true,
+        "lead_time_hint": "官网写明参观必须预约，请提前在官网订时段"
+      },
+      "ticket_note": "官网写明：参观圣塞维诺小堂必须预约。",
+      "hours_verified": true,
+      "official_url": "https://www.museosansevero.it/organizza-la-tua-visita/orari-e-tariffe",
+      "sources": [
+        {
+          "url": "https://www.museosansevero.it/organizza-la-tua-visita/orari-e-tariffe",
+          "checked_at": "2026-11-04",
+          "what": "官网：每周二闭馆"
+        },
+        {
+          "url": "https://www.museosansevero.it/organizza-la-tua-visita/orari-e-tariffe",
+          "checked_at": "2026-11-04",
+          "what": "官网 2026 年节日时间表：12 月 25 日闭馆；24 日 9:00–14:00；26 日 9:00–20:30"
+        },
+        {
+          "url": "https://www.museosansevero.it/organizza-la-tua-visita/orari-e-tariffe",
+          "checked_at": "2026-11-04",
+          "what": "官网：必须预约"
+        }
+      ]
+    }
+  }
+}

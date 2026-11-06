@@ -1,0 +1,256 @@
+{
+  "name": "day-overpacked-relaxed",
+  "description": "relaxed 节奏但某天塞了 8 小时活动",
+  "request": {
+    "destination": "Paris",
+    "start_date": "2026-10-03",
+    "end_date": "2026-10-06",
+    "budget_level": "medium",
+    "travel_style": "relaxed",
+    "interests": [
+      "museum",
+      "food",
+      "photography"
+    ],
+    "arrival_time": "2026-10-03T10:30:00",
+    "departure_time": "2026-10-06T18:00:00",
+    "hotel_area": "9th arrondissement",
+    "restrictions": [],
+    "must_go": [
+      "Louvre",
+      "Seine river cruise"
+    ],
+    "avoid": [
+      "shopping"
+    ],
+    "language": "zh-CN"
+  },
+  "itinerary": {
+    "trip": {
+      "destination": "Paris",
+      "date_range": {
+        "start": "2026-10-03",
+        "end": "2026-10-06"
+      },
+      "traveler_profile": {
+        "style": "balanced",
+        "budget": "medium",
+        "interests": [
+          "museum",
+          "food",
+          "photography"
+        ]
+      }
+    },
+    "days": [
+      {
+        "date": "2026-10-03",
+        "theme": "抵达与塞纳河畔轻量漫步",
+        "items": [
+          {
+            "time": "11:30",
+            "title": "抵达后前往酒店办理入住",
+            "type": "logistics",
+            "location": "巴黎 9 区",
+            "duration_minutes": 90,
+            "transport": "RER B + 地铁 12 号线",
+            "booking_required": false,
+            "notes": "行李先寄存，房间通常 15:00 后才能入住"
+          },
+          {
+            "time": "14:00",
+            "title": "加尼叶歌剧院外观与 Rue Montorgueil 市集街",
+            "type": "sight",
+            "location": "9 区至 2 区",
+            "duration_minutes": 60,
+            "transport": "步行",
+            "booking_required": false,
+            "notes": "市集街适合拍街景和买熟食当零嘴"
+          },
+          {
+            "time": "16:00",
+            "title": "塞纳河游船",
+            "type": "activity",
+            "location": "Port de la Bourdonnais 登船点",
+            "duration_minutes": 70,
+            "transport": "地铁 8 号线至 École Militaire",
+            "booking_required": true,
+            "notes": "用户必去项；建议提前网上购票选靠窗"
+          },
+          {
+            "time": "19:30",
+            "title": "9 区小酒馆晚餐",
+            "type": "food",
+            "location": "Rue des Martyrs 一带",
+            "duration_minutes": 90,
+            "transport": "步行",
+            "booking_required": false,
+            "notes": "人均约 30-40 欧，属于中等预算"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-04",
+        "theme": "卢浮宫与奥赛博物馆（周日两馆都开）",
+        "items": [
+          {
+            "time": "09:00",
+            "title": "卢浮宫（需预约）",
+            "type": "museum",
+            "location": "Rue de Rivoli, 1 区",
+            "duration_minutes": 200,
+            "transport": "地铁 7 号线至 Palais Royal - Musée du Louvre",
+            "booking_required": true,
+            "notes": "官网预约指定入场时段；优先看德农馆再回一层"
+          },
+          {
+            "time": "12:30",
+            "title": "杜乐丽花园野餐式午餐",
+            "type": "food",
+            "location": "Jardin des Tuileries",
+            "duration_minutes": 200,
+            "transport": "步行",
+            "booking_required": false,
+            "notes": "附近有面包店可外带"
+          },
+          {
+            "time": "14:30",
+            "title": "奥赛博物馆",
+            "type": "museum",
+            "location": "7 区 Rue de la Légion d'Honneur",
+            "duration_minutes": 200,
+            "transport": "步行过塞纳河桥约 12 分钟",
+            "booking_required": false,
+            "notes": "五层大钟窗口是经典拍照点；博物馆通票覆盖"
+          },
+          {
+            "time": "18:30",
+            "title": "皇家宫殿廊柱拍照",
+            "type": "sight",
+            "location": "Palais Royal",
+            "duration_minutes": 200,
+            "transport": "地铁 12 号线至 Solférino 换乘",
+            "booking_required": false,
+            "notes": "黄昏光线适合出片"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-05",
+        "theme": "蒙马特高地与橘园美术馆",
+        "items": [
+          {
+            "time": "09:30",
+            "title": "圣心大教堂与蒙马特街巷",
+            "type": "sight",
+            "location": "18 区 Montmartre",
+            "duration_minutes": 120,
+            "transport": "地铁 12 号线至 Abbesses",
+            "booking_required": false,
+            "notes": "教堂免费；穹顶登顶需另购票"
+          },
+          {
+            "time": "12:30",
+            "title": "阿贝斯一带午餐",
+            "type": "food",
+            "location": "Rue des Abbesses",
+            "duration_minutes": 75,
+            "transport": "步行",
+            "booking_required": false,
+            "notes": "可丽饼或街角小馆子"
+          },
+          {
+            "time": "15:00",
+            "title": "橘园美术馆（睡莲）",
+            "type": "museum",
+            "location": "Jardin des Tuileries 西南角",
+            "duration_minutes": 90,
+            "transport": "地铁 12 号线至 Concorde",
+            "booking_required": false,
+            "notes": "莫奈《睡莲》椭圆展厅；周一开馆，通票覆盖"
+          },
+          {
+            "time": "19:00",
+            "title": "左岸晚餐",
+            "type": "food",
+            "location": "Saint-Germain-des-Prés",
+            "duration_minutes": 90,
+            "transport": "地铁 12 号线至 Rennes",
+            "booking_required": false,
+            "notes": "热门餐厅建议当天早些预订"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-06",
+        "theme": "西岱岛收尾与从容撤离",
+        "items": [
+          {
+            "time": "09:00",
+            "title": "圣礼拜堂（彩窗）",
+            "type": "sight",
+            "location": "西岱岛 Boulevard du Palais",
+            "duration_minutes": 60,
+            "transport": "地铁 4 号线至 Cité",
+            "booking_required": true,
+            "notes": "安检队伍较长，开门前到；通票覆盖但仍需排队"
+          },
+          {
+            "time": "10:30",
+            "title": "花市与巴黎圣母院外观",
+            "type": "sight",
+            "location": "西岱岛",
+            "duration_minutes": 45,
+            "transport": "步行",
+            "booking_required": false,
+            "notes": "圣母院修复中，仅外观"
+          },
+          {
+            "time": "12:00",
+            "title": "取行李并前往机场",
+            "type": "logistics",
+            "location": "9 区酒店",
+            "duration_minutes": 120,
+            "transport": "地铁 + RER B 至 CDG",
+            "booking_required": false,
+            "notes": "18:00 航班，建议 15:00 前到机场，预留 RER 延误缓冲"
+          }
+        ]
+      }
+    ],
+    "booking_checklist": [
+      {
+        "title": "塞纳河游船",
+        "reason": "用户必去项，旺季靠窗座位紧张",
+        "deadline_hint": "出发前 3-7 天网上购票",
+        "url": null
+      },
+      {
+        "title": "卢浮宫",
+        "reason": "官网强制预约指定入场时段",
+        "deadline_hint": "确定日期后立即约，热门时段提前 1-2 周满",
+        "url": null
+      },
+      {
+        "title": "圣礼拜堂",
+        "reason": "建议预约时段票以缩短排队",
+        "deadline_hint": "出发前 1 周",
+        "url": null
+      }
+    ],
+    "risk_notes": [
+      "卢浮宫周二闭馆，已安排在周日",
+      "奥赛博物馆周一闭馆，已安排在周日",
+      "离开日 RER B 前往 CDG 偶有延误，已预留缓冲时间"
+    ],
+    "version": "v1"
+  },
+  "expect": {
+    "ok": true,
+    "error_codes": [],
+    "warning_codes": [
+      "day_overpacked",
+      "profile_style"
+    ]
+  }
+}

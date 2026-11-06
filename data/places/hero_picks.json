@@ -1,0 +1,53 @@
+{
+ "_说明": "封面大图的人工挑选（M02 S7c）：从 scripts/fetch_hero_images.py --candidates 的候选里用眼睛挑的；取图时脚本仍会逐个核对授权 / 作者 / 尺寸。",
+ "picks": {
+  "eiffel-tower": {
+   "title": "File:Eiffel Tower and Pont Alexandre III at night.jpg",
+   "why": "蓝调时刻的铁塔和亚历山大三世桥，横构图，适合做深色背景"
+  },
+  "louvre": {
+   "title": "File:Louvre Museum Wikimedia Commons.jpg",
+   "why": "黄昏的卢浮宫金字塔广场，宽幅"
+  },
+  "notre-dame": {
+   "title": "File:Notre-Dame de Paris and Île de la Cité at dusk 140516 1.jpg",
+   "why": "黄昏的圣母院和西岱岛，宽幅"
+  },
+  "arc-de-triomphe": {
+   "title": "File:Arc de Triomphe de l'Étoile at night vertical fix.jpg",
+   "why": "夜晚的凯旋门，CC0"
+  },
+  "montmartre-sacre-coeur": {
+   "title": "File:Basílica del Sagrado Corazón, París, Francia, 2022-10-30, DD 33-35 HDR.jpg",
+   "why": "圣心大教堂，高清 HDR"
+  },
+  "orsay": {
+   "title": "File:Pont Royal and Musée d'Orsay, Paris 10 July 2020.jpg",
+   "why": "皇家桥和奥赛博物馆，CC0"
+  },
+  "versailles": {
+   "title": "File:Palacio de Versalles, París, Francia, 2026-04-04, DD 46.jpg",
+   "why": "凡尔赛宫正面"
+  },
+  "palais-garnier": {
+   "title": "File:Palais Garnier Paris June 2010 001.jpg",
+   "why": "加尼叶歌剧院正面"
+  },
+  "pont-alexandre-iii": {
+   "title": "File:Pont-Alexandre-III-et-Invalides.jpg",
+   "why": "亚历山大三世桥和荣军院，宽幅"
+  },
+  "tuileries-garden": {
+   "title": "File:Pavillon de Flore from the Tuileries Garden, Paris 5 November 2019.jpg",
+   "why": "杜乐丽花园，CC0"
+  },
+  "luxembourg-garden": {
+   "title": "File:Palais Luxembourg Sunset Edit.JPG",
+   "why": "日落时的卢森堡宫"
+  },
+  "place-des-vosges": {
+   "title": "File:Plaza de los Vosgos, París, Francia, 2022-10-30, DD 58.jpg",
+   "why": "孚日广场"
+  }
+ }
+}

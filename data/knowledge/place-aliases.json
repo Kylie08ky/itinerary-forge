@@ -1,0 +1,36 @@
+{
+  "_note": "地点别名组：用于质检时把用户输入（可能是英文）和 LLM 输出（可能是中文）对上。每组第一个是规范名。",
+  "groups": [
+    ["卢浮宫", "Louvre", "Musée du Louvre", "Musee du Louvre"],
+    ["奥赛博物馆", "奥赛美术馆", "Orsay", "Musée d'Orsay", "Musee d'Orsay"],
+    ["橘园美术馆", "Orangerie", "Musée de l'Orangerie"],
+    ["蓬皮杜中心", "蓬皮杜", "Centre Pompidou", "Pompidou"],
+    ["凡尔赛宫", "Versailles", "Château de Versailles", "Chateau de Versailles"],
+    ["罗丹博物馆", "Musée Rodin", "Musee Rodin", "Rodin"],
+    ["毕加索博物馆", "Musée Picasso", "Picasso"],
+    ["塞纳河游船", "塞纳河游轮", "Seine river cruise", "Seine cruise", "Bateaux Mouches", "bateau"],
+    ["埃菲尔铁塔", "铁塔", "Eiffel Tower", "Tour Eiffel", "Eiffel"],
+    ["夏乐宫", "特罗卡德罗", "Trocadéro", "Trocadero"],
+    ["蒙马特高地", "蒙马特", "Montmartre"],
+    ["圣心大教堂", "Sacré-Cœur", "Sacre Coeur", "Sacré Cœur"],
+    ["圣礼拜堂", "Sainte-Chapelle", "Sainte Chapelle"],
+    ["巴黎圣母院", "Notre-Dame", "Notre Dame"],
+    ["购物", "shopping", "outlet", "血拼", "名品折扣"],
+    ["跟团", "guided group tours", "guided tour", "团体游", "旅行团"],
+    ["迪士尼乐园巴黎", "迪士尼乐园", "迪士尼", "Disneyland Paris", "Disneyland"],
+    ["驯化园", "Jardin d'Acclimatation", "Jardin d Acclimatation"],
+    ["老佛爷", "老佛爷百货", "Galeries Lafayette", "haussmann"],
+    ["春天百货", "Printemps"],
+    ["玛黑区买手店路线", "玛黑区买手店", "Le Marais boutique walk", "Le Marais boutique"]
+  ],
+  "closed_weekday": {
+    "_doc": "0=周一 ... 6=周日。规范名 -> 闭馆日。",
+    "卢浮宫": 1,
+    "奥赛博物馆": 0,
+    "橘园美术馆": 1,
+    "蓬皮杜中心": 1,
+    "凡尔赛宫": 0,
+    "罗丹博物馆": 0,
+    "毕加索博物馆": 0
+  }
+}

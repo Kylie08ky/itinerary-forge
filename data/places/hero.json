@@ -1,0 +1,161 @@
+{
+ "city": "paris",
+ "places": {
+  "eiffel-tower": {
+   "image": {
+    "file": "eiffel-tower.jpg",
+    "title": "File:Eiffel Tower and Pont Alexandre III at night.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_and_Pont_Alexandre_III_at_night.jpg",
+    "author": "Getfunky Paris",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "width": 1920,
+    "height": 1230,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "louvre": {
+   "image": {
+    "file": "louvre.jpg",
+    "title": "File:Louvre Museum Wikimedia Commons.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg",
+    "author": "Benh LIEU SONG (Flickr)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 1920,
+    "height": 807,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "notre-dame": {
+   "image": {
+    "file": "notre-dame.jpg",
+    "title": "File:Notre-Dame de Paris and Île de la Cité at dusk 140516 1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_and_%C3%8Ele_de_la_Cit%C3%A9_at_dusk_140516_1.jpg",
+    "author": "DXR",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 1920,
+    "height": 960,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "arc-de-triomphe": {
+   "image": {
+    "file": "arc-de-triomphe.jpg",
+    "title": "File:Arc de Triomphe de l'Étoile at night vertical fix.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_de_l%27%C3%89toile_at_night_vertical_fix.jpg",
+    "author": "Wilfredor",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 1920,
+    "height": 1376,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "montmartre-sacre-coeur": {
+   "image": {
+    "file": "montmartre-sacre-coeur.jpg",
+    "title": "File:Basílica del Sagrado Corazón, París, Francia, 2022-10-30, DD 33-35 HDR.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_del_Sagrado_Coraz%C3%B3n,_Par%C3%ADs,_Francia,_2022-10-30,_DD_33-35_HDR.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 1920,
+    "height": 1352,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "orsay": {
+   "image": {
+    "file": "orsay.jpg",
+    "title": "File:Pont Royal and Musée d'Orsay, Paris 10 July 2020.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pont_Royal_and_Mus%C3%A9e_d%27Orsay,_Paris_10_July_2020.jpg",
+    "author": "Pierre Blaché from Paris, France",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 1920,
+    "height": 1084,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "versailles": {
+   "image": {
+    "file": "versailles.jpg",
+    "title": "File:Palacio de Versalles, París, Francia, 2026-04-04, DD 46.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Palacio_de_Versalles,_Par%C3%ADs,_Francia,_2026-04-04,_DD_46.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 1920,
+    "height": 1171,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "palais-garnier": {
+   "image": {
+    "file": "palais-garnier.jpg",
+    "title": "File:Palais Garnier Paris June 2010 001.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Palais_Garnier_Paris_June_2010_001.jpg",
+    "author": "King of Hearts",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 1920,
+    "height": 1280,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "pont-alexandre-iii": {
+   "image": {
+    "file": "pont-alexandre-iii.jpg",
+    "title": "File:Pont-Alexandre-III-et-Invalides.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pont-Alexandre-III-et-Invalides.jpg",
+    "author": "Dimitri Destugues",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 1920,
+    "height": 817,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "tuileries-garden": {
+   "image": {
+    "file": "tuileries-garden.jpg",
+    "title": "File:Pavillon de Flore from the Tuileries Garden, Paris 5 November 2019.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pavillon_de_Flore_from_the_Tuileries_Garden,_Paris_5_November_2019.jpg",
+    "author": "Ali Sabbagh",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "width": 1920,
+    "height": 1094,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "luxembourg-garden": {
+   "image": {
+    "file": "luxembourg-garden.jpg",
+    "title": "File:Palais Luxembourg Sunset Edit.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Palais_Luxembourg_Sunset_Edit.JPG",
+    "author": "Benh LIEU SONG, crane cloned out by Sanchezn",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "width": 1920,
+    "height": 1280,
+    "checked_at": "2026-10-22"
+   }
+  },
+  "place-des-vosges": {
+   "image": {
+    "file": "place-des-vosges.jpg",
+    "title": "File:Plaza de los Vosgos, París, Francia, 2022-10-30, DD 58.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plaza_de_los_Vosgos,_Par%C3%ADs,_Francia,_2022-10-30,_DD_58.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "width": 1920,
+    "height": 1280,
+    "checked_at": "2026-10-22"
+   }
+  }
+ }
+}

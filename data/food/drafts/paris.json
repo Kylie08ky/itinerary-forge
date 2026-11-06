@@ -1,0 +1,85 @@
+{
+  "city": "paris",
+  "dishes": [
+    {
+      "id": "croissant", "kind": "bread", "name_zh": "可颂", "zh_wiki": "可颂", "name_local": "Croissant",
+      "summary": "新月形的酥皮面包，面团里一层层折进黄油。1838 或 1839 年，奥地利人奥古斯特·赞在巴黎黎塞留街 92 号开了一家维也纳面包店。",
+      "source": {"title": "Croissant（维基百科）", "url": "https://en.wikipedia.org/wiki/Croissant"},
+      "match": ["croissant"]
+    },
+    {
+      "id": "baguette", "kind": "bread", "name_zh": "法棍", "zh_wiki": "法棍", "name_local": "Baguette",
+      "summary": "长条形、外皮脆的面包，传统做法由法国法律规定。2022 年，法棍的手艺和文化被列入联合国教科文组织的非物质文化遗产。",
+      "source": {"title": "Baguette（维基百科）", "url": "https://en.wikipedia.org/wiki/Baguette"},
+      "match": ["baguette"]
+    },
+    {
+      "id": "macaron", "kind": "pastry", "name_zh": "马卡龙", "zh_wiki": "马卡龙", "name_local": "Macaron",
+      "summary": "蛋白、糖和杏仁粉做的圆饼夹心甜点。19 世纪起，巴黎式的马卡龙夹甘纳什、奶油或果酱。",
+      "source": {"title": "Macaron（维基百科）", "url": "https://en.wikipedia.org/wiki/Macaron"},
+      "match": ["macaron"],
+      "signatures": [
+        {
+          "place_id": "laduree-champs", "note": "Ladurée 1862 年创立，以马卡龙闻名于世。",
+          "source": {"title": "Ladurée（维基百科）", "url": "https://en.wikipedia.org/wiki/Ladur%C3%A9e"},
+          "match": ["Ladurée"]
+        },
+        {
+          "place_id": "pierre-herme-st-germain", "note": "圣日耳曼区的这家店在波拿巴街 72 号，卖他的糕点、马卡龙和巧克力。",
+          "source": {"title": "Pierre Hermé（维基百科）", "url": "https://en.wikipedia.org/wiki/Pierre_Herm%C3%A9"},
+          "match": ["Pierre Hermé"]
+        }
+      ]
+    },
+    {
+      "id": "rum-baba", "kind": "pastry", "name_zh": "朗姆巴巴", "zh_wiki": "兰姆巴巴", "name_local": "Baba au rhum",
+      "summary": "浸了朗姆酒糖浆的小酵母蛋糕。现在这种带果干、浸朗姆酒的巴巴，1835 年或更早在巴黎蒙托格伊街发明。",
+      "source": {"title": "Rum baba（维基百科）", "url": "https://en.wikipedia.org/wiki/Rum_baba"},
+      "match": ["baba au rhum", "rum baba"],
+      "signatures": [
+        {
+          "place_id": "rue-montorgueil", "note": "街上 51 号的 Stohrer 1730 年开业，是巴黎最老的面包店之一，朗姆巴巴就是在这里发明的。",
+          "source": {"title": "Rue Montorgueil（维基百科）", "url": "https://en.wikipedia.org/wiki/Rue_Montorgueil"},
+          "match": ["Montorgueil"], "dish_match": ["baba au rhum"]
+        }
+      ]
+    },
+    {
+      "id": "mont-blanc", "kind": "pastry", "name_zh": "蒙布朗", "zh_wiki": "蒙布朗", "name_local": "Mont-Blanc",
+      "summary": "栗子泥挤成细条、顶上盖鲜奶油的甜点，19 世纪创于巴黎。",
+      "source": {"title": "Mont Blanc (dessert)（维基百科）", "url": "https://en.wikipedia.org/wiki/Mont_Blanc_(dessert)"},
+      "match": ["mont blanc", "mont-blanc"],
+      "signatures": [
+        {
+          "place_id": "angelina", "note": "巴黎甜点店秋冬的名点，天使之家（1903 年开业的茶室）尤其有名。",
+          "source": {"title": "Mont Blanc (dessert)（维基百科）", "url": "https://en.wikipedia.org/wiki/Mont_Blanc_(dessert)"},
+          "match": ["Angelina"]
+        },
+        {
+          "place_id": "pierre-herme-st-germain", "note": "2010 年代起，蒙布朗在 Pierre Hermé 这样的新派店里以更轻盈的做法流行起来。",
+          "source": {"title": "Mont Blanc (dessert)（维基百科）", "url": "https://en.wikipedia.org/wiki/Mont_Blanc_(dessert)"},
+          "match": ["Pierre Hermé"]
+        }
+      ]
+    },
+    {
+      "id": "hot-chocolate", "kind": "drink", "name_zh": "热巧克力", "zh_wiki": "热巧克力", "name_local": "Chocolat chaud",
+      "summary": "用巧克力碎或可可粉加热牛奶或水做成的热饮，常常加鲜奶油。",
+      "source": {"title": "Hot chocolate（维基百科）", "url": "https://en.wikipedia.org/wiki/Hot_chocolate"},
+      "match": ["hot chocolate"],
+      "signatures": [
+        {
+          "place_id": "angelina", "note": "天使之家以热巧克力「l'Africain」和蒙布朗闻名。",
+          "source": {"title": "Angelina（法语维基百科）", "url": "https://fr.wikipedia.org/wiki/Angelina_(salon_de_th%C3%A9)"},
+          "match": ["Angelina"], "dish_match": ["chocolat chaud"]
+        }
+      ]
+    },
+    {
+      "id": "pressed-duck", "kind": "dish", "name_zh": "血鸭", "zh_wiki": "血鸭", "name_local": "Canard à la presse",
+      "summary": "传统的法国菜：把鸭子压榨出血和骨髓，做成酱汁。19 世纪起，它也是巴黎银塔餐厅的招牌菜。",
+      "source": {"title": "Pressed duck（维基百科）", "url": "https://en.wikipedia.org/wiki/Pressed_duck"},
+      "match": ["pressed duck"]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{{ knowledge }}
+
+---
+
+## 景点白名单（`sight` / `museum` / `activity` 类目只能从这里选，用「名称」列的原文）
+
+{{ attractions }}
+
+`food` 和 `rest` 可自拟（写具体的市集街 / 街区 / 咖啡馆），但不要编造上表以外的景点、也不要编造地铁线路和开放时间——不确定就用表里给的信息。
+
+---
+
+## 这次要规划的行程
+
+- 目的地：Paris（destination 字段就写 "Paris"）
+- 节奏偏好 travel_style：{{ r.travel_style }}
+- 预算档位 budget_level：{{ r.budget_level }}
+- 兴趣 interests：{{ r.interests | join("、") }}
+- 抵达时间：{{ r.arrival_time or "未提供（首日按全天可用）" }}
+- 离开时间：{{ r.departure_time or "末日按全天可用" }}
+- 住宿区域：{{ r.hotel_area or "未提供（安排市中心、换乘方便的动线）" }}
+{% if r.must_go %}- 必去（每一项都要落到某一天，用白名单里的对应名称）：{{ r.must_go | join("、") }}{% endif %}
+{% if r.avoid %}- 明确避免（绝对不能出现）：{{ r.avoid | join("、") }}{% endif %}
+{% if r.restrictions %}- 限制条件：{{ r.restrictions | join("、") }}{% endif %}
+
+## 规划方法
+
+1. 先按「分区聚类建议」给每天定一个片区主题，同一天的点尽量在一个区，减少跨城换乘。
+2. 每天排 3–5 个条目（看节奏），覆盖上午 / 午餐 / 下午 / 晚上；两个大馆之间插一个公园或咖啡缓冲。
+3. 按闭馆日把博物馆放到对的日子；需预约的项目 `booking_required` 设 true 并进 `booking_checklist`。
+4. 同一个景点不要在多天重复出现。
+
+## days 数组必须正好这 {{ dates | length }} 个元素，date 一字不差
+
+{% for d in dates %}{{ loop.index }}. "{{ d }}"{% if loop.first %}  ← 抵达日，只从抵达时间之后开始安排，整体更轻{% elif loop.last %}  ← 离开日，在离开时间前收尾并留出撤离时间{% endif %}
+{% endfor %}
+
+## 一个「好的一天」示例（仅示范粒度和字段，不要照抄内容）
+
+```
+{
+  "date": "{{ dates[0] }}",
+  "theme": "1 区中心：卢浮宫与杜乐丽",
+  "items": [
+    {"time": "09:00", "title": "卢浮宫", "type": "museum", "location": "Rue de Rivoli, 1 区",
+     "duration_minutes": 180, "transport": "地铁 1 号线至 Palais Royal - Musée du Louvre",
+     "booking_required": true, "notes": "官网预约时段票，先看德农馆"},
+    {"time": "12:30", "title": "杜乐丽花园午餐", "type": "food", "location": "Jardin des Tuileries",
+     "duration_minutes": 60, "transport": "步行", "booking_required": false, "notes": "花园边面包房外带"},
+    {"time": "14:00", "title": "橘园美术馆", "type": "museum", "location": "杜乐丽西南角",
+     "duration_minutes": 75, "transport": "步行", "booking_required": false, "notes": "莫奈《睡莲》，通票覆盖"},
+    {"time": "18:30", "title": "皇家宫殿花园", "type": "sight", "location": "Palais Royal",
+     "duration_minutes": 40, "transport": "步行", "booking_required": false, "notes": "黄昏拍 Buren 柱阵"}
+  ]
+}
+```
+
+## 输出格式（只输出这一个 JSON 对象，不要代码块围栏）
+
+```
+{
+  "trip": {
+    "destination": "Paris",
+    "date_range": {"start": "{{ dates[0] }}", "end": "{{ dates[-1] }}"},
+    "traveler_profile": {"style": "{{ r.travel_style }}", "budget": "{{ r.budget_level }}", "interests": {{ r.interests | tojson }}}
+  },
+  "days": [ /* {{ dates | length }} 个，结构同上面示例 */ ],
+  "booking_checklist": [
+    {"title": "需预约项目", "reason": "为什么要预约", "deadline_hint": "什么时候前订", "url": null}
+  ],
+  "risk_notes": ["闭馆日 / 预约窗口 / 交通风险等中文提示"],
+  "version": "v1"
+}
+```
+
+`type` 只能是 sight / museum / food / logistics / activity / rest。每天 items 按 time 升序。

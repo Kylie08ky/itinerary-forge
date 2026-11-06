@@ -1,0 +1,53 @@
+{
+  "city": "paris",
+  "_note": "预算用的策展数据（规格 M09）。transport 里的票价都带官方来源和核对日期；meals 是经验值（kind=estimate），页面上一律标「估算」，不当事实用。",
+  "transport": {
+    "single_ticket": {
+      "name": "地铁 / 火车 / RER 单程票（t+，全价）",
+      "eur": 2.55,
+      "source_url": "https://tzen4.iledefrance-mobilites.fr/en/tarifs-titre-de-transport-en-commun-2026",
+      "checked_at": "2026-10-14",
+      "child_eur": 1.3,
+      "child_ages": [
+        4,
+        9
+      ],
+      "child_note": "官方儿童票（4–9 岁）；4 岁以下免费；10 岁起按成人价",
+      "child_source_url": "https://www.iledefrance-mobilites.fr/en/cgvu-ticket-t-sans-contact"
+    },
+    "tourist_pass": {
+      "name": "Paris Visite 通票（官方 2026 年只有全区一种，成人 / 儿童）",
+      "eur_by_days": {
+        "1": 30.6,
+        "2": 45.4,
+        "3": 63.8,
+        "5": 78.0
+      },
+      "source_url": "https://tzen4.iledefrance-mobilites.fr/en/tarifs-titre-de-transport-en-commun-2026",
+      "checked_at": "2026-10-14",
+      "child_eur_by_days": {
+        "1": 15.3,
+        "2": 22.7,
+        "3": 31.9,
+        "5": 39.0
+      },
+      "child_note": "4–9 岁半价（官方页面写「4 岁至不满 10 岁」）；4 岁以下免费，不需要通票",
+      "zones_note": "官方 2026 年价目页只列全区价，没有区域 1–3 的版本（网上看到的 1–3 区价格是旧年份的，不能用）；已于 2026-10-14 再次核对"
+    },
+    "excluded": "不含机场往返、Navigo Easy 卡工本费（官方页面没查到）。"
+  },
+  "meals": {
+    "kind": "estimate",
+    "unit": "每人每天",
+    "eur_per_day": {
+      "low": 30,
+      "medium": 55,
+      "high": 110
+    },
+    "basis": "经验值，不是核对过的价格：节省 ≈ 面包店 / 快餐 / 市集；适中 ≈ 一顿简餐加一顿正餐；轻奢 ≈ 每天两顿正式餐厅。可以在预算卡里改成自己的数。 4 岁以下不计、12 岁以下按一半，同样是估算规则。",
+    "child_factor": {
+      "under_4": 0.0,
+      "under_12": 0.5
+    }
+  }
+}

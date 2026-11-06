@@ -1,0 +1,46 @@
+{
+  "id": "florence",
+  "_note": "意大利实测（规格 12）：补充名单和排除名单；其余仍是自动建的。",
+  "include": [
+    {
+      "qid": "Q191739",
+      "name": "佛罗伦萨主教座堂（圣母百花大教堂）",
+      "category": "sight",
+      "setting": "indoor",
+      "minutes": 90,
+      "theme": "heritage"
+    },
+    {
+      "qid": "Q1140023",
+      "name": "乔托钟楼",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 60,
+      "theme": "heritage"
+    },
+    {
+      "qid": "Q1357573",
+      "name": "美第奇家族礼拜堂",
+      "category": "museum",
+      "setting": "indoor",
+      "minutes": 60,
+      "theme": "museum"
+    },
+    {
+      "qid": "Q1348158",
+      "name": "米开朗基罗广场",
+      "category": "sight",
+      "setting": "outdoor",
+      "minutes": 45,
+      "theme": "district",
+      "open_access": true
+    }
+  ],
+  "exclude": [
+    {
+      "qid": "Q923702",
+      "why": "鲁切拉宫是私人宅邸，不是景点"
+    }
+  ],
+  "metro": false
+}

@@ -1,0 +1,259 @@
+{
+  "id": "fashion-couture-to-street",
+  "name_zh": "时尚：从高级定制到街头",
+  "tagline": "一条线索看巴黎的时尚：谁发明了高级定制、谁改写了它、它怎样走向大众",
+  "track": "other",
+  "thesis": "巴黎的时尚先是一门手艺和一门生意：高级定制在这里诞生，被一代代设计师改写，最后又从百货公司、拱廊街和街区小店走向大众。",
+  "base_theme": "fashion",
+  "days": {
+    "min": 2,
+    "suggested": 3,
+    "max": 5
+  },
+  "chapters": [
+    {
+      "id": "couture",
+      "title": "高级定制的诞生",
+      "story": "高级定制的故事常从查尔斯·弗雷德里克·沃斯讲起：这位英国人 1858 年在巴黎和平街开了自己的时装店，被许多人称为高级定制之父；和平街的一头就是旺多姆广场。香奈儿 1910 年在康朋街开了第一家帽子店，1918 年买下康朋街 31 号的房子，在那里设立自己的时装屋，把简洁、方便活动的衣服带进上流社会。想看这些衣服真正的样子，要去巴黎市立时装博物馆加列拉宫，和卢浮宫北翼的装饰艺术博物馆（时尚与纺织品常设馆）。",
+      "sources": [
+        {
+          "title": "Charles Frederick Worth（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Charles_Frederick_Worth"
+        },
+        {
+          "title": "Coco Chanel（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Coco_Chanel"
+        }
+      ],
+      "stops": [
+        {
+          "place_id": "place-vendome",
+          "priority": "core",
+          "weight": 3,
+          "why_here": "沃斯开店的和平街就从这座广场的一头出去：高级定制最早的一块地盘。",
+          "sources": [
+            {
+              "title": "Charles Frederick Worth（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Charles_Frederick_Worth"
+            }
+          ]
+        },
+        {
+          "place_id": "chanel-cambon",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "香奈儿把简洁实穿的衣服带进上流社会的起点：品牌创始店所在的街。",
+          "sources": [
+            {
+              "title": "Coco Chanel（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Coco_Chanel"
+            }
+          ]
+        },
+        {
+          "place_id": "palais-galliera",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "市立时装博物馆：展览会换，开展期间才开门，出发前一定查官网。",
+          "sources": [
+            {
+              "title": "Palais Galliera（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Palais_Galliera"
+            }
+          ]
+        },
+        {
+          "place_id": "arts-decoratifs",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "在卢浮宫北翼：时尚与纺织品的常设展，把衣服放回设计史里看。",
+          "sources": [
+            {
+              "title": "Musée des Arts Décoratifs（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_des_Arts_D%C3%A9coratifs"
+            }
+          ]
+        },
+        {
+          "place_id": "faubourg-saint-honore",
+          "priority": "optional",
+          "weight": 2,
+          "why_here": "巴黎最老牌的奢侈品街之一，顺路看一眼。"
+        }
+      ]
+    },
+    {
+      "id": "houses",
+      "title": "设计师与时装屋",
+      "story": "二战之后，克里斯汀·迪奥的时装屋 1946 年在蒙田大道 30 号开业，他的「新风貌」让巴黎重新成为世界时装的中心；今天的迪奥展馆就在这家旗舰店里。下一代的代表是伊夫·圣罗兰，他当年的工作室如今是圣罗兰博物馆（2017 年开放）：体量不大，但每一处都是他工作时的样子。",
+      "sources": [
+        {
+          "title": "Christian Dior（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Christian_Dior"
+        },
+        {
+          "title": "Musée Yves Saint Laurent Paris（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Yves_Saint_Laurent_Paris"
+        }
+      ],
+      "stops": [
+        {
+          "place_id": "galerie-dior",
+          "priority": "core",
+          "weight": 5,
+          "why_here": "战后重建巴黎时装地位的那个品牌，故事直接讲在它的旗舰店里。",
+          "sources": [
+            {
+              "title": "Christian Dior（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Christian_Dior"
+            }
+          ]
+        },
+        {
+          "place_id": "avenue-montaigne",
+          "priority": "core",
+          "weight": 3,
+          "why_here": "顶级品牌旗舰店集中的街，和迪奥展馆同一条街。",
+          "sources": [
+            {
+              "title": "Christian Dior（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Christian_Dior"
+            }
+          ]
+        },
+        {
+          "place_id": "ysl-museum",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "设计师自己的工作室：和迪奥的「品牌故事」相比，这里是「一个人怎么工作」。",
+          "sources": [
+            {
+              "title": "Musée Yves Saint Laurent Paris（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Yves_Saint_Laurent_Paris"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stores-street",
+      "title": "从百货公司到街头",
+      "story": "时尚走向大众，靠的是商店。乐蓬马歇是最早的现代百货公司之一，1838 年创办，1852 年布西科接手后几乎整个改造；老佛爷 1893 年从一家小店起步，玻璃钢结构的穹顶和新艺术风格的楼梯 1912 年完工。更早的商业空间是 19 世纪的玻璃顶拱廊街，全景廊街 1799 年就建成了。今天的玛黑区和圣日耳曼的小店，则是独立设计师和买手的地盘。",
+      "sources": [
+        {
+          "title": "Le Bon Marché（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Le_Bon_March%C3%A9"
+        },
+        {
+          "title": "Galeries Lafayette（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Galeries_Lafayette"
+        },
+        {
+          "title": "Passage des Panoramas（维基百科）",
+          "url": "https://en.wikipedia.org/wiki/Passage_des_Panoramas"
+        }
+      ],
+      "stops": [
+        {
+          "place_id": "le-bon-marche",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "最早的现代百货公司之一：把「逛」变成一种消遣的地方。",
+          "sources": [
+            {
+              "title": "Le Bon Marché（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Le_Bon_March%C3%A9"
+            }
+          ]
+        },
+        {
+          "place_id": "galeries-lafayette-shopping",
+          "priority": "core",
+          "weight": 4,
+          "why_here": "另一种百货：新艺术风格的穹顶大厅，今天仍是巴黎最热闹的购物中心。",
+          "sources": [
+            {
+              "title": "Galeries Lafayette（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Galeries_Lafayette"
+            }
+          ]
+        },
+        {
+          "place_id": "passage-des-panoramas",
+          "priority": "core",
+          "weight": 3,
+          "why_here": "百货公司之前的购物空间：玻璃顶下的拱廊街。",
+          "sources": [
+            {
+              "title": "Passage des Panoramas（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Passage_des_Panoramas"
+            }
+          ]
+        },
+        {
+          "place_id": "marais-boutiques",
+          "priority": "core",
+          "weight": 3,
+          "why_here": "独立设计师和买手店集中的街区：时尚的「小」的一面。",
+          "sources": [
+            {
+              "title": "Le Marais（维基百科）",
+              "url": "https://en.wikipedia.org/wiki/Le_Marais"
+            }
+          ]
+        },
+        {
+          "place_id": "st-germain-boutiques",
+          "priority": "optional",
+          "weight": 2,
+          "why_here": "左岸的另一片小店区，比玛黑区安静。"
+        },
+        {
+          "place_id": "puces-saint-ouen",
+          "priority": "optional",
+          "weight": 2,
+          "why_here": "古董和复古古着：看旧衣服怎样再流行。周末才开，出发前查官网。"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "title": "The Ladies' Paradise (Au Bonheur des Dames)",
+      "kind": "book",
+      "creator": "Émile Zola",
+      "year": 1883,
+      "note": "写一家巨大的巴黎百货公司怎样吞掉周围的小店，是理解「百货公司改变了什么」最好的小说。",
+      "source": {
+        "title": "The Ladies' Paradise（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/The_Ladies%27_Paradise"
+      }
+    },
+    {
+      "title": "Funny Face",
+      "kind": "film",
+      "creator": "Stanley Donen",
+      "year": 1957,
+      "note": "奥黛丽·赫本演一个被带到巴黎做时装模特的书店店员：1950 年代巴黎时装界的轻喜剧。",
+      "source": {
+        "title": "Funny Face（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Funny_Face"
+      }
+    },
+    {
+      "title": "Coco avant Chanel",
+      "kind": "film",
+      "creator": "Anne Fontaine",
+      "year": 2009,
+      "note": "讲香奈儿成名之前的生活，适合出发前先看一遍。",
+      "source": {
+        "title": "Coco Before Chanel（维基百科）",
+        "url": "https://en.wikipedia.org/wiki/Coco_Before_Chanel"
+      }
+    }
+  ],
+  "notes": [
+    "加列拉宫只在有展览时开放，圣图安跳蚤市场只在周末开：两者都是可能那天没开的站，排程会避开闭馆日。",
+    "地点库里时尚主题多数点的开放时间还没有逐个核对，出发前请以各家官网为准。"
+  ]
+}

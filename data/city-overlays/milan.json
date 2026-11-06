@@ -1,0 +1,95 @@
+{
+  "city": "milan",
+  "_note": "精校：对着官方页面核对过的事实（规格 10 / 12）。键是维基数据编号；每条必须带来源和核对日期。重新生成草稿不会丢。",
+  "places": {
+    "Q244952": {
+      "closed_weekdays": [
+        0
+      ],
+      "closed_dates": [
+        "01-01",
+        "12-25"
+      ],
+      "ticketing": "online_required",
+      "booking": {
+        "required": true,
+        "lead_time_hint": "官网写明必须提前预约，所有人都一样；请在官网订时段"
+      },
+      "ticket_note": "官网写明：参观《最后的晚餐》必须提前预约，所有人都一样。",
+      "hours_verified": true,
+      "official_url": "https://cenacolovinciano.org/info/",
+      "sources": [
+        {
+          "url": "https://cenacolovinciano.org/info/",
+          "checked_at": "2026-11-04",
+          "what": "官网：每周一、1 月 1 日、12 月 25 日闭馆"
+        },
+        {
+          "url": "https://cenacolovinciano.org/info/",
+          "checked_at": "2026-11-04",
+          "what": "官网：必须提前预约，所有人都一样"
+        }
+      ]
+    },
+    "Q150066": {
+      "closed_weekdays": [
+        0
+      ],
+      "closed_dates": [
+        "01-01",
+        "05-01",
+        "12-25"
+      ],
+      "hours_verified": true,
+      "official_url": "https://pinacotecabrera.org/visita/orari/",
+      "sources": [
+        {
+          "url": "https://pinacotecabrera.org/visita/orari/",
+          "checked_at": "2026-11-04",
+          "what": "官网：每周一、5 月 1 日、12 月 25 日、1 月 1 日闭馆"
+        }
+      ]
+    },
+    "Q51099": {
+      "closed_dates": [
+        "01-01",
+        "05-01",
+        "08-15",
+        "12-07",
+        "12-25",
+        "12-26"
+      ],
+      "date_notes": {
+        "12-24": "官网写明 12 月 24 日只开 9:30–15:00（最后入场 14:30）",
+        "12-31": "官网写明 12 月 31 日只开 9:30–15:00（最后入场 14:30）"
+      },
+      "hours_verified": true,
+      "official_url": "https://www.museoscala.org/it/visita/museo-e-teatro/orari-e-biglietti.html",
+      "sources": [
+        {
+          "url": "https://www.museoscala.org/it/visita/museo-e-teatro/orari-e-biglietti.html",
+          "checked_at": "2026-11-04",
+          "what": "官网：12 月 7、25、26 日，1 月 1 日、5 月 1 日、8 月 15 日闭馆"
+        },
+        {
+          "url": "https://www.museoscala.org/it/visita/museo-e-teatro/orari-e-biglietti.html",
+          "checked_at": "2026-11-04",
+          "what": "官网：12 月 24 日、31 日开放 9:30–15:00（最后入场 14:30）"
+        }
+      ]
+    },
+    "Q815611": {
+      "closed_weekdays": [
+        2
+      ],
+      "official_url": "https://www.ambrosiana.it/ambrosiana-info/info-e-biglietti/",
+      "sources": [
+        {
+          "url": "https://www.ambrosiana.it/ambrosiana-info/info-e-biglietti/",
+          "checked_at": "2026-11-04",
+          "what": "官网：每周三闭馆"
+        }
+      ]
+    }
+  }
+}

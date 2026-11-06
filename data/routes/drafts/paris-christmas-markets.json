@@ -1,0 +1,39 @@
+{
+  "id": "christmas-markets-notre-dame-to-alsace",
+  "name_zh": "巴黎的圣诞集市",
+  "tagline": "两个冬季市场：圣母院旁的法国手工木屋，和东站前的阿尔萨斯市场",
+  "track": "folk",
+  "thesis": "圣诞市场是巴黎冬天最有民俗味道的一件事：一个在圣母院旁卖法国手工，一个在东站前卖阿尔萨斯的吃喝，都只在举办期里才有。",
+  "base_theme": "shopping",
+  "days": {"min": 1, "suggested": 1, "max": 1},
+  "chapters": [
+    {
+      "id": "winter-markets",
+      "title": "冬季圣诞集市",
+      "story": "冬天的巴黎有两个值得专门去的圣诞市场：圣母院旁的市场 2026 年 11 月 26 日到 12 月 27 日在勒内-维维亚尼广场，约 40 个法国手工木屋，免费入场，晚上有灯光和乐队；东站前的阿尔萨斯市场 12 月 2 日到 18 日，是第 44 届，约 15 家阿尔萨斯生产者在这里卖葡萄酒、奶酪、咕咕洛夫蛋糕和姜饼小人。",
+      "sources": [
+        {"title": "Notre-Dame de Paris Christmas Market 2026（Sortiraparis）", "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/walks/articles/58110-notre-dame-de-paris-christmas-market-2022-is-coming"},
+        {"title": "Alsace Christmas Market 2026 at Gare de l'Est（Sortiraparis）", "url": "https://www.sortiraparis.com/en/news/christmas-and-holidays/articles/57104-the-2026-alsatian-christmas-market-at-gare-de-l-est-is-a-plunge-into-the-terroir-right-in-paris"}
+      ],
+      "stops": [
+        {
+          "place_id": "paris-notre-dame-christmas-market", "priority": "core", "weight": 4,
+          "look_for": ["约 40 个法国手工木屋", "晚上的灯光和乐队表演"],
+          "why_here": "圣母院旁、塞纳河边的市场：法国手工和地方美食，晚上有灯光和音乐，免费入场。",
+          "sources": [{"title": "Notre-Dame de Paris Christmas Market 2026（Sortiraparis）", "url": "https://www.sortiraparis.com/en/what-to-visit-in-paris/walks/articles/58110-notre-dame-de-paris-christmas-market-2022-is-coming"}]
+        },
+        {
+          "place_id": "paris-alsace-christmas-market", "priority": "core", "weight": 3,
+          "look_for": ["咕咕洛夫蛋糕和姜饼小人", "阿尔萨斯的葡萄酒、奶酪和火腿肠"],
+          "why_here": "第 44 届，是阿尔萨斯以外最老的阿尔萨斯圣诞市场，约 15 家生产者和手艺人。",
+          "sources": [{"title": "Alsace Christmas Market 2026 at Gare de l'Est（Sortiraparis）", "url": "https://www.sortiraparis.com/en/news/christmas-and-holidays/articles/57104-the-2026-alsatian-christmas-market-at-gare-de-l-est-is-a-plunge-into-the-terroir-right-in-paris"}]
+        }
+      ]
+    }
+  ],
+  "reading": [],
+  "notes": [
+    "两个市场的日期来自多个聚合网站（彼此一致），没能在官方网站核对，出发前请确认；每年的举办期不同，这些是 2026 年的。",
+    "行程日期不在两个市场的举办期内时，这条路线排不进去，用「购物」主题补充。"
+  ]
+}

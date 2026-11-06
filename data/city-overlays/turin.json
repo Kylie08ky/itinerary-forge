@@ -1,0 +1,76 @@
+{
+  "city": "turin",
+  "_note": "精校：对着官方页面核对过的事实（规格 10 / 12）。键是维基数据编号；每条必须带来源和核对日期。重新生成草稿不会丢。",
+  "places": {
+    "Q19826": {
+      "closed_weekdays": [
+        1
+      ],
+      "closed_dates": [
+        "12-25"
+      ],
+      "date_notes": {
+        "12-24": "官网写明 12 月 24 日只开到 14:00",
+        "12-31": "官网写明 12 月 31 日只开到 14:00"
+      },
+      "hours_verified": true,
+      "official_url": "https://www.palazzomadamatorino.it/en/visit/orari/",
+      "sources": [
+        {
+          "url": "https://www.palazzomadamatorino.it/en/visit/orari/",
+          "checked_at": "2026-11-04",
+          "what": "官网：周二闭馆"
+        },
+        {
+          "url": "https://www.palazzomadamatorino.it/en/visit/orari/",
+          "checked_at": "2026-11-04",
+          "what": "官网节日表：12 月 25 日闭馆"
+        },
+        {
+          "url": "https://www.palazzomadamatorino.it/en/visit/orari/",
+          "checked_at": "2026-11-04",
+          "what": "官网节日表：12 月 24 日和 31 日只开到 14:00"
+        }
+      ]
+    },
+    "Q2245152": {
+      "closed_weekdays": [
+        2
+      ],
+      "official_url": "https://museireali.cultura.gov.it/organizza-la-tua-visita/",
+      "sources": [
+        {
+          "url": "https://museireali.cultura.gov.it/organizza-la-tua-visita/",
+          "checked_at": "2026-11-04",
+          "what": "官网：王室博物馆群周三闭馆"
+        }
+      ]
+    },
+    "Q19824": {
+      "closed_weekdays": [
+        2
+      ],
+      "official_url": "https://museireali.cultura.gov.it/organizza-la-tua-visita/",
+      "sources": [
+        {
+          "url": "https://museireali.cultura.gov.it/organizza-la-tua-visita/",
+          "checked_at": "2026-11-04",
+          "what": "官网：王室博物馆群周三闭馆"
+        }
+      ]
+    },
+    "Q19838": {
+      "closed_weekdays": [
+        0
+      ],
+      "official_url": "https://lavenaria.it/en/visit-la-reggia-di-venaria/opening-hours/",
+      "sources": [
+        {
+          "url": "https://lavenaria.it/en/visit-la-reggia-di-venaria/opening-hours/",
+          "checked_at": "2026-11-04",
+          "what": "官网：周一闭馆（公共假日除外）"
+        }
+      ]
+    }
+  }
+}

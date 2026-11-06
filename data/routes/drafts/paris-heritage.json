@@ -1,0 +1,137 @@
+{
+  "id": "heritage-royal-to-iron",
+  "name_zh": "古建筑与名胜：从王权到铁与玻璃",
+  "tagline": "一条线索看巴黎的建筑：谁在造、为谁造、用什么造",
+  "track": "history",
+  "thesis": "巴黎的名胜不是随便堆起来的：中世纪的国王用教堂证明自己，路易十四和拿破仑用宫殿和纪念碑证明自己，到了 19 世纪，铁和玻璃又给城市造出了新的公共空间。",
+  "base_theme": "museums",
+  "days": {"min": 3, "suggested": 4, "max": 5},
+  "chapters": [
+    {
+      "id": "faith-and-crown",
+      "title": "王权与信仰",
+      "story": "西岱岛上的两座教堂，是中世纪王权和信仰结合的样子：圣礼拜堂是路易九世为存放圣物建的，1238 至 1248 年建成；巴黎圣母院 1163 年开工，2019 年大火后修复，2024 年 12 月重新开放。再往东，孚日广场是亨利四世 1605 至 1612 年建的，是巴黎最古老的规划广场，它是欧洲最早的王室城市规划之一。",
+      "sources": [
+        {"title": "Sainte-Chapelle（维基百科）", "url": "https://en.wikipedia.org/wiki/Sainte-Chapelle"},
+        {"title": "Notre-Dame de Paris（维基百科）", "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"},
+        {"title": "Place des Vosges（维基百科）", "url": "https://en.wikipedia.org/wiki/Place_des_Vosges"}
+      ],
+      "stops": [
+        {
+          "place_id": "sainte-chapelle", "priority": "core", "weight": 5,
+          "why_here": "国王为存放圣物建的礼拜堂：中世纪王权和信仰的结合。",
+          "sources": [{"title": "Sainte-Chapelle（维基百科）", "url": "https://en.wikipedia.org/wiki/Sainte-Chapelle"}]
+        },
+        {
+          "place_id": "notre-dame", "priority": "core", "weight": 4,
+          "why_here": "哥特式大教堂的代表：外观修复后重新开放，内部需要另外预约。",
+          "sources": [{"title": "Notre-Dame de Paris（维基百科）", "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"}]
+        },
+        {
+          "place_id": "place-des-vosges", "priority": "core", "weight": 3,
+          "why_here": "亨利四世建的巴黎最古老的规划广场，是欧洲最早的王室城市规划之一。",
+          "sources": [{"title": "Place des Vosges（维基百科）", "url": "https://en.wikipedia.org/wiki/Place_des_Vosges"}]
+        }
+      ]
+    },
+    {
+      "id": "sun-king-and-empire",
+      "title": "宫殿与帝国",
+      "story": "路易十四把王权做成了建筑：凡尔赛宫从 1682 年起成为国王和宫廷的常住地，一直到 1789 年；荣军院是他 1670 年下令建的老兵之家，拿破仑的墓 1861 年才在这里完成。协和广场的方尖碑 1836 年立起，路易十六 1793 年在这里被处决；凯旋门是拿破仑 1806 年下令建的，1836 年才完工。从协和广场沿着香榭丽舍大街走到凯旋门，正好是一条直线。",
+      "sources": [
+        {"title": "Palace of Versailles（维基百科）", "url": "https://en.wikipedia.org/wiki/Palace_of_Versailles"},
+        {"title": "Les Invalides（维基百科）", "url": "https://en.wikipedia.org/wiki/Les_Invalides"},
+        {"title": "Place de la Concorde（维基百科）", "url": "https://en.wikipedia.org/wiki/Place_de_la_Concorde"},
+        {"title": "Arc de Triomphe（维基百科）", "url": "https://en.wikipedia.org/wiki/Arc_de_Triomphe"},
+        {"title": "Champs-Élysées（维基百科）", "url": "https://en.wikipedia.org/wiki/Champs-%C3%89lys%C3%A9es"}
+      ],
+      "stops": [
+        {
+          "place_id": "versailles", "priority": "core", "weight": 5,
+          "why_here": "路易十四为彰显王权建的宫殿：国王和宫廷从 1682 年起常住在这里。",
+          "sources": [{"title": "Palace of Versailles（维基百科）", "url": "https://en.wikipedia.org/wiki/Palace_of_Versailles"}]
+        },
+        {
+          "place_id": "invalides", "priority": "core", "weight": 4,
+          "why_here": "路易十四建给老兵的住所和医院，后来成了拿破仑的墓地。",
+          "sources": [{"title": "Les Invalides（维基百科）", "url": "https://en.wikipedia.org/wiki/Les_Invalides"}]
+        },
+        {
+          "place_id": "concorde", "priority": "core", "weight": 3,
+          "why_here": "革命的现场：路易十六 1793 年在这里被处决，广场中央是 1836 年立起的埃及方尖碑。",
+          "sources": [{"title": "Place de la Concorde（维基百科）", "url": "https://en.wikipedia.org/wiki/Place_de_la_Concorde"}]
+        },
+        {
+          "place_id": "champs-elysees", "priority": "optional", "weight": 2,
+          "why_here": "连起协和广场和凯旋门的大道，把前后两站串成一条直线。",
+          "sources": [{"title": "Champs-Élysées（维基百科）", "url": "https://en.wikipedia.org/wiki/Champs-%C3%89lys%C3%A9es"}]
+        },
+        {
+          "place_id": "arc-de-triomphe", "priority": "core", "weight": 4,
+          "why_here": "拿破仑 1806 年下令建、1836 年才完工的纪念碑：纪念为法国作战的人。",
+          "sources": [{"title": "Arc de Triomphe（维基百科）", "url": "https://en.wikipedia.org/wiki/Arc_de_Triomphe"}]
+        }
+      ]
+    },
+    {
+      "id": "iron-and-glass",
+      "title": "铁与玻璃的时代",
+      "story": "19 世纪的巴黎用新材料造新的公共空间：全景廊街 1799 年建、1800 年开放，是巴黎最古老的有玻璃顶的拱廊街，1817 年装上了煤气灯；维维安拱廊街 1823 年建成；加尼叶宫是拿破仑三世下令建的，1861 至 1875 年建成；亚历山大三世桥为 1900 年的世博会建，1896 至 1900 年建成；埃菲尔铁塔 1887 至 1889 年建成，是 1889 年世博会的核心。",
+      "sources": [
+        {"title": "Passage des Panoramas（维基百科）", "url": "https://en.wikipedia.org/wiki/Passage_des_Panoramas"},
+        {"title": "Galerie Vivienne（维基百科）", "url": "https://en.wikipedia.org/wiki/Galerie_Vivienne"},
+        {"title": "Palais Garnier（维基百科）", "url": "https://en.wikipedia.org/wiki/Palais_Garnier"},
+        {"title": "Pont Alexandre III（维基百科）", "url": "https://en.wikipedia.org/wiki/Pont_Alexandre_III"},
+        {"title": "Eiffel Tower（维基百科）", "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"}
+      ],
+      "stops": [
+        {
+          "place_id": "passage-des-panoramas", "priority": "core", "weight": 4,
+          "why_here": "巴黎最古老的有玻璃顶的拱廊街：1817 年就装上了煤气灯。",
+          "sources": [{"title": "Passage des Panoramas（维基百科）", "url": "https://en.wikipedia.org/wiki/Passage_des_Panoramas"}]
+        },
+        {
+          "place_id": "galerie-vivienne", "priority": "core", "weight": 3, "after": "passage-des-panoramas",
+          "why_here": "修复过的拱廊街：新古典的庞贝风格装饰，有马赛克、绘画和雕塑。",
+          "sources": [{"title": "Galerie Vivienne（维基百科）", "url": "https://en.wikipedia.org/wiki/Galerie_Vivienne"}]
+        },
+        {
+          "place_id": "palais-garnier", "priority": "core", "weight": 4,
+          "why_here": "拿破仑三世下令建的歌剧院，1861 至 1875 年建成，以极度奢华的装饰出名。",
+          "sources": [{"title": "Palais Garnier（维基百科）", "url": "https://en.wikipedia.org/wiki/Palais_Garnier"}]
+        },
+        {
+          "place_id": "pont-alexandre-iii", "priority": "optional", "weight": 2,
+          "why_here": "为 1900 年世博会建的桥，有新艺术风格的路灯和雕塑。",
+          "sources": [{"title": "Pont Alexandre III（维基百科）", "url": "https://en.wikipedia.org/wiki/Pont_Alexandre_III"}]
+        },
+        {
+          "place_id": "eiffel-tower", "priority": "core", "weight": 5,
+          "why_here": "1889 年世博会的核心：用锻铁建成的铁塔。",
+          "sources": [{"title": "Eiffel Tower（维基百科）", "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"}]
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "title": "Notre-Dame de Paris", "kind": "book", "creator": "Victor Hugo", "year": 1831,
+      "note": "雨果写的中世纪巴黎，也是当年呼吁保护这座教堂的小说。",
+      "source": {"title": "The Hunchback of Notre-Dame（维基百科）", "url": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre-Dame"}
+    },
+    {
+      "title": "Le Fantôme de l'Opéra", "kind": "book", "creator": "Gaston Leroux", "year": 1910,
+      "note": "故事的舞台就是加尼叶宫，读完再进去会看到不一样的楼梯和大厅。",
+      "source": {"title": "The Phantom of the Opera (novel)（维基百科）", "url": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(novel)"}
+    },
+    {
+      "title": "Marie Antoinette", "kind": "film", "creator": "Sofia Coppola", "year": 2006,
+      "note": "剧组获准在凡尔赛宫内拍摄，去之前看一遍，宫里的房间就有了人。",
+      "source": {"title": "Marie Antoinette (2006 film)（维基百科）", "url": "https://en.wikipedia.org/wiki/Marie_Antoinette_(2006_film)"}
+    }
+  ],
+  "notes": [
+    "凡尔赛宫周一闭馆，要留半天以上；巴黎圣母院外观已重新开放，内部需要另外预约。",
+    "地点库里个别点的开放时间还没有逐个核对，出发前请以各家官网为准。"
+  ]
+}
