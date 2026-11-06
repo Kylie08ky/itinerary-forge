@@ -2,7 +2,6 @@
 
 > 版本：v0.3（天气、打包清单、待办、笔记）→ v0.4（文件附件）
 > 功能：F57 F58 F59 F60 F61 F62 · 来源：TREK（行李、待办、笔记、附件、天气）+ TripStar（天气）
-> **现状（2026-10-28）**：✅ 已做完：天气（预报 + 去年同期、雨天室内备选）、行李清单、待办、每条安排的备注、文件附件。
 
 ## 为什么
 
@@ -66,7 +65,7 @@
 - 天气：公开天气接口（Open-Meteo，无需 Key），缓存 3h。预报接口 `api.open-meteo.com/v1/forecast`（今天起 15 天内），历史接口 `archive-api.open-meteo.com/v1/archive`（去年同期）；每日取 weather_code / 最高温 / 最低温 / 降雨概率 / 降雨量；坐标取目的地城市中心。
 - 后端：`app/weather.py`（`WeatherService`：取数、缓存、降级，HTTP 客户端可注入便于测试）；`GET /plans/{id}/weather` → `{available, days:[{date, source: forecast|history, label, t_max, t_min, rain_prob, rain_mm, rainy, outdoor_places:[…]}]}`；`POST /plans/{id}/alternatives` 增加 `indoor_only`。
 - 前端：每天标题行里的天气（`WeatherChip`）、雨天提示 + 室外标签、编辑时的「换成室内备选」。
-- 附件：`app/attachments.py`（校验：类型按魔数、大小、文件名清洗；存取；回收站）；表 `attachments(id, plan_id, name, kind, size, target_kind, target_ref, uploaded_at, deleted_at)`（`target_kind` ∈ plan / place / day / reservation；`target_ref` 是地点 id / 日期 / 预订 key）；文件在 `ATP_DATA_DIR/attachments/<行程id>/<附件id>.<扩展名>`（`ATP_DATA_DIR` 默认 `data/plans` 同级，测试用独立目录）。接口：`GET /plans/{id}/attachments`（返回 `{attachments, trash, limits}`）、`POST /plans/{id}/attachments?name=文件名&target_kind=&target_ref=`（**请求体就是文件本身的字节**，不用 multipart，所以不需要新装依赖；服务端边读边数，超过 10MB 立刻停止；声明的 `Content-Length` 超限时连读都不读）、`GET /plans/{id}/attachments/{aid}/file`、`PATCH /plans/{id}/attachments/{aid}`（改挂靠 / 恢复）、`DELETE /plans/{id}/attachments/{aid}`（进回收站；`?permanent=1` 彻底删）。前端：`web/src/components/Attachments.tsx`。
+- 附件：`app/attachments.py`（校验：类型按魔数、大小、文件名清洗；存取；回收站）；表 `attachments(id, plan_id, name, kind, size, target_kind, target_ref, uploaded_at, deleted_at)`（`target_kind` ∈ plan / place / day / reservation；`target_ref` 是地点 id / 日期 / 预订 key）；文件在 `ATP_DATA_DIR/attachments/<行程id>/<附件id>.<扩展名>`（`ATP_DATA_DIR` 默认 `data/plans` 同级，测试用独立目录）。接口：`GET /plans/{id}/attachments`（返回 `{attachments, trash, limits}`）、`POST /plans/{id}/attachments?name=文件名&target_kind=&target_ref=`（**请求体就是文件本身的字节**，不用 multipart，所以不需要新装依赖；服务端边读边数，超过 10MB 立刻停止；声明的 `Content-Length` 超限时连读都不读）、`GET /plans/{id}/attachments/{aid}/file`、`PATCH /plans/{id}/attachments/{aid}`（改挂靠 / 恢复）、`DELETE /plans/{id}/attachments/{aid}`（进回收站；`?permanent=1` 彻底删）。前端：`web/src/components/FilesTab.tsx`。
 
 ## 验收方式
 

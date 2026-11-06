@@ -1,6 +1,6 @@
 # 03 数据模型
 
-> 状态（2026-11-06）：下面第 2 节是最初的设计草案；**第 4 节「已落地的实体」是实际代码里的模型**，以 Pydantic 模型为准。账号、协作、投票、偏好记忆（`User` / `TripMember` / `Poll` / `PreferenceMemory`）暂缓，没有实现。
+> 下面第 2 节是最初的设计草案；**第 4 节「已落地的实体」是实际代码里的模型**，以 Pydantic 模型为准。账号、协作、投票、偏好记忆（`User` / `TripMember` / `Poll` / `PreferenceMemory`）还没有实现。
 
 ## 1. 总览
 
@@ -78,7 +78,7 @@ PreferenceMemory（用户偏好记忆）
 
 ## 3. 存储
 
-- 开发期：SQLite 单文件 + `data/files/`（附件）。
+- 开发期：SQLite 单文件 + `ATP_DATA_DIR/attachments/`（附件）。
 - 地点库和主题包仍是 JSON 文件（版本控制友好，便于审阅），启动时装载并校验；用户添加的地点进数据库。
 - 迁移：Alembic（具体 ORM 见 [02-architecture](02-architecture.md#7-待验证清单动手前各做一个小验证)）。
 - 现有 `data/plans/<id>/` 的文件版本库在 v0.1 迁入 SQLite，提供一次性迁移脚本。

@@ -2,7 +2,7 @@
 
 > 版本：v0.5（批次 K0–K3，高德见 M05 S7，导入导出见 M08 S7 / M12 S10，交通段见 M06 S6）
 > 功能：F02 F28（国内部分）F31 F38 F50 F74 · 来源：TripStar（多城市）+ 自有
-> **现状（2026-11-06）**：K0（去巴黎化）、**K1 任意目的地按需现建**（[10](../10-city-builder.md)）、**K2 高德**、**K3 多城市**（[11](../11-multi-city.md)）都已做完并确认：用户输入任何目的地都会自动认城市、现建数据、生成行程；北京的种子和故宫精校在 `data/city-seeds/`、`data/city-overlays/`，意大利十座城市的精校补充在 `data/city-overlays/`（[12](../12-italy-trial.md)）。K4（GPX 导出、KML / GPX / KMZ 导入）、K5（航班补全）仍暂缓。**周边一日游**用轻量城市（开放数据草稿）已做完，见 [08](../08-real-trips.md)。
+> 说明：用户输入任何目的地都会自动认城市、现建数据（[10](../10-city-builder.md)）；多城市是一份行程（[11](../11-multi-city.md)）；北京的种子和故宫精校在 `data/city-seeds/`、`data/city-overlays/`，意大利十座城市的精校补充也在 `data/city-overlays/`（[12](../12-italy-trial.md)）；周边一日游用轻量城市（开放数据草稿），见 [08](../08-real-trips.md)。
 
 ## 为什么
 
@@ -35,7 +35,7 @@
 
 - `data/cities/<id>.json`：城市配置（见 S1）。现有数据文件位置不动（`data/places/<id>.json`、`data/themes/<id>.json`、`data/budget/<id>.json`、`data/companion/`、`data/places/media.json` 按城市分块）。
 - `app/cities.py`：`City`、`load_city(id)`、`list_cities()`、`city_of(destination_text)`。其余模块不再出现城市字面量，一律从 `City` 取。
-- 新数据文件：`data/cities/city-pairs.json`（城际参考时长，带官方来源）、`data/transport/airports.json`（K5，只收已支持城市的机场）。
+- 新数据文件：`data/cities/city-pairs.json`（城际参考时长，带官方来源）、机场库（K5，尚未创建，只收已支持城市的机场）。
 
 ## 验收场景
 

@@ -2,7 +2,6 @@
 
 > 版本：v0.1（PDF 基础、Markdown / HTML）→ v0.2（PDF 完整、ICS、分享页）→ v0.3（长图）→ v0.5（GPX / KML）
 > 功能：F47 F48 F49 F50 F51 F52 · 来源：TREK（PDF、ICS、GPX、分享）+ TripStar（图片导出）
-> **现状（2026-10-28）**：✅ 已做完：PDF、Markdown / HTML、ICS、KML、长图、只读分享页（含天气、可选带行李 / 待办 / 备注）；故事和招牌在导出里也有。GPX（v0.5 K4）暂缓。
 
 ## 为什么
 

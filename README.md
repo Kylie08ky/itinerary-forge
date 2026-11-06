@@ -1,66 +1,27 @@
 # AI Travel Planner Agent
 
-**An editable itinerary workflow built around sourced place data, deterministic scheduling, and optional local LLMs.**
+Turn "a few days in some city" into a day-by-day itinerary you can check, edit, and export. Built for Chinese-speaking travellers; the app interface is in Chinese.
 
-`In active development` · `Python / FastAPI` · `React / TypeScript` · `SQLite` · `Ollama`
+[中文说明](README.zh-CN.md) · [Validation](VALIDATION.md)
 
-[中文文档](README.zh-CN.md) · [Architecture and specifications](specs/README.md) · [Validation](VALIDATION.md)
+## What it does
 
-Turn travel preferences into a day-by-day itinerary that can be checked, edited, versioned, and exported. The application interface is currently Chinese; this overview is for international readers.
+- **Plan:** pick themes or a cultural route, or just type a sentence. Any city or country works; several cities can share one itinerary.
+- **Trust the facts:** opening days, links, and prices come from sourced data, never from a language model. Automatically built cities are marked as provisional.
+- **Edit freely:** drag, lock, swap, undo, and roll back to earlier versions.
+- **Take it with you:** PDF, calendar (ICS), map file (KML), long image, or a read-only share link. Works on a phone.
+- **Local model optional:** a local LLM only phrases the descriptions. Without one, templates are used.
 
-## What this project explores
+## Run it
 
-I am building this personal project to explore how agent-style workflows can combine natural-language input with explicit rules and testable software. The central design decision is to keep scheduling and factual constraints outside the language model.
-
-- **Deterministic planning:** route structure, opening-day checks, meals, travel buffers, and validation are handled by Python.
-- **Sourced facts:** place information carries source records; model-generated URLs are not accepted as facts.
-- **Optional LLM assistance:** natural-language intake, note extraction, and narrative explanations. Core itinerary generation has a template fallback when a model is unavailable.
-- **User control:** edits, locks, replacement candidates, undo/redo, saved versions, comparison, and rollback.
-
-## Current capabilities
-
-| Area | Implemented workflow |
-| :--- | :--- |
-| Planning | Theme-based and cultural-route itineraries; multi-city trips; destination-data generation |
-| Editing | Drag/reorder, lock/remove/replace, natural-language edits, date shifts, version history |
-| Travel details | Budget estimates, weather, booking constraints, checklists, private local attachments |
-| Delivery | PDF, HTML/Markdown, image exports, ICS calendar, KML map, read-only sharing |
-| Maps | OpenStreetMap, optional Amap integration for mainland China |
-| Evaluation | Rule validation, scheduling evaluation scripts, optional LLM-judge experiments, unit and browser tests |
-
-Curated destinations and automatically generated city data have different coverage. Generated data is presented as provisional; availability and travel facts still need current source checks. This is an evolving local application, not a hosted production service.
-
-## Architecture
-
-```mermaid
-flowchart TD
-    UI[React and TypeScript UI] --> API[FastAPI]
-    API --> Data[Place library and source records]
-    API --> Scheduler[Deterministic scheduler]
-    Data --> Scheduler
-    Scheduler --> QA[Rule validation]
-    QA --> LLM[Optional Ollama explanations]
-    QA --> Fallback[Template fallback]
-    LLM --> Plan[Editable itinerary]
-    Fallback --> Plan
-    Plan --> Store[SQLite version history]
-    Plan --> Export[PDF, calendar, maps and sharing]
-```
-
-## Run locally
-
-Python 3.11+ and Node.js 20+ are required. For local model assistance, install Ollama and pull `qwen2.5:7b-instruct`.
+Python 3.11+ and Node.js 20+. Optional: [Ollama](https://ollama.com) with `qwen2.5:7b-instruct`.
 
 ```bash
-git clone https://github.com/Kylie08ky/ai-travel-planner-agent.git
-cd ai-travel-planner-agent
 python -m venv .venv
-
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-# Linux/macOS: source .venv/bin/activate
+# Windows: .venv\Scripts\Activate.ps1    Linux/macOS: source .venv/bin/activate
 pip install -e ".[dev]"
 python -m playwright install chromium
-python -m uvicorn app.api:app --host 127.0.0.1 --port 8137
+python -m uvicorn app.api:app --port 8137
 ```
 
 In another terminal:
@@ -71,32 +32,13 @@ npm ci
 npm run dev
 ```
 
-Open `http://localhost:5173`. The API documentation is at `http://127.0.0.1:8137/docs`. Copy `.env.example` to `.env` only if you need to customize optional providers; supply your own credentials. Model-free development can use `LLM_BACKEND=stub`.
+Open http://localhost:5173. Without Ollama, set `LLM_BACKEND=stub` in `.env` (copy `.env.example`). A map key for mainland China is optional.
 
-Docker setup and additional commands are in the [Chinese guide](README.zh-CN.md).
+## Limits
 
-## Tests
-
-```bash
-python -m pytest -q                 # Default: excludes integration and browser tests
-python -m ruff check .
-cd web && npm run build
-# From repository root, with browser dependencies installed:
-python -m pytest -m e2e tests/e2e
-```
-
-See [VALIDATION.md](VALIDATION.md) for what was actually checked for the current release.
-
-## Development status
-
-The current development focus is delivery polish: a reproducible demo, consolidated evaluation reports, and self-hosting documentation. Collaboration/accounts and other deferred features are not presented as complete. See [the roadmap](specs/04-versions-and-roadmap.md).
-
-`main` only moves when a version is released (tagged `vX.Y.Z`; see [release rules](docs/release.md)); day-to-day development happens on a separate branch. The first tagged release is **v0.5.0** (2026-11-06). Local trip databases, uploaded attachments, cookies, credentials, caches, and generated private outputs are never committed.
-
-## Data and attribution
-
-Place and media attribution records are preserved with the data, including Wikimedia/other source references used by the application. External services, datasets, images, and dependencies retain their respective terms. This snapshot adds no blanket license over third-party material.
+- Only Paris, ten Italian cities, and a few other places have hand-checked data; other cities are built automatically and need a check against official sources.
+- Single user, no accounts. This is a local app, not a hosted service.
 
 ## License
 
-[MIT](LICENSE). Third-party data (for example Wikimedia Commons images) keeps its own license and attribution.
+[MIT](LICENSE). Third-party data and images keep their own licenses and attribution.

@@ -12,12 +12,13 @@
 
 ## 什么时候发布到 main
 
-四条都满足：
+五条都满足：
 
 1. `specs/05-progress-checklist.md` 里这个版本的项你都确认了。
 2. 整套单元测试通过；浏览器验收通过（偶发失败单独重跑过）。
 3. 公开前检查没有命中（见下）。
 4. `README.md`、`README.zh-CN.md`、`VALIDATION.md` 和现状一致。
+5. 文档体检通过：`python scripts/check_docs.py`。
 
 ## 怎么发布
 

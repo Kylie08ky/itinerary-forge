@@ -2,7 +2,7 @@
 
 > 版本：v0.1（地点库、核对状态）→ v0.2（候选池、地点详情）→ v0.7（收藏库）
 > 功能：F07 F08 F09 F10 F11 · 来源：自有 + TREK（地点池、地点详情）
-> **现状（2026-10-28）**：✅ 已做完：巴黎 91 个点、8 个主题；候选池、地点详情卡、图片与简介（Wikimedia 署名）、封面大图。地点现在还有 `setting / zone / name_local / season（当季活动）/ meal（用餐）/ open_access` 等字段，见 [03 第 4 节](../03-data-model.md)。收藏库（v0.7）暂缓。
+> 说明：地点除基本信息外还有 `setting / zone / name_local / season（当季活动）/ meal（用餐）/ open_access` 等字段，见 [03 第 4 节](../03-data-model.md)。
 
 ## 为什么
 
