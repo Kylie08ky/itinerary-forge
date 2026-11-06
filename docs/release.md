@@ -18,7 +18,7 @@
 2. 整套单元测试通过；浏览器验收通过（偶发失败单独重跑过）。
 3. 公开前检查没有命中（见下）。
 4. `README.md`、`README.zh-CN.md`、`VALIDATION.md` 和现状一致。
-5. 文档体检通过：`python scripts/check_docs.py`。
+5. 文档体检通过：`python scripts/check_docs.py`；评测报告没过期：`python scripts/build_eval_report.py --check`（过期就重新生成）。
 
 ## 怎么发布
 

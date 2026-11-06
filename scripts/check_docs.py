@@ -44,7 +44,7 @@ GENERATED_PREFIXES = (
 ORPHAN_EXEMPT_PREFIXES = ("docs/archive/", "docs/reports/")
 ORPHAN_EXEMPT = {"README.md", "README.zh-CN.md", "AGENTS.md", "VALIDATION.md"}
 
-LINK_RE = re.compile(r"(?<!\!)\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
+LINK_RE = re.compile(r"\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 CODE_PATH_RE = re.compile(r"`([A-Za-z0-9_./\-]+)`")
 TOP_DIRS = ("app/", "scripts/", "tests/", "data/", "web/", "docs/", "specs/")
 STATUS_RE = re.compile(r"^>?\s*\*{0,2}(状态|现状)（20\d\d")

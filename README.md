@@ -2,7 +2,7 @@
 
 Turn "a few days in some city" into a day-by-day itinerary you can check, edit, and export. Built for Chinese-speaking travellers; the app interface is in Chinese.
 
-[中文说明](README.zh-CN.md) · [Validation](VALIDATION.md)
+[中文说明](README.zh-CN.md) · [Validation](VALIDATION.md) · [Evaluation](docs/evaluation.md) · [Self-hosting](docs/self-hosting.md)
 
 ## What it does
 
@@ -11,6 +11,16 @@ Turn "a few days in some city" into a day-by-day itinerary you can check, edit, 
 - **Edit freely:** drag, lock, swap, undo, and roll back to earlier versions.
 - **Take it with you:** PDF, calendar (ICS), map file (KML), long image, or a read-only share link. Works on a phone.
 - **Local model optional:** a local LLM only phrases the descriptions. Without one, templates are used.
+
+## Screenshots
+
+![Itinerary page with day-by-day timeline and route map](docs/images/05-plan-day.jpg)
+
+| Home | Deep route itinerary | Mobile |
+|---|---|---|
+| ![Home](docs/images/01-home.jpg) | ![Route itinerary](docs/images/07-route-plan.jpg) | ![Mobile](docs/images/08-mobile-plan.jpg) |
+
+A 7-minute walkthrough is in [docs/demo.md](docs/demo.md) (Chinese); how it was evaluated is in [docs/evaluation.md](docs/evaluation.md).
 
 ## Run it
 
@@ -36,7 +46,7 @@ Open http://localhost:5173. Without Ollama, set `LLM_BACKEND=stub` in `.env` (co
 
 ## Limits
 
-- Only Paris, ten Italian cities, and a few other places have hand-checked data; other cities are built automatically and need a check against official sources.
+- Only Paris is fully curated. For ten Italian cities, official links and closing days were checked for part of their places; all other cities are built automatically from open data, so check prices, bookings and opening days against official sources. Coverage numbers are in [the evaluation report](docs/evaluation.md).
 - Single user, no accounts. This is a local app, not a hosted service.
 
 ## License
