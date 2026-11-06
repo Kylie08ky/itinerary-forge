@@ -1821,10 +1821,7 @@ def create_app(
         return Response(render_kml(itinerary), media_type="application/vnd.google-earth.kml+xml; charset=utf-8",
                         headers={"Content-Disposition": _attachment(f"{_export_stem(pid, itinerary)}-v{v}.kml")})
 
-    @app.get("/plans/{pid}/route", response_model=dict[str, Any])
-    def plan_route(pid: str, version: int | None = Query(None, ge=1)) -> dict[str, Any]:
-        """每天的路线：按顺序经过的点（核对过的坐标）、颜色、直线距离、Google 地图导航链接。"""
-        itinerary, request = _load(pid, version)
+    def _route_payload(itinerary: Itinerary, request: TravelRequest) -> dict[str, Any]:
         out = build_route(itinerary).as_dict()
         lib = library_for_request(request)
         ids = {i.place_id for d in itinerary.days for i in d.items if i.place_id in lib.places}
@@ -1832,6 +1829,12 @@ def create_app(
         out["ticket_eur"] = sum(prices) if prices else None     # 门票合计（仅库里有票价的点）；一个都没有 → None
         out["ticket_currency"] = "EUR"                          # 地点库里的票价现在都是欧元（人民币票价另做）
         return out
+
+    @app.get("/plans/{pid}/route", response_model=dict[str, Any])
+    def plan_route(pid: str, version: int | None = Query(None, ge=1)) -> dict[str, Any]:
+        """每天的路线：按顺序经过的点（核对过的坐标）、颜色、直线距离、Google 地图导航链接。"""
+        itinerary, request = _load(pid, version)
+        return _route_payload(itinerary, request)
 
     WEATHER_NOTE = "天气来自 Open-Meteo；15 天以外的日期显示去年同一天的实际天气，仅作参考。"
 
@@ -2117,7 +2120,7 @@ def create_app(
         itinerary, request = _load(pid, None)
         out: dict[str, Any] = {"itinerary": itinerary.model_dump(mode="json"), "version": store.latest_version(pid),
                                "city_id": request.city_id, "stories": _stories(itinerary, request),
-                               "route": build_route(itinerary).as_dict(),
+                               "route": _route_payload(itinerary, request),
                                "weather": _weather_payload(itinerary, request)}
         # 只有分享的人勾了的才放进响应（没勾的字段根本不在里面），且只带朋友看得懂的字段
         opts = store.token_options(token)

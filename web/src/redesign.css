@@ -278,3 +278,8 @@ a.plan-card { border-radius: 20px; }
 .sheet-tag { align-self: flex-start; padding: 2px 8px; border-radius: 7px; background: #fde8e8; color: #8f1818; font-size: 12px; font-weight: 600; }
 .sheet-detail { display: block; width: 100%; min-height: 44px; padding: 0 16px; border: 0; border-top: 1px solid #ece4d2; background: none; color: #27405f; font: inherit; font-size: 14px; font-weight: 700; text-align: right; cursor: pointer; }
 @media (prefers-reduced-motion: reduce) { .sheet-panel { transition: none; } }
+
+/* ---------- 分享页：标题带里的只读说明（规格 M08 S9） ---------- */
+.plan-title-compact .share-note { margin: 12px 0 0; color: rgba(255, 255, 255, 0.78); font-size: 13px; line-height: 1.5; }
+.plan-title-compact .chips.on-cover { margin-top: 12px; }
+.share-hero-card .stat-tiles { padding-bottom: 18px; }

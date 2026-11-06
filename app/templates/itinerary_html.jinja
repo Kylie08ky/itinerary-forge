@@ -4,75 +4,99 @@
 <meta charset="utf-8">
 <title>{{ dest }} · {{ days|length }} 天行程</title>
 <style>
+  :root {
+    --bg: {{ pal.bg }}; --surface: {{ pal.surface }}; --surface-2: {{ pal.surface_2 }};
+    --ink: {{ pal.ink }}; --ink-soft: {{ pal.ink_soft }}; --ink-faint: {{ pal.ink_faint }}; --line: {{ pal.line }};
+    --accent: {{ pal.accent }}; --accent-soft: {{ pal.accent_soft }};
+    --warm: {{ pal.warm }}; --warm-soft: {{ pal.warm_soft }}; --brass: {{ pal.brass }};
+    --cover-a: {{ pal.cover_a }}; --cover-b: {{ pal.cover_b }};
+    --serif: Georgia, "Songti SC", "Noto Serif CJK SC", "Noto Serif SC", SimSun, serif;
+  }
   @page { size: A4; margin: 15mm 14mm; }
-  * { box-sizing: border-box; }
+  * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body {
     font: 13px/1.65 "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Hiragino Sans GB", system-ui, sans-serif;
-    color: #1e1c19; margin: 0;
+    color: var(--ink); background: var(--bg); margin: 0;
   }
-  h1 { font-size: 22px; margin: 0 0 4px; }
-  .meta { color: #55514b; font-size: 12.5px; margin-bottom: 4px; }
-  .qa { font-size: 12px; color: #8a5a00; background: #f6e9cf; display: inline-block;
-        padding: 2px 8px; border-radius: 5px; margin-top: 6px; }
+  .band { position: relative; color: #fff; padding: 20px 24px 22px; border-radius: 12px 12px 0 0;
+          background: linear-gradient(135deg, var(--cover-a) 0%, var(--cover-b) 100%); }
+  .band::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: var(--brass); }
+  h1 { font-family: var(--serif); font-size: 26px; font-weight: 700; margin: 0 0 4px; color: #fff; }
+  .meta { color: #dcb872; font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+  .qa { font-size: 12px; color: var(--warm); background: var(--warm-soft); display: inline-block;
+        padding: 2px 8px; border-radius: 5px; margin-top: 8px; }
   .qa.clean { color: #2f6b3f; background: #e0ede1; }
-  hr { border: 0; border-top: 1px solid #e3e0d9; margin: 14px 0; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 14px 0; }
 
-  .cover { margin: 6px 0 14px; }
-  .stats { display: flex; gap: 10px; margin: 12px 0; }
-  .stat { flex: 1; background: #f0efeb; border-radius: 8px; padding: 8px 10px; }
-  .stat b { display: block; font-size: 20px; color: #b3541e; line-height: 1.2; }
-  .stat span { font-size: 11.5px; color: #55514b; }
+  .cover { margin: 14px 0 14px; }
+  .stats { display: flex; gap: 10px; margin: 0 0 12px; }
+  .stat { flex: 1; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 8px 12px; }
+  .stat b { display: block; font-size: 20px; color: var(--accent); line-height: 1.25; font-variant-numeric: tabular-nums; }
+  .stat span { font-size: 11.5px; color: var(--ink-soft); }
   .unresolved { background: #f5ddd8; color: #a12b1e; border-radius: 6px; padding: 6px 10px; font-size: 12.5px; margin: 8px 0; }
   .routemap svg { width: 100%; height: auto; display: block; }
   .legend { margin-top: 8px; font-size: 11.5px; line-height: 1.6; }
   .legend .lg { display: block; margin-bottom: 3px; }
   .legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; }
-  .legend .names { color: #6b665e; }
+  .legend .names { color: var(--ink-soft); }
   .page-break { break-before: page; }
   .day { margin-bottom: 18px; break-inside: avoid; }
-  .day h2 { font-size: 15px; margin: 0 0 2px; }
-  .day .theme { color: #b3541e; font-size: 12.5px; margin-bottom: 8px; }
-  .day .chapter { font-weight: 700; font-size: 12.5px; color: #b3541e; margin-bottom: 2px; }
-  .day .guide { background: #f6f1ea; border-radius: 6px; padding: 8px 10px; margin-bottom: 8px; font-size: 12px; line-height: 1.7; color: #4a443c; }
+  .day h2 { font-family: var(--serif); font-size: 17px; margin: 0 0 2px; padding-bottom: 4px; border-bottom: 2px solid var(--brass); }
+  .day .theme { color: var(--warm); font-size: 12.5px; margin: 4px 0 8px; font-weight: 600; }
+  .day .chapter { font-weight: 700; font-size: 12.5px; color: var(--warm); margin-top: 4px; }
+  .day .guide { background: var(--surface-2); border-radius: 6px; padding: 8px 10px; margin-bottom: 8px; font-size: 12px; line-height: 1.7; color: var(--ink-soft); }
   .day .guide p { margin: 0 0 4px; }
-  .hl.look { color: #8a4b1a; }
-  .hl.story { color: #3f5a8a; }
-  .day .weather { font-size: 12px; color: #44566c; background: #eef2f7; border-radius: 6px; padding: 3px 9px; margin: -2px 0 8px; display: inline-block; }
-  .budget .sum td { border-top: 2px solid #c9c2b4; }
-  .day .day-note { font-size: 12.5px; background: #fbf4e2; border-left: 3px solid #c9a24a; border-radius: 4px; padding: 6px 10px; margin: 0 0 8px; white-space: pre-wrap; }
+  .hl.look { color: var(--warm); }
+  .hl.story { color: var(--accent); }
+  .day .weather { font-size: 12px; color: var(--accent); background: var(--accent-soft); border-radius: 6px; padding: 3px 9px; margin: -2px 0 8px; display: inline-block; }
+  .budget .sum td { border-top: 2px solid var(--brass); }
+  .day .day-note { font-size: 12.5px; background: var(--warm-soft); border-left: 3px solid var(--brass); border-radius: 4px; padding: 6px 10px; margin: 0 0 8px; white-space: pre-wrap; }
   .day .weather.rainy { background: #dfe8f5; color: #1f3d66; font-weight: 600; }
 
-  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; background: var(--surface); }
   {% if image %}
   /* 长图：手机竖屏宽度、不分页 */
-  body { max-width: 760px; margin: 0 auto; padding: 28px 26px 40px; background: #fff; }
+  body { max-width: 760px; margin: 0 auto; padding: 28px 26px 40px; }
   .day { break-inside: auto; }
   {% endif %}
-  th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid #ece9e2; }
-  th { background: #f0efeb; font-weight: 600; white-space: nowrap; }
-  td.t { white-space: nowrap; font-weight: 600; color: #55514b; }
-  .tag { font-size: 10.5px; padding: 1px 6px; border-radius: 999px; background: #f0efeb; color: #6b665e; }
-  .tag.book { background: #f6e9cf; color: #8a5a00; font-weight: 700; }
-  .note { color: #6b665e; }
-  .item-note { font-size: 12px; background: #fbf4e2; border-left: 3px solid #c9a24a; border-radius: 4px; padding: 3px 8px; margin-top: 4px; white-space: pre-wrap; }
-  .hl { color: #55514b; font-size: 11px; margin-top: 3px; }
+  th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  th { background: var(--accent-soft); color: var(--accent); font-weight: 600; white-space: nowrap; }
+  td.t { white-space: nowrap; font-weight: 600; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .tag { font-size: 10.5px; padding: 1px 6px; border-radius: 999px; background: var(--surface-2); color: var(--ink-soft); }
+  .tag.book { background: var(--warm-soft); color: var(--warm); font-weight: 700; }
+  .note { color: var(--ink-soft); }
+  .item-note { font-size: 12px; background: var(--warm-soft); border-left: 3px solid var(--brass); border-radius: 4px; padding: 3px 8px; margin-top: 4px; white-space: pre-wrap; }
+  .hl { color: var(--ink-soft); font-size: 11px; margin-top: 3px; }
   .thumb { float: left; width: 104px; height: 72px; object-fit: cover; border-radius: 6px; margin: 0 10px 6px 0; }
-  .hl.intro { color: #6b665e; }
-  .hl.res { color: #8a5a00; font-weight: 600; }
+  .hl.intro { color: var(--ink-soft); }
+  .hl.res { color: var(--warm); font-weight: 600; }
   .hl.res.booked { color: #2f6b3f; }
-  a { color: #b3541e; }
+  a { color: var(--accent); }
 
   section.panel { margin-top: 16px; break-inside: avoid; }
-  section.panel h2 { font-size: 15px; margin: 0 0 8px; }
+  section.panel h2 { font-family: var(--serif); font-size: 16px; margin: 0 0 8px; padding-bottom: 4px; border-bottom: 2px solid var(--brass); }
   ul { margin: 0; padding-left: 18px; }
   li { margin-bottom: 5px; }
-  .foot { margin-top: 22px; color: #9a938a; font-size: 11px; }
+  .foot { margin-top: 22px; color: var(--ink-faint); font-size: 11px; }
+
+  /* 打印（PDF）不要底色：白纸、标题带只留黄铜线、卡片只留细线；长图和网页打开保持上面的样子 */
+  @media print {
+    body { background: #fff; }
+    .band { background: none; color: var(--ink); border-radius: 0; padding: 0 0 12px; }
+    h1 { color: var(--accent); }
+    .meta { color: var(--warm); }
+    .stat, table { background: none; }
+    th { background: none; border-bottom: 2px solid var(--accent); }
+    .day .guide { background: none; border-left: 3px solid var(--line); border-radius: 0; }
+  }
 </style>
 </head>
 <body>
-  <h1>{{ dest }} · {{ days|length }} 天个性化行程</h1>
-  <div class="meta">{{ date_start }} → {{ date_end }}{% if profile %} · {{ profile }}{% endif %} · 版本 {{ version }}</div>
-  {% if qa %}<div class="qa {{ 'clean' if qa.clean else '' }}">质检：{{ qa.text }}</div>{% endif %}
+  <header class="band">
+    <h1>{{ dest }} · {{ days|length }} 天个性化行程</h1>
+    <div class="meta">{{ date_start }} → {{ date_end }}{% if profile %} · {{ profile }}{% endif %} · 版本 {{ version }}</div>
+    {% if qa %}<div class="qa {{ 'clean' if qa.clean else '' }}">质检：{{ qa.text }}</div>{% endif %}
+  </header>
   <section class="cover">
     <div class="stats">
       <div class="stat"><b>{{ stats.days }}</b><span>天</span></div>

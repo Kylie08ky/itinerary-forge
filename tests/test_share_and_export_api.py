@@ -54,6 +54,15 @@ def test_creating_twice_returns_the_same_active_link(client, plan):
     assert a == b
 
 
+def test_the_shared_route_carries_the_same_ticket_total_as_the_plan_page(client, plan):
+    """分享页的统计卡要和行程页一样显示门票合计，不能写「待补」（规格 M08 S9）。"""
+    token = client.post(f"/plans/{plan['plan_id']}/share").json()["token"]
+    shared = client.get(f"/share/{token}").json()["route"]
+    own = client.get(f"/plans/{plan['plan_id']}/route").json()
+    assert shared["ticket_eur"] == own["ticket_eur"] and shared["ticket_eur"] is not None
+    assert shared["ticket_currency"] == "EUR"
+
+
 def test_share_status_tells_whether_a_link_is_active(client, plan):
     pid = plan["plan_id"]
     none = {"packing": False, "todos": False, "notes": False}

@@ -90,8 +90,8 @@
 
 | 类型 | 条数 | 怎么跑 |
 |---|---:|---|
-| 单元与接口测试 | 2015 | `python -m pytest -q` |
-| 浏览器验收（Playwright，独立前后端 + 临时数据库） | 473 | `python -m pytest -m e2e tests/e2e` |
+| 单元与接口测试 | 未统计 | `python -m pytest -q` |
+| 浏览器验收（Playwright，独立前后端 + 临时数据库） | 未统计 | `python -m pytest -m e2e tests/e2e` |
 
 一次完整运行的结果和没覆盖到的部分见 [`VALIDATION.md`](../VALIDATION.md)。
 

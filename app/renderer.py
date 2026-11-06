@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import base64
+import json
 import os
 import shutil
 import subprocess
@@ -15,11 +16,13 @@ import sys
 import tempfile
 from dataclasses import dataclass
 from datetime import date
+from functools import lru_cache
 from math import cos, radians
 from pathlib import Path
 
 from jinja2 import Template
 
+from app.cities import city_of
 from app.companion import day_note_ref, note_ref
 from app.culture import story_text
 from app.geo import DayRoute, RouteSummary, build_route, by_city, haversine_km
@@ -478,6 +481,21 @@ def route_svg(route: RouteSummary, *, width: int = 700, height: int = 430, pad: 
     return "".join(out)
 
 
+# 导出的配色放在 data/export-palettes.json（和前端 web/src/cities.css 同源；没有专属配色的城市用 neutral），规格 M08 S9
+_PALETTES_FILE = Path(__file__).resolve().parents[1] / "data" / "export-palettes.json"
+
+
+@lru_cache(maxsize=1)
+def _palettes() -> dict[str, dict[str, str]]:
+    return json.loads(_PALETTES_FILE.read_text(encoding="utf-8"))
+
+
+def _palette(destination: str) -> dict[str, str]:
+    palettes = _palettes()
+    city = city_of(destination)
+    return palettes.get(city.id if city else "", palettes["neutral"])
+
+
 def render_html(
     itinerary: Itinerary,
     request: TravelRequest | None = None,
@@ -497,6 +515,7 @@ def render_html(
     lib = library_for_request(request)
     route = build_route(it, lib)
     return _TEMPLATE.render(
+        pal=_palette(it.trip.destination),
         stats=cover_stats(it, lib),
         map_svg=route_map(route),
         city_maps=city_maps(it, route),
