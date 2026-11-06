@@ -85,14 +85,18 @@ cd web && npm run build
 python -m pytest -m e2e tests/e2e
 ```
 
-See [VALIDATION.md](VALIDATION.md) for what was actually checked for this publication snapshot.
+See [VALIDATION.md](VALIDATION.md) for what was actually checked for the current release.
 
 ## Development status
 
 The current development focus is delivery polish: a reproducible demo, consolidated evaluation reports, and self-hosting documentation. Collaboration/accounts and other deferred features are not presented as complete. See [the roadmap](specs/04-versions-and-roadmap.md).
 
-This first public snapshot was prepared on **2026-11-06** from the current working tree. It includes in-progress changes and starts a clean public history. Local trip databases, uploaded attachments, cookies, credentials, caches, and generated private outputs are excluded.
+`main` only moves when a version is released (tagged `vX.Y.Z`; see [release rules](docs/release.md)); day-to-day development happens on a separate branch. The first tagged release is **v0.5.0** (2026-11-06). Local trip databases, uploaded attachments, cookies, credentials, caches, and generated private outputs are never committed.
 
 ## Data and attribution
 
 Place and media attribution records are preserved with the data, including Wikimedia/other source references used by the application. External services, datasets, images, and dependencies retain their respective terms. This snapshot adds no blanket license over third-party material.
+
+## License
+
+[MIT](LICENSE). Third-party data (for example Wikimedia Commons images) keeps its own license and attribution.

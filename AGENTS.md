@@ -20,6 +20,7 @@
 6. Bug 修复先给证据（日志、失败的测试），先写能复现的失败测试，再改。
 7. 每轮同时更新 [`docs/progress-overview.md`](docs/progress-overview.md)（白话版进度）和 `specs/05` 的勾选清单；做完一批、用户说「提交批次 X」才提交（不含 `tests/e2e/test_v03_media.py` 这个只有换行符差异的文件）。
 8. 每轮做完用户能感受到的改动，同时在 [`data/changelog.json`](data/changelog.json)（前端「版本足迹」页）最前面追加一条：日期 + 标题 + 2–3 条白话要点，只写用户能感受到的变化，不写文件名和代号；同一天的多轮各占一条，新的在前。
+9. **分支**：日常在 `develop`；`main` 是对外展示的公开仓库，只在用户说「发布」时按 [`docs/release.md`](docs/release.md) 更新，平时不碰 `main`、不 push。
 
 ## 硬规则
 

@@ -1,11 +1,11 @@
-# Publication validation — 2026-11-06
+# Validation — v0.5.0 (2026-11-06)
 
-Checked on the isolated publication copy:
+What was actually run before this release:
 
-- Core existing test suite: **220 passed** (`tests/test_schemas.py`, `tests/test_scheduler.py`, `tests/test_validator.py`, `tests/test_library.py`).
-- `python -m ruff check .`: passed with the project's existing configuration.
-- Frontend installation used the supplied lock file (`npm ci --ignore-scripts --no-audit --no-fund`). `npm run build` passed TypeScript checking and the Vite production build. Vite reported a bundle-size warning for a minified chunk over 500 kB.
+- Unit tests (`python -m pytest -q`): **2013 passed**. Integration and browser tests are excluded by default.
+- Browser tests (`python -m pytest -m e2e tests/e2e`, Playwright against an isolated backend, frontend, and temporary database): **468 passed, 3 skipped, 2 failed** in one full run. Both failures were budget-page assertions where the UI had not refreshed within 5 s; the whole budget file (29 tests) passes when run alone. A few timing-sensitive tests can fail in long full runs, and which ones varies.
+- `python -m ruff check .`: passed.
+- Frontend: `npm run build` passes TypeScript checking and the Vite production build (Vite warns about a chunk over 500 kB).
+- Pre-release checks: no API keys, cookies, or personal paths in tracked files; `.env`, trip databases, attachments, generated city caches, tile caches, and local assistant configuration are not tracked.
 
-The full default test suite was started but not completed during this upload; browser and live-model integration tests were not rerun. Historical counts in the Chinese development notes describe earlier development runs, not this publication check.
-
-This copy excludes `.env`, local credentials/cookies, trip databases, attachments, generated city caches, tile caches, local assistant configuration, build output, and Python/Node environments. Source application files were copied without functional edits. The original development directory and its existing Git history were not changed.
+Not covered by the automated runs: output quality of a live local model (Ollama), and real calls to Amap, Wikimedia, and other external services.

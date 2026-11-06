@@ -32,18 +32,10 @@ data/generated/
 # 导出用的 OpenStreetMap 瓦片缓存
 data/tile-cache/
 
-# Public snapshot hygiene
-.env
-.env.*
-!.env.example
 .claude/
-__pycache__/
-*.py[cod]
-.venv/
+
+# 公开仓库的基本卫生
+!.env.example
 node_modules/
 *.log
-
-.pytest_cache/
 .pytest-publication-*/
-.ruff_cache/
-web/dist/
